@@ -3,43 +3,83 @@
 # derivations. Most plugins are statically compiled binaries, but some are shell
 # scripts or may have external dependencies (which Krew plugin definitions do
 # not express), so YMMV.
-{ autoPatchelfHook
-, buildPackages
-, fetchFromGitHub
-, go
-, lib
-, stdenv
-, targetPlatform
+{
+  autoPatchelfHook,
+  buildPackages,
+  go,
+  lib,
+  stdenv,
+  targetPlatform,
+  unzip,
+  krew-index,
 }:
 
 let
-  inherit (builtins) filter length elem any replaceStrings;
+  inherit (builtins)
+    filter
+    length
+    elem
+    any
+    replaceStrings
+    ;
   inherit (lib)
-    head nameValuePair assertMsg filesystem id listToAttrs concatStringsSep
-    licenses;
-  pluginDerivations = listToAttrs (map
-    (yamlFile:
-      let
-        pluginDefinition = readYaml yamlFile;
-        pluginName = pluginDefinition.metadata.name;
-      in
-      nameValuePair pluginName (mkPlugin pluginDefinition))
-    allPluginDefinitions);
-  mkPlugin = pluginDefinition:
+    head
+    nameValuePair
+    assertMsg
+    filesystem
+    id
+    listToAttrs
+    concatStringsSep
+    ;
+  # keep-sorted start block=yes case=no
+  allPluginDefinitions = filesystem.listFilesRecursive "${krewIndex}/plugins";
+  # Krew plugin definitions list artifact URLs in conjunction with selectors to
+  # determine plugin artifacts to install.
+  isPlatformMatch =
+    platform:
+    if platform.selector ? matchExpressions then
+      isPlatformMatchByExpressions platform
+    else
+      (
+        if platform.selector ? matchLabels then
+          isPlatformMatchByLabels platform
+        else
+          abort "unhandled switch case"
+      );
+  isPlatformMatchByExpressions =
+    platform:
+    let
+      matchesExpression =
+        expression:
+        assert expression.operator == "In";
+        assert expression.key == "os";
+        elem targetOs expression.values;
+      matchResults = map matchesExpression platform.selector.matchExpressions;
+    in
+    any id matchResults;
+  isPlatformMatchByLabels =
+    platform:
+    let
+      matchesOs = platform.selector.matchLabels.os or targetOs == targetOs;
+      matchesArch = platform.selector.matchLabels.arch or targetArch == targetArch;
+    in
+    matchesOs && matchesArch;
+  mkPlugin =
+    pluginDefinition:
     let
       pluginName = pluginDefinition.metadata.name;
-      matchingPlatforms =
-        filter isPlatformMatch pluginDefinition.spec.platforms;
-      selectedPlatform = assert (assertMsg (length matchingPlatforms > 0)
-        "target platform is not supported by plugin ${pluginName}");
+      matchingPlatforms = filter isPlatformMatch pluginDefinition.spec.platforms;
+      selectedPlatform =
+        assert (
+          assertMsg (length matchingPlatforms > 0) "target platform is not supported by plugin ${pluginName}"
+        );
         head matchingPlatforms;
       # Plugin files to be installed are sometimes listed as from/to-pairs (copy
       # from foo to bar). The “from” value may be preceeded by a slash, so we
       # need to force a relative path.
       copyPluginFilesCommands =
         if selectedPlatform ? files then
-          map (fromTo: "cp -a ./${fromTo.from} $out/lib/${fromTo.to}")
-            selectedPlatform.files
+          map (fromTo: "cp -a ./${fromTo.from} $out/lib/${fromTo.to}") selectedPlatform.files
         else
           [ "cp -a * $out/lib" ];
       # When plugin definitions contain dashes, such as “foo-bar”, Krew
@@ -50,14 +90,16 @@ let
     in
     stdenv.mkDerivation {
       pname = "kubectl-krew-plugin-${pluginName}";
-      version = pluginDefinition.spec.version;
+      inherit (pluginDefinition.spec) version;
       src = builtins.fetchurl {
         url = selectedPlatform.uri;
-        sha256 = selectedPlatform.sha256;
+        inherit (selectedPlatform) sha256;
       };
       sourceRoot = ".";
       dontBuild = true;
-      nativeBuildInputs = [ autoPatchelfHook ];
+      # "unzip" added per: https://github.com/eigengrau/krew2nix/issues/4
+      # Added the optional for Mac OS per: https://github.com/eigengrau/krew2nix/pull/3
+      nativeBuildInputs = [ unzip ] ++ (lib.optionals (!stdenv.isDarwin) [ autoPatchelfHook ]);
       installPhase = ''
         runHook preInstall
         mkdir -p $out/{bin,lib}
@@ -67,58 +109,32 @@ let
       '';
       meta = {
         description = pluginDefinition.spec.description or "Plugin for kubectl";
-        platforms =
-          if length matchingPlatforms > 0 then
-            [ targetPlatform.system ]
-          else
-            [ ];
+        platforms = if length matchingPlatforms > 0 then [ targetPlatform.system ] else [ ];
       };
     };
-  krewIndex = fetchFromGitHub {
-    owner = "kubernetes-sigs";
-    repo = "krew-index";
-    rev = "400c05bc0e4e64a287a8773435d5d4f45dd615d2";
-    sha256 = "sha256-fIgenKymQO9qD1GQRysB1GRWfdGiMVp88X/MVks8ClE=";
-  };
-  allPluginDefinitions = filesystem.listFilesRecursive "${krewIndex}/plugins";
-  # Krew is using Golang terminology when listing plugin artifacts by platform.
-  targetOs = go.GOOS;
-  targetArch = go.GOARCH;
-  # Krew plugin definitions list artifact URLs in conjunction with selectors to
-  # determine plugin artifacts to install.
-  isPlatformMatch = platform:
-    if platform.selector ? matchExpressions then
-      isPlatformMatchByExpressions platform
-    else
-      (if platform.selector ? matchLabels then
-        isPlatformMatchByLabels platform
-      else
-        abort "unhandled switch case");
-  isPlatformMatchByExpressions = platform:
+  pluginDerivations = listToAttrs (
+    map (
+      yamlFile:
+      let
+        pluginDefinition = readYaml yamlFile;
+        pluginName = pluginDefinition.metadata.name;
+      in
+      nameValuePair pluginName (mkPlugin pluginDefinition)
+    ) allPluginDefinitions
+  );
+  readYaml =
+    yamlFile:
     let
-      matchesExpression = expression:
-        assert expression.operator == "In";
-        assert expression.key == "os";
-        elem targetOs expression.values;
-      matchResults = map matchesExpression platform.selector.matchExpressions;
-    in
-    any id matchResults;
-  isPlatformMatchByLabels = platform:
-    let
-      matchesOs = platform.selector.matchLabels.os or targetOs == targetOs;
-      matchesArch = platform.selector.matchLabels.arch or targetArch
-        == targetArch;
-    in
-    matchesOs && matchesArch;
-  readYaml = yamlFile:
-    let
-      jsonFile = buildPackages.runCommand "read-yaml"
-        {
-          allowSubstitutes = false;
-          preferLocalBuild = true;
-        }
-        "${buildPackages.remarshal}/bin/remarshal -if yaml -i ${yamlFile} -of json -o $out";
+      jsonFile = buildPackages.runCommand "read-yaml" {
+        allowSubstitutes = false;
+        preferLocalBuild = true;
+      } "${buildPackages.remarshal}/bin/remarshal -if yaml -i ${yamlFile} -of json -o $out";
     in
     builtins.fromJSON (builtins.readFile jsonFile);
+  targetArch = go.GOARCH;
+  # Krew is using Golang terminology when listing plugin artifacts by platform.
+  targetOs = go.GOOS;
+  # keep-sorted end
+  krewIndex = krew-index;
 in
 pluginDerivations

@@ -1,28 +1,37 @@
-{ buildEnv
-, callPackage
-, kubectl
-, lib
-, makeWrapper
-, runCommand
+{
+  buildEnv,
+  callPackage,
+  kubectl,
+  lib,
+  makeWrapper,
+  runCommand,
+  krew-index,
 }:
 
-let krewPlugins = callPackage ./krew-plugins.nix { };
+let
+  krewPlugins = callPackage ./krew-plugins.nix { inherit krew-index; };
 in
 kubectl.overrideAttrs (_: {
-  passthru.withKrewPlugins = selectPlugins:
+  passthru.withKrewPlugins =
+    selectPlugins:
     let
       selectedPlugins = selectPlugins krewPlugins;
-      kubectlWrapper = runCommand "kubectl-with-plugins-wrapper"
-        {
-          nativeBuildInputs = [ makeWrapper ];
-          meta.priority = kubectl.meta.priority or 0 + 1;
-        } ''
-        makeWrapper ${kubectl}/bin/kubectl $out/bin/kubectl \
-          --prefix PATH : ${lib.makeBinPath selectedPlugins}
-      '';
+      kubectlWrapper =
+        runCommand "kubectl-with-plugins-wrapper"
+          {
+            nativeBuildInputs = [ makeWrapper ];
+            meta.priority = kubectl.meta.priority or 0 + 1;
+          }
+          ''
+            makeWrapper ${kubectl}/bin/kubectl $out/bin/kubectl \
+              --prefix PATH : ${lib.makeBinPath selectedPlugins}
+          '';
     in
     buildEnv {
       name = "${kubectl.name}-with-plugins";
-      paths = [ kubectlWrapper kubectl ];
+      paths = [
+        kubectlWrapper
+        kubectl
+      ];
     };
 })
