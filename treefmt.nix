@@ -7,6 +7,10 @@
 
   programs.keep-sorted.enable = true;
 
+  programs.mdformat.enable = true;
+
+  programs.mdsh.enable = true;
+
   programs.nixfmt = {
     enable = true;
     package = pkgs.nixfmt-rfc-style;
