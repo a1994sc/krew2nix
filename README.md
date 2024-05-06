@@ -1,13 +1,15 @@
 # krew2nix
 
+[![.github/workflows/update-flake-lock.yml](https://github.com/a1994sc/krew2nix/actions/workflows/update-flake-lock.yml/badge.svg?branch=main)](https://github.com/a1994sc/krew2nix/actions/workflows/update-flake-lock.yml)
+
 TL/DR:
 
-## NixOS
+### NixOS
 ```nix
   environment.systemPackages = [ kubectl.withKrewPlugins (plugins: [ plugins.node-shell ]) ];
 ```
 
-## NixOS
+### NixOS
 ```nix
   home.packages = [ kubectl.withKrewPlugins (plugins: [ plugins.node-shell ]) ];
 ```
