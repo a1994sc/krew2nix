@@ -25,3 +25,5 @@ jobs:
     - run: "gh pr merge --auto --merge ${{ steps.update.outputs.pull-request-number }}"
       env:
         GH_TOKEN: ${{ github.token }}
+      # added to allow the action to pass even if there are no pr's to merge
+      continue-on-error: true
