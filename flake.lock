@@ -21,11 +21,11 @@
     "krew-index": {
       "flake": false,
       "locked": {
-        "lastModified": 1715806379,
-        "narHash": "sha256-M3+IdJrbkjzJTRJIOLtkX7P8gGgwGVKIXn0bzXq8SMw=",
+        "lastModified": 1715872070,
+        "narHash": "sha256-+UHFKSkw3DKr/Wc8wlnYuW1Kg809mL+yvvzrEScSci4=",
         "owner": "kubernetes-sigs",
         "repo": "krew-index",
-        "rev": "6d072bcb33b6c7484b937d9968f387f632a17456",
+        "rev": "05eac5da922ba313d636a8ac25bd723c78687a18",
         "type": "github"
       },
       "original": {
