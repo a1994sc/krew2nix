@@ -21,11 +21,11 @@
     "krew-index": {
       "flake": false,
       "locked": {
-        "lastModified": 1715928293,
-        "narHash": "sha256-9GVGwH9KfmNKbhP0QB+Htb8LWpPkctnUE1iaz5o2p0U=",
+        "lastModified": 1716276098,
+        "narHash": "sha256-22h+8HFYemJYh5f/ACVhQxC3to3HwpFVwMFrHADR6Aw=",
         "owner": "kubernetes-sigs",
         "repo": "krew-index",
-        "rev": "ea7e71af77e23580098f1ea1c1b9993d1c134473",
+        "rev": "2f2a382e3e3fd9ebf26842bb0032926eac19f4f3",
         "type": "github"
       },
       "original": {
@@ -36,11 +36,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1716190602,
-        "narHash": "sha256-xYRimrR0duWvokWQEvB87bSsICeCvvX9DxpUOzCfsDE=",
+        "lastModified": 1716312448,
+        "narHash": "sha256-PH3w5av8d+TdwCkiWN4UPBTxrD9MpxIQPDVWctlomVo=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "5a5ac83292c7842072318f57d68a48474f8bd34d",
+        "rev": "e381a1288138aceda0ac63db32c7be545b446921",
         "type": "github"
       },
       "original": {
