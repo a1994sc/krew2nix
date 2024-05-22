@@ -62,6 +62,7 @@
           inherit (pkgs) kubectl;
         };
         devShells = {
+          ci = pkgs.mkShell { inherit (environ.default) buildInputs; };
           default = pkgs.mkShell { inherit (environ.default) buildInputs; };
           testing = pkgs.mkShell { inherit (environ.testing) buildInputs; };
         };
