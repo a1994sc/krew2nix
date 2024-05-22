@@ -1,0 +1,65 @@
+{
+  "plugin": "sniff",
+  "version": "v1.6.2",
+  "homepage": "https://github.com/eldadru/ksniff",
+  "description": "When working with micro-services, many times it's very helpful to get a capture of the network\nactivity between your micro-service and it's dependencies.\n\nksniff use kubectl to upload a statically compiled tcpdump binary to your pod and redirecting it's\noutput to your local Wireshark for smooth network debugging experience.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/eldadru/ksniff/releases/download/v1.6.2/ksniff.zip",
+      "sha256": "c59b5c9ea84d6cb771096f1246c919b71389f9d4234e858f4929208957e561fd",
+      "bin": "kubectl-sniff",
+      "files": [
+        {
+          "from": "kubectl-sniff-darwin-arm64",
+          "to": "kubectl-sniff"
+        },
+        {
+          "from": "static-tcpdump",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/eldadru/ksniff/releases/download/v1.6.2/ksniff.zip",
+      "sha256": "c59b5c9ea84d6cb771096f1246c919b71389f9d4234e858f4929208957e561fd",
+      "bin": "kubectl-sniff",
+      "files": [
+        {
+          "from": "kubectl-sniff-darwin",
+          "to": "kubectl-sniff"
+        },
+        {
+          "from": "static-tcpdump",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/eldadru/ksniff/releases/download/v1.6.2/ksniff.zip",
+      "sha256": "c59b5c9ea84d6cb771096f1246c919b71389f9d4234e858f4929208957e561fd",
+      "bin": "kubectl-sniff",
+      "files": [
+        {
+          "from": "kubectl-sniff",
+          "to": "."
+        },
+        {
+          "from": "static-tcpdump",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

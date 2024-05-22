@@ -1,0 +1,52 @@
+{
+  "plugin": "karbon",
+  "version": "v0.11.6",
+  "homepage": "https://github.com/nutanix/kubectl-karbon",
+  "description": "This plugin allow to quickly connect to an existing Nutanix karbon cluster without the need to connect to Prism UI.\nRead more documentation at: https://github.com/nutanix/kubectl-karbon",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/nutanix/kubectl-karbon/releases/download/v0.11.6/kubectl-karbon_v0.11.6_darwin_arm64.tar.gz",
+      "sha256": "5158022d8a4ef0b964cc203fdc44ffddba658caeeeddfadfd26710b273ddcb9d",
+      "bin": "kubectl-karbon",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/nutanix/kubectl-karbon/releases/download/v0.11.6/kubectl-karbon_v0.11.6_linux_arm64.tar.gz",
+      "sha256": "ce8efa6aa70c7c5568facd0184bc414fa25f2822858e358ed05cad8679cedea6",
+      "bin": "kubectl-karbon",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/nutanix/kubectl-karbon/releases/download/v0.11.6/kubectl-karbon_v0.11.6_darwin_amd64.tar.gz",
+      "sha256": "a8d91861df9b6cc9b25a227fd232345b17b862ac6d358bfa42c46798864108e7",
+      "bin": "kubectl-karbon",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/nutanix/kubectl-karbon/releases/download/v0.11.6/kubectl-karbon_v0.11.6_linux_amd64.tar.gz",
+      "sha256": "177f3a5df22b5f6681024f5f97d0ee90e4d9ad138449b26c2683866c2f8c1fc0",
+      "bin": "kubectl-karbon",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

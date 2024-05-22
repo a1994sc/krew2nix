@@ -1,0 +1,68 @@
+{
+  "plugin": "shovel",
+  "version": "v0.7.0",
+  "homepage": "https://github.com/dodopizza/kubectl-shovel",
+  "description": "Plugin for gathering diagnostics from running in Kubernetes .NET Core\napplications. It runs the job on the specified pod's node with a mount\nto its /tmp folder with application's diagnostic socket and runs specified\ntool against it. Supported tools are: dotnet-gcdump and dotnet-trace\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/dodopizza/kubectl-shovel/releases/download/v0.7.0/kubectl-shovel_Darwin_arm64.tar.gz",
+      "sha256": "588ffe77084f9891021d105247ab4ad42a481eae548cce1db043769e5ae597df",
+      "bin": "kubectl-shovel",
+      "files": [
+        {
+          "from": "kubectl-shovel",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/dodopizza/kubectl-shovel/releases/download/v0.7.0/kubectl-shovel_Linux_arm64.tar.gz",
+      "sha256": "5c6fd2e4949c1f714293cbfe836cf6b382327609edcba9af0ffd7be458d38fac",
+      "bin": "kubectl-shovel",
+      "files": [
+        {
+          "from": "kubectl-shovel",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/dodopizza/kubectl-shovel/releases/download/v0.7.0/kubectl-shovel_Darwin_x86_64.tar.gz",
+      "sha256": "5c1e2091eca342479168fa33c4550a9ddd41839d9d8814e80074f855df488d39",
+      "bin": "kubectl-shovel",
+      "files": [
+        {
+          "from": "kubectl-shovel",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/dodopizza/kubectl-shovel/releases/download/v0.7.0/kubectl-shovel_Linux_x86_64.tar.gz",
+      "sha256": "72c2b1999e6e9d2831939540577121aaae820b6f980af4161a256d43f7e2c49a",
+      "bin": "kubectl-shovel",
+      "files": [
+        {
+          "from": "kubectl-shovel",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

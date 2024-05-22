@@ -1,0 +1,53 @@
+{
+  "plugin": "pod-lens",
+  "version": "v0.3.1",
+  "homepage": "https://pod-lens.guoxudong.io",
+  "description": "Find related workloads, namespace, node, service, configmap, secret,\ningress, PVC and HPA by pod name and display them in a tree and table.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/sunny0826/kubectl-pod-lens/releases/download/v0.3.1/pod-lens_darwin_arm64.tar.gz",
+      "sha256": "09cea87a8faf6ea0e6bc7372618946aa766bea93bb46ab2f700de5bdbf8be1a5",
+      "bin": "pod-lens",
+      "files": [
+        {
+          "from": "./pod-lens",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/sunny0826/kubectl-pod-lens/releases/download/v0.3.1/pod-lens_darwin_amd64.tar.gz",
+      "sha256": "3e95f78bfff4307c9fc6d89706907c8079e4a38ff29d424e89879475e99e0ef6",
+      "bin": "pod-lens",
+      "files": [
+        {
+          "from": "./pod-lens",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/sunny0826/kubectl-pod-lens/releases/download/v0.3.1/pod-lens_linux_amd64.tar.gz",
+      "sha256": "dc6a6545421c750d3b63f15b7229411d43f83ab5c5f0336c5b1c53be931d6b2c",
+      "bin": "pod-lens",
+      "files": [
+        {
+          "from": "./pod-lens",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

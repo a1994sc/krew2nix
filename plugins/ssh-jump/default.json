@@ -1,0 +1,68 @@
+{
+  "plugin": "ssh-jump",
+  "version": "v0.9.0",
+  "homepage": "https://github.com/yokawasa/kubectl-plugin-ssh-jump",
+  "description": "A kubectl plugin to access Kubernetes nodes or remote services using a SSH jump Pod.\nA jump Pod is an intermediary Pod or an SSH gateway to Kubernetes node machines or\nremote services, through which a connection can be made.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/yokawasa/kubectl-plugin-ssh-jump/archive/0.9.0.zip",
+      "sha256": "a78faf87b370c619276976310aab0567a04896ec0f79703feb30d53cb7af7143",
+      "bin": "./kubectl-ssh-jump",
+      "files": [
+        {
+          "from": "./*/kubectl-ssh-jump",
+          "to": "."
+        },
+        {
+          "from": "./*/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/yokawasa/kubectl-plugin-ssh-jump/archive/0.9.0.zip",
+      "sha256": "a78faf87b370c619276976310aab0567a04896ec0f79703feb30d53cb7af7143",
+      "bin": "./kubectl-ssh-jump",
+      "files": [
+        {
+          "from": "./*/kubectl-ssh-jump",
+          "to": "."
+        },
+        {
+          "from": "./*/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/yokawasa/kubectl-plugin-ssh-jump/archive/0.9.0.zip",
+      "sha256": "a78faf87b370c619276976310aab0567a04896ec0f79703feb30d53cb7af7143",
+      "bin": "./kubectl-ssh-jump",
+      "files": [
+        {
+          "from": "./*/kubectl-ssh-jump",
+          "to": "."
+        },
+        {
+          "from": "./*/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/yokawasa/kubectl-plugin-ssh-jump/archive/0.9.0.zip",
+      "sha256": "a78faf87b370c619276976310aab0567a04896ec0f79703feb30d53cb7af7143",
+      "bin": "./kubectl-ssh-jump",
+      "files": [
+        {
+          "from": "./*/kubectl-ssh-jump",
+          "to": "."
+        },
+        {
+          "from": "./*/LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

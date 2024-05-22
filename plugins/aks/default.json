@@ -1,0 +1,41 @@
+{
+  "plugin": "aks",
+  "version": "v0.2.4",
+  "homepage": "https://github.com/Azure/kubectl-aks",
+  "description": "This plugin provides a set of commands that enable users to interact with an\nAKS cluster even when the control plane is not functioning as expected. For\nexample, users can still use the plugin to debug their cluster if the API\nserver is not working correctly. This plugin allows users to perform various\ntasks, retrieve information, and execute commands against the cluster nodes,\nregardless of the control plane's state.\n\nIt's important to note that this plugin does not replace az (the Azure CLI\n[1]). Instead, it complements it by offering additional commands and\nproviding users with a kubectl-like experience. In practice, users will use\naz to create and delete their AKS cluster, and then use kubectl and\nkubectl-aks to interact with and debug it.\n\n[1] https://learn.microsoft.com/en-us/cli/azure/\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/Azure/kubectl-aks/releases/download/v0.2.4/kubectl-aks-darwin-arm64-v0.2.4.tar.gz",
+      "sha256": "ad7fd271647319069bfebfbca44f91c92def254a90dc6f60979189ca9373be8e",
+      "bin": "kubectl-aks",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/Azure/kubectl-aks/releases/download/v0.2.4/kubectl-aks-darwin-amd64-v0.2.4.tar.gz",
+      "sha256": "7df93f1f24f9358c7f8ef4956aad4dd7ac95ba2fea53a68c4e01827aa1421db4",
+      "bin": "kubectl-aks",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/Azure/kubectl-aks/releases/download/v0.2.4/kubectl-aks-linux-amd64-v0.2.4.tar.gz",
+      "sha256": "42984fe352b9c81f4cc339b95e55616b0ba99d26d185b300cf856d44e30a3dc4",
+      "bin": "kubectl-aks",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

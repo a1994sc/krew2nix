@@ -1,0 +1,52 @@
+{
+  "plugin": "kollama",
+  "version": "v0.7.1",
+  "homepage": "https://github.com/nekomeowww/ollama-operator",
+  "description": "Usage:\n  kubectl kollama deploy llama2\n  This plugin will help you to interact with the Ollama Operator to deploy any LLM (Llama Language Model) to your Kubernetes cluster.\n  Read more documentation at: https://github.com/nekomeowww/ollama-operator\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/nekomeowww/ollama-operator/releases/download/v0.7.1/kollama_v0.7.1_darwin_arm64.tar.gz",
+      "sha256": "484767d87e7b04129a805fb38c2c0139cd072c0401725e2113ea354ad84f6a73",
+      "bin": "kollama",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/nekomeowww/ollama-operator/releases/download/v0.7.1/kollama_v0.7.1_linux_arm64.tar.gz",
+      "sha256": "d4500fc4c05ad0681ab93330a796c87afcd201d0b2699f7cd120901d54891f24",
+      "bin": "kollama",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/nekomeowww/ollama-operator/releases/download/v0.7.1/kollama_v0.7.1_darwin_amd64.tar.gz",
+      "sha256": "510645dbf77ec0d2865c255698c00dd7d2235ba70c62eeddf4a647f052b644a1",
+      "bin": "kollama",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/nekomeowww/ollama-operator/releases/download/v0.7.1/kollama_v0.7.1_linux_amd64.tar.gz",
+      "sha256": "a35fa09db73d6c91377a8713895f056aedd43405be40fd73caba86539b90fc6f",
+      "bin": "kollama",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "plugin": "cilium",
+  "version": "v0.1.2",
+  "homepage": "https://github.com/bmcustodio/kubectl-cilium",
+  "description": "Easily interact with Cilium agents.\nUseful, for example, to open a shell on the Cilium agent running on a\nparticular node or co-located with a particular pod:\n\n# Open a shell on the Cilium agent running on node 'kind-cilium-mesh-worker':\n$ kubectl cilium exec kind-cilium-mesh-worker\n\n# Run 'cilium monitor' on the Cilium agent co-located with the 'ns-1/nginx' pod:\n$ kubectl cilium exec ns-1/nginx cilium monitor\n",
+  "archSrc": {
+    "x86_64-darwin": {
+      "url": "https://github.com/bmcustodio/kubectl-cilium/releases/download/v0.1.2/kubectl-cilium_v0.1.2_darwin_amd64.tar.gz",
+      "sha256": "5ad5b09f9ec9b6de9e01cb640bee8196595d6ce39bf16d5f9cdb07549e4ad765",
+      "bin": "kubectl-cilium",
+      "files": [
+        {
+          "from": "kubectl-cilium",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/bmcustodio/kubectl-cilium/releases/download/v0.1.2/kubectl-cilium_v0.1.2_linux_amd64.tar.gz",
+      "sha256": "068354f8a45f16e21a89ebf2275cd1ef19f1868fd70c64307a3f9adedaffc6ca",
+      "bin": "kubectl-cilium",
+      "files": [
+        {
+          "from": "kubectl-cilium",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

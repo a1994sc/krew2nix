@@ -1,0 +1,52 @@
+{
+  "plugin": "roll",
+  "version": "v1.0.4",
+  "homepage": "https://github.com/LifeWay/kubectl-roll-plugin",
+  "description": "A utility to slowly delete all pods in a namespace that are\ncontrolled by Deployments, StatefulSets, and DaemonSets. You must\ncorrectly configure readiness probes to avoid any downtime.\n\nUsage:\n  kubectl roll -n <namespace>\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/LifeWay/kubectl-roll-plugin/archive/1.0.4.tar.gz",
+      "sha256": "d0e408fefdbc078410f4021644d9b03236be1f215aaaba79e2e786ef3ae10344",
+      "bin": "roll",
+      "files": [
+        {
+          "from": "kubectl-roll-plugin-1.0.4/kubectl-roll",
+          "to": "roll"
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/LifeWay/kubectl-roll-plugin/archive/1.0.4.tar.gz",
+      "sha256": "d0e408fefdbc078410f4021644d9b03236be1f215aaaba79e2e786ef3ae10344",
+      "bin": "roll",
+      "files": [
+        {
+          "from": "kubectl-roll-plugin-1.0.4/kubectl-roll",
+          "to": "roll"
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/LifeWay/kubectl-roll-plugin/archive/1.0.4.tar.gz",
+      "sha256": "d0e408fefdbc078410f4021644d9b03236be1f215aaaba79e2e786ef3ae10344",
+      "bin": "roll",
+      "files": [
+        {
+          "from": "kubectl-roll-plugin-1.0.4/kubectl-roll",
+          "to": "roll"
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/LifeWay/kubectl-roll-plugin/archive/1.0.4.tar.gz",
+      "sha256": "d0e408fefdbc078410f4021644d9b03236be1f215aaaba79e2e786ef3ae10344",
+      "bin": "roll",
+      "files": [
+        {
+          "from": "kubectl-roll-plugin-1.0.4/kubectl-roll",
+          "to": "roll"
+        }
+      ]
+    }
+  }
+}

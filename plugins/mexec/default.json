@@ -1,0 +1,116 @@
+{
+  "plugin": "mexec",
+  "version": "v0.1.1",
+  "homepage": "https://github.com/major1201/kubectl-mexec",
+  "description": "A fast way to run kubectl exec/cp on multiple pods in parallel.",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/major1201/kubectl-mexec/archive/refs/tags/v0.1.1.tar.gz",
+      "sha256": "7839aa8918fd433542d1a0b194a549b9d3a5bcdafa93f35cf8dfcf14da4e8817",
+      "bin": "kubectl-mexec",
+      "files": [
+        {
+          "from": "kubectl-mexec-*/kubectl-mexec",
+          "to": "."
+        },
+        {
+          "from": "kubectl-mexec-*/mexec-*",
+          "to": "."
+        },
+        {
+          "from": "kubectl-mexec-*/display-help.sh",
+          "to": "."
+        },
+        {
+          "from": "kubectl-mexec-*/scripts",
+          "to": "."
+        },
+        {
+          "from": "kubectl-mexec-*/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/major1201/kubectl-mexec/archive/refs/tags/v0.1.1.tar.gz",
+      "sha256": "7839aa8918fd433542d1a0b194a549b9d3a5bcdafa93f35cf8dfcf14da4e8817",
+      "bin": "kubectl-mexec",
+      "files": [
+        {
+          "from": "kubectl-mexec-*/kubectl-mexec",
+          "to": "."
+        },
+        {
+          "from": "kubectl-mexec-*/mexec-*",
+          "to": "."
+        },
+        {
+          "from": "kubectl-mexec-*/display-help.sh",
+          "to": "."
+        },
+        {
+          "from": "kubectl-mexec-*/scripts",
+          "to": "."
+        },
+        {
+          "from": "kubectl-mexec-*/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/major1201/kubectl-mexec/archive/refs/tags/v0.1.1.tar.gz",
+      "sha256": "7839aa8918fd433542d1a0b194a549b9d3a5bcdafa93f35cf8dfcf14da4e8817",
+      "bin": "kubectl-mexec",
+      "files": [
+        {
+          "from": "kubectl-mexec-*/kubectl-mexec",
+          "to": "."
+        },
+        {
+          "from": "kubectl-mexec-*/mexec-*",
+          "to": "."
+        },
+        {
+          "from": "kubectl-mexec-*/display-help.sh",
+          "to": "."
+        },
+        {
+          "from": "kubectl-mexec-*/scripts",
+          "to": "."
+        },
+        {
+          "from": "kubectl-mexec-*/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/major1201/kubectl-mexec/archive/refs/tags/v0.1.1.tar.gz",
+      "sha256": "7839aa8918fd433542d1a0b194a549b9d3a5bcdafa93f35cf8dfcf14da4e8817",
+      "bin": "kubectl-mexec",
+      "files": [
+        {
+          "from": "kubectl-mexec-*/kubectl-mexec",
+          "to": "."
+        },
+        {
+          "from": "kubectl-mexec-*/mexec-*",
+          "to": "."
+        },
+        {
+          "from": "kubectl-mexec-*/display-help.sh",
+          "to": "."
+        },
+        {
+          "from": "kubectl-mexec-*/scripts",
+          "to": "."
+        },
+        {
+          "from": "kubectl-mexec-*/LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

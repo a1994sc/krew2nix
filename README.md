@@ -5,11 +5,13 @@
 TL/DR:
 
 ### NixOS
+
 ```nix
   environment.systemPackages = [ kubectl.withKrewPlugins (plugins: [ plugins.node-shell ]) ];
 ```
 
 ### NixOS
+
 ```nix
   home.packages = [ kubectl.withKrewPlugins (plugins: [ plugins.node-shell ]) ];
 ```

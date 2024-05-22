@@ -1,0 +1,52 @@
+{
+  "plugin": "pv-migrate",
+  "version": "v2.0.1",
+  "homepage": "https://github.com/utkuozdemir/pv-migrate",
+  "description": "pv-migrate uses ssh and rsync to copy data across persistent volumes\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/utkuozdemir/pv-migrate/releases/download/v2.0.1/pv-migrate_v2.0.1_darwin_arm64.tar.gz",
+      "sha256": "96340294881e49b3376d2a6f2092f0a550eaeef4e926fa4a7fdb30894ec09ffb",
+      "bin": "pv-migrate",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/utkuozdemir/pv-migrate/releases/download/v2.0.1/pv-migrate_v2.0.1_linux_arm64.tar.gz",
+      "sha256": "e6310dc2d86a1cf69b25e90c3ad3236c5fb3a4d02c6d985faacdc9bbd65ebe72",
+      "bin": "pv-migrate",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/utkuozdemir/pv-migrate/releases/download/v2.0.1/pv-migrate_v2.0.1_darwin_x86_64.tar.gz",
+      "sha256": "bff18788752b2a2a2d0ce73016da455395b3c47282ae8a0d87de1937e1649fb4",
+      "bin": "pv-migrate",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/utkuozdemir/pv-migrate/releases/download/v2.0.1/pv-migrate_v2.0.1_linux_x86_64.tar.gz",
+      "sha256": "ad8db41e04e9905d347c2728e66a1a771ea8dd7f07d0f21cb855b5ff2d156f31",
+      "bin": "pv-migrate",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

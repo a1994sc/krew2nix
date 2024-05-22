@@ -1,0 +1,68 @@
+{
+  "plugin": "klock",
+  "version": "v0.7.0",
+  "homepage": "https://github.com/applejag/kubectl-klock",
+  "description": "Watches resources and prints them in a human-readable manner.\nVery similar to `kubectl get`, but with live updates.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/applejag/kubectl-klock/releases/download/v0.7.0/kubectl-klock_darwin_arm64.tar.gz",
+      "sha256": "6cce7b19deb32b286c39ba421be5f2adae5f2fff116a2ac5395d76117f6e054b",
+      "bin": "kubectl-klock",
+      "files": [
+        {
+          "from": "./kubectl-klock",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/applejag/kubectl-klock/releases/download/v0.7.0/kubectl-klock_linux_arm64.tar.gz",
+      "sha256": "94f56c4c4b77d9ae1a51a791299e67b8745e5ef0d2cffca5a3becdb8e2f44a24",
+      "bin": "kubectl-klock",
+      "files": [
+        {
+          "from": "./kubectl-klock",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/applejag/kubectl-klock/releases/download/v0.7.0/kubectl-klock_darwin_amd64.tar.gz",
+      "sha256": "53b89f947da7c03942368168875cbe5944e053d230d4eb6791acfd10f26bd42e",
+      "bin": "kubectl-klock",
+      "files": [
+        {
+          "from": "./kubectl-klock",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/applejag/kubectl-klock/releases/download/v0.7.0/kubectl-klock_linux_amd64.tar.gz",
+      "sha256": "122b54563fe86185597288a9a06bd21196fbb07eb928926ff99fc9a457c709c4",
+      "bin": "kubectl-klock",
+      "files": [
+        {
+          "from": "./kubectl-klock",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

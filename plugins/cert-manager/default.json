@@ -1,0 +1,52 @@
+{
+  "plugin": "cert-manager",
+  "version": "v1.14.1",
+  "homepage": "https://github.com/cert-manager/cert-manager",
+  "description": "cert-manager is the easiest way to automatically manage certificates\nin Kubernetes and OpenShift clusters. The kubectl plugin helps with\nmanaging cert-manager resources e.g. manual renewal of Certificates.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/cert-manager/cert-manager/releases/download/v1.14.1/kubectl-cert_manager-darwin-arm64.tar.gz",
+      "sha256": "d891fcd5698ab1473fdb8ff6602c6621f66fdfa93660edc81b61cff5887889dd",
+      "bin": "kubectl-cert_manager",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/cert-manager/cert-manager/releases/download/v1.14.1/kubectl-cert_manager-linux-arm64.tar.gz",
+      "sha256": "d947f6e3ea94f282dae9308874e6c44b3379e7523fa735e29f72550f1cc83c7a",
+      "bin": "kubectl-cert_manager",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/cert-manager/cert-manager/releases/download/v1.14.1/kubectl-cert_manager-darwin-amd64.tar.gz",
+      "sha256": "c958543f0453938e99114a2a097d42be04f14c4fea7f84e7ac1c212f2161db2d",
+      "bin": "kubectl-cert_manager",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/cert-manager/cert-manager/releases/download/v1.14.1/kubectl-cert_manager-linux-amd64.tar.gz",
+      "sha256": "84817ac2e562a2b2ab04a5105e5e5a0e53ae1e7338c3c7e174e23cbc320c280f",
+      "bin": "kubectl-cert_manager",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "plugin": "accurate",
+  "version": "v1.3.0",
+  "homepage": "https://github.com/cybozu-go/accurate",
+  "description": "kubectl-accurate is a subcommand of kubectl to manage Accurate features.\nAccurate is a Kubernetes controller for multi-tenancy.\nIt propagates resources between namespaces accurately and allows tenant users to create/delete sub-namespaces.\nRead more documentation at: https://cybozu-go.github.io/accurate/index.html\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/cybozu-go/accurate/releases/download/v1.3.0/kubectl-accurate_v1.3.0_darwin_arm64.tar.gz",
+      "sha256": "a88f7caa316cff459e2faf5326ed7eaaac116146ffc04ef443d7ee36d1cabffa",
+      "bin": "kubectl-accurate",
+      "files": [
+        {
+          "from": "kubectl-accurate",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/cybozu-go/accurate/releases/download/v1.3.0/kubectl-accurate_v1.3.0_linux_arm64.tar.gz",
+      "sha256": "ab787616fc70f1e6d9c03fe7196d1139f8a5b86ab628ccca2810cd640df1ce1b",
+      "bin": "kubectl-accurate",
+      "files": [
+        {
+          "from": "kubectl-accurate",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/cybozu-go/accurate/releases/download/v1.3.0/kubectl-accurate_v1.3.0_darwin_amd64.tar.gz",
+      "sha256": "07ef230249d26ba7385ec85048a1ea6a02807e3c1c13eb5ec955c597ec2ce819",
+      "bin": "kubectl-accurate",
+      "files": [
+        {
+          "from": "kubectl-accurate",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/cybozu-go/accurate/releases/download/v1.3.0/kubectl-accurate_v1.3.0_linux_amd64.tar.gz",
+      "sha256": "74e53fd712d45ddac5246b0a9a4cd73d3a370fc665add3f65f7c7dd68275c48e",
+      "bin": "kubectl-accurate",
+      "files": [
+        {
+          "from": "kubectl-accurate",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

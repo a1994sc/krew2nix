@@ -1,0 +1,68 @@
+{
+  "plugin": "cluster-group",
+  "version": "v0.1.4",
+  "homepage": "https://github.com/u2takey/kubectl-clusters",
+  "description": "This plugin performs the same command across a group of multiple contexts.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/u2takey/kubectl-clusters/archive/v0.1.4.tar.gz",
+      "sha256": "f242059981c61279d2ab3a877034722cd2e8bb6e3913b12f024c6aa4fd7099d4",
+      "bin": "kubectl-cluster-group",
+      "files": [
+        {
+          "from": "./*/kubectl-cluster-group",
+          "to": "."
+        },
+        {
+          "from": "./*/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/u2takey/kubectl-clusters/archive/v0.1.4.tar.gz",
+      "sha256": "f242059981c61279d2ab3a877034722cd2e8bb6e3913b12f024c6aa4fd7099d4",
+      "bin": "kubectl-cluster-group",
+      "files": [
+        {
+          "from": "./*/kubectl-cluster-group",
+          "to": "."
+        },
+        {
+          "from": "./*/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/u2takey/kubectl-clusters/archive/v0.1.4.tar.gz",
+      "sha256": "f242059981c61279d2ab3a877034722cd2e8bb6e3913b12f024c6aa4fd7099d4",
+      "bin": "kubectl-cluster-group",
+      "files": [
+        {
+          "from": "./*/kubectl-cluster-group",
+          "to": "."
+        },
+        {
+          "from": "./*/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/u2takey/kubectl-clusters/archive/v0.1.4.tar.gz",
+      "sha256": "f242059981c61279d2ab3a877034722cd2e8bb6e3913b12f024c6aa4fd7099d4",
+      "bin": "kubectl-cluster-group",
+      "files": [
+        {
+          "from": "./*/kubectl-cluster-group",
+          "to": "."
+        },
+        {
+          "from": "./*/LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

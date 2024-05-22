@@ -1,0 +1,52 @@
+{
+  "plugin": "debug-pdb",
+  "version": "v0.1.2",
+  "homepage": "https://github.com/dhenkel92/kubectl-debug-pdb",
+  "description": "This Kubernetes plugin assists in debugging pod disruption budgets.\nIt helps in understanding the connection between PDBs and pods, and vice versa.\nAdditionally, you can run evictions to verify if the disruption budget is functioning as anticipated.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/dhenkel92/kubectl-debug-pdb/releases/download/v0.1.2/kubectl-debug-pdb_Darwin_arm64.tar.gz",
+      "sha256": "0e8d67624cbdd906e4854d9ec90317afbffe1d539bb76a37a502b0a87032dbb5",
+      "bin": "kubectl-debug_pdb",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/dhenkel92/kubectl-debug-pdb/releases/download/v0.1.2/kubectl-debug-pdb_Linux_arm64.tar.gz",
+      "sha256": "9ed7c3ae7199379bb92adc7210321d537c7b527d8ec24db5d484be326b9b3b78",
+      "bin": "kubectl-debug_pdb",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/dhenkel92/kubectl-debug-pdb/releases/download/v0.1.2/kubectl-debug-pdb_Darwin_x86_64.tar.gz",
+      "sha256": "1daed7deb983c3c0d5c639985ff799807fad97fdd6156320ecd4a4d3195e7936",
+      "bin": "kubectl-debug_pdb",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/dhenkel92/kubectl-debug-pdb/releases/download/v0.1.2/kubectl-debug-pdb_Linux_x86_64.tar.gz",
+      "sha256": "074730db6f031db36d25ee57ae01827b60cd6c724797126883f1a92bf93de395",
+      "bin": "kubectl-debug_pdb",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "plugin": "subm",
+  "version": "v0.16.2",
+  "homepage": "https://github.com/submariner-io/subctl",
+  "description": "CLI to install, uninstall and troubleshoot Submariner on a Kubernetes cluster.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/submariner-io/releases/releases/download/v0.16.2/subctl-v0.16.2-darwin-arm64.tar.gz",
+      "sha256": "a5bfca2d3b606cef15d7cc89fedee1b67bcbea7c7cc8859d9647dc7de31576ac",
+      "bin": "subctl",
+      "files": [
+        {
+          "from": "subctl*/subctl",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/submariner-io/releases/releases/download/v0.16.2/subctl-v0.16.2-linux-arm64.tar.gz",
+      "sha256": "2dc1ab4a1c7e3c286cf24b301dba6248c64f77dc5312671716d7937bd00e8ad2",
+      "bin": "subctl",
+      "files": [
+        {
+          "from": "subctl*/subctl",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/submariner-io/releases/releases/download/v0.16.2/subctl-v0.16.2-darwin-amd64.tar.gz",
+      "sha256": "ba63a05cf546870a58fcf3202878f60e500245c09e09fbc092dfdb7f5d30cd4b",
+      "bin": "subctl",
+      "files": [
+        {
+          "from": "subctl*/subctl",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/submariner-io/releases/releases/download/v0.16.2/subctl-v0.16.2-linux-amd64.tar.gz",
+      "sha256": "549e290e01ab67cf4ed6f5226dddd213c07993b6063921659fe5c8258828aa47",
+      "bin": "subctl",
+      "files": [
+        {
+          "from": "subctl*/subctl",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

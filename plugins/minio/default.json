@@ -1,0 +1,52 @@
+{
+  "plugin": "minio",
+  "version": "v5.0.14",
+  "homepage": "https://github.com/minio/operator/tree/master/kubectl-minio",
+  "description": "The kubectl-minio plugin wraps the MinIO Operator and provides a simplified \ninterface to create and manage MinIO tenant clusters.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/minio/operator/releases/download/v5.0.14/kubectl-minio_darwin_arm64.zip",
+      "sha256": "06bd470d4c1a91307b20c26f1d77977977283f5aed34e13d193194af0fbb776c",
+      "bin": "kubectl-minio",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/minio/operator/releases/download/v5.0.14/kubectl-minio_linux_arm64.zip",
+      "sha256": "265aec12686631072d5decae6e72e22b7a41f7e99e9ba378169e4cab5f56ab55",
+      "bin": "kubectl-minio",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/minio/operator/releases/download/v5.0.14/kubectl-minio_darwin_amd64_v1.zip",
+      "sha256": "0adee2a6a49154ced97f7b3ea552da7c27ec9cd9c42343e1c2ebed67aa4b2983",
+      "bin": "kubectl-minio",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/minio/operator/releases/download/v5.0.14/kubectl-minio_linux_amd64_v1.zip",
+      "sha256": "53cdf94f7ef7e9ed6e58103114915ef65cfb20d5c06686e8eeaafe37b16c11af",
+      "bin": "kubectl-minio",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

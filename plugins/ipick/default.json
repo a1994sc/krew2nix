@@ -1,0 +1,30 @@
+{
+  "plugin": "ipick",
+  "version": "v1.0.8",
+  "homepage": "https://github.com/similarweb/kubectl-ipick",
+  "description": "This plugin is a smart wrapper around kubectl, which lets you pick \nthe resource to act on. For example, `kubectl ipick exec` will\nshow a list of pods and execute `kubectl exec <selected-pod>`.\n",
+  "archSrc": {
+    "x86_64-darwin": {
+      "url": "https://github.com/similarweb/kubectl-ipick/releases/download/v1.0.8/kubectl-ipick_v1.0.8_Darwin_x86_64.tar.gz",
+      "sha256": "2fdecf5896cd05b7e387ff7079999aa283ded44b20af3449e9fcd66723ab3fe1",
+      "bin": "kubectl-ipick",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/similarweb/kubectl-ipick/releases/download/v1.0.8/kubectl-ipick_v1.0.8_Linux_x86_64.tar.gz",
+      "sha256": "4c7fea4cc86012bf320e18f4e4e080c451910c0b44bee5d6058a4edb10b3738f",
+      "bin": "kubectl-ipick",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

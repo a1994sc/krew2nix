@@ -1,0 +1,52 @@
+{
+  "plugin": "resource-capacity",
+  "version": "v0.8.0",
+  "homepage": "https://github.com/robscott/kube-capacity",
+  "description": "A simple CLI that provides an overview of the resource requests, limits, and utilization in a Kubernetes cluster.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/robscott/kube-capacity/releases/download/v0.8.0/kube-capacity_v0.8.0_darwin_arm64.tar.gz",
+      "sha256": "48ae52e396a34a392924e59e0ccbd1bf512906bb0d8c6b87490b0057c1503d44",
+      "bin": "kube-capacity",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/robscott/kube-capacity/releases/download/v0.8.0/kube-capacity_v0.8.0_linux_arm64.tar.gz",
+      "sha256": "ef4ba0c43b57d6efc0472ce465f69a6102bdeeb16541120ea1a510a2d2f98465",
+      "bin": "kube-capacity",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/robscott/kube-capacity/releases/download/v0.8.0/kube-capacity_v0.8.0_darwin_x86_64.tar.gz",
+      "sha256": "c2ddc963bdc09a5ecd5ab1fc0b6bc19c1cc4c5c4a17a8f6cd98670e157dfcbcc",
+      "bin": "kube-capacity",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/robscott/kube-capacity/releases/download/v0.8.0/kube-capacity_v0.8.0_linux_x86_64.tar.gz",
+      "sha256": "610ce6e5d7f528df1c60d3b5e277d00ac43cdfd9ce4d36f0b3132bb68fc12cf3",
+      "bin": "kube-capacity",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

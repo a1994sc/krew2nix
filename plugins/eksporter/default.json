@@ -1,0 +1,98 @@
+{
+  "plugin": "eksporter",
+  "version": "v1.7.2",
+  "homepage": "https://github.com/Kyrremann/kubectl-eksporter",
+  "description": "This plugin helps you export a resource, and removes a pre-defined set of\nfields. This is useful for when you have resource you want to migrate from\none namespace or cluster, to another one, but need to edit/add some fields\nbefore applying.\n\nIf you just need to move one resource, it's probably easier to just:\n  kubectl get -oyaml | kubectl create -f -\n\nRun the tool with:\n  kubectl eksporter <resource> <resource_name>\nOr with piping:\n  kubectl get pods -o yaml <resource_name> | kubectl eksporter\n\nYou can keep some of the pre-defined fields by listing them with --keep.\n  kubectl eksporter ingress my-web-site --keep annotations\n",
+  "archSrc": {
+    "aarch64-": {
+      "url": "https://github.com/Kyrremann/kubectl-eksporter/releases/download/v1.7.2/eksporter.tar.gz",
+      "sha256": "c0c1730174dcd608e8b6cff517aa174bd8cec49077ec8508ca4612554d088058",
+      "bin": "./eksporter.rb",
+      "files": [
+        {
+          "from": "/eksporter.rb",
+          "to": "."
+        },
+        {
+          "from": "/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-darwin": {
+      "url": "https://github.com/Kyrremann/kubectl-eksporter/releases/download/v1.7.2/eksporter.tar.gz",
+      "sha256": "c0c1730174dcd608e8b6cff517aa174bd8cec49077ec8508ca4612554d088058",
+      "bin": "./eksporter.rb",
+      "files": [
+        {
+          "from": "/eksporter.rb",
+          "to": "."
+        },
+        {
+          "from": "/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/Kyrremann/kubectl-eksporter/releases/download/v1.7.2/eksporter.tar.gz",
+      "sha256": "c0c1730174dcd608e8b6cff517aa174bd8cec49077ec8508ca4612554d088058",
+      "bin": "./eksporter.rb",
+      "files": [
+        {
+          "from": "/eksporter.rb",
+          "to": "."
+        },
+        {
+          "from": "/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-": {
+      "url": "https://github.com/Kyrremann/kubectl-eksporter/releases/download/v1.7.2/eksporter.tar.gz",
+      "sha256": "c0c1730174dcd608e8b6cff517aa174bd8cec49077ec8508ca4612554d088058",
+      "bin": "./eksporter.rb",
+      "files": [
+        {
+          "from": "/eksporter.rb",
+          "to": "."
+        },
+        {
+          "from": "/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/Kyrremann/kubectl-eksporter/releases/download/v1.7.2/eksporter.tar.gz",
+      "sha256": "c0c1730174dcd608e8b6cff517aa174bd8cec49077ec8508ca4612554d088058",
+      "bin": "./eksporter.rb",
+      "files": [
+        {
+          "from": "/eksporter.rb",
+          "to": "."
+        },
+        {
+          "from": "/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/Kyrremann/kubectl-eksporter/releases/download/v1.7.2/eksporter.tar.gz",
+      "sha256": "c0c1730174dcd608e8b6cff517aa174bd8cec49077ec8508ca4612554d088058",
+      "bin": "./eksporter.rb",
+      "files": [
+        {
+          "from": "/eksporter.rb",
+          "to": "."
+        },
+        {
+          "from": "/LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

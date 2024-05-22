@@ -1,0 +1,68 @@
+{
+  "plugin": "tail",
+  "version": "v0.17.4",
+  "homepage": "https://github.com/boz/kail",
+  "description": "Kail https://github.com/boz/kail - \"Just show me the logs\"\n\nStream logs from all matched containers of all matched pods.  Match pods by service,\nreplicaset, deployment, and others.  Adjusts to a changing cluster - pods are\nadded and removed from logging as they fall in or out of the selection.\n\nDocumentation:\n\n  See https://github.com/boz/kail or\n\n  $ kubectl tail --help\n\nUsage:\n\n  # match all pods\n  $ kubectl tail\n\n  # match pods in the 'frontend' namespace\n  $ kubectl tail --ns staging\n\n  # match pods belonging to a replicaset named 'workers' in any namespace.\n  $ kubectl tail --rs workers\n\n  # match pods belonging to the replicaset named 'workers' only in the 'staging' namespace\n  $ kubectl tail --rs staging/workers\n\n  # match pods belonging to both the service \"frontend\" and the deployment \"webapp\"\n  $ kubectl tail --svc frontend --deploy webapp",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/boz/kail/releases/download/v0.17.4/kail_v0.17.4_darwin_arm64.tar.gz",
+      "sha256": "61c331113e3cdc40133f4b5f7a200862e281c23af3f6017bb71a71bae83b0caa",
+      "bin": "kail",
+      "files": [
+        {
+          "from": "kail",
+          "to": "."
+        },
+        {
+          "from": "LICENSE.txt",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/boz/kail/releases/download/v0.17.4/kail_v0.17.4_linux_arm64.tar.gz",
+      "sha256": "c29c6e69b2ed1a8d8ae1ce00bf5857d2984c820c5c3b83bac9b9f04bc4b372d3",
+      "bin": "kail",
+      "files": [
+        {
+          "from": "kail",
+          "to": "."
+        },
+        {
+          "from": "LICENSE.txt",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/boz/kail/releases/download/v0.17.4/kail_v0.17.4_darwin_amd64v2.tar.gz",
+      "sha256": "88f2f514760312d2f029e69e733575b65563c08f38f6e238f1f2bcc7f57fd661",
+      "bin": "kail",
+      "files": [
+        {
+          "from": "kail",
+          "to": "."
+        },
+        {
+          "from": "LICENSE.txt",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/boz/kail/releases/download/v0.17.4/kail_v0.17.4_linux_amd64v2.tar.gz",
+      "sha256": "aebdf0401a46b26189eeec2cdd8539675805fcfa68a4561c9ae1993f275c3358",
+      "bin": "kail",
+      "files": [
+        {
+          "from": "kail",
+          "to": "."
+        },
+        {
+          "from": "LICENSE.txt",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

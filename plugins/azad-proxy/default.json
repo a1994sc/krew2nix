@@ -1,0 +1,68 @@
+{
+  "plugin": "azad-proxy",
+  "version": "v0.0.47",
+  "homepage": "https://github.com/XenitAB/azad-kube-proxy",
+  "description": "Works together with the proxy (Azure AD Kubernetes API Proxy: azad-kube-proxy)\nto make it easier to generate the kubeconfig and handles the authentication.\nThe proxy itself enables you to use Azure AD to authenticate to any Kubernetes\nAPI, decouples you from the Cloud providers FQDNs and solves issues related \nto Azure AD groups for users with more than 200 of them.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/XenitAB/azad-kube-proxy/releases/download/v0.0.47/kubectl-azad_proxy-darwin-arm64.zip",
+      "sha256": "7e65cd7231d423a64d10cbef61569fee12213b282b3feb3a768a807221210cad",
+      "bin": "kubectl-azad_proxy",
+      "files": [
+        {
+          "from": "kubectl-azad_proxy",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/XenitAB/azad-kube-proxy/releases/download/v0.0.47/kubectl-azad_proxy-linux-arm64.zip",
+      "sha256": "85f00adb2258332fcb59476788a7c2bfbc1cafe6b9d050c1608f5ed87995b47b",
+      "bin": "kubectl-azad_proxy",
+      "files": [
+        {
+          "from": "kubectl-azad_proxy",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/XenitAB/azad-kube-proxy/releases/download/v0.0.47/kubectl-azad_proxy-darwin-amd64.zip",
+      "sha256": "0e2c632226a7cc47b57b13f61a035ade8062073c87b874dee1774438a814609d",
+      "bin": "kubectl-azad_proxy",
+      "files": [
+        {
+          "from": "kubectl-azad_proxy",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/XenitAB/azad-kube-proxy/releases/download/v0.0.47/kubectl-azad_proxy-linux-amd64.zip",
+      "sha256": "448f263f83068a1344a4fcd0942c741d7265e7460f1bfb7d2e5704d11d453b34",
+      "bin": "kubectl-azad_proxy",
+      "files": [
+        {
+          "from": "kubectl-azad_proxy",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "plugin": "ca-cert",
+  "version": "v0.0.0",
+  "homepage": "https://github.com/ahmetb/kubectl-extras",
+  "description": "Pretty print the current cluster certificate. The plugin formats the\ncertificate in PEM format described in RFC1421.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/ahmetb/kubectl-extras/archive/c403c5714a4442b8314e5a86b0ff63f7a815f83f.zip",
+      "sha256": "8be8ed348d02285abc46bbf7a4cc83da0ee9d54dc2c5bf86a7b64947811b843c",
+      "bin": "ca-cert.bash",
+      "files": [
+        {
+          "from": "/*/ca-cert/*",
+          "to": "."
+        },
+        {
+          "from": "/*/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/ahmetb/kubectl-extras/archive/c403c5714a4442b8314e5a86b0ff63f7a815f83f.zip",
+      "sha256": "8be8ed348d02285abc46bbf7a4cc83da0ee9d54dc2c5bf86a7b64947811b843c",
+      "bin": "ca-cert.bash",
+      "files": [
+        {
+          "from": "/*/ca-cert/*",
+          "to": "."
+        },
+        {
+          "from": "/*/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/ahmetb/kubectl-extras/archive/c403c5714a4442b8314e5a86b0ff63f7a815f83f.zip",
+      "sha256": "8be8ed348d02285abc46bbf7a4cc83da0ee9d54dc2c5bf86a7b64947811b843c",
+      "bin": "ca-cert.bash",
+      "files": [
+        {
+          "from": "/*/ca-cert/*",
+          "to": "."
+        },
+        {
+          "from": "/*/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/ahmetb/kubectl-extras/archive/c403c5714a4442b8314e5a86b0ff63f7a815f83f.zip",
+      "sha256": "8be8ed348d02285abc46bbf7a4cc83da0ee9d54dc2c5bf86a7b64947811b843c",
+      "bin": "ca-cert.bash",
+      "files": [
+        {
+          "from": "/*/ca-cert/*",
+          "to": "."
+        },
+        {
+          "from": "/*/LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

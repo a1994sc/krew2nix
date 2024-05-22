@@ -1,0 +1,68 @@
+{
+  "plugin": "rolesum",
+  "version": "v1.5.5",
+  "homepage": "https://github.com/Ladicle/kubectl-rolesum",
+  "description": "Summarize RBAC roles for subjects\n\nThis plugin displays a graphical summary of Kubernetes RBAC roles for a given\nsubject. You can easily grasp the whole picture of the roles bound to the subject.\nAvailable subjects are ServiceAccount, User or Group.\n\nExamples:\n  # Summarize roles bound to the \"ci-bot\" ServiceAccount.\n  kubectl rolesum ci-bot\n\n  # Summarize roles bound to the \"developer\" Group.\n  kubectl rolesum -k Group developer\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/Ladicle/kubectl-rolesum/releases/download/v1.5.5/kubectl-rolesum_darwin-arm64.tar.gz",
+      "sha256": "cea7d4221040a0df3bff30f8efb74fb7101116edca7a056690413b610bbbbac3",
+      "bin": "kubectl-rolesum",
+      "files": [
+        {
+          "from": "./kubectl-rolesum_darwin-arm64/kubectl-rolesum",
+          "to": "."
+        },
+        {
+          "from": "./kubectl-rolesum_darwin-arm64/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/Ladicle/kubectl-rolesum/releases/download/v1.5.5/kubectl-rolesum_linux-arm64.tar.gz",
+      "sha256": "f01b2545506b1cc3e151771e4822c6ada7d64f0c6b09fe84edf4ab4d25d78f72",
+      "bin": "kubectl-rolesum",
+      "files": [
+        {
+          "from": "./kubectl-rolesum_linux-arm64/kubectl-rolesum",
+          "to": "."
+        },
+        {
+          "from": "./kubectl-rolesum_linux-arm64/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/Ladicle/kubectl-rolesum/releases/download/v1.5.5/kubectl-rolesum_darwin-amd64.tar.gz",
+      "sha256": "b015e72c1a1ed85bfe8dc721237e60d3b95af1e39ae9bb92e82ce5210d7443b9",
+      "bin": "kubectl-rolesum",
+      "files": [
+        {
+          "from": "./kubectl-rolesum_darwin-amd64/kubectl-rolesum",
+          "to": "."
+        },
+        {
+          "from": "./kubectl-rolesum_darwin-amd64/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/Ladicle/kubectl-rolesum/releases/download/v1.5.5/kubectl-rolesum_linux-amd64.tar.gz",
+      "sha256": "f1cbb0faf9c82033b2e883a40c027c114248cc8e472d57903296b36e796413eb",
+      "bin": "kubectl-rolesum",
+      "files": [
+        {
+          "from": "./kubectl-rolesum_linux-amd64/kubectl-rolesum",
+          "to": "."
+        },
+        {
+          "from": "./kubectl-rolesum_linux-amd64/LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

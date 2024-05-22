@@ -1,0 +1,52 @@
+{
+  "plugin": "ice",
+  "version": "v0.2.12",
+  "homepage": "https://github.com/NimbleArchitect/kubectl-ice",
+  "description": "ice lets you peer inside a Pod and easily see Volume, Image, Port and Exec configurations,\nalong with CPU and Memory metrics all at the container level (requires metrics server)\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/NimbleArchitect/kubectl-ice/releases/download/v0.2.12/kubectl-ice_darwin_arm64.tar.gz",
+      "sha256": "75432473df5adba25350da994a654327b5bacd8dddd5d516fd913f7f127263fc",
+      "bin": "kubectl-ice",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/NimbleArchitect/kubectl-ice/releases/download/v0.2.12/kubectl-ice_linux_arm64.tar.gz",
+      "sha256": "39758a22f9e0e0e5eb7cf5a34ddc3c31ec1e31bfa42361cb16aa615886e4ff0d",
+      "bin": "kubectl-ice",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/NimbleArchitect/kubectl-ice/releases/download/v0.2.12/kubectl-ice_darwin_amd64.tar.gz",
+      "sha256": "f150192d789b3c8728af4a8115fe4d87de8597f79b1126ff2ddd4429cfd59a48",
+      "bin": "kubectl-ice",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/NimbleArchitect/kubectl-ice/releases/download/v0.2.12/kubectl-ice_linux_amd64.tar.gz",
+      "sha256": "068b292131e5861a0cf80768573fb6ce93c90bc18017205a20d821e977087b35",
+      "bin": "kubectl-ice",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

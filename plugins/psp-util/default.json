@@ -1,0 +1,30 @@
+{
+  "plugin": "psp-util",
+  "version": "v1.2.0",
+  "homepage": "https://github.com/jlandowner/psp-util",
+  "description": "A Kubectl plugin to manage Pod Security Policy(PSP) and the related RBAC Resources.\nAttach/Detach PSP to/from RBACs(Group, User) or ServiceAccounts and\nview the relations which PSP is effected to the Subjects in cluster.\n",
+  "archSrc": {
+    "x86_64-darwin": {
+      "url": "https://github.com/jlandowner/psp-util/releases/download/v1.2.0/psp-util_v1.2.0_darwin_amd64.tar.gz",
+      "sha256": "524a9bb5d92dc266b590d9fe92a336d5fea309a3d5cecc8acf897a02eb2ac02b",
+      "bin": "psp-util",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/jlandowner/psp-util/releases/download/v1.2.0/psp-util_v1.2.0_linux_amd64.tar.gz",
+      "sha256": "5f015aa0061e03c8feec74b19b7a2fe8b77af273861da1a741de226cb05ad35f",
+      "bin": "psp-util",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

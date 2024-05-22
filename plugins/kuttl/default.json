@@ -1,0 +1,52 @@
+{
+  "plugin": "kuttl",
+  "version": "v0.16.0",
+  "homepage": "https://kuttl.dev/",
+  "description": "The KUbernetes Test TooL (KUTTL) is a highly productive test\ntoolkit for testing operators on Kubernetes.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/kudobuilder/kuttl/releases/download/v0.16.0/kuttl_0.16.0_darwin_arm64.tar.gz",
+      "sha256": "f495c859f045bdd579b275f00c908980b32241e79765981dd26c78bd8516bcbb",
+      "bin": "./kubectl-kuttl",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/kudobuilder/kuttl/releases/download/v0.16.0/kuttl_0.16.0_linux_arm64.tar.gz",
+      "sha256": "39ed21eeeb6526a088269dc73cba2e8a8dad30f9ebe1ff95fbc4fdfdb51e411e",
+      "bin": "./kubectl-kuttl",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/kudobuilder/kuttl/releases/download/v0.16.0/kuttl_0.16.0_darwin_x86_64.tar.gz",
+      "sha256": "a49c9b6c32efddc080e2f5a46e0a61a9aecfac33f801a282f09e332a3224ab9e",
+      "bin": "./kubectl-kuttl",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/kudobuilder/kuttl/releases/download/v0.16.0/kuttl_0.16.0_linux_x86_64.tar.gz",
+      "sha256": "88e91ef29ef8a44b859238c9e7441cb53610029b32b868e2bf1be0808e5d1e89",
+      "bin": "./kubectl-kuttl",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

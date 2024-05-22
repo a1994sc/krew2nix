@@ -1,0 +1,38 @@
+{
+  "plugin": "fleet",
+  "version": "v0.1.10",
+  "homepage": "https://github.com/kubectl-plus/kcf",
+  "description": "Allows to get an overview and details on a fleet of Kubernetes clusters.\nThe top-level command lists all active clusters found in the kubeconfig provided.\nFor each cluster, configuration info such as the control plane version or \nAPI server endpoint are displayed, as well as select stats, for example, \nthe number of worker nodes or namespaces found in the cluster.\n\nFor additional options:\n  $ kubectl fleet --help\n  or https://github.com/kubectl-plus/kcf/blob/v0.1.4/doc/USAGE.md\n",
+  "archSrc": {
+    "x86_64-darwin": {
+      "url": "https://github.com/kubectl-plus/kcf/releases/download/v0.1.10/fleet_darwin_amd64.tar.gz",
+      "sha256": "0697bfd0195c8bfda46c052f215865571b14ce47f05b34d18d9f7d2f53b22e1b",
+      "bin": "fleet",
+      "files": [
+        {
+          "from": "./fleet",
+          "to": "."
+        },
+        {
+          "from": "./LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/kubectl-plus/kcf/releases/download/v0.1.10/fleet_linux_amd64.tar.gz",
+      "sha256": "a9af05fc56814da8aad54e04b58ae9768787e38f74a10432b2c36ef5f9846f7c",
+      "bin": "fleet",
+      "files": [
+        {
+          "from": "./fleet",
+          "to": "."
+        },
+        {
+          "from": "./LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

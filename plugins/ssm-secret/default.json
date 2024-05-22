@@ -1,0 +1,52 @@
+{
+  "plugin": "ssm-secret",
+  "version": "v1.3.1",
+  "homepage": "https://github.com/pr8kerl/kubectl-ssm-secret",
+  "description": "This plugin can import (create/update) a kubernetes secret with key/values \npairs stored at a single AWS SSM parameter store path. It can also export\nkubernetes secret data to an AWS SSM parameter store path. Finally, it can\nlist secret keys/value pairs within a kubernetes secret or at an AWS SSM\nParameter Store path.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/pr8kerl/kubectl-ssm-secret/releases/download/v1.3.1/kubectl-ssm-secret_1.3.1_darwin_arm64.tar.gz",
+      "sha256": "75d663e3760de371fcc15f73586c9f478c256e277d47317880cbb641157c59fd",
+      "bin": "kubectl-ssm_secret",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/pr8kerl/kubectl-ssm-secret/releases/download/v1.3.1/kubectl-ssm-secret_1.3.1_linux_arm64.tar.gz",
+      "sha256": "497d60bb5785807c080c666cb806d03f94bdcf86fb299bd70b21fdd8eafc2af3",
+      "bin": "kubectl-ssm_secret",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/pr8kerl/kubectl-ssm-secret/releases/download/v1.3.1/kubectl-ssm-secret_1.3.1_darwin_amd64.tar.gz",
+      "sha256": "fee332b178edd229d3c45c83f2a4c3b013b820cedfe5e73a69c0a99690c3bc61",
+      "bin": "kubectl-ssm_secret",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/pr8kerl/kubectl-ssm-secret/releases/download/v1.3.1/kubectl-ssm-secret_1.3.1_linux_amd64.tar.gz",
+      "sha256": "c0b14ca88dab21e9493d080a07bc9ce41e865554d8ce670df7a2ad5cdc4df404",
+      "bin": "kubectl-ssm_secret",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

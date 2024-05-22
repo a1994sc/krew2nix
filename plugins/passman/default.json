@@ -1,0 +1,68 @@
+{
+  "plugin": "passman",
+  "version": "v1.2.3",
+  "homepage": "https://github.com/chrisns/kubectl-passman",
+  "description": "An effective way to keep your credentials somewhere better than in plain text\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/chrisns/kubectl-passman/releases/download/v1.2.3/kubectl-passman-darwin-arm64.zip",
+      "sha256": "762bb02a15ba2ef7029a38a1ca7860a861c2f4bda4b241d32bf417aef7a57c29",
+      "bin": "./kubectl-passman",
+      "files": [
+        {
+          "from": "kubectl-passman-darwin-arm64",
+          "to": "kubectl-passman"
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/chrisns/kubectl-passman/releases/download/v1.2.3/kubectl-passman-linux-arm64.zip",
+      "sha256": "e5a0c2f3b0b66b0cb0a078420ecfd102a3f12ef63a05fc89d32d0e473c987c19",
+      "bin": "./kubectl-passman",
+      "files": [
+        {
+          "from": "kubectl-passman-linux-arm64",
+          "to": "kubectl-passman"
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/chrisns/kubectl-passman/releases/download/v1.2.3/kubectl-passman-darwin-amd64.zip",
+      "sha256": "d6d9138af60ec1a57645dac8e4ce93dadd84efe1802543e05bff45871dcec2e6",
+      "bin": "./kubectl-passman",
+      "files": [
+        {
+          "from": "kubectl-passman-darwin-amd64",
+          "to": "kubectl-passman"
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/chrisns/kubectl-passman/releases/download/v1.2.3/kubectl-passman-linux-amd64.zip",
+      "sha256": "dac6b4eb52ffae5c0b230144dd9fe1e4f573c5b34524edac4ff82e30b46c7c0a",
+      "bin": "./kubectl-passman",
+      "files": [
+        {
+          "from": "kubectl-passman-linux-amd64",
+          "to": "kubectl-passman"
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "plugin": "nodegizmo",
+  "version": "v0.1.9",
+  "homepage": "https://github.com/Kavinraja-G/node-gizmo",
+  "description": "Nodegizmo is a bundle of CLI commands that helps you in displaying more\ninformation about your kubernetes nodes, nodepool/nodegroup and it also\nprovides exec feature to your nodes using nsenter pods.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/Kavinraja-G/node-gizmo/releases/download/v0.1.9/nodegizmo_v0.1.9_darwin_arm64.tar.gz",
+      "sha256": "06078dfc81ac5755121cdb190da143e274eca08348d6b445e50b32f0f5fcd008",
+      "bin": "nodegizmo",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/Kavinraja-G/node-gizmo/releases/download/v0.1.9/nodegizmo_v0.1.9_darwin_amd64.tar.gz",
+      "sha256": "d577414390b7e472dc6566209126096552e244d04f90c67d849e625000330d18",
+      "bin": "nodegizmo",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/Kavinraja-G/node-gizmo/releases/download/v0.1.9/nodegizmo_v0.1.9_linux_amd64.tar.gz",
+      "sha256": "be95e9ef7b9661b01a46a3bf4af60254ea278c051ef0c7b02f157260eaa7c22e",
+      "bin": "nodegizmo",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

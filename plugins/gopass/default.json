@@ -1,0 +1,68 @@
+{
+  "plugin": "gopass",
+  "version": "v0.1.1",
+  "homepage": "https://github.com/gopasspw/kubectl-gopass",
+  "description": "This plugin allows applying and diffing secrets from gopass to kubernetes\nand creating kubernetes secrets in gopass (https://www.gopass.pw/).\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/gopasspw/kubectl-gopass/archive/v0.1.1.zip",
+      "sha256": "869eab528001789843ac428140149553d47bd8097c04348919cfcd23180c96d5",
+      "bin": "kubectl-gopass",
+      "files": [
+        {
+          "from": "kubectl-gopass-*/kubectl-gopass",
+          "to": "."
+        },
+        {
+          "from": "kubectl-gopass-*/LICENSE",
+          "to": "kubectl-gopass.exe"
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/gopasspw/kubectl-gopass/archive/v0.1.1.zip",
+      "sha256": "869eab528001789843ac428140149553d47bd8097c04348919cfcd23180c96d5",
+      "bin": "kubectl-gopass",
+      "files": [
+        {
+          "from": "kubectl-gopass-*/kubectl-gopass",
+          "to": "."
+        },
+        {
+          "from": "kubectl-gopass-*/LICENSE",
+          "to": "kubectl-gopass.exe"
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/gopasspw/kubectl-gopass/archive/v0.1.1.zip",
+      "sha256": "869eab528001789843ac428140149553d47bd8097c04348919cfcd23180c96d5",
+      "bin": "kubectl-gopass",
+      "files": [
+        {
+          "from": "kubectl-gopass-*/kubectl-gopass",
+          "to": "."
+        },
+        {
+          "from": "kubectl-gopass-*/LICENSE",
+          "to": "kubectl-gopass.exe"
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/gopasspw/kubectl-gopass/archive/v0.1.1.zip",
+      "sha256": "869eab528001789843ac428140149553d47bd8097c04348919cfcd23180c96d5",
+      "bin": "kubectl-gopass",
+      "files": [
+        {
+          "from": "kubectl-gopass-*/kubectl-gopass",
+          "to": "."
+        },
+        {
+          "from": "kubectl-gopass-*/LICENSE",
+          "to": "kubectl-gopass.exe"
+        }
+      ]
+    }
+  }
+}

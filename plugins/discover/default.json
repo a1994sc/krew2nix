@@ -1,0 +1,68 @@
+{
+  "plugin": "discover",
+  "version": "v0.1.7",
+  "homepage": "https://github.com/mateimicu/kdiscover",
+  "description": "Discover all the cluster from a provider (AWS, GCP, Azure, etc)\nand export the kubeconfig credentials.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/mateimicu/kdiscover/releases/download/v0.1.7/kdiscover_v0.1.7_darwin_arm64.tar.gz",
+      "sha256": "8e3f1f6543039299943fef689d9573c724a15c79f356133f4bd7bbc4cea9edf0",
+      "bin": "kubectl-discover",
+      "files": [
+        {
+          "from": "kdiscover",
+          "to": "kubectl-discover"
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/mateimicu/kdiscover/releases/download/v0.1.7/kdiscover_v0.1.7_linux_arm64.tar.gz",
+      "sha256": "5dd4cc5ce6c3dd79c6fd6cb55c4559e236ac16280a0bf258da56f5032cb1adc6",
+      "bin": "kubectl-discover",
+      "files": [
+        {
+          "from": "kdiscover",
+          "to": "kubectl-discover"
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/mateimicu/kdiscover/releases/download/v0.1.7/kdiscover_v0.1.7_darwin_amd64.tar.gz",
+      "sha256": "98be56b2bbeb1099974c6657c555a41dfdeb408a97e0b4a535906d751ebaa271",
+      "bin": "kubectl-discover",
+      "files": [
+        {
+          "from": "kdiscover",
+          "to": "kubectl-discover"
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/mateimicu/kdiscover/releases/download/v0.1.7/kdiscover_v0.1.7_linux_amd64.tar.gz",
+      "sha256": "64ce6eca26aa168b60612f98d22115ddb7ad3a6212891f6b5f235b18627971ae",
+      "bin": "kubectl-discover",
+      "files": [
+        {
+          "from": "kdiscover",
+          "to": "kubectl-discover"
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "plugin": "config-registry",
+  "version": "v0.2.2",
+  "homepage": "https://github.com/mumoshu/config-registry",
+  "description": "Switch between kubeconfigs stored in your local filesystem.\nSimilar to \"ctx\" and \"ns\", but for switching the whole kubeconfig.\n\nThe recommended workflow is as follows:\n\n- Run `init` to set up the registry at `~/.kube/registry`.\n  The registry is where all the registered kubeconfigs will be stored.\n  On `init`, the default kubeconfig is imported as `default`.\n- Register more kubeconfigs with `import`. `import PATH NAME` registers the\n  kubeconfig at PATH as NAME\n- Run `ls` to list all the registered configs\n- Run `use NAME` to switch to the kubeconfig by name\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/mumoshu/config-registry/releases/download/v0.2.2/config-registry_v0.2.2_darwin_arm64.tar.gz",
+      "sha256": "d2754246a1f1d9b2a19dd305de3c64e5e199a36e8fb2323d474da4c0acf239f1",
+      "bin": "config-registry",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/mumoshu/config-registry/releases/download/v0.2.2/config-registry_v0.2.2_linux_arm64.tar.gz",
+      "sha256": "bbd946d0efc764df07f55a3acc01942c7ea5a8b86541208c8e5cb00b4fa599c9",
+      "bin": "config-registry",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/mumoshu/config-registry/releases/download/v0.2.2/config-registry_v0.2.2_darwin_amd64.tar.gz",
+      "sha256": "1183da12b057010c957edc0f7194f1d78ba687a6a5981cb3f9366d1a5754696d",
+      "bin": "config-registry",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/mumoshu/config-registry/releases/download/v0.2.2/config-registry_v0.2.2_linux_amd64.tar.gz",
+      "sha256": "548af88b1c6104a29e9b38ca4fda3a5d22d029c58bb099cb92819dbccb829b25",
+      "bin": "config-registry",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

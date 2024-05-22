@@ -1,0 +1,68 @@
+{
+  "plugin": "http",
+  "version": "v0.1.0",
+  "homepage": "https://github.com/sttts/kubectl-http",
+  "description": "This plugin allows users to make HTTP requests to the Kubernetes API server\nusing the current context's credentials from kubeconfig. It supports both\ntoken-based and client-certificate-based authentication methods.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/sttts/kubectl-http/archive/refs/tags/v0.1.0.tar.gz",
+      "sha256": "a34a547ccc1d337440767d7bf2a013dd90d5498d41b9046650188ac8192f86d8",
+      "bin": "kubectl-http",
+      "files": [
+        {
+          "from": "kubectl-http-*/kubectl-http",
+          "to": "."
+        },
+        {
+          "from": "kubectl-http-*/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/sttts/kubectl-http/archive/refs/tags/v0.1.0.tar.gz",
+      "sha256": "a34a547ccc1d337440767d7bf2a013dd90d5498d41b9046650188ac8192f86d8",
+      "bin": "kubectl-http",
+      "files": [
+        {
+          "from": "kubectl-http-*/kubectl-http",
+          "to": "."
+        },
+        {
+          "from": "kubectl-http-*/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/sttts/kubectl-http/archive/refs/tags/v0.1.0.tar.gz",
+      "sha256": "a34a547ccc1d337440767d7bf2a013dd90d5498d41b9046650188ac8192f86d8",
+      "bin": "kubectl-http",
+      "files": [
+        {
+          "from": "kubectl-http-*/kubectl-http",
+          "to": "."
+        },
+        {
+          "from": "kubectl-http-*/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/sttts/kubectl-http/archive/refs/tags/v0.1.0.tar.gz",
+      "sha256": "a34a547ccc1d337440767d7bf2a013dd90d5498d41b9046650188ac8192f86d8",
+      "bin": "kubectl-http",
+      "files": [
+        {
+          "from": "kubectl-http-*/kubectl-http",
+          "to": "."
+        },
+        {
+          "from": "kubectl-http-*/LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

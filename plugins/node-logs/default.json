@@ -1,0 +1,41 @@
+{
+  "plugin": "node-logs",
+  "version": "v0.0.1",
+  "homepage": "https://github.com/aravindhp/kubectl-node-logs",
+  "description": "This plugin allows viewing logs of services running on the node. Supports\nviewing Windows application provider and Linux journal logs with filtering\ncapabilities. In addition you can view files from the /var/log/ directory.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/aravindhp/kubectl-node-logs/releases/download/v0.0.1/nodelogs_darwin_arm64.zip",
+      "sha256": "257565f0e6e2443f64edf104f0dddbf5e8f42b6daf0d511f0dce13752828dc8c",
+      "bin": "kubectl-node_logs",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/aravindhp/kubectl-node-logs/releases/download/v0.0.1/nodelogs_darwin_amd64.zip",
+      "sha256": "be91ce886bd76afff28a49f3e958848dc6b884fa4bf1b07142e32e1f7031a523",
+      "bin": "kubectl-node_logs",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/aravindhp/kubectl-node-logs/releases/download/v0.0.1/nodelogs_linux_amd64.zip",
+      "sha256": "2b95a406e48560567bbfd3dc0367befaf224fe674415197d44bd11a8e6076fd1",
+      "bin": "kubectl-node_logs",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

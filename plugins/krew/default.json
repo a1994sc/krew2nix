@@ -1,0 +1,68 @@
+{
+  "plugin": "krew",
+  "version": "v0.4.4",
+  "homepage": "https://krew.sigs.k8s.io/",
+  "description": "",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/kubernetes-sigs/krew/releases/download/v0.4.4/krew-darwin_arm64.tar.gz",
+      "sha256": "e6ac776140b228d6bdfda11247baf4e9b11068f42005d0975fc260c629954464",
+      "bin": "krew",
+      "files": [
+        {
+          "from": "./krew-darwin_arm64",
+          "to": "krew"
+        },
+        {
+          "from": "./LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/kubernetes-sigs/krew/releases/download/v0.4.4/krew-linux_arm64.tar.gz",
+      "sha256": "f8f0cdbf698ed3e8cb46e7bd213754701341a10e11ccb69c90d4863e0cf5a16a",
+      "bin": "krew",
+      "files": [
+        {
+          "from": "./krew-linux_arm64",
+          "to": "krew"
+        },
+        {
+          "from": "./LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/kubernetes-sigs/krew/releases/download/v0.4.4/krew-darwin_amd64.tar.gz",
+      "sha256": "5f4d2f34868a87cf1188212cf7cb598e76a32f389054089aad1fa46e6daf1e1b",
+      "bin": "krew",
+      "files": [
+        {
+          "from": "./krew-darwin_amd64",
+          "to": "krew"
+        },
+        {
+          "from": "./LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/kubernetes-sigs/krew/releases/download/v0.4.4/krew-linux_amd64.tar.gz",
+      "sha256": "e471396b0ed4f2be092b4854cc030dfcbb12b86197972e7bef0cb89ad9c72477",
+      "bin": "krew",
+      "files": [
+        {
+          "from": "./krew-linux_amd64",
+          "to": "krew"
+        },
+        {
+          "from": "./LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

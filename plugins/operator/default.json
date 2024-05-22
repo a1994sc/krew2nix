@@ -1,0 +1,52 @@
+{
+  "plugin": "operator",
+  "version": "v0.5.1",
+  "homepage": "https://github.com/operator-framework/kubectl-operator",
+  "description": "This plugin is a package manager for operators in your cluster. It\nsimplifies adding and removing operator catalogs, and it has familiar\ncommands for installing, uninstalling, and listing available and\ninstalled operators.\n\nOne example of a catalog is the public operatorhub.io index, which\nis installed by default with Operator Lifecycle Manager.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/operator-framework/kubectl-operator/releases/download/v0.5.1/kubectl-operator_v0.5.1_darwin_arm64.tar.gz",
+      "sha256": "d25d31f9cc18e706e9e49a3ce46dc4a962fd4174c419c2cd7537e2eafaa5b205",
+      "bin": "kubectl-operator",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/operator-framework/kubectl-operator/releases/download/v0.5.1/kubectl-operator_v0.5.1_linux_arm64.tar.gz",
+      "sha256": "127709c2e1938b6bf3f1a33aa4490588ff76adb93db9a5171b8133aa22843e59",
+      "bin": "kubectl-operator",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/operator-framework/kubectl-operator/releases/download/v0.5.1/kubectl-operator_v0.5.1_darwin_amd64.tar.gz",
+      "sha256": "20fa2b0a8b1abe1d238834a588acdd4718dc8a9b7397b1b0d89f47348399f282",
+      "bin": "kubectl-operator",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/operator-framework/kubectl-operator/releases/download/v0.5.1/kubectl-operator_v0.5.1_linux_amd64.tar.gz",
+      "sha256": "1a27c91aa9aaa59f6453f134b8400b24e509ef5a80573db55ef75c92fed3527c",
+      "bin": "kubectl-operator",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "plugin": "cnpg",
+  "version": "v1.23.1",
+  "homepage": "https://github.com/cloudnative-pg/cloudnative-pg",
+  "description": "This plugin provides multiple commands to help you manage your CloudNativePG clusters.",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/cloudnative-pg/cloudnative-pg/releases/download/v1.23.1/kubectl-cnpg_1.23.1_darwin_arm64.tar.gz",
+      "sha256": "0d22bfd7cc9adc8f9ac43c0e38b017e331f38c0ca9cd90e0703c8cdcb26cf21d",
+      "bin": "kubectl-cnpg",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/cloudnative-pg/cloudnative-pg/releases/download/v1.23.1/kubectl-cnpg_1.23.1_linux_arm64.tar.gz",
+      "sha256": "0ed60e43463f39c7ac14d9b0305a3702b50132d3f3648eba90f3ad72c3faa645",
+      "bin": "kubectl-cnpg",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/cloudnative-pg/cloudnative-pg/releases/download/v1.23.1/kubectl-cnpg_1.23.1_darwin_x86_64.tar.gz",
+      "sha256": "359cfa88b1133d1e74f18dae71e527d559f832d498a19daa04f691970463506c",
+      "bin": "kubectl-cnpg",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/cloudnative-pg/cloudnative-pg/releases/download/v1.23.1/kubectl-cnpg_1.23.1_linux_x86_64.tar.gz",
+      "sha256": "aea64ec25b76906e11114168aa2346957abd5fdbd1ef3b7e2e806db41db8b9fe",
+      "bin": "kubectl-cnpg",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

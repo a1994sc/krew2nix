@@ -1,0 +1,52 @@
+{
+  "plugin": "debug-shell",
+  "version": "v1.0.2",
+  "homepage": "https://github.com/danisla/kubefunc",
+  "description": "",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/danisla/kubefunc/archive/v1.0.2.zip",
+      "sha256": "93c01f4b4f0862409dfbb10cb48995b70540f359e08742f0f10f7adf9d4326bd",
+      "bin": "debug-shell.sh",
+      "files": [
+        {
+          "from": "/*/debug-shell/*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/danisla/kubefunc/archive/v1.0.2.zip",
+      "sha256": "93c01f4b4f0862409dfbb10cb48995b70540f359e08742f0f10f7adf9d4326bd",
+      "bin": "debug-shell.sh",
+      "files": [
+        {
+          "from": "/*/debug-shell/*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/danisla/kubefunc/archive/v1.0.2.zip",
+      "sha256": "93c01f4b4f0862409dfbb10cb48995b70540f359e08742f0f10f7adf9d4326bd",
+      "bin": "debug-shell.sh",
+      "files": [
+        {
+          "from": "/*/debug-shell/*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/danisla/kubefunc/archive/v1.0.2.zip",
+      "sha256": "93c01f4b4f0862409dfbb10cb48995b70540f359e08742f0f10f7adf9d4326bd",
+      "bin": "debug-shell.sh",
+      "files": [
+        {
+          "from": "/*/debug-shell/*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

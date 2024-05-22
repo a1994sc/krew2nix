@@ -1,0 +1,52 @@
+{
+  "plugin": "sort-manifests",
+  "version": "v0.4.4",
+  "homepage": "https://github.com/superbrothers/ksort",
+  "description": "When installing manifests, they should be sorted in a proper order by Kind.\nFor example, Namespace object must be in the first place when installing\nthem.\n\nksort sorts manifest files in a proper order by Kind, which is implementd by\nusing tiller.SortByKind() in Kubernetes Helm.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/superbrothers/ksort/releases/download/v0.4.4/ksort-darwin-arm64.zip",
+      "sha256": "beba7ae3ebdddb3c9a4f981ff5ead068ed057011c3508bb039ae3b268d1a2141",
+      "bin": "ksort",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/superbrothers/ksort/releases/download/v0.4.4/ksort-linux-arm64.zip",
+      "sha256": "337d79c705e495311b9f80967c1af926134c0cf7cd4ae57bea218d3036eec071",
+      "bin": "ksort",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/superbrothers/ksort/releases/download/v0.4.4/ksort-darwin-amd64.zip",
+      "sha256": "0238e6e63006a4a4feb6a49c73cd5f0bb0eaa6ba2d0f4dccc18c1ace601ea581",
+      "bin": "ksort",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/superbrothers/ksort/releases/download/v0.4.4/ksort-linux-amd64.zip",
+      "sha256": "0a7c65291a70885bc437367914e6fe32ef01be8da09d2cd06d0c4f077d44bed0",
+      "bin": "ksort",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

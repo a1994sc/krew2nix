@@ -1,0 +1,68 @@
+{
+  "plugin": "who-can",
+  "version": "v0.4.0",
+  "homepage": "https://github.com/aquasecurity/kubectl-who-can",
+  "description": "Shows which subjects have RBAC permissions to VERB [TYPE | TYPE/NAME | NONRESOURCEURL]\n\nVERB is a logical Kubernetes API verb like 'get', 'list', 'watch', 'delete', etc.\nTYPE is a Kubernetes resource. Shortcuts and API groups will be resolved, e.g. 'po' or 'pod.metrics.k8s.io'.\nNAME is the name of a particular Kubernetes resource.\nNONRESOURCEURL is a partial URL that starts with \"/\".\n\nFor example, if you want to find all subjects who have permission to\ndelete pods in a particular namespace, or to delete nodes in the cluster\n(dangerous!) you could run the following commands:\n\n$ kubectl who-can delete pods --namespace foo\n$ kubectl who-can delete nodes\n\nFor usage or examples, run:\n\n$ kubectl who-can -h\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/aquasecurity/kubectl-who-can/releases/download/v0.4.0/kubectl-who-can_darwin_arm64.tar.gz",
+      "sha256": "df67cee447444a3e317e7efe0cf167c4ebcdd82f3dd1f23ab2f795ada5db48a4",
+      "bin": "kubectl-who-can",
+      "files": [
+        {
+          "from": "kubectl-who-can",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/aquasecurity/kubectl-who-can/releases/download/v0.4.0/kubectl-who-can_linux_arm64.tar.gz",
+      "sha256": "dd889ca24159c59622c3465627513bb4004704cbac54f7907e80ec8a07e62760",
+      "bin": "kubectl-who-can",
+      "files": [
+        {
+          "from": "kubectl-who-can",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/aquasecurity/kubectl-who-can/releases/download/v0.4.0/kubectl-who-can_darwin_x86_64.tar.gz",
+      "sha256": "87d13dce52322d2e2fb075e0a26a0ceabbbe97bcb270f033b20ab66b20b10161",
+      "bin": "kubectl-who-can",
+      "files": [
+        {
+          "from": "kubectl-who-can",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/aquasecurity/kubectl-who-can/releases/download/v0.4.0/kubectl-who-can_linux_x86_64.tar.gz",
+      "sha256": "3ba4a529e2f759b13030e5fc803639fda6e13fd05ed0d8bda1c722459a298f32",
+      "bin": "kubectl-who-can",
+      "files": [
+        {
+          "from": "kubectl-who-can",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "plugin": "relay",
+  "version": "v0.0.10",
+  "homepage": "https://github.com/knight42/krelay",
+  "description": "This kubectl plugin is a drop-in replacement for `kubectl port-forward` with some enhanced features:\n* Supports UDP port forwarding\n* Supports simultaneous forwarding of data to multiple targets\n* Forwarding session will not be interfered after performing rolling updates\n* Forwarding data to the given IP or hostname that is accessible within the kubernetes cluster\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/knight42/krelay/releases/download/v0.0.10/kubectl-relay_v0.0.10_darwin-arm64.tar.gz",
+      "sha256": "d42c38b19bce929eed4902fdd32e76f0d7033a5d7324745ca5117e310c84f3c4",
+      "bin": "kubectl-relay",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/knight42/krelay/releases/download/v0.0.10/kubectl-relay_v0.0.10_linux-arm64.tar.gz",
+      "sha256": "506ffa33c1bde6e7c12e96e5634dee10ae64d12ba7b1cbb6282a5b805b96166f",
+      "bin": "kubectl-relay",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/knight42/krelay/releases/download/v0.0.10/kubectl-relay_v0.0.10_darwin-amd64.tar.gz",
+      "sha256": "dcc4af52b8f647a7718127b11382943b71a0c888662b04807fb0c2bc33c92ad9",
+      "bin": "kubectl-relay",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/knight42/krelay/releases/download/v0.0.10/kubectl-relay_v0.0.10_linux-amd64.tar.gz",
+      "sha256": "f5e0362841aac466ece081b4a296c2acf881deb492e017232a8aa9e2dd9bab7d",
+      "bin": "kubectl-relay",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

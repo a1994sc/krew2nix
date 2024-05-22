@@ -1,0 +1,38 @@
+{
+  "plugin": "bd-xray",
+  "version": "v0.1.1",
+  "homepage": "https://github.com/blackducksoftware/kubectl-bd-xray",
+  "description": "This plugin runs Black Duck Image Scans for open source software composition\nanalysis. Just point and scan images in any namespace, third-party or your\nown yaml files, helm charts and more.\n",
+  "archSrc": {
+    "x86_64-darwin": {
+      "url": "https://github.com/blackducksoftware/kubectl-bd-xray/releases/download/v0.1.1/kubectl-bd-xray_v0.1.1_darwin_amd64.tar.gz",
+      "sha256": "6a04074eb61c6b759e32444b054db27f6477113ac231ce5f3bcff2c8ab905531",
+      "bin": "bd-xray",
+      "files": [
+        {
+          "from": "bd-xray",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/blackducksoftware/kubectl-bd-xray/releases/download/v0.1.1/kubectl-bd-xray_v0.1.1_linux_amd64.tar.gz",
+      "sha256": "e2dde42fa702f3fbd5015d42315645dedb665b88af975425d2dec8747f743108",
+      "bin": "bd-xray",
+      "files": [
+        {
+          "from": "bd-xray",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

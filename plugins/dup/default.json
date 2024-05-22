@@ -1,0 +1,52 @@
+{
+  "plugin": "dup",
+  "version": "v0.2.0",
+  "homepage": "https://github.com/vash/dup",
+  "description": "This plugin is designed for on-the-fly duplication of Kubernetes resources.\nIt focuses on providing a convenient way to edit resources before duplication,\nwith a specific emphasis on Pods to create a fine-tuned resource quickly.\nThis tool can be used for debugging running containers without them crashing,\nand simplifying the administration and general interaction with Kubernetes clusters.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/vash/dup/releases/download/v0.2.0/dup_v0.2.0_darwin_arm64.tar.gz",
+      "sha256": "aafaa38f9f233a65e646addebaa258cec1d0ba0192e33d79a38530be26ed91a9",
+      "bin": "kubectl-dup",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/vash/dup/releases/download/v0.2.0/dup_v0.2.0_linux_arm64.tar.gz",
+      "sha256": "aaf21feee7c31b58ba1eec8c79ec0eaf00924ac87ffa34e32aaac3c54c4782cf",
+      "bin": "kubectl-dup",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/vash/dup/releases/download/v0.2.0/dup_v0.2.0_darwin_amd64.tar.gz",
+      "sha256": "2a8a04b3f4023e87c2a44438ad04c815fb784fe9faa93cb6fedf4dc9d7986803",
+      "bin": "kubectl-dup",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/vash/dup/releases/download/v0.2.0/dup_v0.2.0_linux_amd64.tar.gz",
+      "sha256": "5aba56834cffe134ff2c39bebe5049e5f2d76f18631921d2caaf92c6d0f55fcd",
+      "bin": "kubectl-dup",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

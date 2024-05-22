@@ -1,0 +1,30 @@
+{
+  "plugin": "doctor",
+  "version": "v0.3.0",
+  "homepage": "https://github.com/emirozer/kubectl-doctor",
+  "description": "This plugin is inspired by brew doctor.\nIt will scan the active kube-context for anomalies or\nuseful action points that it can report back to you.\nThis plugin does not change any state or configuration.\n\nPlease check the repository for an example report:\n\n* https://github.com/emirozer/kubectl-doctor\n",
+  "archSrc": {
+    "x86_64-darwin": {
+      "url": "https://github.com/emirozer/kubectl-doctor/releases/download/0.3.0/kubectl-doctor_darwin_amd64.zip",
+      "sha256": "c07c4a2ae741e2dbcd0fc4c9e543ca6558877ee74a16e9d9c129a6ffc834f1a2",
+      "bin": "kubectl-doctor",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/emirozer/kubectl-doctor/releases/download/0.3.0/kubectl-doctor_linux_amd64.zip",
+      "sha256": "94ac5b4f6061176ade6650031e85018baf093b2a27b28ce5e73a78af1ceebc2a",
+      "bin": "kubectl-doctor",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "plugin": "hns",
+  "version": "v1.1.0",
+  "homepage": "https://github.com/kubernetes-sigs/hierarchical-namespaces/tree/master/docs/user-guide",
+  "description": "Manipulates hierarchical namespaces provided by the Hierarchical Namespace\nController (HNC).\n\nHNC allows you to arrange your namespaces into hierarchies, which enables\ntwo key benefits:\n* Owners of parent namespaces can create policies that are enforced on\n  all descendant namespaces.\n* Users without cluster-level permissions to create namespaces can create\n  restricted \"subnamespaces\" instead.\n\nHNC is controlled via regular Kubernetes objects, but this plugin makes it\neasy to create subnamespaces, arrange regular (full) namespaces into\nhierarchies, and configure HNC to propagate different kinds of objects.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/kubernetes-sigs/hierarchical-namespaces/releases/download/v1.1.0/kubectl-hns.tar.gz",
+      "sha256": "830554a4deb2ca554e795b14fd2c46fc964eee6ac48c7d4feb42468cbb525db0",
+      "bin": "./kubectl-hns_darwin_arm64",
+      "files": [
+        {
+          "from": "bin/kubectl/kubectl-hns_darwin_arm64",
+          "to": "."
+        },
+        {
+          "from": "bin/kubectl/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/kubernetes-sigs/hierarchical-namespaces/releases/download/v1.1.0/kubectl-hns.tar.gz",
+      "sha256": "830554a4deb2ca554e795b14fd2c46fc964eee6ac48c7d4feb42468cbb525db0",
+      "bin": "./kubectl-hns_linux_arm64",
+      "files": [
+        {
+          "from": "bin/kubectl/kubectl-hns_linux_arm64",
+          "to": "."
+        },
+        {
+          "from": "bin/kubectl/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/kubernetes-sigs/hierarchical-namespaces/releases/download/v1.1.0/kubectl-hns.tar.gz",
+      "sha256": "830554a4deb2ca554e795b14fd2c46fc964eee6ac48c7d4feb42468cbb525db0",
+      "bin": "./kubectl-hns_darwin_amd64",
+      "files": [
+        {
+          "from": "bin/kubectl/kubectl-hns_darwin_amd64",
+          "to": "."
+        },
+        {
+          "from": "bin/kubectl/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/kubernetes-sigs/hierarchical-namespaces/releases/download/v1.1.0/kubectl-hns.tar.gz",
+      "sha256": "830554a4deb2ca554e795b14fd2c46fc964eee6ac48c7d4feb42468cbb525db0",
+      "bin": "./kubectl-hns_linux_amd64",
+      "files": [
+        {
+          "from": "bin/kubectl/kubectl-hns_linux_amd64",
+          "to": "."
+        },
+        {
+          "from": "bin/kubectl/LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "plugin": "view-serviceaccount-kubeconfig",
+  "version": "v2.4.0",
+  "homepage": "https://github.com/superbrothers/kubectl-view-serviceaccount-kubeconfig-plugin",
+  "description": "Show a kubeconfig setting to access the apiserver with a specified serviceaccount.",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/superbrothers/kubectl-view-serviceaccount-kubeconfig-plugin/releases/download/v2.4.0/kubectl-view_serviceaccount_kubeconfig-darwin-arm64.zip",
+      "sha256": "eb3a844cfe3910e8bf4d9577e9da71fe2189f6204bc7fbd3d0b561dd712b4e4a",
+      "bin": "kubectl-view_serviceaccount_kubeconfig",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/superbrothers/kubectl-view-serviceaccount-kubeconfig-plugin/releases/download/v2.4.0/kubectl-view_serviceaccount_kubeconfig-linux-arm64.zip",
+      "sha256": "5f032b1dd6b9985b1dc7f9d4ffc40f6d6ae0509900e63b7382a00aec5d78010f",
+      "bin": "kubectl-view_serviceaccount_kubeconfig",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/superbrothers/kubectl-view-serviceaccount-kubeconfig-plugin/releases/download/v2.4.0/kubectl-view_serviceaccount_kubeconfig-darwin-amd64.zip",
+      "sha256": "15000dd8b98fc11be5c38a121934226cb10abbdb4b726cef11a27dbd9505cf72",
+      "bin": "kubectl-view_serviceaccount_kubeconfig",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/superbrothers/kubectl-view-serviceaccount-kubeconfig-plugin/releases/download/v2.4.0/kubectl-view_serviceaccount_kubeconfig-linux-amd64.zip",
+      "sha256": "9ac2c7e4c6f2f34d3b1050c0d8f8df729dfc013099ff41d4f3c89a2e509fc5dd",
+      "bin": "kubectl-view_serviceaccount_kubeconfig",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

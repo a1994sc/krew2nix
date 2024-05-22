@@ -1,0 +1,52 @@
+{
+  "plugin": "colorize-applied",
+  "version": "v0.0.8",
+  "homepage": "https://github.com/cappyzawa/kubectl-colorize-applied",
+  "description": "This plugin colorizes the results of apply/dry-run.\nEach line containing the following strings is colored:\n\"pruned\", \"configured\", \"created\", and \"unchanged\".\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/cappyzawa/kubectl-colorize-applied/releases/download/v0.0.8/kubectl-colorize-applied-darwin-arm64.tar.gz",
+      "sha256": "125730081daa93f43c6c2d492de809bb453b6b88b10997e974433eb5f7fac2f1",
+      "bin": "kubectl-colorize_applied",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/cappyzawa/kubectl-colorize-applied/releases/download/v0.0.8/kubectl-colorize-applied-linux-arm64.tar.gz",
+      "sha256": "311e470fb2efa7cc52fe9067a6d735c9059fe3f5f6c4098efeff30f7c8f4a1a1",
+      "bin": "kubectl-colorize_applied",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/cappyzawa/kubectl-colorize-applied/releases/download/v0.0.8/kubectl-colorize-applied-darwin-amd64.tar.gz",
+      "sha256": "7ab447f67c028faecf618511d29bfb917dcf0f911b72848c115e0c63182abfe8",
+      "bin": "kubectl-colorize_applied",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/cappyzawa/kubectl-colorize-applied/releases/download/v0.0.8/kubectl-colorize-applied-linux-amd64.tar.gz",
+      "sha256": "85c66200d83d8bb03a905c9474ad7b09c34cf8c65b7c4971914e604a60922c5f",
+      "bin": "kubectl-colorize_applied",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

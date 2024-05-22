@@ -1,0 +1,30 @@
+{
+  "plugin": "ingress-nginx",
+  "version": "v0.31.0",
+  "homepage": "https://kubernetes.github.io/ingress-nginx/kubectl-plugin/",
+  "description": "The official kubectl plugin for ingress-nginx.\n",
+  "archSrc": {
+    "x86_64-darwin": {
+      "url": "https://github.com/kubernetes/ingress-nginx/releases/download/controller-0.31.0/kubectl-ingress_nginx-darwin-amd64.tar.gz",
+      "sha256": "2313629519b17f7c2a770b23f86050d25bc270aa3371b1f134549729e40b2758",
+      "bin": "./kubectl-ingress_nginx",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/kubernetes/ingress-nginx/releases/download/controller-0.31.0/kubectl-ingress_nginx-linux-amd64.tar.gz",
+      "sha256": "f9555f2a3f60bba86fe3d567f10bacdd6a84cde15ac98c377ee68fa5c44957ff",
+      "bin": "./kubectl-ingress_nginx",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}
