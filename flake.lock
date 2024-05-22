@@ -17,7 +17,7 @@
         "repo": "flake-utils",
         "type": "github"
       }
-    },
+    }, 
     "nixpkgs": {
       "locked": {
         "lastModified": 1716312448,
