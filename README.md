@@ -4,15 +4,19 @@
 
 TL/DR:
 
+The examples use flakes as the primary way to get the krew support into nix.
+
 ### NixOS
 
 ```nix
+  nixpkgs.overlays = [ inputs.krew2nix.overlay ];
   environment.systemPackages = [ kubectl.withKrewPlugins (plugins: [ plugins.node-shell ]) ];
 ```
 
-### NixOS
+### Home-manager
 
 ```nix
+  nixpkgs.overlays = [ inputs.krew2nix.overlay ];
   home.packages = [ kubectl.withKrewPlugins (plugins: [ plugins.node-shell ]) ];
 ```
 
@@ -35,14 +39,21 @@ TL/DR:
   };
   outputs = { nixpkgs, flake-utils, krew2nix, ... }:
     flake-utils.lib.eachDefaultSystem (system: let
-      pkgs = nixpkgs.legacyPackages.${system};
-      inherit (krew2nix.packages.${system}) kubectl;
+      pkgs = import nixpkgs {
+        overlays = [ self.overlay ];
+        inherit system;
+      };
     in {
       devShell = pkgs.mkShell {
         nativeBuildInputs = [ pkgs.bashInteractive ];
-        buildInputs = [
-          pkgs.k9s
-          pkgs.kubernetes-helm
+        buildInputs = with pkgs;[
+          k9s
+          (wrapHelm kubernetes-helm {
+            plugins = with pkgs; [ 
+              kubernetes-helmPlugins.helm-secrets
+              kubernetes-helmPlugins.helm-unittest
+            ];
+          })
           (kubectl.withKrewPlugins (plugins: with plugins; [
             df-pv
             krew
