@@ -1,0 +1,68 @@
+{
+  "plugin": "sudo",
+  "version": "v1.1.0",
+  "homepage": "https://github.com/postfinance/kubectl-sudo",
+  "description": "This plugin wraps kubectl commands to impersonate as user $USER and group system:masters.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/postfinance/kubectl-sudo/archive/v1.1.0.tar.gz",
+      "sha256": "b850f88eb54c5ec8a3f2077a6f7b64d813bb85e65efda7aa5f7d11aa65982905",
+      "bin": "kubectl-sudo",
+      "files": [
+        {
+          "from": "./*/bash/*",
+          "to": "."
+        },
+        {
+          "from": "./*/LICENSE.md",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/postfinance/kubectl-sudo/archive/v1.1.0.tar.gz",
+      "sha256": "b850f88eb54c5ec8a3f2077a6f7b64d813bb85e65efda7aa5f7d11aa65982905",
+      "bin": "kubectl-sudo",
+      "files": [
+        {
+          "from": "./*/bash/*",
+          "to": "."
+        },
+        {
+          "from": "./*/LICENSE.md",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/postfinance/kubectl-sudo/archive/v1.1.0.tar.gz",
+      "sha256": "b850f88eb54c5ec8a3f2077a6f7b64d813bb85e65efda7aa5f7d11aa65982905",
+      "bin": "kubectl-sudo",
+      "files": [
+        {
+          "from": "./*/bash/*",
+          "to": "."
+        },
+        {
+          "from": "./*/LICENSE.md",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/postfinance/kubectl-sudo/archive/v1.1.0.tar.gz",
+      "sha256": "b850f88eb54c5ec8a3f2077a6f7b64d813bb85e65efda7aa5f7d11aa65982905",
+      "bin": "kubectl-sudo",
+      "files": [
+        {
+          "from": "./*/bash/*",
+          "to": "."
+        },
+        {
+          "from": "./*/LICENSE.md",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

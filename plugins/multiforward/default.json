@@ -1,0 +1,53 @@
+{
+  "plugin": "multiforward",
+  "version": "v0.0.5",
+  "homepage": "https://github.com/njnygaard/kubectl-multiforward",
+  "description": "This plugin allows you to forward to multiple Kubernetes Services\nwithout the use of multiple terminal windows.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/njnygaard/kubectl-multiforward/releases/download/v0.0.5/kubectl-multiforward-darwin-arm64.tar.gz",
+      "sha256": "ea92441551fe6c5b40c41c6ec1abf73a640ef6c0a7a0a32591ecbbe4686d1f82",
+      "bin": "kubectl-multiforward",
+      "files": [
+        {
+          "from": "./kubectl-multiforward",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/njnygaard/kubectl-multiforward/releases/download/v0.0.5/kubectl-multiforward-darwin-amd64.tar.gz",
+      "sha256": "7f8789e1feaf03c0d538741b17a9095053f6f429007e0f1be09442ba856485d0",
+      "bin": "kubectl-multiforward",
+      "files": [
+        {
+          "from": "./kubectl-multiforward",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/njnygaard/kubectl-multiforward/releases/download/v0.0.5/kubectl-multiforward-linux-amd64.tar.gz",
+      "sha256": "f3f13e6331e77cc74f8e6b32c9ef7a34f586236d94f65c21bb8949ad13571e28",
+      "bin": "kubectl-multiforward",
+      "files": [
+        {
+          "from": "./kubectl-multiforward",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

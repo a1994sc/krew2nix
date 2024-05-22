@@ -1,0 +1,30 @@
+{
+  "plugin": "kudo",
+  "version": "v0.19.0",
+  "homepage": "https://kudo.dev/",
+  "description": "The Kubernetes Universal Declarative Operator (KUDO) is a highly productive\ntoolkit for writing operators for Kubernetes. Using KUDO, you can deploy\nyour applications, give your users the tools they need to operate it, and\nunderstand how it's behaving in their environments — all without a PhD in\nKubernetes.\n\nExample usage:\n  Install kafka:\n    kubectl kudo install kafka\n  List installed operator instances:\n    kubectl kudo get instances\nSee the documentation for more information: https://kudo.dev/docs/\n",
+  "archSrc": {
+    "x86_64-darwin": {
+      "url": "https://github.com/kudobuilder/kudo/releases/download/v0.19.0/kudo_0.19.0_darwin_x86_64.tar.gz",
+      "sha256": "748da044a16aa37dd03997d73d0bb2e6d3aee30c1c9d989472bcc02289e2612f",
+      "bin": "./kubectl-kudo",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/kudobuilder/kudo/releases/download/v0.19.0/kudo_0.19.0_linux_x86_64.tar.gz",
+      "sha256": "a35f2fefbc3615cda98db236843ee38037d55f73970f911b43682211b52ca6d0",
+      "bin": "./kubectl-kudo",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

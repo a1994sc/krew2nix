@@ -1,0 +1,52 @@
+{
+  "plugin": "emit-event",
+  "version": "v0.5.0",
+  "homepage": "https://github.com/rajatjindal/kubectl-emit-event",
+  "description": "This plugin emits the Kubernetes Events for the requested object\n\nExample\n-------\n\nkubectl emit-event daemonset/kube-proxy -n kube-system --reason \"foo-reason\" --message \"bar-message\"\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/rajatjindal/kubectl-emit-event/releases/download/v0.5.0/kubectl-emit-event_v0.5.0_darwin_arm64.tar.gz",
+      "sha256": "1c836c8c6c71edbda694c5385056f4a6933b138e6d2f44b7fe8e212c60c9c6e3",
+      "bin": "kubectl-emit-event",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/rajatjindal/kubectl-emit-event/releases/download/v0.5.0/kubectl-emit-event_v0.5.0_linux_arm64.tar.gz",
+      "sha256": "bd6875bcb49afdd751f3fedef7a98c3be454083f89e76d58c4f83f5b77d25480",
+      "bin": "kubectl-emit-event",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/rajatjindal/kubectl-emit-event/releases/download/v0.5.0/kubectl-emit-event_v0.5.0_darwin_amd64.tar.gz",
+      "sha256": "f4c48ff8ab4382977babd733b65618421223c8c6db68b47e159e3c35e462bd5b",
+      "bin": "kubectl-emit-event",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/rajatjindal/kubectl-emit-event/releases/download/v0.5.0/kubectl-emit-event_v0.5.0_linux_amd64.tar.gz",
+      "sha256": "855c492ade672113f7d939bdea26ccf34b9202e15e0abaab384e6046486507fe",
+      "bin": "kubectl-emit-event",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

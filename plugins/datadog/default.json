@@ -1,0 +1,68 @@
+{
+  "plugin": "datadog",
+  "version": "v1.6.0",
+  "homepage": "https://github.com/DataDog/datadog-operator",
+  "description": "The datadog kubectl plugin provides useful utilities to operate datadog-agent components\nvia the Datadog Operator and the DatadogAgent CRD.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/DataDog/datadog-operator/releases/download/v1.6.0/kubectl-datadog_1.6.0_darwin_arm64.zip",
+      "sha256": "63fb880480250d0010905901b67f2837df2d06c5690494dbae3a0fd308bb42b3",
+      "bin": "kubectl-datadog",
+      "files": [
+        {
+          "from": "kubectl-datadog",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/DataDog/datadog-operator/releases/download/v1.6.0/kubectl-datadog_1.6.0_linux_arm64.zip",
+      "sha256": "2df12c0f94db2af7f303d1793a7e6c0ed63604f9edd896454d5f99f15367285a",
+      "bin": "kubectl-datadog",
+      "files": [
+        {
+          "from": "kubectl-datadog",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/DataDog/datadog-operator/releases/download/v1.6.0/kubectl-datadog_1.6.0_darwin_amd64.zip",
+      "sha256": "cd3412a1e1ab066994c68c943d81a8e314071bdf5813845d3070bf423fc23af9",
+      "bin": "kubectl-datadog",
+      "files": [
+        {
+          "from": "kubectl-datadog",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/DataDog/datadog-operator/releases/download/v1.6.0/kubectl-datadog_1.6.0_linux_amd64.zip",
+      "sha256": "36ce24a4781f82321949405aa0466f1d6a993f746e4d6edd0e431bd794c183cc",
+      "bin": "kubectl-datadog",
+      "files": [
+        {
+          "from": "kubectl-datadog",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

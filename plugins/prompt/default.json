@@ -1,0 +1,68 @@
+{
+  "plugin": "prompt",
+  "version": "v1.0.3-krew",
+  "homepage": "https://github.com/jordanwilson230/kubectl-plugins/tree/krew#kubectl-prompt",
+  "description": "Protect your production environments!\nWhen issuing certain commands inside a specified namespace/cluster, a warning prompt will appear.\nThis will alert the user that they are in a flagged environment and require a confirmation before executing the command.\nSee `https://github.com/jordanwilson230/kubectl-plugins#kubectl-prompt` for documentation.\nUsage:\n    View description)            kubectl prompt\n    Flag a namespace)            kubectl prompt add -n production\n    Flag a cluster)              kubectl prompt add -c my-production-cluster\n    View flagged environments)   kubectl prompt list\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/jordanwilson230/kubectl-plugins/archive/v1.0.3-krew.zip",
+      "sha256": "e0bae378c0cf049526cc8d45d3389d78f7054bc5cfc5de24bd41b184ce9e806c",
+      "bin": "kubectl-prompt",
+      "files": [
+        {
+          "from": "*/kubectl-prompt",
+          "to": "."
+        },
+        {
+          "from": "**/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/jordanwilson230/kubectl-plugins/archive/v1.0.3-krew.zip",
+      "sha256": "e0bae378c0cf049526cc8d45d3389d78f7054bc5cfc5de24bd41b184ce9e806c",
+      "bin": "kubectl-prompt",
+      "files": [
+        {
+          "from": "*/kubectl-prompt",
+          "to": "."
+        },
+        {
+          "from": "**/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/jordanwilson230/kubectl-plugins/archive/v1.0.3-krew.zip",
+      "sha256": "e0bae378c0cf049526cc8d45d3389d78f7054bc5cfc5de24bd41b184ce9e806c",
+      "bin": "kubectl-prompt",
+      "files": [
+        {
+          "from": "*/kubectl-prompt",
+          "to": "."
+        },
+        {
+          "from": "**/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/jordanwilson230/kubectl-plugins/archive/v1.0.3-krew.zip",
+      "sha256": "e0bae378c0cf049526cc8d45d3389d78f7054bc5cfc5de24bd41b184ce9e806c",
+      "bin": "kubectl-prompt",
+      "files": [
+        {
+          "from": "*/kubectl-prompt",
+          "to": "."
+        },
+        {
+          "from": "**/LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "plugin": "resource-snapshot",
+  "version": "v0.1.3",
+  "homepage": "https://github.com/fbrubbo/kubectl-snapshot",
+  "description": "This plugin takes a snapshot of resources (ie. cpu and memory) usage for \npods, HPAs, deployments without HPA and nodes. Other best configuration \npractices, such as Pod Disruption Budget, probes and etc are also included. \nThis is specialy useful to understand, at scale, what you have configured \nin your cluster. \n\nUsage:\n  kubectl snapshot\n  kubectl snapshot -csv-output <NAME>\n\nOther fine tunning are allowed, to understand more type:\n  kubectl snapshot -h\n\nIn order to do more advanced analysis, we strongly suggested you to save \nthe output in csv files, using the command below, and importing them in \na spreadsheet.\n\n  kubectl snapshot -csv-output <NAME>\n\nFor a suggestion on how to interpret the data see\nhttps://github.com/fbrubbo/kubectl-snapshot/blob/master/README.md#sugestions-on-how-to-interpret-the-data\n",
+  "archSrc": {
+    "x86_64-darwin": {
+      "url": "https://github.com/fbrubbo/kubectl-snapshot/archive/v0.1.3.tar.gz",
+      "sha256": "24efd80a13dc532e63b34341b6f229e759e995a922a39745d9f40c9ba24d02e8",
+      "bin": "./kubectl-snapshot-darwin-amd64",
+      "files": [
+        {
+          "from": "kubectl-snapshot-*/bin/kubectl-snapshot-darwin-amd64",
+          "to": "."
+        },
+        {
+          "from": "kubectl-snapshot-*/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/fbrubbo/kubectl-snapshot/archive/v0.1.3.tar.gz",
+      "sha256": "24efd80a13dc532e63b34341b6f229e759e995a922a39745d9f40c9ba24d02e8",
+      "bin": "./kubectl-snapshot-linux-amd64",
+      "files": [
+        {
+          "from": "kubectl-snapshot-*/bin/kubectl-snapshot-linux-amd64",
+          "to": "."
+        },
+        {
+          "from": "kubectl-snapshot-*/LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

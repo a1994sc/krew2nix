@@ -1,0 +1,68 @@
+{
+  "plugin": "kubesec-scan",
+  "version": "v1.1.0",
+  "homepage": "https://github.com/controlplaneio/kubectl-kubesec",
+  "description": "This plugin uploads the specified Kubernetes resource’s API representation\nto https://kubesec.io/ for security best practices scanning.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/controlplaneio/kubectl-kubesec/releases/download/v1.1.0/kubectl-kubesec_darwin_arm64.tar.gz",
+      "sha256": "2e17627f047cd3a12d462c40fc7c2d4ab8cff2cfd745c28ae2e0c75022467382",
+      "bin": "kubectl-scan",
+      "files": [
+        {
+          "from": "kubectl-scan",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/controlplaneio/kubectl-kubesec/releases/download/v1.1.0/kubectl-kubesec_linux_arm64.tar.gz",
+      "sha256": "f4416c0b2bcafc13f15818ba44e8953a648e234fc07b3cd32dfe994014b1d255",
+      "bin": "kubectl-scan",
+      "files": [
+        {
+          "from": "kubectl-scan",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/controlplaneio/kubectl-kubesec/releases/download/v1.1.0/kubectl-kubesec_darwin_amd64.tar.gz",
+      "sha256": "f7348318e1b8dd8a62bc4afba63548bd9da4e1647a21666f13339f94528bbd78",
+      "bin": "kubectl-scan",
+      "files": [
+        {
+          "from": "kubectl-scan",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/controlplaneio/kubectl-kubesec/releases/download/v1.1.0/kubectl-kubesec_linux_amd64.tar.gz",
+      "sha256": "0215ec173d9a20dbd05bebed36c75111f718ee4661b73da81c7a30439fe1bb8d",
+      "bin": "kubectl-scan",
+      "files": [
+        {
+          "from": "kubectl-scan",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

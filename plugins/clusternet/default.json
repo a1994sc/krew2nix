@@ -1,0 +1,68 @@
+{
+  "plugin": "clusternet",
+  "version": "v0.8.1",
+  "homepage": "https://github.com/clusternet/kubectl-clusternet",
+  "description": "A plugin to interact with Clusternet.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/clusternet/kubectl-clusternet/releases/download/v0.8.1/kubectl-clusternet_darwin_arm64.tar.gz",
+      "sha256": "2158d3d0bb00870a03fcd370ae6fb69110332df4061c71af0592691ba74f3d53",
+      "bin": "kubectl-clusternet",
+      "files": [
+        {
+          "from": "./kubectl-clusternet",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/clusternet/kubectl-clusternet/releases/download/v0.8.1/kubectl-clusternet_linux_arm64.tar.gz",
+      "sha256": "1746e5cabc79c65173fb4ff16bf3920a0471c703c27e9d0b76714e4fe9bfe704",
+      "bin": "kubectl-clusternet",
+      "files": [
+        {
+          "from": "./kubectl-clusternet",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/clusternet/kubectl-clusternet/releases/download/v0.8.1/kubectl-clusternet_darwin_amd64.tar.gz",
+      "sha256": "a7e0e7f52f808de80bf29ecffab00e3ddddd8b8317acb6f0ebddffb7db2d711a",
+      "bin": "kubectl-clusternet",
+      "files": [
+        {
+          "from": "./kubectl-clusternet",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/clusternet/kubectl-clusternet/releases/download/v0.8.1/kubectl-clusternet_linux_amd64.tar.gz",
+      "sha256": "5cf37cf698881500f4aa2c47a54dd724657ee7c4e9ad017fdaf4c2b1db9df78b",
+      "bin": "kubectl-clusternet",
+      "files": [
+        {
+          "from": "./kubectl-clusternet",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

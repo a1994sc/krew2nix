@@ -1,0 +1,68 @@
+{
+  "plugin": "ns",
+  "version": "v0.9.5",
+  "homepage": "https://github.com/ahmetb/kubectx",
+  "description": "Also known as \"kubens\", a utility to set your current namespace and switch\nbetween them.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/ahmetb/kubectx/archive/v0.9.5.tar.gz",
+      "sha256": "c94392fba8dfc5c8075161246749ef71c18f45da82759084664eb96027970004",
+      "bin": "kubens",
+      "files": [
+        {
+          "from": "kubectx-*/kubens",
+          "to": "."
+        },
+        {
+          "from": "kubectx-*/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/ahmetb/kubectx/archive/v0.9.5.tar.gz",
+      "sha256": "c94392fba8dfc5c8075161246749ef71c18f45da82759084664eb96027970004",
+      "bin": "kubens",
+      "files": [
+        {
+          "from": "kubectx-*/kubens",
+          "to": "."
+        },
+        {
+          "from": "kubectx-*/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/ahmetb/kubectx/archive/v0.9.5.tar.gz",
+      "sha256": "c94392fba8dfc5c8075161246749ef71c18f45da82759084664eb96027970004",
+      "bin": "kubens",
+      "files": [
+        {
+          "from": "kubectx-*/kubens",
+          "to": "."
+        },
+        {
+          "from": "kubectx-*/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/ahmetb/kubectx/archive/v0.9.5.tar.gz",
+      "sha256": "c94392fba8dfc5c8075161246749ef71c18f45da82759084664eb96027970004",
+      "bin": "kubens",
+      "files": [
+        {
+          "from": "kubectx-*/kubens",
+          "to": "."
+        },
+        {
+          "from": "kubectx-*/LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

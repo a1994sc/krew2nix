@@ -1,0 +1,52 @@
+{
+  "plugin": "rbac-tool",
+  "version": "v1.18.0",
+  "homepage": "https://github.com/alcideio/rbac-tool",
+  "description": "This plugin is a collection of RBAC tools to simplify analysis and configuration.\nYou can visualize, analyze, query permissions as well as generate policies in multiple ways.\n\nExamples:\n# Generate HTML visualzation of your RBAC permissions\nkubectl rbac-tool viz\n\n# Query who can read secrets\nkubectl rbac-tool who-can get secret\n\n# Generate a ClusterRole policy that allows to read everything except secrets and services\nkubectl rbac-tool gen --deny-resources=secrets.,services. --allowed-verbs=get,list",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/alcideio/rbac-tool/releases/download/v1.18.0/rbac-tool_v1.18.0_darwin_arm64.tar.gz",
+      "sha256": "b0696f6d604d266888e981d3bc237a87c6e42e5d1b52484169ae5abf381546f7",
+      "bin": "rbac-tool",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/alcideio/rbac-tool/releases/download/v1.18.0/rbac-tool_v1.18.0_linux_arm64.tar.gz",
+      "sha256": "1aa1d14e8ac96c1a6977e3d1333b9a9b0cd8356bb46628ebe00a9b4a9e8ab327",
+      "bin": "rbac-tool",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/alcideio/rbac-tool/releases/download/v1.18.0/rbac-tool_v1.18.0_darwin_amd64.tar.gz",
+      "sha256": "85b9caa164d395e82fc86e875bf89d9d99e236aa04cbf42b423be1b33f9a4393",
+      "bin": "rbac-tool",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/alcideio/rbac-tool/releases/download/v1.18.0/rbac-tool_v1.18.0_linux_amd64.tar.gz",
+      "sha256": "ab1dcf698283e8a6ec0f554c3b94b3a27aee091711b2351c5daf8f673bbcb62d",
+      "bin": "rbac-tool",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

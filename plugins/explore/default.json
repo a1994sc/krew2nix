@@ -1,0 +1,52 @@
+{
+  "plugin": "explore",
+  "version": "v0.9.3",
+  "homepage": "https://github.com/keisku/kubectl-explore",
+  "description": "Fuzzy-find and explain the fields associated with\nsupported API resource.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/keisku/kubectl-explore/releases/download/v0.9.3/kubectl-explore_v0.9.3_darwin_arm64.tar.gz",
+      "sha256": "81343d578c0bd6ce25d08364a376668ba99cec440a0914ba3c193b4eb0e6bab4",
+      "bin": "kubectl-explore",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/keisku/kubectl-explore/releases/download/v0.9.3/kubectl-explore_v0.9.3_linux_arm64.tar.gz",
+      "sha256": "70c7c5e4b8205a9d39f711c37cd9e7529c194849b6615e394fb17584be4a7afb",
+      "bin": "kubectl-explore",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/keisku/kubectl-explore/releases/download/v0.9.3/kubectl-explore_v0.9.3_darwin_amd64.tar.gz",
+      "sha256": "c9c0f532cc2a86befffdf1679d8eb237de50beb23db8b41d3b1a5c298abfd96f",
+      "bin": "kubectl-explore",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/keisku/kubectl-explore/releases/download/v0.9.3/kubectl-explore_v0.9.3_linux_amd64.tar.gz",
+      "sha256": "d9ab8753e1ad9dce1c19656649c5444f6eb37c64e32da23e045c562580906cbe",
+      "bin": "kubectl-explore",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

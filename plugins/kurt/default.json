@@ -1,0 +1,68 @@
+{
+  "plugin": "kurt",
+  "version": "v1.0.0",
+  "homepage": "https://github.com/soraro/kurt",
+  "description": "Use kurt to see pods that are restarting in your cluster and get further context to issues by grouping the results.\nTop 5 results from all groupings:\nkubectl kurt all\n\nTop 5 nodes with restarting pods:\nkubectl kurt nodes\n\nAll restarting pods in the test namespace:\nkubectl kurt pods -c 0 -n test\n\nHelp:\nkubectl kurt -h\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/soraro/kurt/releases/download/v1.0.0/kurt_darwin_arm64.tar.gz",
+      "sha256": "7905dc549920a4a5bedc77c34b11e14c4f81426b1fea43dcfbdd1374545efb60",
+      "bin": "kurt",
+      "files": [
+        {
+          "from": "kurt",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/soraro/kurt/releases/download/v1.0.0/kurt_linux_arm64.tar.gz",
+      "sha256": "ea2ea8ff8d53941dc0bfa112fd40698600bd3110bcb2a1b23c241685510b0557",
+      "bin": "kurt",
+      "files": [
+        {
+          "from": "kurt",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/soraro/kurt/releases/download/v1.0.0/kurt_darwin_amd64.tar.gz",
+      "sha256": "58432c114242e0efc562cdffb5b5ef5949ee8a6f9d5463d562dbd0c88fbb3f3b",
+      "bin": "kurt",
+      "files": [
+        {
+          "from": "kurt",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/soraro/kurt/releases/download/v1.0.0/kurt_linux_amd64.tar.gz",
+      "sha256": "7533f94848f7b3f1be4bfc33564f2585af6c99ab7cbb96b4da741cba3061a051",
+      "bin": "kurt",
+      "files": [
+        {
+          "from": "kurt",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

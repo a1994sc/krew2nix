@@ -1,0 +1,68 @@
+{
+  "plugin": "rabbitmq",
+  "version": "v2.9.0",
+  "homepage": "https://github.com/rabbitmq/cluster-operator",
+  "description": "A plugin providing utilities to operate RabbitMQ clusters deployed\nby the RabbitMQ cluster operator.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/rabbitmq/cluster-operator/archive/v2.9.0.tar.gz",
+      "sha256": "b5a2135e62862789a4b7977f772fbac92b87a638f336ec3c1cb183cd3af2eea1",
+      "bin": "kubectl-rabbitmq",
+      "files": [
+        {
+          "from": "cluster-operator-*/bin/kubectl-rabbitmq",
+          "to": "."
+        },
+        {
+          "from": "cluster-operator-*/LICENSE.txt",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/rabbitmq/cluster-operator/archive/v2.9.0.tar.gz",
+      "sha256": "b5a2135e62862789a4b7977f772fbac92b87a638f336ec3c1cb183cd3af2eea1",
+      "bin": "kubectl-rabbitmq",
+      "files": [
+        {
+          "from": "cluster-operator-*/bin/kubectl-rabbitmq",
+          "to": "."
+        },
+        {
+          "from": "cluster-operator-*/LICENSE.txt",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/rabbitmq/cluster-operator/archive/v2.9.0.tar.gz",
+      "sha256": "b5a2135e62862789a4b7977f772fbac92b87a638f336ec3c1cb183cd3af2eea1",
+      "bin": "kubectl-rabbitmq",
+      "files": [
+        {
+          "from": "cluster-operator-*/bin/kubectl-rabbitmq",
+          "to": "."
+        },
+        {
+          "from": "cluster-operator-*/LICENSE.txt",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/rabbitmq/cluster-operator/archive/v2.9.0.tar.gz",
+      "sha256": "b5a2135e62862789a4b7977f772fbac92b87a638f336ec3c1cb183cd3af2eea1",
+      "bin": "kubectl-rabbitmq",
+      "files": [
+        {
+          "from": "cluster-operator-*/bin/kubectl-rabbitmq",
+          "to": "."
+        },
+        {
+          "from": "cluster-operator-*/LICENSE.txt",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "plugin": "snap",
+  "version": "v0.1.0",
+  "homepage": "https://github.com/honk-ci/kubectl-snap",
+  "description": "This plugin will delete half of the pods in a namespace or the whole \ncluster. It is indiscriminate and may delete all pods under a deployment.\n\nRestore balance to your cluster at the speed of a snap.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/honk-ci/kubectl-snap/releases/download/0.1.0/kubectl-snap-0.1.0.tar.gz",
+      "sha256": "8df10f76e82f71b34c737d128b7b369e0daf641118577822872537e787a6755d",
+      "bin": "kubectl-snap",
+      "files": [
+        {
+          "from": "kubectl-snap",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/honk-ci/kubectl-snap/releases/download/0.1.0/kubectl-snap-0.1.0.tar.gz",
+      "sha256": "8df10f76e82f71b34c737d128b7b369e0daf641118577822872537e787a6755d",
+      "bin": "kubectl-snap",
+      "files": [
+        {
+          "from": "kubectl-snap",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/honk-ci/kubectl-snap/releases/download/0.1.0/kubectl-snap-0.1.0.tar.gz",
+      "sha256": "8df10f76e82f71b34c737d128b7b369e0daf641118577822872537e787a6755d",
+      "bin": "kubectl-snap",
+      "files": [
+        {
+          "from": "kubectl-snap",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/honk-ci/kubectl-snap/releases/download/0.1.0/kubectl-snap-0.1.0.tar.gz",
+      "sha256": "8df10f76e82f71b34c737d128b7b369e0daf641118577822872537e787a6755d",
+      "bin": "kubectl-snap",
+      "files": [
+        {
+          "from": "kubectl-snap",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

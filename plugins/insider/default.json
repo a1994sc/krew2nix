@@ -1,0 +1,19 @@
+{
+  "plugin": "insider",
+  "version": "v0.4.0",
+  "homepage": "https://github.com/truegoric/k8s-insider",
+  "description": "Connect to and access your cluster's network directly through\na WireGuard tunnel. This plugin allows you to define multiple\nnetworks per cluster, dynamically manages IP allocations and handles\nDNS resolver patching for local clusters.\n",
+  "archSrc": {
+    "x86_64-linux": {
+      "url": "https://github.com/truegoric/k8s-insider/releases/download/v0.4.0/k8s-insider-v0.4.0-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "fb0e59d53880cf5aed14628394a1faa4006fc31ba51847b6186702e0ad97cd2d",
+      "bin": "./k8s-insider",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

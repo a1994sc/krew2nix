@@ -1,0 +1,30 @@
+{
+  "plugin": "whisper-secret",
+  "version": "v2.0.0",
+  "homepage": "https://github.com/rewanthtammana/kubectl-whisper-secret",
+  "description": "kubectl-whisper-secret allows users to create secrets by taking sensitive\ndata with secure input prompt to prevent information leakages via terminal\nhistory, shoulder surfing, etc\n\nExample:\n\n$ kubectl whisper-secret generic my-secret --from-literal key1\n  Enter value for key1:\n  secret/my-secret created\n",
+  "archSrc": {
+    "x86_64-darwin": {
+      "url": "https://github.com/rewanthtammana/kubectl-whisper-secret/releases/download/v2.0.0/kubectl-whisper-secret-Darwin-x86_64.tar.gz",
+      "sha256": "048b8d57f4ac1a3b76c9d48abdc81eee42d9ded26451423087165942184c5efa",
+      "bin": "kubectl-whisper-secret",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/rewanthtammana/kubectl-whisper-secret/releases/download/v2.0.0/kubectl-whisper-secret-Linux-x86_64.tar.gz",
+      "sha256": "a5d598e2d9fec2a63451ea9d57239554c9f03dd457e80eaaaec80b14f8a54a26",
+      "bin": "kubectl-whisper-secret",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

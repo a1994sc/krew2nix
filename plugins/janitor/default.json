@@ -1,0 +1,30 @@
+{
+  "plugin": "janitor",
+  "version": "v0.1.0",
+  "homepage": "https://github.com/dastergon/kubectl-janitor",
+  "description": "Troubleshooting Kubernetes clusters sometimes requires\na combination of kubectl commands and other command-line tools\nsuch as jq to do correlations around the issues that the various\nobjects might have. Moreover, sometimes the supported options\nof the --field-selector flag might be limited as well.\nThis plugin assists in finding Kubernetes objects in a problematic state.\nIt currently supports Job, Pod, PersistentVolume,\nand PersistentVolumeClaim resources.\n",
+  "archSrc": {
+    "x86_64-darwin": {
+      "url": "https://github.com/dastergon/kubectl-janitor/releases/download/v0.1.0/kubectl-janitor_v0.1.0_darwin_amd64.tar.gz",
+      "sha256": "b991c1c80c58c4563b5718babb8345ac9d7bfe98e08dcbf633a7a7882f447826",
+      "bin": "kubectl-janitor",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/dastergon/kubectl-janitor/releases/download/v0.1.0/kubectl-janitor_v0.1.0_linux_amd64.tar.gz",
+      "sha256": "a2d1d34e4173569cff0b6804c93376c535e9a33e939e44b8da3111d48eb3a6ab",
+      "bin": "kubectl-janitor",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

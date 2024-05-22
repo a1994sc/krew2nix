@@ -1,0 +1,52 @@
+{
+  "plugin": "rename-pvc",
+  "version": "v0.5.0",
+  "homepage": "https://github.com/stackitcloud/rename-pvc",
+  "description": "rename-pvc renames an existing PersistentVolumeClaim (PVC) by creating a new PVC\nwith the same spec and rebinding the existing PersistentClaim (PV) to the newly created PVC.\nAfterwards the old PVC is automatically deleted.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/stackitcloud/rename-pvc/releases/download/v0.5.0/rename-pvc-darwin-arm64.tar.gz",
+      "sha256": "c244b40a859a1eea4a9700f49d70185191fec25071e80fc9a3a48406fa991d20",
+      "bin": "rename-pvc",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/stackitcloud/rename-pvc/releases/download/v0.5.0/rename-pvc-linux-arm64.tar.gz",
+      "sha256": "0b31d14f1aeec70f26eca95f805388bc755c93ec8d41aeae94dbc068a41b626c",
+      "bin": "rename-pvc",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/stackitcloud/rename-pvc/releases/download/v0.5.0/rename-pvc-darwin-amd64.tar.gz",
+      "sha256": "9095e6e316b298adb3ed96de8a6b921cfda0803e31ddab172f4099155284354d",
+      "bin": "rename-pvc",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/stackitcloud/rename-pvc/releases/download/v0.5.0/rename-pvc-linux-amd64.tar.gz",
+      "sha256": "485727b6e254732f287a0f78d4f9767d405c3dba1d4c2db847ef2abab585e658",
+      "bin": "rename-pvc",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

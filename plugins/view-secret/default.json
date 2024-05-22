@@ -1,0 +1,52 @@
+{
+  "plugin": "view-secret",
+  "version": "v0.12.0",
+  "homepage": "https://github.com/elsesiy/kubectl-view-secret",
+  "description": "Base64 decode by key or all key/value pairs in a given secret.\n\n# print secret keys\n$ kubectl view-secret <secret>\n\n# decode specific entry\n$ kubectl view-secret <secret> <key>\n\n# decode all secret contents\n$ kubectl view-secret <secret> -a/--all\n\n# print keys for secret in different namespace\n$ kubectl view-secret <secret> -n/--namespace foo\n\n# print keys for secret in different context\n$ kubectl view-secret <secret> -c/--context ctx\n\n# print keys for secret by providing kubeconfig\n$ kubectl view-secret <secret> -k/--kubeconfig <cfg>\n\n# suppress info output\n$ kubectl view-secret <secret> -q/--quiet\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/elsesiy/kubectl-view-secret/releases/download/v0.12.0/kubectl-view-secret_v0.12.0_darwin_arm64.tar.gz",
+      "sha256": "1a5a6c161281019d9693d3d662bcef3718797cfab3d1bea03479a37dc1dacaf1",
+      "bin": "kubectl-view-secret",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/elsesiy/kubectl-view-secret/releases/download/v0.12.0/kubectl-view-secret_v0.12.0_linux_arm64.tar.gz",
+      "sha256": "d8f8217fd7ffd8cdbe59abe0ed2b00c0b62ed42cfbc7001f0a6437743f8e0e52",
+      "bin": "kubectl-view-secret",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/elsesiy/kubectl-view-secret/releases/download/v0.12.0/kubectl-view-secret_v0.12.0_darwin_amd64.tar.gz",
+      "sha256": "78ebe557ce70f03f5bdf948ea32dcc4655312eebcea2b7236c5683e858096a95",
+      "bin": "kubectl-view-secret",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/elsesiy/kubectl-view-secret/releases/download/v0.12.0/kubectl-view-secret_v0.12.0_linux_amd64.tar.gz",
+      "sha256": "f7802f1826a6348387a0842720e8cb794d32d8b119644e8025421e2f486ba388",
+      "bin": "kubectl-view-secret",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

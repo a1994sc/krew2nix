@@ -1,0 +1,30 @@
+{
+  "plugin": "view-webhook",
+  "version": "v0.0.24",
+  "homepage": "https://github.com/Trendyol/kubectl-view-webhook",
+  "description": "Visualize critical parts of the admission webhook configuration resource\n",
+  "archSrc": {
+    "x86_64-darwin": {
+      "url": "https://github.com/Trendyol/kubectl-view-webhook/releases/download/v0.0.24/kubectl-view-webhook_v0.0.24_darwin_amd64.tar.gz",
+      "sha256": "301da2786e29c82e545090941e20fa97064ea9fa481e665720facf39d33a0e05",
+      "bin": "kubectl-view-webhook",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/Trendyol/kubectl-view-webhook/releases/download/v0.0.24/kubectl-view-webhook_v0.0.24_linux_amd64.tar.gz",
+      "sha256": "6743155c01b2ba02dca6c70a1af9aa53c1f02393ae43736bc33ccde571cb52d8",
+      "bin": "kubectl-view-webhook",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

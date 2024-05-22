@@ -1,0 +1,41 @@
+{
+  "plugin": "promdump",
+  "version": "v0.2.5",
+  "homepage": "https://github.com/ihcsim/promdump",
+  "description": "promdump dumps the head and persistent blocks of Prometheus. It supports\nfiltering the persistent blocks by time range.\n\npromdump is a tool that can be used to dump Prometheus data blocks. It is\ndifferent from the 'promtool tsdb dump' command in such a way that its output\ncan be re-used in another Prometheus instance. And unlike the Promethues TSDB\n'snapshot' API, promdump doesn't require Prometheus to be started with the\n'--web.enable-admin-api' option. Instead of dumping the entire TSDB, promdump\noffers the flexibility to filter persistent blocks by time range.\n\nTo get started, follow the steps at https://github.com/ihcsim/promdump#getting-started\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/ihcsim/promdump/releases/download/v0.2.5/kubectl-promdump-darwin-arm64-v0.2.5.tar.gz",
+      "sha256": "390afbf0980b9918cc8afad404cd36cf1ebbf86cbbcd99ad884b114db530b60d",
+      "bin": "kubectl-promdump",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/ihcsim/promdump/releases/download/v0.2.5/kubectl-promdump-darwin-amd64-v0.2.5.tar.gz",
+      "sha256": "6ea2b293803e77214fbe4ac28a49cfbd0088494daca79192cbb12f4ec1d8d695",
+      "bin": "kubectl-promdump",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/ihcsim/promdump/releases/download/v0.2.5/kubectl-promdump-linux-amd64-v0.2.5.tar.gz",
+      "sha256": "ef32ecb4c7bbed4604a47eacf8d61f07303104dbf661fb41a9a20539ffde06fe",
+      "bin": "kubectl-promdump",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

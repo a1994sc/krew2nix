@@ -1,0 +1,41 @@
+{
+  "plugin": "fields",
+  "version": "v1.2.3",
+  "homepage": "https://github.com/rewanthtammana/kubectl-fields",
+  "description": "kubectl-fields parses specified kubectl resources to match given pattern(s).\nIt prints parental hierarchy of matched fields in one-liner format.\n\nMore on https://github.com/rewanthtammana/kubectl-fields\n\nExamples:\n\nFind resource field hierarchy:\n$ kubectl fields svc affinity\nspec.sessionAffinity\nspec.sessionAffinityConfig\n\nFind resource field hierarchy (case sensitive match):\n$ kubectl fields po.spec.volumes -I Ver\ndownwardAPI.items.fieldRef.apiVersion\nprojected.sources.downwardAPI.items.fieldRef.apiVersion\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/rewanthtammana/kubectl-fields/releases/download/v1.2.3/kubectl-fields-Darwin-arm64.tar.gz",
+      "sha256": "2b54a55770546dc7aa791cdb466c5f55203069bb5929733e0f9423a429acc589",
+      "bin": "kubectl-fields",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/rewanthtammana/kubectl-fields/releases/download/v1.2.3/kubectl-fields-Darwin-x86_64.tar.gz",
+      "sha256": "2b07be546f1b5f69f718b99d8c874336895850021fb905175e304ba15f71ccb4",
+      "bin": "kubectl-fields",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/rewanthtammana/kubectl-fields/releases/download/v1.2.3/kubectl-fields-Linux-x86_64.tar.gz",
+      "sha256": "5b4d0b63556929eb101cd7006898214ab9681dca94da5f40757a3556259adcc7",
+      "bin": "kubectl-fields",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

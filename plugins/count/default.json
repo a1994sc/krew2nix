@@ -1,0 +1,68 @@
+{
+  "plugin": "count",
+  "version": "v0.2.6",
+  "homepage": "https://github.com/chenjiandongx/kubectl-count",
+  "description": "This plugin resources on Kubernetes API by kind. It can query all APIs and namespaces and group by them.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/chenjiandongx/kubectl-count/releases/download/v0.2.6/kubectl-count_darwin_arm64.tar.gz",
+      "sha256": "ae596983b5e2fc64a3d63ff1fce68438a690ea4548622e4912dac8cd8b13e6cf",
+      "bin": "kubectl-count",
+      "files": [
+        {
+          "from": "kubectl-count",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/chenjiandongx/kubectl-count/releases/download/v0.2.6/kubectl-count_linux_arm64.tar.gz",
+      "sha256": "14a86b64ab7c7855cc8d914c474633062ec78d0d1261988fc2b08cab54374ab1",
+      "bin": "kubectl-count",
+      "files": [
+        {
+          "from": "kubectl-count",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/chenjiandongx/kubectl-count/releases/download/v0.2.6/kubectl-count_darwin_amd64.tar.gz",
+      "sha256": "09aa6f5ae4e6bd9232c1e8c6e8d87a0e94b4abedb1b1a13f08a256ecd5e24db9",
+      "bin": "kubectl-count",
+      "files": [
+        {
+          "from": "kubectl-count",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/chenjiandongx/kubectl-count/releases/download/v0.2.6/kubectl-count_linux_amd64.tar.gz",
+      "sha256": "a803d8db7ae75879f02b498287805be74fff81445080ee69e94ae2f2d7ef8f36",
+      "bin": "kubectl-count",
+      "files": [
+        {
+          "from": "kubectl-count",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

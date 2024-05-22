@@ -1,0 +1,68 @@
+{
+  "plugin": "node-restart",
+  "version": "v1.0.7",
+  "homepage": "https://github.com/mnrgreg/kubectl-node-restart",
+  "description": "This plugin performs a sequential, rolling restart of selected nodes by first\ndraining each node, then running a Kubernetes Job to reboot each node, and\nfinally uncordoning each node when Ready. ",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/MnrGreg/kubectl-node-restart/releases/download/v1.0.7/v1.0.7.zip",
+      "sha256": "96177e4ee24d1f91fdb10d370460cbe4925cae00db1a358570665c7c0cbcf63b",
+      "bin": "node-restart.sh",
+      "files": [
+        {
+          "from": "*.sh",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/MnrGreg/kubectl-node-restart/releases/download/v1.0.7/v1.0.7.zip",
+      "sha256": "96177e4ee24d1f91fdb10d370460cbe4925cae00db1a358570665c7c0cbcf63b",
+      "bin": "node-restart.sh",
+      "files": [
+        {
+          "from": "*.sh",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/MnrGreg/kubectl-node-restart/releases/download/v1.0.7/v1.0.7.zip",
+      "sha256": "96177e4ee24d1f91fdb10d370460cbe4925cae00db1a358570665c7c0cbcf63b",
+      "bin": "node-restart.sh",
+      "files": [
+        {
+          "from": "*.sh",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/MnrGreg/kubectl-node-restart/releases/download/v1.0.7/v1.0.7.zip",
+      "sha256": "96177e4ee24d1f91fdb10d370460cbe4925cae00db1a358570665c7c0cbcf63b",
+      "bin": "node-restart.sh",
+      "files": [
+        {
+          "from": "*.sh",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

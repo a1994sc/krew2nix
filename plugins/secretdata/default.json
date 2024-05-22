@@ -1,0 +1,52 @@
+{
+  "plugin": "secretdata",
+  "version": "v1.0.6",
+  "homepage": "https://github.com/keisku/kubectl-secretdata",
+  "description": "This plugin provides functions to view decoded Secret data and helpful flags\nsuch as regular expression, selecting multiple namespaces, label selectors, etc.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/keisku/kubectl-secretdata/releases/download/v1.0.6/kubectl-secretdata_v1.0.6_darwin_arm64.tar.gz",
+      "sha256": "d1962305f264b80987aea0564cb5465a4ad6c71a7c6d789cd333809eec27fba9",
+      "bin": "kubectl-secretdata",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/keisku/kubectl-secretdata/releases/download/v1.0.6/kubectl-secretdata_v1.0.6_linux_arm64.tar.gz",
+      "sha256": "2a00be6dd1adcb7daa4cf166114f5721a00333e49bc0aa8d0f3105de75aab050",
+      "bin": "kubectl-secretdata",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/keisku/kubectl-secretdata/releases/download/v1.0.6/kubectl-secretdata_v1.0.6_darwin_amd64.tar.gz",
+      "sha256": "3ac5a6f8b045c50489bf282c325d80270753217e20af5e4fc19ab315fb63288d",
+      "bin": "kubectl-secretdata",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/keisku/kubectl-secretdata/releases/download/v1.0.6/kubectl-secretdata_v1.0.6_linux_amd64.tar.gz",
+      "sha256": "2d7e7d7fb2ae75263e0a65f11126e49f3de0974a6e8e2a79bd6353d70585dab7",
+      "bin": "kubectl-secretdata",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

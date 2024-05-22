@@ -1,0 +1,52 @@
+{
+  "plugin": "print-env",
+  "version": "v0.1.3",
+  "homepage": "https://github.com/pedrobarco/kubectl-print-env",
+  "description": "Prints a config file by parsing environment information about the specified\nresources. You can select the output format using the --output flag.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/pedrobarco/kubectl-print-env/releases/download/v0.1.3/kubectl-print-env_v0.1.3_darwin_arm64.tar.gz",
+      "sha256": "efa908f65b1d9efaba37db764581d70b8d2b707422b3552649f4b94c0077eddb",
+      "bin": "kubectl-print-env",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/pedrobarco/kubectl-print-env/releases/download/v0.1.3/kubectl-print-env_v0.1.3_linux_arm64.tar.gz",
+      "sha256": "7fadfa469ea82353859aa7edde6163d3d698dd0953d41709560a747f5564466d",
+      "bin": "kubectl-print-env",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/pedrobarco/kubectl-print-env/releases/download/v0.1.3/kubectl-print-env_v0.1.3_darwin_amd64.tar.gz",
+      "sha256": "e6580d1beb65228331a8362e023633648ed5651b5aa12bce9dba7a061e0a3a6f",
+      "bin": "kubectl-print-env",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/pedrobarco/kubectl-print-env/releases/download/v0.1.3/kubectl-print-env_v0.1.3_linux_amd64.tar.gz",
+      "sha256": "a112666f5a64868deac383a5212ae46e5d5d19b2055fa42863347bf7e53785a5",
+      "bin": "kubectl-print-env",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

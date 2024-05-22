@@ -1,0 +1,52 @@
+{
+  "plugin": "lineage",
+  "version": "v0.5.0",
+  "homepage": "https://github.com/tohjustin/kube-lineage",
+  "description": "This plugin prints a table of dependencies or dependents of the specified\nresource.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/tohjustin/kube-lineage/releases/download/v0.5.0/kube-lineage_darwin_arm64.tar.gz",
+      "sha256": "208c96fb9f1caf8bff514dddaadc54c9ab3635b1c1f3e8ae5ee0645f08f18907",
+      "bin": "kube-lineage",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/tohjustin/kube-lineage/releases/download/v0.5.0/kube-lineage_linux_arm64.tar.gz",
+      "sha256": "db4a0325f65c5372cefc5f56317b5e213b2b2f61dd2c027c34c808d11f2bfd41",
+      "bin": "kube-lineage",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/tohjustin/kube-lineage/releases/download/v0.5.0/kube-lineage_darwin_amd64.tar.gz",
+      "sha256": "22c4bdb8e4ccf8b1e74ed4e4ebab50559274e59321665afde7729665fd7d18de",
+      "bin": "kube-lineage",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/tohjustin/kube-lineage/releases/download/v0.5.0/kube-lineage_linux_amd64.tar.gz",
+      "sha256": "6b0d3cfea813fb6389a463d5ec556f04dcda0f74b6cecfe61e330aab730fee7f",
+      "bin": "kube-lineage",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

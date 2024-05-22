@@ -1,0 +1,68 @@
+{
+  "plugin": "starboard",
+  "version": "v0.15.8",
+  "homepage": "https://github.com/aquasecurity/starboard",
+  "description": "Starboard enables results from vulnerability scanners, workload auditors,\nand configuration benchmark tests to be incorporated into Kubernetes CRDs\n(Custom Resource Definitions) and from there, accessed through the \nKubernetes API. \n\nUsers familiar with kubectl or with a dashboard tool like Octant can find\nsecurity risk information at their fingertips.\n\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/aquasecurity/starboard/releases/download/v0.15.8/starboard_darwin_ARM64.tar.gz",
+      "sha256": "ae2968a31550d8a5d075befd50d297069f209c1fe25c636f45d9f1438ca74e13",
+      "bin": "starboard",
+      "files": [
+        {
+          "from": "starboard",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/aquasecurity/starboard/releases/download/v0.15.8/starboard_linux_ARM64.tar.gz",
+      "sha256": "b697e70d74503bc4df0cfd72dcb9c20c259f2aace20e4e424bf17281b2b5310c",
+      "bin": "starboard",
+      "files": [
+        {
+          "from": "starboard",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/aquasecurity/starboard/releases/download/v0.15.8/starboard_darwin_x86_64.tar.gz",
+      "sha256": "f2207f6328337e558a9f076a82801be365b2210a446c1992df3cfd9e74b54562",
+      "bin": "starboard",
+      "files": [
+        {
+          "from": "starboard",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/aquasecurity/starboard/releases/download/v0.15.8/starboard_linux_x86_64.tar.gz",
+      "sha256": "4f147d7d555e3080b875d80a7b885c55e7025de25dc415511a18529f89e18c81",
+      "bin": "starboard",
+      "files": [
+        {
+          "from": "starboard",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

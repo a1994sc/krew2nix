@@ -1,0 +1,52 @@
+{
+  "plugin": "oidc-login",
+  "version": "v1.28.0",
+  "homepage": "https://github.com/int128/kubelogin",
+  "description": "This is a kubectl plugin for Kubernetes OpenID Connect (OIDC) authentication.\n\n## Credential plugin mode\nkubectl executes oidc-login before calling the Kubernetes APIs.\noidc-login automatically opens the browser and you can log in to the provider.\nAfter authentication, kubectl gets the token from oidc-login and you can access the cluster.\nSee https://github.com/int128/kubelogin#credential-plugin-mode for more.\n\n## Standalone mode\nRun `kubectl oidc-login`.\nIt automatically opens the browser and you can log in to the provider.\nAfter authentication, it writes the token to the kubeconfig and you can access the cluster.\nSee https://github.com/int128/kubelogin#standalone-mode for more.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/int128/kubelogin/releases/download/v1.28.0/kubelogin_darwin_arm64.zip",
+      "sha256": "322546af4d32ad1dc3037b0d589aec8957dc7dd595f2f6df5738ac6ccf63f33f",
+      "bin": "kubelogin",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/int128/kubelogin/releases/download/v1.28.0/kubelogin_linux_arm64.zip",
+      "sha256": "70aa444fd32b7337bb98f43278f6321426f7f4e644e64974e3ad1fb389484c54",
+      "bin": "kubelogin",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/int128/kubelogin/releases/download/v1.28.0/kubelogin_darwin_amd64.zip",
+      "sha256": "8169c6e85174a910f256cf21f08c4243a4fb54cd03a44e61b45129457219e646",
+      "bin": "kubelogin",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/int128/kubelogin/releases/download/v1.28.0/kubelogin_linux_amd64.zip",
+      "sha256": "83282148fcc70ee32b46edb600c7e4232cbad02a56de6dc17e43e843fa55e89e",
+      "bin": "kubelogin",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

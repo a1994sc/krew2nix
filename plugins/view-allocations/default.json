@@ -1,0 +1,52 @@
+{
+  "plugin": "view-allocations",
+  "version": "v0.19.2",
+  "homepage": "https://github.com/davidB/kubectl-view-allocations",
+  "description": "This plugin lists resources (cpu, memory, gpu,...) allocations (requested,\nlimit, allocatable) as defined in the manifest of nodes and running pods,\nand utilization from metrics-server.\ntry `kubectl view-allocations -h`, `kubectl view-allocations`\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/davidB/kubectl-view-allocations/releases/download/0.19.2/kubectl-view-allocations_0.19.2-aarch64-apple-darwin.tar.gz",
+      "sha256": "067c1178367124d6729794a9ccaa93aee9bedb03c11792e87f571aa70954c85c",
+      "bin": "./kubectl-view-allocations",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/davidB/kubectl-view-allocations/releases/download/0.19.2/kubectl-view-allocations_0.19.2-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "fac2f6869e51ebcbb881b49fa7df8ce9cb39f809d198db8be5b55025bc86f27c",
+      "bin": "./kubectl-view-allocations",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/davidB/kubectl-view-allocations/releases/download/0.19.2/kubectl-view-allocations_0.19.2-x86_64-apple-darwin.tar.gz",
+      "sha256": "3d8e8eeae9c4f3b68bc492b8f93f5eb4359b299f004f104de067c4cedcac074c",
+      "bin": "./kubectl-view-allocations",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/davidB/kubectl-view-allocations/releases/download/0.19.2/kubectl-view-allocations_0.19.2-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "45f67a3ede0516b616e3089fba16e2af28dcc3209a148af127bd5001a933e7a2",
+      "bin": "./kubectl-view-allocations",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

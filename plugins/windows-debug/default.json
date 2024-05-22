@@ -1,0 +1,19 @@
+{
+  "plugin": "windows-debug",
+  "version": "v0.1.10",
+  "homepage": "https://github.com/jsturtevant/windows-debug",
+  "description": "kubectl plugin for launching a Windows pod that will give you access to the specified node\nand provide a few useful utilities for debugging Windows processes.\nAccess to the node is provided by a Windows Host Process Containers feature in Kubernetes.\n\nTo use this plugin you will need:\n- kubernetes 1.22+ (with the WindowsHostProcessContainers feature-gate enabled)\n- containerd 1.6+ as the runtime\n\nBy default it uses container image https://github.com/jsturtevant/windows-debug/pkgs/container/windows-debug\nwhich has some useful utilities for debugging Windows processes pre-installed.\nYou can provide your own image by using --image flag.\n",
+  "archSrc": {
+    "x86_64-linux": {
+      "url": "https://github.com/jsturtevant/windows-debug/releases/download/v0.1.10/kubectl-windows-debug-v0.1.10.tar.gz",
+      "sha256": "5c4ffb0ee3b34fc5290c531f7cc63c8c1c087ee7ff7d9642d6aa70cd47aa79b2",
+      "bin": "kubectl-windows-debug",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "plugin": "liqo",
+  "version": "v0.10.3",
+  "homepage": "https://github.com/liqotech/liqo",
+  "description": "Liqo is a platform to enable dynamic and decentralized resource sharing across\nKubernetes clusters, either on-prem or managed. Liqo allows to run pods on a\nremote cluster seamlessly and without any modification of Kubernetes and the\napplications. With Liqo it is possible to extend the control and data plane of a\nKubernetes cluster across the cluster's boundaries, making multi-cluster native\nand transparent: collapse an entire remote cluster to a local virtual node,\nenabling workloads offloading, resource management and cross-cluster communication\ncompliant with the standard Kubernetes approach.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/liqotech/liqo/releases/download/v0.10.3/liqoctl-darwin-arm64.tar.gz",
+      "sha256": "5061245bddd5df75ba6b13b96e4a207cef4828b2d9c87d323f41b83d2941ed6d",
+      "bin": "liqoctl",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/liqotech/liqo/releases/download/v0.10.3/liqoctl-linux-arm64.tar.gz",
+      "sha256": "b8eeb6600884e74d0902c447e6ac8c80bf5eb3ecbd5b00c5abe4a15682bdcce3",
+      "bin": "liqoctl",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/liqotech/liqo/releases/download/v0.10.3/liqoctl-darwin-amd64.tar.gz",
+      "sha256": "f3efc6c91617bf27afda44472b81eba817280848eb5ecbd44645f0465d0928a1",
+      "bin": "liqoctl",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/liqotech/liqo/releases/download/v0.10.3/liqoctl-linux-amd64.tar.gz",
+      "sha256": "23c182c93890e1bda80f8dfee3ebc9e2f629ac3c89b8f6cde6e6ead19f8604fd",
+      "bin": "liqoctl",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

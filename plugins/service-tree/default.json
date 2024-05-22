@@ -1,0 +1,30 @@
+{
+  "plugin": "service-tree",
+  "version": "v0.2.1",
+  "homepage": "https://github.com/feloy/kubectl-service-tree",
+  "description": "This plugin shows a tree of ingresses, services and associated backends. \nOnly services of type NodePort and LoadBalancer are displayed.\nWhen a Pod contains several containers and the containers declare their ports\n(with ports.containerPort), the name of the concerned container is displayed.\n",
+  "archSrc": {
+    "x86_64-darwin": {
+      "url": "https://github.com/feloy/kubectl-service-tree/releases/download/v0.2.1/kubectl-service-tree_darwin_amd64.tar.gz",
+      "sha256": "c576f3bb6e664077eef773ed7c206ce77de53adb22946105370c6bb95837e086",
+      "bin": "kubectl-service-tree",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/feloy/kubectl-service-tree/releases/download/v0.2.1/kubectl-service-tree_linux_amd64.tar.gz",
+      "sha256": "8f224b377b8a429b2d7f2d197bb54a9c96f0fdceb31902881af94ff12df1dfe6",
+      "bin": "kubectl-service-tree",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

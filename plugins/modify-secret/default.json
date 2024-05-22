@@ -1,0 +1,52 @@
+{
+  "plugin": "modify-secret",
+  "version": "v0.0.47",
+  "homepage": "https://github.com/rajatjindal/kubectl-modify-secret",
+  "description": "Usage:\n  kubectl modify-secret secret-name -n kube-system\n\n  This plugin fetches the given secret manifest from the cluster, decodes \n  the payload, opens an editor to make changes, and applies the modified \n  manifest when done.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/rajatjindal/kubectl-modify-secret/releases/download/v0.0.47/kubectl-modify-secret_v0.0.47_darwin_arm64.tar.gz",
+      "sha256": "ee245e1455df42dff0accdfc06def7005d52f500c4830cca726cc761dd278c7f",
+      "bin": "kubectl-modify_secret",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/rajatjindal/kubectl-modify-secret/releases/download/v0.0.47/kubectl-modify-secret_v0.0.47_linux_arm64.tar.gz",
+      "sha256": "e5755cf6ccb708bfe1feef0c79526985540ec26d9110788362928a1612944994",
+      "bin": "kubectl-modify_secret",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/rajatjindal/kubectl-modify-secret/releases/download/v0.0.47/kubectl-modify-secret_v0.0.47_darwin_amd64.tar.gz",
+      "sha256": "8fbfcc0aaf93612eb199cc3adf1d3381080c9e74de79b20ee873074d87235567",
+      "bin": "kubectl-modify_secret",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/rajatjindal/kubectl-modify-secret/releases/download/v0.0.47/kubectl-modify-secret_v0.0.47_linux_amd64.tar.gz",
+      "sha256": "1e04a030bd1b6238ab4f37dd5de9b18567ce36d0381d7b51ce7421225a8bf594",
+      "bin": "kubectl-modify_secret",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

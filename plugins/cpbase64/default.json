@@ -1,0 +1,68 @@
+{
+  "plugin": "cpbase64",
+  "version": "v0.2.10",
+  "homepage": "https://github.com/freeella/kubectl-cpbase64",
+  "description": "Not busybox based Docker images often do not ship 'tar' by default.\nThis command 'kubectl cpbase64' uses 'base64' instead.\nThe goal is to be in sync with command line syntax of 'kubectl cp'.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/freeella/kubectl-cpbase64/releases/download/v0.2.10/kubectl-cpbase64.release-v0.2.10.zip",
+      "sha256": "805ed36857ea8ae869d076b0949cbca9955b0c331bf3b0b8d6a5a05096ae666d",
+      "bin": "cpbase64.bash",
+      "files": [
+        {
+          "from": "kubectl-cpbase64",
+          "to": "cpbase64.bash"
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/freeella/kubectl-cpbase64/releases/download/v0.2.10/kubectl-cpbase64.release-v0.2.10.zip",
+      "sha256": "805ed36857ea8ae869d076b0949cbca9955b0c331bf3b0b8d6a5a05096ae666d",
+      "bin": "cpbase64.bash",
+      "files": [
+        {
+          "from": "kubectl-cpbase64",
+          "to": "cpbase64.bash"
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/freeella/kubectl-cpbase64/releases/download/v0.2.10/kubectl-cpbase64.release-v0.2.10.zip",
+      "sha256": "805ed36857ea8ae869d076b0949cbca9955b0c331bf3b0b8d6a5a05096ae666d",
+      "bin": "cpbase64.bash",
+      "files": [
+        {
+          "from": "kubectl-cpbase64",
+          "to": "cpbase64.bash"
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/freeella/kubectl-cpbase64/releases/download/v0.2.10/kubectl-cpbase64.release-v0.2.10.zip",
+      "sha256": "805ed36857ea8ae869d076b0949cbca9955b0c331bf3b0b8d6a5a05096ae666d",
+      "bin": "cpbase64.bash",
+      "files": [
+        {
+          "from": "kubectl-cpbase64",
+          "to": "cpbase64.bash"
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

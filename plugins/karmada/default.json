@@ -1,0 +1,68 @@
+{
+  "plugin": "karmada",
+  "version": "v1.9.1",
+  "homepage": "https://github.com/karmada-io/karmada",
+  "description": "Karmada (Kubernetes Armada) is a Kubernetes management system that enables\nyou to run your cloud-native applications across multiple Kubernetes\nclusters and clouds, with no changes to your applications. By speaking\nKubernetes-native APIs and providing advanced scheduling capabilities,\nKarmada enables truly open, multi-cloud Kubernetes.\nThis cli tools controls a federation of Karmada clusters.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/karmada-io/karmada/releases/download/v1.9.1/kubectl-karmada-darwin-arm64.tgz",
+      "sha256": "f427b51b826e70c1910a9ef47ffab81ef8749f89d52a048c790955adb723d1ad",
+      "bin": "kubectl-karmada",
+      "files": [
+        {
+          "from": "kubectl-karmada",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/karmada-io/karmada/releases/download/v1.9.1/kubectl-karmada-linux-arm64.tgz",
+      "sha256": "3389322a71796d0f65b592b4581b8ace439ff829e352d6e3ce25b3b0e7c81da9",
+      "bin": "kubectl-karmada",
+      "files": [
+        {
+          "from": "kubectl-karmada",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/karmada-io/karmada/releases/download/v1.9.1/kubectl-karmada-darwin-amd64.tgz",
+      "sha256": "18be136aa096f40466a2a7d84c5485fb4123e68c3a3cb45a3d201389d23424ab",
+      "bin": "kubectl-karmada",
+      "files": [
+        {
+          "from": "kubectl-karmada",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/karmada-io/karmada/releases/download/v1.9.1/kubectl-karmada-linux-amd64.tgz",
+      "sha256": "71cc701f5ef9ab9797aadab23dde97db5824d83f36b6a477800661bf77c447b4",
+      "bin": "kubectl-karmada",
+      "files": [
+        {
+          "from": "kubectl-karmada",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "plugin": "unused-volumes",
+  "version": "v0.1.2",
+  "homepage": "https://github.com/dirathea/kubectl-unused-volumes",
+  "description": "Kubectl plugins to gather all PVC and check whether it used in any workloads on cluster or not.\nThis plugin lists all PVCs that are not used by any\n    - DaemonSet\n    - Deployment\n    - Job\n    - StatefulSet\nThus it helps to find unused PersitentVolumes which just cost money.\n",
+  "archSrc": {
+    "x86_64-darwin": {
+      "url": "https://github.com/dirathea/kubectl-unused-volumes/releases/download/v0.1.2/kubectl-unused-volumes_darwin_amd64.tar.gz",
+      "sha256": "30cc45f94ff9e6e5829bb32d8a9e6c40371aba7e81502eec43663bb245fec4af",
+      "bin": "unused-volumes",
+      "files": [
+        {
+          "from": "./unused-volumes",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/dirathea/kubectl-unused-volumes/releases/download/v0.1.2/kubectl-unused-volumes_linux_amd64.tar.gz",
+      "sha256": "30937fafb91ae193d97443855c0a8ca657428b75a130cfd5ccbebef3bc4429d2",
+      "bin": "unused-volumes",
+      "files": [
+        {
+          "from": "./unused-volumes",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

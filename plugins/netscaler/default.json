@@ -1,0 +1,30 @@
+{
+  "plugin": "netscaler",
+  "version": "v2.0.0",
+  "homepage": "https://github.com/netscaler/modern-apps-toolkit/tree/main/netscaler-plugin#readme",
+  "description": "The official kubectl plugin for netscaler. \nThis plugin is used for inspecting Ingress Controller and associated NetScaler deployments.\n",
+  "archSrc": {
+    "x86_64-darwin": {
+      "url": "https://github.com/netscaler/modern-apps-toolkit/releases/download/v2.0.0-netscaler-plugin/netscaler-plugin_v2.0.0-netscaler-plugin_Darwin_x86_64.tar.gz",
+      "sha256": "b5c85b7ec2ac912d46ad8316f80dc3ff3f397c28c7f3b166f5f3295d9980494b",
+      "bin": "./kubectl-netscaler",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/netscaler/modern-apps-toolkit/releases/download/v2.0.0-netscaler-plugin/netscaler-plugin_v2.0.0-netscaler-plugin_Linux_x86_64.tar.gz",
+      "sha256": "c6de7d00f0b546c5da1d36952c836ad3ebe6d850d6985fe46f68dba5243e74fd",
+      "bin": "./kubectl-netscaler",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

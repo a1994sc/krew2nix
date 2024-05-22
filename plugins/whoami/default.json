@@ -1,0 +1,52 @@
+{
+  "plugin": "whoami",
+  "version": "v0.0.46",
+  "homepage": "https://github.com/rajatjindal/kubectl-whoami",
+  "description": "This plugin show the subject that's currently authenticated as.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/rajatjindal/kubectl-whoami/releases/download/v0.0.46/kubectl-whoami_v0.0.46_darwin_arm64.tar.gz",
+      "sha256": "15eae540d7688c03adf9ac3dd5bfb3159179bd08a78b86dbeb4603326b3fd602",
+      "bin": "kubectl-whoami",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/rajatjindal/kubectl-whoami/releases/download/v0.0.46/kubectl-whoami_v0.0.46_linux_arm64.tar.gz",
+      "sha256": "214b099f628949a92c0ebc5535139c306e69f9fb5c4e2e980d2c29ad2e40ab1e",
+      "bin": "kubectl-whoami",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/rajatjindal/kubectl-whoami/releases/download/v0.0.46/kubectl-whoami_v0.0.46_darwin_amd64.tar.gz",
+      "sha256": "8892317fe2042abd78934bf871f9872cff7130b1938976cf854552934b9b8c34",
+      "bin": "kubectl-whoami",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/rajatjindal/kubectl-whoami/releases/download/v0.0.46/kubectl-whoami_v0.0.46_linux_amd64.tar.gz",
+      "sha256": "37fe60a8b799896714d72442dd3df154fc4f286aec225206f423ec71295b25cc",
+      "bin": "kubectl-whoami",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

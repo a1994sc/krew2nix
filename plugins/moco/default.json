@@ -1,0 +1,68 @@
+{
+  "plugin": "moco",
+  "version": "v0.20.2",
+  "homepage": "https://github.com/cybozu-go/moco",
+  "description": "kubectl-moco is a kubectl plugin for controlling MySQL clusters created by the MySQL operator MOCO.\nMOCO is a MySQL operator on Kubernetes.\nIts primary function is to manage MySQL clusters using GTID-based semi-synchronous replication.\nIt does not manage group replication clusters.\nRead more documentation at: https://cybozu-go.github.io/moco/index.html\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/cybozu-go/moco/releases/download/v0.20.2/kubectl-moco_v0.20.2_darwin_arm64.tar.gz",
+      "sha256": "160dc3c6db23f56bd891f06f5fd4e714421927243365ea0f15e0cbccae10c527",
+      "bin": "kubectl-moco",
+      "files": [
+        {
+          "from": "kubectl-moco",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/cybozu-go/moco/releases/download/v0.20.2/kubectl-moco_v0.20.2_linux_arm64.tar.gz",
+      "sha256": "4540cc6c0b4c06574e7be839aa6c05aa74c428ef3d31856a558039e533d60fde",
+      "bin": "kubectl-moco",
+      "files": [
+        {
+          "from": "kubectl-moco",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/cybozu-go/moco/releases/download/v0.20.2/kubectl-moco_v0.20.2_darwin_amd64.tar.gz",
+      "sha256": "64a00afcd75d95f884ad013be0b3815554206863fee67bc63f4786e9b6355ad2",
+      "bin": "kubectl-moco",
+      "files": [
+        {
+          "from": "kubectl-moco",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/cybozu-go/moco/releases/download/v0.20.2/kubectl-moco_v0.20.2_linux_amd64.tar.gz",
+      "sha256": "19bb5d881c291e6cbaeae2b73c355eed84cb32fdf6dc79efc6c2afa5d6110265",
+      "bin": "kubectl-moco",
+      "files": [
+        {
+          "from": "kubectl-moco",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

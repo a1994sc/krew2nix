@@ -1,0 +1,68 @@
+{
+  "plugin": "bulk-action",
+  "version": "v1.1.1",
+  "homepage": "https://github.com/emreodabas/kubectl-plugins#kubectl-bulk",
+  "description": "This plugin allows you to do bulk actions on Kubernetes resources.\n\nUsage:\n  kubectl bulk-action <get resourceTypes> (get|list|create|update|delete|remove|rollout|scale) <command parameters>\n\nHelp:\n  kubectl bulk-action help        \n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/emreodabas/kubectl-plugins/releases/download/v1.1.1/kubectl-plugins_v1.1.1.tar.gz",
+      "sha256": "d2f5983132cc94be63d56963608e4d0908dbd30f198d9de3d9dc35415b16eedf",
+      "bin": "./kubectl-bulk",
+      "files": [
+        {
+          "from": "kubectl-plugins-*/kubectl-bulk",
+          "to": "."
+        },
+        {
+          "from": "kubectl-plugins-*/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/emreodabas/kubectl-plugins/releases/download/v1.1.1/kubectl-plugins_v1.1.1.tar.gz",
+      "sha256": "d2f5983132cc94be63d56963608e4d0908dbd30f198d9de3d9dc35415b16eedf",
+      "bin": "./kubectl-bulk",
+      "files": [
+        {
+          "from": "kubectl-plugins-*/kubectl-bulk",
+          "to": "."
+        },
+        {
+          "from": "kubectl-plugins-*/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/emreodabas/kubectl-plugins/releases/download/v1.1.1/kubectl-plugins_v1.1.1.tar.gz",
+      "sha256": "d2f5983132cc94be63d56963608e4d0908dbd30f198d9de3d9dc35415b16eedf",
+      "bin": "./kubectl-bulk",
+      "files": [
+        {
+          "from": "kubectl-plugins-*/kubectl-bulk",
+          "to": "."
+        },
+        {
+          "from": "kubectl-plugins-*/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/emreodabas/kubectl-plugins/releases/download/v1.1.1/kubectl-plugins_v1.1.1.tar.gz",
+      "sha256": "d2f5983132cc94be63d56963608e4d0908dbd30f198d9de3d9dc35415b16eedf",
+      "bin": "./kubectl-bulk",
+      "files": [
+        {
+          "from": "kubectl-plugins-*/kubectl-bulk",
+          "to": "."
+        },
+        {
+          "from": "kubectl-plugins-*/LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

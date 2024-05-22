@@ -1,0 +1,68 @@
+{
+  "plugin": "switch-config",
+  "version": "v0.2.0",
+  "homepage": "https://github.com/radraw/kube-switch-config",
+  "description": "Simple switching between kubeconfig files using symbolic links.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/radraw/kube-switch-config/releases/download/v0.2.0/kube-switch-config-v0.2.0.tar.gz",
+      "sha256": "a6a44f13bb8fa22d3f5123cb13908e398a2d7457094d8e353c81c71b429700e7",
+      "bin": "kubectl-switch_config",
+      "files": [
+        {
+          "from": "kubectl-switch_config",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/radraw/kube-switch-config/releases/download/v0.2.0/kube-switch-config-v0.2.0.tar.gz",
+      "sha256": "a6a44f13bb8fa22d3f5123cb13908e398a2d7457094d8e353c81c71b429700e7",
+      "bin": "kubectl-switch_config",
+      "files": [
+        {
+          "from": "kubectl-switch_config",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/radraw/kube-switch-config/releases/download/v0.2.0/kube-switch-config-v0.2.0.tar.gz",
+      "sha256": "a6a44f13bb8fa22d3f5123cb13908e398a2d7457094d8e353c81c71b429700e7",
+      "bin": "kubectl-switch_config",
+      "files": [
+        {
+          "from": "kubectl-switch_config",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/radraw/kube-switch-config/releases/download/v0.2.0/kube-switch-config-v0.2.0.tar.gz",
+      "sha256": "a6a44f13bb8fa22d3f5123cb13908e398a2d7457094d8e353c81c71b429700e7",
+      "bin": "kubectl-switch_config",
+      "files": [
+        {
+          "from": "kubectl-switch_config",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

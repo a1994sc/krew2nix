@@ -1,0 +1,53 @@
+{
+  "plugin": "dumpy",
+  "version": "v0.1.0",
+  "homepage": "https://github.com/larryTheSlap/dumpy",
+  "description": "This plugin make capturing network traffic easy on containers for different kubernetes resources (deployments, replicasets, pods...),\nit does that by running tcpdump on targeted containers.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/larryTheSlap/dumpy/releases/download/v0.1.0/dumpy_Darwin_arm64.tar.gz",
+      "sha256": "fd1bac124761f81718b212f087ff4d144fc9b3a524eaa7364e38f1afb01e0f6b",
+      "bin": "kubectl-dumpy",
+      "files": [
+        {
+          "from": "kubectl-dumpy",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/larryTheSlap/dumpy/releases/download/v0.1.0/dumpy_Darwin_x86_64.tar.gz",
+      "sha256": "31078d9a59944f3716342de8316c7c367f6018b367275b890476b2a280179a20",
+      "bin": "kubectl-dumpy",
+      "files": [
+        {
+          "from": "kubectl-dumpy",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/larryTheSlap/dumpy/releases/download/v0.1.0/dumpy_Linux_x86_64.tar.gz",
+      "sha256": "2168bc6be117a2a6720e3f59e2fa0b3d66348ba17c79911c6ea3c4143035890e",
+      "bin": "kubectl-dumpy",
+      "files": [
+        {
+          "from": "kubectl-dumpy",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

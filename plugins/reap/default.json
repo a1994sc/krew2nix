@@ -1,0 +1,30 @@
+{
+  "plugin": "reap",
+  "version": "v0.10.0",
+  "homepage": "https://github.com/micnncim/kubectl-reap",
+  "description": "This plugin deletes unused Kubernetes resources. It supports Pods,\nConfigMaps, Secrets, PersistentVolumes, PersistentVolumeClaims,\nJobs, PodDisruptionBudgets, and HorizontalPodAutoscalers.\n",
+  "archSrc": {
+    "x86_64-darwin": {
+      "url": "https://github.com/micnncim/kubectl-reap/releases/download/v0.10.0/kubectl-reap_0.10.0_darwin_amd64.tar.gz",
+      "sha256": "9c32ba97d2049167756c4d818fcd8b07bf68e92652a73fd927709a727b52e5b9",
+      "bin": "kubectl-reap",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/micnncim/kubectl-reap/releases/download/v0.10.0/kubectl-reap_0.10.0_linux_amd64.tar.gz",
+      "sha256": "577024bac8ff95f6d495226aa278aa4ef09283f581df8cb323206a2ca5221b66",
+      "bin": "kubectl-reap",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

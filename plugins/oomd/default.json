@@ -1,0 +1,53 @@
+{
+  "plugin": "oomd",
+  "version": "v0.0.7",
+  "homepage": "https://github.com/jdockerty/kubectl-oomd",
+  "description": "Display pods and their corresponding containers which have recently\nbeen 'OOMKilled'\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/jdockerty/kubectl-oomd/releases/download/v0.0.7/oomd_darwin_arm64.tar.gz",
+      "sha256": "58b4afc3415889d5fc066eea41b1aa610ac242c9859d99ca1f1c817584d111f4",
+      "bin": "oomd",
+      "files": [
+        {
+          "from": "./oomd",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/jdockerty/kubectl-oomd/releases/download/v0.0.7/oomd_darwin_amd64.tar.gz",
+      "sha256": "cd5d7111e58d8b8310985005d4edf3eed90135e20510ef852c0d56f96aa9c68a",
+      "bin": "oomd",
+      "files": [
+        {
+          "from": "./oomd",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/jdockerty/kubectl-oomd/releases/download/v0.0.7/oomd_linux_amd64.tar.gz",
+      "sha256": "2124665b85b4b96bfafc369bbc45c4b9380a2a8f6c72ec3ea9c65cadb5a5bfee",
+      "bin": "oomd",
+      "files": [
+        {
+          "from": "./oomd",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

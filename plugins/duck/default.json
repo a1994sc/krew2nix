@@ -1,0 +1,30 @@
+{
+  "plugin": "duck",
+  "version": "v0.0.1",
+  "homepage": "https://github.com/n3wscott/kubectl-duck",
+  "description": "This plugin allows you to list and get custom resources based on ducktype\nlabels on CRDs.\n",
+  "archSrc": {
+    "x86_64-darwin": {
+      "url": "https://github.com/n3wscott/kubectl-duck/releases/download/v0.0.1/kubectl-duck_v0.0.1_darwin_amd64.tar.gz",
+      "sha256": "86294517e15b77297eeeafcb515ed7dd5f1c0ea13f6bfa4e1ecdc9d8096ab009",
+      "bin": "kubectl-duck",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/n3wscott/kubectl-duck/releases/download/v0.0.1/kubectl-duck_v0.0.1_linux_amd64.tar.gz",
+      "sha256": "47cc0bce7b01ca4fcde89ea30d9dad862591477e0647e30eb3367606968069e0",
+      "bin": "kubectl-duck",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "plugin": "np-viewer",
+  "version": "v1.0.8",
+  "homepage": "https://github.com/runoncloud/kubectl-np-viewer",
+  "description": "A visualization tool for Kubernetes cluster administrators to make Network\nPolicies rules easily understandable",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/runoncloud/kubectl-np-viewer/releases/download/v1.0.8/kubectl-np-viewer_darwin_arm64.tar.gz",
+      "sha256": "c34b94bdaf38d157b0ca35889987ec1bee49d86ce80be18c9f00035534c78398",
+      "bin": "np-viewer",
+      "files": [
+        {
+          "from": "./kubectl-np-viewer",
+          "to": "np-viewer"
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/runoncloud/kubectl-np-viewer/releases/download/v1.0.8/kubectl-np-viewer_linux_arm64.tar.gz",
+      "sha256": "4f42abb588292ebee099740ce06b6209041f23788ae1cd2652f74f0156313fbe",
+      "bin": "np-viewer",
+      "files": [
+        {
+          "from": "./kubectl-np-viewer",
+          "to": "np-viewer"
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/runoncloud/kubectl-np-viewer/releases/download/v1.0.8/kubectl-np-viewer_darwin_amd64.tar.gz",
+      "sha256": "f6f4ea5b1ded47af961b6adefdd1d3dc6c0d29f5779c48e334c3223af77defbe",
+      "bin": "np-viewer",
+      "files": [
+        {
+          "from": "./kubectl-np-viewer",
+          "to": "np-viewer"
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/runoncloud/kubectl-np-viewer/releases/download/v1.0.8/kubectl-np-viewer_linux_amd64.tar.gz",
+      "sha256": "73fd56a5d92ecc30a7a30be179368a8bf0cede0a3416b03e95221d6b40214ef8",
+      "bin": "np-viewer",
+      "files": [
+        {
+          "from": "./kubectl-np-viewer",
+          "to": "np-viewer"
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

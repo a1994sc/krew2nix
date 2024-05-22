@@ -1,0 +1,68 @@
+{
+  "plugin": "crane",
+  "version": "v0.2.0",
+  "homepage": "https://github.com/gocrane/kubectl-crane",
+  "description": "Crane is a powerful FinOps platform that can analyze\nthe state of a kubernetes cluster and provide detailed\noptimization recommendations. With these recommendations,\nusers can easily adjust their deployments to reduce costs\nand increase efficiency. The kubectl plugin makes it easy\nfor users to follow these recommendations by allowing them\nto manually adjust the number of replicas or requests for\na deployment with just a few simple commands.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/gocrane/kubectl-crane/releases/download/v0.2.0/kubectl-crane_v0.2.0_Darwin_arm64.tar.gz",
+      "sha256": "8e5e7cd8df85d36084a4aefaf419c52cdb0f890f95c56b07f55e41a4725bacdf",
+      "bin": "kubectl-crane",
+      "files": [
+        {
+          "from": "kubectl-crane_v0.2.0_Darwin_arm64/kubectl-crane",
+          "to": "kubectl-crane"
+        },
+        {
+          "from": "kubectl-crane_v0.2.0_Darwin_arm64/LICENSE",
+          "to": "LICENSE"
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/gocrane/kubectl-crane/releases/download/v0.2.0/kubectl-crane_v0.2.0_Linux_arm64.tar.gz",
+      "sha256": "c72cf4a9c4c868a646fbb8852678d19ac8d8ffc6e8771d4fcb75e0795fb8754c",
+      "bin": "kubectl-crane",
+      "files": [
+        {
+          "from": "kubectl-crane_v0.2.0_Linux_arm64/kubectl-crane",
+          "to": "kubectl-crane"
+        },
+        {
+          "from": "kubectl-crane_v0.2.0_Linux_arm64/LICENSE",
+          "to": "LICENSE"
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/gocrane/kubectl-crane/releases/download/v0.2.0/kubectl-crane_v0.2.0_Darwin_x86_64.tar.gz",
+      "sha256": "9f5a499f27b7dc9d76a46348bb2dbf96e6204c7391cbaa1079bc67003f172404",
+      "bin": "kubectl-crane",
+      "files": [
+        {
+          "from": "kubectl-crane_v0.2.0_Darwin_x86_64/kubectl-crane",
+          "to": "kubectl-crane"
+        },
+        {
+          "from": "kubectl-crane_v0.2.0_Darwin_x86_64/LICENSE",
+          "to": "LICENSE"
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/gocrane/kubectl-crane/releases/download/v0.2.0/kubectl-crane_v0.2.0_Linux_x86_64.tar.gz",
+      "sha256": "3a3e306db26872da06164aef5f45228aac80de89de1aedce1e03da238ee7c82c",
+      "bin": "kubectl-crane",
+      "files": [
+        {
+          "from": "kubectl-crane_v0.2.0_Linux_x86_64/kubectl-crane",
+          "to": "kubectl-crane"
+        },
+        {
+          "from": "kubectl-crane_v0.2.0_Linux_x86_64/LICENSE",
+          "to": "LICENSE"
+        }
+      ]
+    }
+  }
+}

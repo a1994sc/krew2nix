@@ -1,0 +1,52 @@
+{
+  "plugin": "graph",
+  "version": "v0.7.0",
+  "homepage": "https://github.com/steveteuber/kubectl-graph",
+  "description": "This plugin generates a visual representation of Kubernetes resources and\nrelationships. The graph is outputted in AQL, CQL or DOT format which can\nbe used by ArangoDB, Neo4j or Graphviz.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/steveteuber/kubectl-graph/releases/download/v0.7.0/kubectl-graph_v0.7.0_darwin_arm64.tar.gz",
+      "sha256": "e70dad30860739088f7eabbb6087ca8a8599b4c0a32b9ccddb1bd5ef03a1072e",
+      "bin": "kubectl-graph",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/steveteuber/kubectl-graph/releases/download/v0.7.0/kubectl-graph_v0.7.0_linux_arm64.tar.gz",
+      "sha256": "67da1694c0e2fa70bc82ca6cd8f3d191e45bbccda5a33066a6a4c1099686db3a",
+      "bin": "kubectl-graph",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/steveteuber/kubectl-graph/releases/download/v0.7.0/kubectl-graph_v0.7.0_darwin_amd64.tar.gz",
+      "sha256": "e720b024a9f9c873bd5ec0c2d6aeff7dd86b45910b29f44ded4a0bd708d72a5b",
+      "bin": "kubectl-graph",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/steveteuber/kubectl-graph/releases/download/v0.7.0/kubectl-graph_v0.7.0_linux_amd64.tar.gz",
+      "sha256": "c38acabd9f1ab841118fee788a5bc73a1dd9683b7addf76117f85eafa1accd24",
+      "bin": "kubectl-graph",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

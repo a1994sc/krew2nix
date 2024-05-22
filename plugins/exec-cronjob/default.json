@@ -1,0 +1,68 @@
+{
+  "plugin": "exec-cronjob",
+  "version": "v0.7.0",
+  "homepage": "https://github.com/FikaWorks/kubectl-plugins#exec-cronjob",
+  "description": "Run a CronJob immediately as Job by extracting the Job spec and creating a\nJob instance thereof.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/FikaWorks/kubectl-plugins/archive/v0.7.0.zip",
+      "sha256": "d6d429a938439810b13abed3ccf93a45f5aaca79276badfa9f64bc9f018219c4",
+      "bin": "kubectl-exec_cronjob.sh",
+      "files": [
+        {
+          "from": "kubectl-plugins-*/exec-cronjob/*",
+          "to": "."
+        },
+        {
+          "from": "kubectl-plugins-*/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/FikaWorks/kubectl-plugins/archive/v0.7.0.zip",
+      "sha256": "d6d429a938439810b13abed3ccf93a45f5aaca79276badfa9f64bc9f018219c4",
+      "bin": "kubectl-exec_cronjob.sh",
+      "files": [
+        {
+          "from": "kubectl-plugins-*/exec-cronjob/*",
+          "to": "."
+        },
+        {
+          "from": "kubectl-plugins-*/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/FikaWorks/kubectl-plugins/archive/v0.7.0.zip",
+      "sha256": "d6d429a938439810b13abed3ccf93a45f5aaca79276badfa9f64bc9f018219c4",
+      "bin": "kubectl-exec_cronjob.sh",
+      "files": [
+        {
+          "from": "kubectl-plugins-*/exec-cronjob/*",
+          "to": "."
+        },
+        {
+          "from": "kubectl-plugins-*/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/FikaWorks/kubectl-plugins/archive/v0.7.0.zip",
+      "sha256": "d6d429a938439810b13abed3ccf93a45f5aaca79276badfa9f64bc9f018219c4",
+      "bin": "kubectl-exec_cronjob.sh",
+      "files": [
+        {
+          "from": "kubectl-plugins-*/exec-cronjob/*",
+          "to": "."
+        },
+        {
+          "from": "kubectl-plugins-*/LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

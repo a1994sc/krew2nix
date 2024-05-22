@@ -3,10 +3,6 @@
   inputs = {
     # keep-sorted start block=yes case=no
     flake-utils.url = "github:numtide/flake-utils";
-    krew-index = {
-      url = "github:kubernetes-sigs/krew-index";
-      flake = false;
-    };
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
     systems.url = "github:nix-systems/default";
     treefmt-nix = {
@@ -22,38 +18,52 @@
       nixpkgs,
       treefmt-nix,
       systems,
-      krew-index,
     }:
-    flake-utils.lib.eachDefaultSystem (
+    {
+      overlay = import overlays/.;
+    }
+    // flake-utils.lib.eachDefaultSystem (
       system:
       let
-        pkgs = nixpkgs.legacyPackages.${system};
-        krewPlugins = pkgs.callPackage ./krew-plugins.nix { inherit krew-index; };
-        kubectl = pkgs.callPackage ./kubectl.nix { inherit krew-index; };
+        pkgs = import nixpkgs {
+          overlays = [ self.overlay ];
+          inherit system;
+        };
         treefmtEval = treefmt-nix.lib.evalModule pkgs ./treefmt.nix;
+        environ = {
+          default.buildInputs = [ pkgs.ruby ];
+          testing = {
+            buildInputs =
+              with pkgs;
+              [
+                k9s
+                kubernetes-helm
+                (kubectl.withKrewPlugins (
+                  plugins: with plugins; [
+                    # keep-sorted start
+                    change-ns
+                    images
+                    krew
+                    node-shell
+                    # keep-sorted end
+                  ]
+                ))
+              ]
+              ++ environ.default.buildInputs;
+          };
+        };
       in
       with pkgs;
       {
-        packages = krewPlugins // {
-          inherit kubectl;
-        };
         formatter = treefmtEval.config.build.wrapper;
-        devShell = pkgs.mkShell {
-          nativeBuildInputs = [ pkgs.bashInteractive ];
-          buildInputs = [
-            pkgs.k9s
-            pkgs.kubernetes-helm
-            (kubectl.withKrewPlugins (
-              plugins: with plugins; [
-                # keep-sorted start
-                change-ns
-                images
-                krew
-                node-shell
-                # keep-sorted end
-              ]
-            ))
-          ];
+        legacyPackages = self.packages.${system};
+        packages = {
+          default = self.packages.${system}.kubectl;
+          inherit (pkgs) kubectl;
+        };
+        devShells = {
+          default = pkgs.mkShell { inherit (environ.default) buildInputs; };
+          testing = pkgs.mkShell { inherit (environ.testing) buildInputs; };
         };
       }
     );

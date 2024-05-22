@@ -1,0 +1,32 @@
+name: Update lock
+on:
+  workflow_dispatch:
+  schedule:
+  - cron: '0 0 * * *'  # every day at midnight
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update:
+    runs-on: ubuntu-20.04
+    steps:
+    - uses: actions/checkout@0ad4b8fadaa221de15dcec353f45205ec38ea70b # v4
+
+    - run: |
+        git config user.name "$GITHUB_ACTOR"
+        git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
+
+    - uses: DeterminateSystems/nix-installer-action@8cdf194da984e4f12b2f8c36d1fa107c1dd67f5c # v11
+
+    - run: |
+        nix develop .#ci
+        ruby update.rb
+
+    - name: Commit & Push changes
+      uses: actions-js/push@5a7cbd780d82c0c937b5977586e641b2fd94acc5 # v1.5
+      with:
+        branch: 'main'
+        message: "chore(flake): bump inputs"
+        github_token: ${{ secrets.GITHUB_TOKEN }}

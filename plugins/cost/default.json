@@ -1,0 +1,53 @@
+{
+  "plugin": "cost",
+  "version": "v0.6.2",
+  "homepage": "https://github.com/kubecost/kubectl-cost",
+  "description": "Uses Kubecost's API to gather and format cluster cost information broken\ndown by various aggregations like namespace, deployment, and label.\n\nKubecost is a cluster-side daemon that tracks the real cost of Kubernetes\nresources by combining resource utilization monitoring with your provider's\ncost data. Kubecost support GCP/GKE, AWS/EKS, Azure/AKS, and custom\n(including on-prem) \"providers\" via user-specified pricing sheets.\n\nWebsite: https://www.kubecost.com/\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/kubecost/kubectl-cost/releases/download/v0.6.2/kubectl-cost-darwin-arm64.tar.gz",
+      "sha256": "51e1b20318df54de43ae6bcc9f963aee46a784247b2aa1d97538fa0616fe0ebc",
+      "bin": "kubectl-cost",
+      "files": [
+        {
+          "from": "kubectl-cost",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/kubecost/kubectl-cost/releases/download/v0.6.2/kubectl-cost-darwin-amd64.tar.gz",
+      "sha256": "79686d39d43ad3c7e2c4f004a97990c0ed02b84f1a2c0510fc051a34134a055e",
+      "bin": "kubectl-cost",
+      "files": [
+        {
+          "from": "kubectl-cost",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/kubecost/kubectl-cost/releases/download/v0.6.2/kubectl-cost-linux-amd64.tar.gz",
+      "sha256": "e8ce6e3a62c20e7c2ecf6ad6c1d9306fbdb6ec2693dff4e97e61d758fe67b506",
+      "bin": "kubectl-cost",
+      "files": [
+        {
+          "from": "kubectl-cost",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

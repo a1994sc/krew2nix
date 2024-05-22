@@ -1,0 +1,84 @@
+{
+  "plugin": "sshd",
+  "version": "v0.1.0",
+  "homepage": "https://github.com/ottoyiu/kubectl-sshd",
+  "description": "This plugin allows users to run a SSH server (Dropbear) in a running Pod.\nRunning a temporary SSH server can be useful to execute applications\nthat rely on SSH as a protocol, such as scp, rsync and rdiff-backup.\nHowever, this plugin should not be used as a replacement for `kubectl exec`\nand `kubectl cp`.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/ottoyiu/kubectl-sshd/archive/v0.1.0.tar.gz",
+      "sha256": "592dbf172f4bd35317b6632e120056c803e29c5713a28d876b69baf2f9955dba",
+      "bin": "kubectl-sshd",
+      "files": [
+        {
+          "from": "./*/bin/static-dropbear",
+          "to": "."
+        },
+        {
+          "from": "./*/bin/kubectl-sshd",
+          "to": "."
+        },
+        {
+          "from": "./*/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/ottoyiu/kubectl-sshd/archive/v0.1.0.tar.gz",
+      "sha256": "592dbf172f4bd35317b6632e120056c803e29c5713a28d876b69baf2f9955dba",
+      "bin": "kubectl-sshd",
+      "files": [
+        {
+          "from": "./*/bin/static-dropbear",
+          "to": "."
+        },
+        {
+          "from": "./*/bin/kubectl-sshd",
+          "to": "."
+        },
+        {
+          "from": "./*/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/ottoyiu/kubectl-sshd/archive/v0.1.0.tar.gz",
+      "sha256": "592dbf172f4bd35317b6632e120056c803e29c5713a28d876b69baf2f9955dba",
+      "bin": "kubectl-sshd",
+      "files": [
+        {
+          "from": "./*/bin/static-dropbear",
+          "to": "."
+        },
+        {
+          "from": "./*/bin/kubectl-sshd",
+          "to": "."
+        },
+        {
+          "from": "./*/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/ottoyiu/kubectl-sshd/archive/v0.1.0.tar.gz",
+      "sha256": "592dbf172f4bd35317b6632e120056c803e29c5713a28d876b69baf2f9955dba",
+      "bin": "kubectl-sshd",
+      "files": [
+        {
+          "from": "./*/bin/static-dropbear",
+          "to": "."
+        },
+        {
+          "from": "./*/bin/kubectl-sshd",
+          "to": "."
+        },
+        {
+          "from": "./*/LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

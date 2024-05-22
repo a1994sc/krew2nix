@@ -1,0 +1,38 @@
+{
+  "plugin": "rbac-view",
+  "version": "v0.2.1",
+  "homepage": "https://github.com/jasonrichardsmith/rbac-view",
+  "description": "",
+  "archSrc": {
+    "x86_64-darwin": {
+      "url": "https://github.com/jasonrichardsmith/rbac-view/releases/download/v0.2.1/rbac-view.v0.2.1.darwin.tar.gz",
+      "sha256": "0a042551e9fa8255227292a5ff74073ea67efd98fde9bab4f4c0709e1f3d19c1",
+      "bin": "rbac-view",
+      "files": [
+        {
+          "from": "bin/darwin/rbac-view",
+          "to": "rbac-view"
+        },
+        {
+          "from": "LICENSE",
+          "to": "LICENSE"
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/jasonrichardsmith/rbac-view/releases/download/v0.2.1/rbac-view.v0.2.1.linux.tar.gz",
+      "sha256": "fc20abf295d3e6f012e45e5b5f04b316e57b5858e9bcec0a9b19c0db47b0ba07",
+      "bin": "rbac-view",
+      "files": [
+        {
+          "from": "bin/linux/rbac-view",
+          "to": "rbac-view"
+        },
+        {
+          "from": "LICENSE",
+          "to": "LICENSE"
+        }
+      ]
+    }
+  }
+}

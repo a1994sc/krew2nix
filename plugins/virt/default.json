@@ -1,0 +1,38 @@
+{
+  "plugin": "virt",
+  "version": "v1.2.0",
+  "homepage": "https://github.com/kubevirt/kubectl-virt-plugin",
+  "description": "virt plugin is a wrapper for virtctl originating from the KubeVirt project. KubeVirt is a virtualization add-on to\nKubernetes, i.e. it enables to run existing virtual machines on Kubernetes clusters. virtctl controls virtual\nmachine related operations on your Kubernetes cluster like connecting to the serial and VNC consoles.\n\nKubevirt documentation:\n  Installation:\n    https://kubevirt.io/user-guide/docs/latest/administration/intro.html\n  User Guide:\n    https://kubevirt.io/user-guide/docs/latest/welcome/index.html\n  Minikube Quickstart:\n    https://kubevirt.io/quickstart_minikube/\n  Virtctl usage examples:\n    https://kubevirt.io/user-guide/docs/latest/using-virtual-machines/graphical-and-console-access.html\n    https://kubevirt.io/user-guide/docs/latest/using-virtual-machines/expose-service.html\n    https://kubevirt.io/user-guide/docs/latest/using-virtual-machines/virtual-machine-replica-set.html\n",
+  "archSrc": {
+    "x86_64-darwin": {
+      "url": "https://github.com/kubevirt/kubectl-virt-plugin/releases/download/v1.2.0/virtctl-darwin-amd64.tar.gz",
+      "sha256": "ef6f25265edbf519670b8ee0f44bd85dddb5cfc5c2595185473f2224a1a4e81b",
+      "bin": "virtctl",
+      "files": [
+        {
+          "from": "/virtctl/virtctl-darwin-amd64",
+          "to": "virtctl"
+        },
+        {
+          "from": "virtctl/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/kubevirt/kubectl-virt-plugin/releases/download/v1.2.0/virtctl-linux-amd64.tar.gz",
+      "sha256": "374d5ae1579e372a2b9ee330a921c8a611576fe9e923963943e23aae0138581f",
+      "bin": "virtctl",
+      "files": [
+        {
+          "from": "/virtctl/virtctl-linux-amd64",
+          "to": "virtctl"
+        },
+        {
+          "from": "virtctl/LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

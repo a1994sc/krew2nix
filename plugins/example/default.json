@@ -1,0 +1,68 @@
+{
+  "plugin": "example",
+  "version": "v1.1.0",
+  "homepage": "https://github.com/seredot/kubectl-example",
+  "description": "Prints out a example manifest YAML for a given resource type. \nThe plugin works similar to a dry run output but for arbitrary resources.\nAll examples originate from kubernetes.io.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/seredot/kubectl-example/releases/download/v1.1.0/kubectl-example_1.1.0_Darwin_arm64.tar.gz",
+      "sha256": "639a45faecc828ca29a71d85a7dcb85e89395f1c40651d449e78cfd4786077a7",
+      "bin": "./kubectl-example",
+      "files": [
+        {
+          "from": "kubectl-example",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/seredot/kubectl-example/releases/download/v1.1.0/kubectl-example_1.1.0_Linux_arm64.tar.gz",
+      "sha256": "e4d18043e0dfac74c175eb8eacfba91e37a510293ffe56af1041c0f5cc192d3e",
+      "bin": "./kubectl-example",
+      "files": [
+        {
+          "from": "kubectl-example",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/seredot/kubectl-example/releases/download/v1.1.0/kubectl-example_1.1.0_Darwin_x86_64.tar.gz",
+      "sha256": "eaab1517d6a4f9064584b31fdd013883922cd0a86b3e8dbdf745132aa9090671",
+      "bin": "./kubectl-example",
+      "files": [
+        {
+          "from": "kubectl-example",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/seredot/kubectl-example/releases/download/v1.1.0/kubectl-example_1.1.0_Linux_x86_64.tar.gz",
+      "sha256": "c5ef88e5046d3a813f838c1aa20f5412ef25694d26d950f403cac4b9a80df6cb",
+      "bin": "./kubectl-example",
+      "files": [
+        {
+          "from": "kubectl-example",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

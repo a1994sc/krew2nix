@@ -1,0 +1,38 @@
+{
+  "plugin": "eds",
+  "version": "v0.8.1",
+  "homepage": "https://github.com/DataDog/extendeddaemonset",
+  "description": "The ExtendedDaemonset kubectl plugin provides useful utilities to operate daemonsets\nvia the ExtendedDaemonset controller and the ExtendedDaemonset CRD.\n",
+  "archSrc": {
+    "x86_64-darwin": {
+      "url": "https://github.com/DataDog/extendeddaemonset/releases/download/v0.8.1/kubectl-eds_0.8.1_darwin_amd64.zip",
+      "sha256": "2dead15b8ec0886698dc048e8dfa90a34cf28f44f523f8dacefd6e91172cf8ed",
+      "bin": "kubectl-eds",
+      "files": [
+        {
+          "from": "kubectl-eds",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/DataDog/extendeddaemonset/releases/download/v0.8.1/kubectl-eds_0.8.1_linux_amd64.zip",
+      "sha256": "6bfb7d4a5ca2375b0e1a3100bd8a10ea44b70443ddefa75be3057983c547f7d4",
+      "bin": "kubectl-eds",
+      "files": [
+        {
+          "from": "kubectl-eds",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

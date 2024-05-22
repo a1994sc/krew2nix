@@ -1,0 +1,52 @@
+{
+  "plugin": "realname-diff",
+  "version": "v0.3.0",
+  "homepage": "https://github.com/hhiroshell/kubectl-realname-diff",
+  "description": "Kubectl realname-diff works the same as kubectl diff, but if you set \"real\nname\" as a label, local and live resources with the same label will be\ncompared.\nThis is especially beneficial if you use the Kustomize and enable hash\nsuffixing ConfigMap/Secret names. In case of `kubectl diff`, local and live\nresources with hash suffixed name are considered as irrelevant. So you will not\nbe able to get any results comparing them.\nWith realname-diff, you can compare the resources with hash suffixed name by\nspecifying the comparison target with \"real name\" labels.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/hhiroshell/kubectl-realname-diff/releases/download/v0.3.0/kubectl-realname-diff-darwin-arm64.tar.gz",
+      "sha256": "b50737bb8768d3015bbdf4c6a5ea8d15b38b30b18285bbb19061a66e05f58cc1",
+      "bin": "kubectl-realname_diff",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/hhiroshell/kubectl-realname-diff/releases/download/v0.3.0/kubectl-realname-diff-linux-arm64.tar.gz",
+      "sha256": "7ecd23e7e88137bf8219718a09c679334248ef74ee277f65e93685c16c54955c",
+      "bin": "kubectl-realname_diff",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/hhiroshell/kubectl-realname-diff/releases/download/v0.3.0/kubectl-realname-diff-darwin-amd64.tar.gz",
+      "sha256": "cd365548af9441c334e44f1f76d4daece55e62932915abf78df0900a3ee41285",
+      "bin": "kubectl-realname_diff",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/hhiroshell/kubectl-realname-diff/releases/download/v0.3.0/kubectl-realname-diff-linux-amd64.tar.gz",
+      "sha256": "e2e8cf72c244d5803206a3d3da93ee83f2786461dd9051b17ff6239ad59226d8",
+      "bin": "kubectl-realname_diff",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

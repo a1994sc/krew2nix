@@ -1,0 +1,68 @@
+{
+  "plugin": "mtail",
+  "version": "v1.2.0",
+  "homepage": "https://gitlab.com/grzesuav/kubectl-mtail",
+  "description": "",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://gitlab.com/grzesuav/kubectl-mtail/uploads/4f872d0e01711d5a874c0bc9de1b611e/mtail.tar.gz",
+      "sha256": "d4c57d99e8bb255bb0c1c6cfc5eb12dba5d03f35ec5552112288a22b304fd31c",
+      "bin": "mtail.sh",
+      "files": [
+        {
+          "from": "mtail/*",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://gitlab.com/grzesuav/kubectl-mtail/uploads/4f872d0e01711d5a874c0bc9de1b611e/mtail.tar.gz",
+      "sha256": "d4c57d99e8bb255bb0c1c6cfc5eb12dba5d03f35ec5552112288a22b304fd31c",
+      "bin": "mtail.sh",
+      "files": [
+        {
+          "from": "mtail/*",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://gitlab.com/grzesuav/kubectl-mtail/uploads/4f872d0e01711d5a874c0bc9de1b611e/mtail.tar.gz",
+      "sha256": "d4c57d99e8bb255bb0c1c6cfc5eb12dba5d03f35ec5552112288a22b304fd31c",
+      "bin": "mtail.sh",
+      "files": [
+        {
+          "from": "mtail/*",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://gitlab.com/grzesuav/kubectl-mtail/uploads/4f872d0e01711d5a874c0bc9de1b611e/mtail.tar.gz",
+      "sha256": "d4c57d99e8bb255bb0c1c6cfc5eb12dba5d03f35ec5552112288a22b304fd31c",
+      "bin": "mtail.sh",
+      "files": [
+        {
+          "from": "mtail/*",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

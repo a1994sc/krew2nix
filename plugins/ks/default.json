@@ -1,0 +1,30 @@
+{
+  "plugin": "ks",
+  "version": "v0.0.43",
+  "homepage": "https://github.com/kubesphere-sigs/ks",
+  "description": "This plugin simplifies management of KubeSphere components. KubeSphere helps\nto run continuous delivery pipelines on Kubernetes. You can enable/disable,\ninspect logs, or upgrade KubeSphere components.\n",
+  "archSrc": {
+    "x86_64-darwin": {
+      "url": "https://github.com/kubesphere-sigs/ks/releases/download/v0.0.43/kubectl-ks-darwin-amd64.tar.gz",
+      "sha256": "6540ebf9cfbd84cc001b9b17e77859969c8e11f310067d7375868dbbb9459ec6",
+      "bin": "kubectl-ks",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/kubesphere-sigs/ks/releases/download/v0.0.43/kubectl-ks-linux-amd64.tar.gz",
+      "sha256": "37b81740ce3d79d5158e964907a5d7c964e0de017836e3993e9c8a14f0e4109f",
+      "bin": "kubectl-ks",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

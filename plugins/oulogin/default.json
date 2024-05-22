@@ -1,0 +1,98 @@
+{
+  "plugin": "oulogin",
+  "version": "v0.0.7",
+  "homepage": "https://github.com/TremoloSecurity/kubectl-login",
+  "description": "Launches a browser to login to the cluster via OpenUnison.  OpenUnison's \ncertificate MUST be trusted by the local system.  \n",
+  "archSrc": {
+    "aarch64-": {
+      "url": "https://nexus.tremolo.io/repository/oulogin/oulogin-0.0.7-win.zip",
+      "sha256": "7607eee50d60895292b6531528d36af1aceb82c96fcbd8fd4d930b6528c71d0e",
+      "bin": "oulogin.exe",
+      "files": [
+        {
+          "from": "oulogin.exe",
+          "to": "oulogin.exe"
+        },
+        {
+          "from": "LICENSE",
+          "to": "LICENSE"
+        }
+      ]
+    },
+    "aarch64-darwin": {
+      "url": "https://nexus.tremolo.io/repository/oulogin/oulogin-0.0.7-macos.zip",
+      "sha256": "e9221c5b50e7d388f8bf73738a523f78f40e5c1c67ad687c65ab8fe8aa79849e",
+      "bin": "oulogin",
+      "files": [
+        {
+          "from": "oulogin",
+          "to": "oulogin"
+        },
+        {
+          "from": "LICENSE",
+          "to": "LICENSE"
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://nexus.tremolo.io/repository/oulogin/oulogin-0.0.7-linux.zip",
+      "sha256": "2b6644bc914ad447785c4dc5cdb14bbcf2409b468a15dd2c746cfd8dc19c58a9",
+      "bin": "oulogin",
+      "files": [
+        {
+          "from": "oulogin",
+          "to": "oulogin"
+        },
+        {
+          "from": "LICENSE",
+          "to": "LICENSE"
+        }
+      ]
+    },
+    "x86_64-": {
+      "url": "https://nexus.tremolo.io/repository/oulogin/oulogin-0.0.7-win.zip",
+      "sha256": "7607eee50d60895292b6531528d36af1aceb82c96fcbd8fd4d930b6528c71d0e",
+      "bin": "oulogin.exe",
+      "files": [
+        {
+          "from": "oulogin.exe",
+          "to": "oulogin.exe"
+        },
+        {
+          "from": "LICENSE",
+          "to": "LICENSE"
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://nexus.tremolo.io/repository/oulogin/oulogin-0.0.7-macos.zip",
+      "sha256": "e9221c5b50e7d388f8bf73738a523f78f40e5c1c67ad687c65ab8fe8aa79849e",
+      "bin": "oulogin",
+      "files": [
+        {
+          "from": "oulogin",
+          "to": "oulogin"
+        },
+        {
+          "from": "LICENSE",
+          "to": "LICENSE"
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://nexus.tremolo.io/repository/oulogin/oulogin-0.0.7-linux.zip",
+      "sha256": "2b6644bc914ad447785c4dc5cdb14bbcf2409b468a15dd2c746cfd8dc19c58a9",
+      "bin": "oulogin",
+      "files": [
+        {
+          "from": "oulogin",
+          "to": "oulogin"
+        },
+        {
+          "from": "LICENSE",
+          "to": "LICENSE"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "plugin": "prune-unused",
+  "version": "v0.7.0",
+  "homepage": "https://github.com/FikaWorks/kubectl-plugins#prune-unused",
+  "description": "Prune unused configmaps/secret resources from a given namespace. It\nchecks against all resources from mounted volumes, env and envFrom and\nimagePullSecrets.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/FikaWorks/kubectl-plugins/archive/v0.7.0.zip",
+      "sha256": "d6d429a938439810b13abed3ccf93a45f5aaca79276badfa9f64bc9f018219c4",
+      "bin": "kubectl-prune_unused.sh",
+      "files": [
+        {
+          "from": "kubectl-plugins-*/prune-unused/*",
+          "to": "."
+        },
+        {
+          "from": "kubectl-plugins-*/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/FikaWorks/kubectl-plugins/archive/v0.7.0.zip",
+      "sha256": "d6d429a938439810b13abed3ccf93a45f5aaca79276badfa9f64bc9f018219c4",
+      "bin": "kubectl-prune_unused.sh",
+      "files": [
+        {
+          "from": "kubectl-plugins-*/prune-unused/*",
+          "to": "."
+        },
+        {
+          "from": "kubectl-plugins-*/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/FikaWorks/kubectl-plugins/archive/v0.7.0.zip",
+      "sha256": "d6d429a938439810b13abed3ccf93a45f5aaca79276badfa9f64bc9f018219c4",
+      "bin": "kubectl-prune_unused.sh",
+      "files": [
+        {
+          "from": "kubectl-plugins-*/prune-unused/*",
+          "to": "."
+        },
+        {
+          "from": "kubectl-plugins-*/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/FikaWorks/kubectl-plugins/archive/v0.7.0.zip",
+      "sha256": "d6d429a938439810b13abed3ccf93a45f5aaca79276badfa9f64bc9f018219c4",
+      "bin": "kubectl-prune_unused.sh",
+      "files": [
+        {
+          "from": "kubectl-plugins-*/prune-unused/*",
+          "to": "."
+        },
+        {
+          "from": "kubectl-plugins-*/LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

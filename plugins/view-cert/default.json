@@ -1,0 +1,52 @@
+{
+  "plugin": "view-cert",
+  "version": "v0.0.4",
+  "homepage": "https://github.com/lmolas/kubectl-view-cert",
+  "description": "View certificate information (version, serial number, issuer, subject \nand validity) stored in secrets. \nSupported secret types are kubernetes.io/tls. But you can parse any\ntype of secret by specifying secret name and secret key to read.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/lmolas/kubectl-view-cert/releases/download/v0.0.4/kubectl-view-cert_v0.0.4_darwin_arm64.tar.gz",
+      "sha256": "27d2cd39c53145e0fbb8fe4e3d40831588c89c71b4687ca031ad6239f0dfcf96",
+      "bin": "kubectl-view-cert",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/lmolas/kubectl-view-cert/releases/download/v0.0.4/kubectl-view-cert_v0.0.4_linux_arm64.tar.gz",
+      "sha256": "aa41ff0496e4945139e41c169ca5b4eac6dba05c884bc758636a8d9928b250fd",
+      "bin": "kubectl-view-cert",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/lmolas/kubectl-view-cert/releases/download/v0.0.4/kubectl-view-cert_v0.0.4_darwin_amd64.tar.gz",
+      "sha256": "6cc4fe2c3f9cc37e4682cfaf31a9c78c3676e5e35de04a9cb1d588a495b6bb55",
+      "bin": "kubectl-view-cert",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/lmolas/kubectl-view-cert/releases/download/v0.0.4/kubectl-view-cert_v0.0.4_linux_amd64.tar.gz",
+      "sha256": "9612023bc85ba2b571e8a078dd6a955c60e6782a5362e9d6d9038dd8f58af0f8",
+      "bin": "kubectl-view-cert",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

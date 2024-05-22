@@ -1,0 +1,30 @@
+{
+  "plugin": "trace",
+  "version": "v0.1.2",
+  "homepage": "https://github.com/iovisor/kubectl-trace",
+  "description": "This plugin is used to analyze production systems and Kubernetes workloads\nby scheduling a trace job on a target node or alongside a target pod in\norder to analyze it with eBPF and other tracing and profiling technologies.\n",
+  "archSrc": {
+    "x86_64-darwin": {
+      "url": "https://github.com/iovisor/kubectl-trace/releases/download/v0.1.2/kubectl-trace_v0.1.2_darwin_amd64.tar.gz",
+      "sha256": "0415b77d55565ac5fd4d5f04a8b96500b4510366c26679c2dbc292bafe3f32f5",
+      "bin": "kubectl-trace",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/iovisor/kubectl-trace/releases/download/v0.1.2/kubectl-trace_v0.1.2_linux_amd64.tar.gz",
+      "sha256": "465fb0b1bfd21ded9cbaf0c4224ebe1cdfaa2be3bf69bc72c37948ebcc023c7e",
+      "bin": "kubectl-trace",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

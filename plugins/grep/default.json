@@ -1,0 +1,68 @@
+{
+  "plugin": "grep",
+  "version": "v1.17.1",
+  "homepage": "https://github.com/guessi/kubectl-grep",
+  "description": "Filter Kubernetes resources by matching their names\n\nExamples:\n\nList all pods in all namespaces\n$ kubectl grep pods --all-namespaces\n\nList all pods in namespace \"star-lab\" which contain the keyword \"flash\"\n$ kubectl grep pods -n star-lab flash\n\nNo more pipe, built-in grep :-)\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/guessi/kubectl-grep/releases/download/v1.17.1/kubectl-grep-Darwin-arm64.tar.gz",
+      "sha256": "5259b52b048c05f12c8833e8217bc59166c2b0d3c3bb74509bdb8eeb9bee325c",
+      "bin": "kubectl-grep",
+      "files": [
+        {
+          "from": "kubectl-grep",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/guessi/kubectl-grep/releases/download/v1.17.1/kubectl-grep-Linux-arm64.tar.gz",
+      "sha256": "05849c11a0067c06461edc8313d2166c2cedafe14357593177b764520b246a34",
+      "bin": "kubectl-grep",
+      "files": [
+        {
+          "from": "kubectl-grep",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/guessi/kubectl-grep/releases/download/v1.17.1/kubectl-grep-Darwin-x86_64.tar.gz",
+      "sha256": "f5af672bb2e4aaebccc02a97ad99c6af8b6dfbb31a3e00f69ca290d6c2cd64e9",
+      "bin": "kubectl-grep",
+      "files": [
+        {
+          "from": "kubectl-grep",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/guessi/kubectl-grep/releases/download/v1.17.1/kubectl-grep-Linux-x86_64.tar.gz",
+      "sha256": "67dc15261fedd91bb6f8273a6deb50995981fd8d3ce462136ae8a564513a12dc",
+      "bin": "kubectl-grep",
+      "files": [
+        {
+          "from": "kubectl-grep",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}
