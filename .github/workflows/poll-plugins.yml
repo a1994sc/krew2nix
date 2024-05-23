@@ -1,8 +1,8 @@
-name: Update plugins
+name: Gather new plugins
 on:
   workflow_dispatch:
   schedule:
-  - cron: '0 0 * * *'  # every day at midnight
+  - cron: '0 1 * * 0'  # once a week
 
 permissions:
   contents: write
@@ -22,11 +22,11 @@ jobs:
 
     - run: |
         nix develop .#ci
-        ruby update.rb
+        ./new-plugins.sh
 
     - name: Commit & Push changes
       uses: actions-js/push@5a7cbd780d82c0c937b5977586e641b2fd94acc5 # v1.5
       with:
         branch: 'main'
-        message: "chore(flake): bump inputs"
+        message: "chore(flake): Get new plugins"
         github_token: ${{ secrets.GITHUB_TOKEN }}

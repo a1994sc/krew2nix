@@ -5,10 +5,6 @@ final: prev: rec {
       selectPlugins:
       let
         selectedPlugins = selectPlugins krew-plugin-bin.plugins;
-        pluginsDir = final.symlinkJoin {
-          name = "kubectl-plugins";
-          paths = selectedPlugins;
-        };
         kubectlWrapper =
           final.runCommand "kubectl-with-plugins-wrapper"
             {
@@ -18,7 +14,6 @@ final: prev: rec {
             ''
               makeWrapper ${final.kubectl}/bin/kubectl $out/bin/kubectl --prefix PATH : ${final.lib.makeBinPath selectedPlugins}
             '';
-            # --set KREW_ROOT "${pluginsDir}"
       in
       final.buildEnv {
         name = "${final.kubectl.name}-with-plugins";

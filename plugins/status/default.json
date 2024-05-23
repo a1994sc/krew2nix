@@ -1,0 +1,68 @@
+{
+  "plugin": "status",
+  "version": "v0.7.11",
+  "homepage": "https://github.com/bergerx/kubectl-status",
+  "description": "Show status details of a given resource. Most useful when debugging Pod issues.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/bergerx/kubectl-status/releases/download/v0.7.11/status_darwin_arm64.tar.gz",
+      "sha256": "8c1ea432752ed41b59b3d78dc08add18b36ef36996ccda8825a08ebd085a799b",
+      "bin": "status",
+      "files": [
+        {
+          "from": "./status",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/bergerx/kubectl-status/releases/download/v0.7.11/status_linux_arm64.tar.gz",
+      "sha256": "fdb042e5cf0b4b752e26acac7b8d35732d863239afd807d8944b5a89769206cc",
+      "bin": "status",
+      "files": [
+        {
+          "from": "./status",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/bergerx/kubectl-status/releases/download/v0.7.11/status_darwin_amd64.tar.gz",
+      "sha256": "636fb9e7ec009b75732496a5024cd27bbf99a23c6003a14715c61d251f4dc4cb",
+      "bin": "status",
+      "files": [
+        {
+          "from": "./status",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/bergerx/kubectl-status/releases/download/v0.7.11/status_linux_amd64.tar.gz",
+      "sha256": "52184e6622c2ff55234ed01a8542aaea08155ee48b95c60b2c1bdb7c0f6ef900",
+      "bin": "status",
+      "files": [
+        {
+          "from": "./status",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

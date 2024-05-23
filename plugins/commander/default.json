@@ -1,0 +1,68 @@
+{
+  "plugin": "commander",
+  "version": "v0.4.2",
+  "homepage": "https://github.com/schabrolles/kubectl-commander",
+  "description": "kube-commander is an interactive menu (based on fzf) that allows you\nto navigate and interact with objects of your Kubernetes cluster.\nIt is possible to quickly preview object configuration in YAML,\nlogs, events but also edite or delete object or enter into pods.\n\n[ctrl-h] inside the plugin to get the list of available key bindings.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/schabrolles/kubectl-commander/archive/refs/tags/v0.4.2.tar.gz",
+      "sha256": "bc9bbfbcbd94cfa45bd58b1294eb7cb5215ac8641b1c1d07f63bfde2c5c60352",
+      "bin": "kubectl-commander",
+      "files": [
+        {
+          "from": "kubectl-commander-*/kubectl-commander",
+          "to": "."
+        },
+        {
+          "from": "kubectl-commander-*/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/schabrolles/kubectl-commander/archive/refs/tags/v0.4.2.tar.gz",
+      "sha256": "bc9bbfbcbd94cfa45bd58b1294eb7cb5215ac8641b1c1d07f63bfde2c5c60352",
+      "bin": "kubectl-commander",
+      "files": [
+        {
+          "from": "kubectl-commander-*/kubectl-commander",
+          "to": "."
+        },
+        {
+          "from": "kubectl-commander-*/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/schabrolles/kubectl-commander/archive/refs/tags/v0.4.2.tar.gz",
+      "sha256": "bc9bbfbcbd94cfa45bd58b1294eb7cb5215ac8641b1c1d07f63bfde2c5c60352",
+      "bin": "kubectl-commander",
+      "files": [
+        {
+          "from": "kubectl-commander-*/kubectl-commander",
+          "to": "."
+        },
+        {
+          "from": "kubectl-commander-*/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/schabrolles/kubectl-commander/archive/refs/tags/v0.4.2.tar.gz",
+      "sha256": "bc9bbfbcbd94cfa45bd58b1294eb7cb5215ac8641b1c1d07f63bfde2c5c60352",
+      "bin": "kubectl-commander",
+      "files": [
+        {
+          "from": "kubectl-commander-*/kubectl-commander",
+          "to": "."
+        },
+        {
+          "from": "kubectl-commander-*/LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

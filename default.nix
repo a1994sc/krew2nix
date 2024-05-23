@@ -42,20 +42,7 @@ let
       sourceRoot = ".";
       dontBuild = true;
 
-      # # per krew spec the only two supported archives are `.zip` and `.tar.gz`.
-      # # https://krew.sigs.k8s.io/docs/developer-guide/plugin-manifest/
-      # unpackPhase =
-      #   ''
-      #     mkdir extract plugin
-      #     if [[ $src == *.zip ]] then
-      #       unzip -o $src -d extract
-      #     else
-      #       tar -xzf $src -C extract
-      #     fi
-      #   ''
-      #   + (files archSrc);
-
-      nativeBuildInputs = [ unzip ] ++ (lib.optionals (!stdenv.isDarwin) [ autoPatchelfHook ]);
+      nativeBuildInputs = [unzip ] ++ lib.optionals stdenv.isLinux [ autoPatchelfHook ];
 
       installPhase = ''
         runHook preInstall
@@ -68,13 +55,6 @@ let
       meta = {
         inherit description homepage;
       };
-
-      # # The upstream terraform wrapper assumes the provider filename here.
-      # installPhase = ''
-      #   dir=$out/${krew-prefix}/${plugin}
-      #   mkdir -p "$dir"
-      #   mv plugin/* "$dir/"
-      # '';
     };
 
   plugins = lib.mapAttrs (
