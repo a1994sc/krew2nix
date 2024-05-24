@@ -1,12 +1,12 @@
 {
   "plugin": "rook-ceph",
-  "version": "v0.8.0",
+  "version": "v0.9.0",
   "homepage": "https://github.com/rook/kubectl-rook-ceph",
   "description": "The kubectl-rook-ceph is a Krew plugin designed for Rook-Ceph. It simplifies the management, debugging, and\ntroubleshooting processes, while also offering valuable insights into the configuration of the Rook-Ceph clusters.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/rook/kubectl-rook-ceph/releases/download/v0.8.0/kubectl-rook-ceph_v0.8.0_darwin_arm64.tar.gz",
-      "sha256": "60b0472a7d1a2029dfdbe2763851f175a35175dd9b3efbf9a367190cb931935c",
+      "url": "https://github.com/rook/kubectl-rook-ceph/releases/download/v0.9.0/kubectl-rook-ceph_v0.9.0_darwin_arm64.tar.gz",
+      "sha256": "d7bd72d26ee32653d0cf2c1c16ace14b177aeed41ca3805e7b9b6894024ff365",
       "bin": "kubectl-rook-ceph",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/rook/kubectl-rook-ceph/releases/download/v0.8.0/kubectl-rook-ceph_v0.8.0_linux_arm64.tar.gz",
-      "sha256": "3775fceb541bfbc0a10b00ee0abc6251424f69cf35bd5fc868f12f4b292a3e8b",
+      "url": "https://github.com/rook/kubectl-rook-ceph/releases/download/v0.9.0/kubectl-rook-ceph_v0.9.0_linux_arm64.tar.gz",
+      "sha256": "d62faff2d2cd72fbc559e6391f1b15fb60aa7d2ed148f6b9db883fbb18844f68",
       "bin": "kubectl-rook-ceph",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/rook/kubectl-rook-ceph/releases/download/v0.8.0/kubectl-rook-ceph_v0.8.0_darwin_amd64.tar.gz",
-      "sha256": "7b44b2deca96a047c5efd0f0224f962ad5784e11bfaacd4d5c2d6935437d3563",
+      "url": "https://github.com/rook/kubectl-rook-ceph/releases/download/v0.9.0/kubectl-rook-ceph_v0.9.0_darwin_amd64.tar.gz",
+      "sha256": "b88b5abed2a86120ca1798fd2c104af32d58bb6e21fb1d5e229b9f5997b893b4",
       "bin": "kubectl-rook-ceph",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/rook/kubectl-rook-ceph/releases/download/v0.8.0/kubectl-rook-ceph_v0.8.0_linux_amd64.tar.gz",
-      "sha256": "b6a076861d8751d80724329f7663a95ac6bf1912582c82e07dc4cc7c5daac4cd",
+      "url": "https://github.com/rook/kubectl-rook-ceph/releases/download/v0.9.0/kubectl-rook-ceph_v0.9.0_linux_amd64.tar.gz",
+      "sha256": "73a1d825203818c79c887cc18ff05f37c929605876981ec6440923cd62fd848f",
       "bin": "kubectl-rook-ceph",
       "files": [
         {
