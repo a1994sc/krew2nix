@@ -42,7 +42,7 @@ let
       sourceRoot = ".";
       dontBuild = true;
 
-      nativeBuildInputs = [unzip ] ++ lib.optionals stdenv.isLinux [ autoPatchelfHook ];
+      nativeBuildInputs = [ unzip ] ++ lib.optionals stdenv.isLinux [ autoPatchelfHook ];
 
       installPhase = ''
         runHook preInstall

@@ -8,11 +8,19 @@ final: prev: rec {
         kubectlWrapper =
           final.runCommand "kubectl-with-plugins-wrapper"
             {
-              nativeBuildInputs = [ final.makeWrapper ];
+              nativeBuildInputs = [
+                final.makeWrapper
+                final.installShellFiles
+              ];
               meta.priority = final.kubectl.meta.priority or 0 + 10;
             }
             ''
               makeWrapper ${final.kubectl}/bin/kubectl $out/bin/kubectl --prefix PATH : ${final.lib.makeBinPath selectedPlugins}
+
+              installShellCompletion --cmd kubectl \
+                --bash <($out/bin/kubectl completion bash) \
+                --fish <($out/bin/kubectl completion fish) \
+                --zsh <($out/bin/kubectl completion zsh)
             '';
       in
       final.buildEnv {
