@@ -1,12 +1,42 @@
 {
   "plugin": "virt",
-  "version": "v1.2.0",
+  "version": "v1.2.1",
   "homepage": "https://github.com/kubevirt/kubectl-virt-plugin",
-  "description": "virt plugin is a wrapper for virtctl originating from the KubeVirt project. KubeVirt is a virtualization add-on to\nKubernetes, i.e. it enables to run existing virtual machines on Kubernetes clusters. virtctl controls virtual\nmachine related operations on your Kubernetes cluster like connecting to the serial and VNC consoles.\n\nKubevirt documentation:\n  Installation:\n    https://kubevirt.io/user-guide/docs/latest/administration/intro.html\n  User Guide:\n    https://kubevirt.io/user-guide/docs/latest/welcome/index.html\n  Minikube Quickstart:\n    https://kubevirt.io/quickstart_minikube/\n  Virtctl usage examples:\n    https://kubevirt.io/user-guide/docs/latest/using-virtual-machines/graphical-and-console-access.html\n    https://kubevirt.io/user-guide/docs/latest/using-virtual-machines/expose-service.html\n    https://kubevirt.io/user-guide/docs/latest/using-virtual-machines/virtual-machine-replica-set.html\n",
+  "description": "virt plugin is a wrapper for virtctl originating from the KubeVirt project. KubeVirt is a virtualization add-on to\nKubernetes, i.e. it enables to run existing virtual machines on Kubernetes clusters. virtctl controls virtual\nmachine related operations on your Kubernetes cluster like connecting to the serial and VNC consoles.\n\nKubevirt documentation:\n  Installation:\n    https://kubevirt.io/user-guide/operations/installation/\n  User Guide:\n    https://kubevirt.io/user-guide/\n  Minikube Quickstart:\n    https://kubevirt.io/quickstart_minikube/\n  Virtctl usage examples:\n    https://kubevirt.io/user-guide/virtual_machines/accessing_virtual_machines/#graphical-and-serial-console-access\n    https://kubevirt.io/user-guide/virtual_machines/service_objects/#expose-virtualmachineinstance-as-a-loadbalancer-service\n    https://kubevirt.io/user-guide/virtual_machines/replicaset/\n",
   "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/kubevirt/kubectl-virt-plugin/releases/download/v1.2.1/virtctl-darwin-arm64.tar.gz",
+      "sha256": "eb6fc2ca2204abf7b85abb18be6aa2e4bc18f1dd7b27e7aa19b50a78a684a58c",
+      "bin": "virtctl",
+      "files": [
+        {
+          "from": "/virtctl/virtctl-darwin-arm64",
+          "to": "virtctl"
+        },
+        {
+          "from": "virtctl/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/kubevirt/kubectl-virt-plugin/releases/download/v1.2.1/virtctl-linux-arm64.tar.gz",
+      "sha256": "cfcf6de584d7bda3cd9dd731e5803e4ca01033e227d83825fec4640cb3a41469",
+      "bin": "virtctl",
+      "files": [
+        {
+          "from": "/virtctl/virtctl-linux-arm64",
+          "to": "virtctl"
+        },
+        {
+          "from": "virtctl/LICENSE",
+          "to": "."
+        }
+      ]
+    },
     "x86_64-darwin": {
-      "url": "https://github.com/kubevirt/kubectl-virt-plugin/releases/download/v1.2.0/virtctl-darwin-amd64.tar.gz",
-      "sha256": "ef6f25265edbf519670b8ee0f44bd85dddb5cfc5c2595185473f2224a1a4e81b",
+      "url": "https://github.com/kubevirt/kubectl-virt-plugin/releases/download/v1.2.1/virtctl-darwin-amd64.tar.gz",
+      "sha256": "6a1ec00279443d3437158cc7561e0e9677281955443c2c0a29045904510a12cc",
       "bin": "virtctl",
       "files": [
         {
@@ -20,8 +50,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/kubevirt/kubectl-virt-plugin/releases/download/v1.2.0/virtctl-linux-amd64.tar.gz",
-      "sha256": "374d5ae1579e372a2b9ee330a921c8a611576fe9e923963943e23aae0138581f",
+      "url": "https://github.com/kubevirt/kubectl-virt-plugin/releases/download/v1.2.1/virtctl-linux-amd64.tar.gz",
+      "sha256": "bbfbbb0690a8ea2617d20be2a06a380a6a0dfff9086fed14f235f1925e488e04",
       "bin": "virtctl",
       "files": [
         {
