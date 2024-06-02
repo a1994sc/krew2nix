@@ -1,0 +1,52 @@
+{
+  "plugin": "portal",
+  "version": "v1.0.1",
+  "homepage": "https://github.com/federicotdn/kubectl-portal",
+  "description": "A kubectl plugin that launches an HTTP proxy, enabling you to make requests\nto Services, Pods and any other host reachable from within your cluster.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/federicotdn/kubectl-portal/releases/download/v1.0.1/kubectl-portal_1.0.1_darwin_arm64.tar.gz",
+      "sha256": "ddd3bc524c4b3f5c17084493268202a45ac652cfd591155c150017e46f33504b",
+      "bin": "kubectl-portal",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/federicotdn/kubectl-portal/releases/download/v1.0.1/kubectl-portal_1.0.1_linux_arm64.tar.gz",
+      "sha256": "5095d574bca0157fa7624e3e215406454046dce7fcc05b9d172b5fdeb71729b2",
+      "bin": "kubectl-portal",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/federicotdn/kubectl-portal/releases/download/v1.0.1/kubectl-portal_1.0.1_darwin_amd64.tar.gz",
+      "sha256": "d54e42a219eeb85590cb09968882de7d09345d0a341f1ad6ce2ba8cde2c9a102",
+      "bin": "kubectl-portal",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/federicotdn/kubectl-portal/releases/download/v1.0.1/kubectl-portal_1.0.1_linux_amd64.tar.gz",
+      "sha256": "344a956e5db0eeb49dd0b0c5974329c1cabae753c98ba7d35ad84b6f128eb15f",
+      "bin": "kubectl-portal",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

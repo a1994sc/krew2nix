@@ -1,0 +1,52 @@
+{
+  "plugin": "revisions",
+  "version": "v0.1.0",
+  "homepage": "https://github.com/timebertt/kubectl-revisions",
+  "description": "Go back in time in the history of revisions and answers common questions like\n\"Why was my Deployment rolled?\"\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/timebertt/kubectl-revisions/releases/download/v0.1.0/kubectl-revisions_v0.1.0_darwin_arm64.tar.gz",
+      "sha256": "9cf831aa96d4707c5dec0e1a2f93d0ab240f0aac5ef8bca17aa78898ee08492e",
+      "bin": "kubectl-revisions",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/timebertt/kubectl-revisions/releases/download/v0.1.0/kubectl-revisions_v0.1.0_linux_arm64.tar.gz",
+      "sha256": "3b25d923ec95b9273505fcce5275010509bc4132a80ed3731c95106a31f672a9",
+      "bin": "kubectl-revisions",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/timebertt/kubectl-revisions/releases/download/v0.1.0/kubectl-revisions_v0.1.0_darwin_amd64.tar.gz",
+      "sha256": "e53529e334fcb9b21fa9281542424af7a88077a5d03f976c93ea6c2afe41ac86",
+      "bin": "kubectl-revisions",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/timebertt/kubectl-revisions/releases/download/v0.1.0/kubectl-revisions_v0.1.0_linux_amd64.tar.gz",
+      "sha256": "732028138a286812a5c0be0e097c80cb9e919ccc5fd403b1480d8b0a3ce8cdbb",
+      "bin": "kubectl-revisions",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}
