@@ -1,12 +1,12 @@
 {
   "plugin": "oidc-login",
-  "version": "v1.28.0",
+  "version": "v1.28.1",
   "homepage": "https://github.com/int128/kubelogin",
   "description": "This is a kubectl plugin for Kubernetes OpenID Connect (OIDC) authentication.\n\n## Credential plugin mode\nkubectl executes oidc-login before calling the Kubernetes APIs.\noidc-login automatically opens the browser and you can log in to the provider.\nAfter authentication, kubectl gets the token from oidc-login and you can access the cluster.\nSee https://github.com/int128/kubelogin#credential-plugin-mode for more.\n\n## Standalone mode\nRun `kubectl oidc-login`.\nIt automatically opens the browser and you can log in to the provider.\nAfter authentication, it writes the token to the kubeconfig and you can access the cluster.\nSee https://github.com/int128/kubelogin#standalone-mode for more.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/int128/kubelogin/releases/download/v1.28.0/kubelogin_darwin_arm64.zip",
-      "sha256": "322546af4d32ad1dc3037b0d589aec8957dc7dd595f2f6df5738ac6ccf63f33f",
+      "url": "https://github.com/int128/kubelogin/releases/download/v1.28.1/kubelogin_darwin_arm64.zip",
+      "sha256": "4fbd0fb12e005a563a98704db5a441afbee06cd63373f9342c1caf7bd60e82be",
       "bin": "kubelogin",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/int128/kubelogin/releases/download/v1.28.0/kubelogin_linux_arm64.zip",
-      "sha256": "70aa444fd32b7337bb98f43278f6321426f7f4e644e64974e3ad1fb389484c54",
+      "url": "https://github.com/int128/kubelogin/releases/download/v1.28.1/kubelogin_linux_arm64.zip",
+      "sha256": "a89b12387c124eb327894f59ac306c61afb9900660e9a5a3b743ff4008d94a77",
       "bin": "kubelogin",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/int128/kubelogin/releases/download/v1.28.0/kubelogin_darwin_amd64.zip",
-      "sha256": "8169c6e85174a910f256cf21f08c4243a4fb54cd03a44e61b45129457219e646",
+      "url": "https://github.com/int128/kubelogin/releases/download/v1.28.1/kubelogin_darwin_amd64.zip",
+      "sha256": "7150c0ce6df9e22f958ea07ac64cafdaef8a5f66ad0abe22fbe7f5fb6dbb677e",
       "bin": "kubelogin",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/int128/kubelogin/releases/download/v1.28.0/kubelogin_linux_amd64.zip",
-      "sha256": "83282148fcc70ee32b46edb600c7e4232cbad02a56de6dc17e43e843fa55e89e",
+      "url": "https://github.com/int128/kubelogin/releases/download/v1.28.1/kubelogin_linux_amd64.zip",
+      "sha256": "d17dafa1aaa8ede96a81a155cebd7dfd6a0ef6d38c7f76f3d67a57effd94775a",
       "bin": "kubelogin",
       "files": [
         {
