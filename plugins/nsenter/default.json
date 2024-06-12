@@ -1,12 +1,12 @@
 {
   "plugin": "nsenter",
-  "version": "v1.1.0",
+  "version": "v1.1.2",
   "homepage": "https://github.com/pabateman/kubectl-nsenter",
   "description": "This plugin establishes a connection to node that's running the Pod over SSH and uses\nnsenter to run commands in the container's namespace. You would need something\nlike this to run programs that are missing in the container image but presents on node.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/pabateman/kubectl-nsenter/releases/download/v1.1.0/kubectl-nsenter-darwin-arm64.tar.gz",
-      "sha256": "62e36dac049c21ef79804191e16360ea32240272843325ab302cda159036f6dd",
+      "url": "https://github.com/pabateman/kubectl-nsenter/releases/download/v1.1.2/kubectl-nsenter-darwin-arm64.tar.gz",
+      "sha256": "6ad953068ef986850d1504ed32de20dbdcaebc161c9e335842f8f8f8804e69b5",
       "bin": "kubectl-nsenter",
       "files": [
         {
@@ -19,9 +19,24 @@
         }
       ]
     },
+    "aarch64-linux": {
+      "url": "https://github.com/pabateman/kubectl-nsenter/releases/download/v1.1.2/kubectl-nsenter-linux-arm64.tar.gz",
+      "sha256": "c439bab5f63d9b353d8a07d3468cc3ef87155644b7f5bde66f503ff2e78760b8",
+      "bin": "kubectl-nsenter",
+      "files": [
+        {
+          "from": "kubectl-nsenter-linux-arm64",
+          "to": "kubectl-nsenter"
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
     "x86_64-darwin": {
-      "url": "https://github.com/pabateman/kubectl-nsenter/releases/download/v1.1.0/kubectl-nsenter-darwin-amd64.tar.gz",
-      "sha256": "023d910e590586017ab775caaacbaccd547b5b66e36963b11d4b7900d47d8392",
+      "url": "https://github.com/pabateman/kubectl-nsenter/releases/download/v1.1.2/kubectl-nsenter-darwin-amd64.tar.gz",
+      "sha256": "c544c3b075208a9bf14e5d1d1bb2a63d1ba59d66a03ee89552ed87555c7f1ca8",
       "bin": "kubectl-nsenter",
       "files": [
         {
@@ -35,8 +50,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/pabateman/kubectl-nsenter/releases/download/v1.1.0/kubectl-nsenter-linux-amd64.tar.gz",
-      "sha256": "80816ba6928d2b8d25f1deeec4b910b1cf662d4498055ca4a516b85244b8330a",
+      "url": "https://github.com/pabateman/kubectl-nsenter/releases/download/v1.1.2/kubectl-nsenter-linux-amd64.tar.gz",
+      "sha256": "40d0ed0aff7da5c69cb19474f5671f1235d4f05bfe0c88d920b3f130e730f4b0",
       "bin": "kubectl-nsenter",
       "files": [
         {

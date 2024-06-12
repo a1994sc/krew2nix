@@ -1,12 +1,12 @@
 {
   "plugin": "revisions",
-  "version": "v0.2.0",
+  "version": "v0.3.0",
   "homepage": "https://github.com/timebertt/kubectl-revisions",
   "description": "Go back in time in the history of revisions and answers common questions like\n\"Why was my Deployment rolled?\"\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/timebertt/kubectl-revisions/releases/download/v0.2.0/kubectl-revisions_v0.2.0_darwin_arm64.tar.gz",
-      "sha256": "f071c8f1d5c2954c8e6f70421371f63cbe4b7da9f0472cc35e18ff847327c7db",
+      "url": "https://github.com/timebertt/kubectl-revisions/releases/download/v0.3.0/kubectl-revisions_v0.3.0_darwin_arm64.tar.gz",
+      "sha256": "08788cde124f1cb12e0acf948b9bd8fb90f13c88ee7192b1559aab3e1980bbe7",
       "bin": "kubectl-revisions",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/timebertt/kubectl-revisions/releases/download/v0.2.0/kubectl-revisions_v0.2.0_linux_arm64.tar.gz",
-      "sha256": "e74a4bea66e54fad3bbb3aa58235257216e62b0e1121688178700f7821e3f54d",
+      "url": "https://github.com/timebertt/kubectl-revisions/releases/download/v0.3.0/kubectl-revisions_v0.3.0_linux_arm64.tar.gz",
+      "sha256": "c3d9daa3844dc7f8bd9c9eb0df8b73fb238a448a41dc3048f3857afe9575edd6",
       "bin": "kubectl-revisions",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/timebertt/kubectl-revisions/releases/download/v0.2.0/kubectl-revisions_v0.2.0_darwin_amd64.tar.gz",
-      "sha256": "cac8cd2b186d2e914e8a4677a6e50fa1e0820efc445974df7db9f8636221c565",
+      "url": "https://github.com/timebertt/kubectl-revisions/releases/download/v0.3.0/kubectl-revisions_v0.3.0_darwin_amd64.tar.gz",
+      "sha256": "b02f45f44a059e63430f069ca3cfcc7ca4104ba039bae6f9f0de7c7efcba10ce",
       "bin": "kubectl-revisions",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/timebertt/kubectl-revisions/releases/download/v0.2.0/kubectl-revisions_v0.2.0_linux_amd64.tar.gz",
-      "sha256": "c94dbc108e7e305635defe339724eb116d88a921ba85f2ce43e2a4493014b71c",
+      "url": "https://github.com/timebertt/kubectl-revisions/releases/download/v0.3.0/kubectl-revisions_v0.3.0_linux_amd64.tar.gz",
+      "sha256": "918866b795c1f365679889fadc741af453110f473f3dd0775eee208168f998c9",
       "bin": "kubectl-revisions",
       "files": [
         {
