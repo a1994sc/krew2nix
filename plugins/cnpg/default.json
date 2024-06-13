@@ -1,12 +1,12 @@
 {
   "plugin": "cnpg",
-  "version": "v1.23.1",
+  "version": "v1.23.2",
   "homepage": "https://github.com/cloudnative-pg/cloudnative-pg",
   "description": "This plugin provides multiple commands to help you manage your CloudNativePG clusters.",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/cloudnative-pg/cloudnative-pg/releases/download/v1.23.1/kubectl-cnpg_1.23.1_darwin_arm64.tar.gz",
-      "sha256": "0d22bfd7cc9adc8f9ac43c0e38b017e331f38c0ca9cd90e0703c8cdcb26cf21d",
+      "url": "https://github.com/cloudnative-pg/cloudnative-pg/releases/download/v1.23.2/kubectl-cnpg_1.23.2_darwin_arm64.tar.gz",
+      "sha256": "030d6d5c7e2562d661782afd4a8bf6361809b4225e2fb402f769784ea91d902a",
       "bin": "kubectl-cnpg",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/cloudnative-pg/cloudnative-pg/releases/download/v1.23.1/kubectl-cnpg_1.23.1_linux_arm64.tar.gz",
-      "sha256": "0ed60e43463f39c7ac14d9b0305a3702b50132d3f3648eba90f3ad72c3faa645",
+      "url": "https://github.com/cloudnative-pg/cloudnative-pg/releases/download/v1.23.2/kubectl-cnpg_1.23.2_linux_arm64.tar.gz",
+      "sha256": "fe01fd016e473ed68d5b835735721d5f65e517d7b5260c0fc1592a6bd2e98742",
       "bin": "kubectl-cnpg",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/cloudnative-pg/cloudnative-pg/releases/download/v1.23.1/kubectl-cnpg_1.23.1_darwin_x86_64.tar.gz",
-      "sha256": "359cfa88b1133d1e74f18dae71e527d559f832d498a19daa04f691970463506c",
+      "url": "https://github.com/cloudnative-pg/cloudnative-pg/releases/download/v1.23.2/kubectl-cnpg_1.23.2_darwin_x86_64.tar.gz",
+      "sha256": "cffdcaf05678a8a8a24608aad778a9fd655b60d3d7ffa0662c49af9afb3a2f29",
       "bin": "kubectl-cnpg",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/cloudnative-pg/cloudnative-pg/releases/download/v1.23.1/kubectl-cnpg_1.23.1_linux_x86_64.tar.gz",
-      "sha256": "aea64ec25b76906e11114168aa2346957abd5fdbd1ef3b7e2e806db41db8b9fe",
+      "url": "https://github.com/cloudnative-pg/cloudnative-pg/releases/download/v1.23.2/kubectl-cnpg_1.23.2_linux_x86_64.tar.gz",
+      "sha256": "b651677c7c42400766a42c27ed3db9786a1d917be363fbaad94d63aad686ee6c",
       "bin": "kubectl-cnpg",
       "files": [
         {
