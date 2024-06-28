@@ -1,13 +1,13 @@
 {
   "plugin": "cert-manager",
-  "version": "v1.14.1",
+  "version": "v2.1.0",
   "homepage": "https://github.com/cert-manager/cert-manager",
   "description": "cert-manager is the easiest way to automatically manage certificates\nin Kubernetes and OpenShift clusters. The kubectl plugin helps with\nmanaging cert-manager resources e.g. manual renewal of Certificates.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/cert-manager/cert-manager/releases/download/v1.14.1/kubectl-cert_manager-darwin-arm64.tar.gz",
-      "sha256": "d891fcd5698ab1473fdb8ff6602c6621f66fdfa93660edc81b61cff5887889dd",
-      "bin": "kubectl-cert_manager",
+      "url": "https://github.com/cert-manager/cmctl/releases/download/v2.1.0/cmctl_darwin_arm64.tar.gz",
+      "sha256": "afa98eb88342ca4eaeba84feaa4cff14c8defd8f96c7ae6781e2cdab0955e13f",
+      "bin": "cmctl",
       "files": [
         {
           "from": "*",
@@ -16,9 +16,9 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/cert-manager/cert-manager/releases/download/v1.14.1/kubectl-cert_manager-linux-arm64.tar.gz",
-      "sha256": "d947f6e3ea94f282dae9308874e6c44b3379e7523fa735e29f72550f1cc83c7a",
-      "bin": "kubectl-cert_manager",
+      "url": "https://github.com/cert-manager/cmctl/releases/download/v2.1.0/cmctl_linux_arm64.tar.gz",
+      "sha256": "6f903b8554f7e608ba3d156878f3720480b5dd693400e0354f2c88b94e4b9de0",
+      "bin": "cmctl",
       "files": [
         {
           "from": "*",
@@ -27,9 +27,9 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/cert-manager/cert-manager/releases/download/v1.14.1/kubectl-cert_manager-darwin-amd64.tar.gz",
-      "sha256": "c958543f0453938e99114a2a097d42be04f14c4fea7f84e7ac1c212f2161db2d",
-      "bin": "kubectl-cert_manager",
+      "url": "https://github.com/cert-manager/cmctl/releases/download/v2.1.0/cmctl_darwin_amd64.tar.gz",
+      "sha256": "3afd6bccc1d3c9bc38fb01f1655ae0ac6b286c702a1be22792f555c87be4a75c",
+      "bin": "cmctl",
       "files": [
         {
           "from": "*",
@@ -38,9 +38,9 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/cert-manager/cert-manager/releases/download/v1.14.1/kubectl-cert_manager-linux-amd64.tar.gz",
-      "sha256": "84817ac2e562a2b2ab04a5105e5e5a0e53ae1e7338c3c7e174e23cbc320c280f",
-      "bin": "kubectl-cert_manager",
+      "url": "https://github.com/cert-manager/cmctl/releases/download/v2.1.0/cmctl_linux_amd64.tar.gz",
+      "sha256": "9a932578121ca2f920f3eafd72dfaa82cf37b67910891a757b460bcffc158bf4",
+      "bin": "cmctl",
       "files": [
         {
           "from": "*",
