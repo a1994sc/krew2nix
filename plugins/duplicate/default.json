@@ -1,0 +1,52 @@
+{
+  "plugin": "duplicate",
+  "version": "v0.2.0",
+  "homepage": "https://github.com/Telemaco019/duplik8s",
+  "description": "This plugin makes it super easy to duplicate Kubernetes Pods with overridden commands and configurations. \nIt's similar to `kubectl debug --copy-to`, but with more features and flexibility.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/Telemaco019/duplik8s/releases/download/v0.2.0/duplik8s_Darwin_arm64.tar.gz",
+      "sha256": "bbeed9a30714175a381b88a7c6000e7ffb109910b756a920a7e599511c1b5727",
+      "bin": "duplik8s",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/Telemaco019/duplik8s/releases/download/v0.2.0/duplik8s_Linux_arm64.tar.gz",
+      "sha256": "76a461698892a16f0224541e8d30b4a9ec3955f4b5554cc7bf73d44e09b10576",
+      "bin": "duplik8s",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/Telemaco019/duplik8s/releases/download/v0.2.0/duplik8s_Darwin_x86_64.tar.gz",
+      "sha256": "86117c9d89d68ca6b8c7494f737d775a0ff1444a87fbf99425a32f3b58b6d028",
+      "bin": "duplik8s",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/Telemaco019/duplik8s/releases/download/v0.2.0/duplik8s_Linux_x86_64.tar.gz",
+      "sha256": "11c69d349905bcded828493a541e46cac25e4b4234c296f69c0cbd7defe0af3c",
+      "bin": "duplik8s",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}
