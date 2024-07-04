@@ -1,6 +1,6 @@
 # krew2nix
 
-[![.github/workflows/update-flake-lock.yml](https://github.com/a1994sc/krew2nix/actions/workflows/update-flake-lock.yml/badge.svg?branch=main)](https://github.com/a1994sc/krew2nix/actions/workflows/update-flake-lock.yml)
+[![Gather new plugins](https://github.com/a1994sc/krew2nix/actions/workflows/poll-plugins.yml/badge.svg)](https://github.com/a1994sc/krew2nix/actions/workflows/poll-plugins.yml) [![Update plugins](https://github.com/a1994sc/krew2nix/actions/workflows/update-plugins.yml/badge.svg)](https://github.com/a1994sc/krew2nix/actions/workflows/update-plugins.yml)
 
 TL/DR:
 
