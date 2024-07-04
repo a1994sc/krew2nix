@@ -2,7 +2,7 @@ name: Gather new plugins
 on:
   workflow_dispatch:
   schedule:
-  - cron: '0 1 * * 0'  # once a week
+  - cron: '0 1 2-30/2 * *'  # every other day
 
 permissions:
   contents: write
