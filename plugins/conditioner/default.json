@@ -1,0 +1,52 @@
+{
+  "plugin": "conditioner",
+  "version": "v1.2.0",
+  "homepage": "https://github.com/devbytes-cloud/conditioner",
+  "description": "Conditioner allows you to add, update, or remove conditions on Kubernetes nodes. It's a handy tool for cluster administrators to manage node status conditions effectively.",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/devbytes-cloud/conditioner/releases/download/v1.2.0/conditioner_Darwin_arm64.tar.gz",
+      "sha256": "d1d98b178ff7787494709019625d4fcd81a8f12c62839feca794dee69354be4b",
+      "bin": "kubectl-conditioner",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/devbytes-cloud/conditioner/releases/download/v1.2.0/conditioner_Linux_arm64.tar.gz",
+      "sha256": "694656fee37b38c7cea0f85d01ad3f56d5c12efaec26dfab36e3544a20d720b3",
+      "bin": "kubectl-conditioner",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/devbytes-cloud/conditioner/releases/download/v1.2.0/conditioner_Darwin_x86_64.tar.gz",
+      "sha256": "64dde38a3fce24bde4e9640de90406e98e195efa52acecd25e58373e3051a832",
+      "bin": "kubectl-conditioner",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/devbytes-cloud/conditioner/releases/download/v1.2.0/conditioner_Linux_x86_64.tar.gz",
+      "sha256": "578e419be3748cd74b755339003cba4d9fa92aa76e0e45d522a145223005cca5",
+      "bin": "kubectl-conditioner",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}
