@@ -1,12 +1,12 @@
 {
   "plugin": "accurate",
-  "version": "v1.3.0",
+  "version": "v1.4.0",
   "homepage": "https://github.com/cybozu-go/accurate",
   "description": "kubectl-accurate is a subcommand of kubectl to manage Accurate features.\nAccurate is a Kubernetes controller for multi-tenancy.\nIt propagates resources between namespaces accurately and allows tenant users to create/delete sub-namespaces.\nRead more documentation at: https://cybozu-go.github.io/accurate/index.html\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/cybozu-go/accurate/releases/download/v1.3.0/kubectl-accurate_v1.3.0_darwin_arm64.tar.gz",
-      "sha256": "a88f7caa316cff459e2faf5326ed7eaaac116146ffc04ef443d7ee36d1cabffa",
+      "url": "https://github.com/cybozu-go/accurate/releases/download/v1.4.0/kubectl-accurate_v1.4.0_darwin_arm64.tar.gz",
+      "sha256": "3d04a5a0ad5cba01dd6d62e5e5b009fe123ef38f8c357c0d316ae0f62fc8cc9b",
       "bin": "kubectl-accurate",
       "files": [
         {
@@ -20,8 +20,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/cybozu-go/accurate/releases/download/v1.3.0/kubectl-accurate_v1.3.0_linux_arm64.tar.gz",
-      "sha256": "ab787616fc70f1e6d9c03fe7196d1139f8a5b86ab628ccca2810cd640df1ce1b",
+      "url": "https://github.com/cybozu-go/accurate/releases/download/v1.4.0/kubectl-accurate_v1.4.0_linux_arm64.tar.gz",
+      "sha256": "32b30431e5c8cf78f5551b3401f50c87ca8e766e1353bd4e348de757af5e4e8e",
       "bin": "kubectl-accurate",
       "files": [
         {
@@ -35,8 +35,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/cybozu-go/accurate/releases/download/v1.3.0/kubectl-accurate_v1.3.0_darwin_amd64.tar.gz",
-      "sha256": "07ef230249d26ba7385ec85048a1ea6a02807e3c1c13eb5ec955c597ec2ce819",
+      "url": "https://github.com/cybozu-go/accurate/releases/download/v1.4.0/kubectl-accurate_v1.4.0_darwin_amd64.tar.gz",
+      "sha256": "1dbfae73c378cedfe76849b6150c28d5648520f8a81b8957a9d221b155141aff",
       "bin": "kubectl-accurate",
       "files": [
         {
@@ -50,8 +50,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/cybozu-go/accurate/releases/download/v1.3.0/kubectl-accurate_v1.3.0_linux_amd64.tar.gz",
-      "sha256": "74e53fd712d45ddac5246b0a9a4cd73d3a370fc665add3f65f7c7dd68275c48e",
+      "url": "https://github.com/cybozu-go/accurate/releases/download/v1.4.0/kubectl-accurate_v1.4.0_linux_amd64.tar.gz",
+      "sha256": "a63ffd1f5bc1aa1ccdea83318be3c170565883ab16f3119024ac4c78c4ed20d5",
       "bin": "kubectl-accurate",
       "files": [
         {
