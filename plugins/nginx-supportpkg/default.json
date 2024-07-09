@@ -1,12 +1,12 @@
 {
   "plugin": "nginx-supportpkg",
-  "version": "v0.1.2",
+  "version": "v0.1.3",
   "homepage": "https://github.com/nginxinc/nginx-supportpkg-for-k8s",
   "description": "Provides a single command to collect troubleshooting information\nfor all NGINX products that run on k8s.",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/nginxinc/nginx-supportpkg-for-k8s/releases/download/v0.1.2/kubectl-nginx_supportpkg_v0.1.2_darwin_arm64.tar.gz",
-      "sha256": "79f0cfb7ba7d5d3eb8dd9a6bc803713bf88ef9ca2ff24809e2e61081c4887e4b",
+      "url": "https://github.com/nginxinc/nginx-supportpkg-for-k8s/releases/download/v0.1.3/kubectl-nginx_supportpkg_v0.1.3_darwin_arm64.tar.gz",
+      "sha256": "aec6956fbaf831d02d2f393eb0ab68484255e20f619452579b66235858134571",
       "bin": "kubectl-nginx_supportpkg",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/nginxinc/nginx-supportpkg-for-k8s/releases/download/v0.1.2/kubectl-nginx_supportpkg_v0.1.2_linux_arm64.tar.gz",
-      "sha256": "41396209fe57ec2e11d211058317ef6b39f7ab565a08e68e02da2b7349e979f7",
+      "url": "https://github.com/nginxinc/nginx-supportpkg-for-k8s/releases/download/v0.1.3/kubectl-nginx_supportpkg_v0.1.3_linux_arm64.tar.gz",
+      "sha256": "95ed1f07278289f8b91f92803c98d72c3c785c3b1f3b2447f3be80a11225c181",
       "bin": "kubectl-nginx_supportpkg",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/nginxinc/nginx-supportpkg-for-k8s/releases/download/v0.1.2/kubectl-nginx_supportpkg_v0.1.2_darwin_amd64.tar.gz",
-      "sha256": "c547dc207562e3984c6b765afbaf73e765e575a4c98449c590e0bec746c55065",
+      "url": "https://github.com/nginxinc/nginx-supportpkg-for-k8s/releases/download/v0.1.3/kubectl-nginx_supportpkg_v0.1.3_darwin_amd64.tar.gz",
+      "sha256": "b58a710f3b9e43a09888e45a3d29ecad4a8d9b18a9f66d1ddd218333c2778c15",
       "bin": "kubectl-nginx_supportpkg",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/nginxinc/nginx-supportpkg-for-k8s/releases/download/v0.1.2/kubectl-nginx_supportpkg_v0.1.2_linux_amd64.tar.gz",
-      "sha256": "8ca508e9e220b42477e01deb372e9358933eafe18db4288c5bf593fc81d7629a",
+      "url": "https://github.com/nginxinc/nginx-supportpkg-for-k8s/releases/download/v0.1.3/kubectl-nginx_supportpkg_v0.1.3_linux_amd64.tar.gz",
+      "sha256": "4f1e7a3ad484d1e1776d008fbb74b9cab5dcf5a1f96d0c548210587df369c223",
       "bin": "kubectl-nginx_supportpkg",
       "files": [
         {
