@@ -1,12 +1,12 @@
 {
   "plugin": "istiolog",
-  "version": "v0.0.14",
+  "version": "v0.0.15",
   "homepage": "https://github.com/TejaBeta/kubectl-istiolog",
   "description": "kubectl-istiolog plugin enables ops-teams and developers to view istio\nsidecar(istio-proxy) logs by manipulating the logger names and logger \nlevels of Envoy instance without any additional tools like istioctl. The\nplugin can also tail istio-proxy logs.\n\nExample: \n  kubectl istiolog my-podname-0 -n dev -l debug -f\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/TejaBeta/kubectl-istiolog/releases/download/v0.0.14/kubectl-istiolog_v0.0.14_Darwin_arm64.tar.gz",
-      "sha256": "aa05950abf558f30204f8889f483c91ea46bc576b50da2aaa3f315771184fc3b",
+      "url": "https://github.com/TejaBeta/kubectl-istiolog/releases/download/v0.0.15/kubectl-istiolog_v0.0.15_Darwin_arm64.tar.gz",
+      "sha256": "ee5f4ac60d7587ee486c3ffa23fe90f6087288b096ccded59f48424058de5bb9",
       "bin": "kubectl-istiolog",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/TejaBeta/kubectl-istiolog/releases/download/v0.0.14/kubectl-istiolog_v0.0.14_Linux_arm64.tar.gz",
-      "sha256": "d1e52dbf658abe86c91ab4390d527584b11ce353a7b5631191afaf740452a94e",
+      "url": "https://github.com/TejaBeta/kubectl-istiolog/releases/download/v0.0.15/kubectl-istiolog_v0.0.15_Linux_arm64.tar.gz",
+      "sha256": "465613375c6330c313d9f35fb572fbed59b7d7a0961c23de9963c20b0ac87ecf",
       "bin": "kubectl-istiolog",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/TejaBeta/kubectl-istiolog/releases/download/v0.0.14/kubectl-istiolog_v0.0.14_Darwin_x86_64.tar.gz",
-      "sha256": "c5a17cd52a004eb920c2faee6ffd8398f80aed095d38cf4ab7e934639a2892ab",
+      "url": "https://github.com/TejaBeta/kubectl-istiolog/releases/download/v0.0.15/kubectl-istiolog_v0.0.15_Darwin_x86_64.tar.gz",
+      "sha256": "83d05beae7a72829394b4e6c27001d5702fb107f9b494c9b08f118e248889e4a",
       "bin": "kubectl-istiolog",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/TejaBeta/kubectl-istiolog/releases/download/v0.0.14/kubectl-istiolog_v0.0.14_Linux_x86_64.tar.gz",
-      "sha256": "66b7fb395fdafe794fe896c05f33af622f30985bcc0d6d18cb5316dbe3ac13e7",
+      "url": "https://github.com/TejaBeta/kubectl-istiolog/releases/download/v0.0.15/kubectl-istiolog_v0.0.15_Linux_x86_64.tar.gz",
+      "sha256": "7a85ebaa2e3877badbe825db9b134e84fd4cd4eefe9f1af8cb326379d764961d",
       "bin": "kubectl-istiolog",
       "files": [
         {
