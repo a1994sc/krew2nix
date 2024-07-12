@@ -1,12 +1,12 @@
 {
   "plugin": "cyclonus",
-  "version": "v0.2.0",
+  "version": "v0.2.1",
   "homepage": "https://github.com/mattfenwick/kubectl-cyclonus",
   "description": "This plugin provides a suite of tools for working with network policies, including:\n- linting to detect common problems\n- target- and pod-based resolution of policies, to understand how policies work in practice\n  and override each other\n- simulation of traffic allow/deny based on application of policies to source and destination\n  pod and namespace labels and IP addresses\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/mattfenwick/kubectl-cyclonus/releases/download/v0.2.0/kubectl-cyclonus_darwin_arm64.tar.gz",
-      "sha256": "354618e2f9949860d817ace48df9a5eb89ac073afe9ecf7f34de690667682495",
+      "url": "https://github.com/mattfenwick/kubectl-cyclonus/releases/download/v0.2.1/kubectl-cyclonus_darwin_arm64.tar.gz",
+      "sha256": "67531555e4e53027234e065931921a38637c3bd6e31e795526df82b8e37a8787",
       "bin": "cyclonus",
       "files": [
         {
@@ -20,8 +20,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/mattfenwick/kubectl-cyclonus/releases/download/v0.2.0/kubectl-cyclonus_darwin_amd64.tar.gz",
-      "sha256": "1a54626d0f9bee4142a6d6e15064f75d49d7616eda271aa8ecc4d5ebaf9f5990",
+      "url": "https://github.com/mattfenwick/kubectl-cyclonus/releases/download/v0.2.1/kubectl-cyclonus_darwin_amd64.tar.gz",
+      "sha256": "99e1b712bf6b8a4010632290b6b905ee1beb294fcaf8c4f0894d14e2bc860809",
       "bin": "cyclonus",
       "files": [
         {
@@ -35,8 +35,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/mattfenwick/kubectl-cyclonus/releases/download/v0.2.0/kubectl-cyclonus_linux_amd64.tar.gz",
-      "sha256": "8138a261202f3e57688c6e7c7890d8f62eef0148db5640612fab56dea9067d01",
+      "url": "https://github.com/mattfenwick/kubectl-cyclonus/releases/download/v0.2.1/kubectl-cyclonus_linux_amd64.tar.gz",
+      "sha256": "bd4abf4dc13582bca8d81f08c9413f5d137cf9cbf87e1810e062452dadfd3335",
       "bin": "cyclonus",
       "files": [
         {
