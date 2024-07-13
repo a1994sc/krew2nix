@@ -1,12 +1,12 @@
 {
   "plugin": "browse-pvc",
-  "version": "v1.0.5",
+  "version": "v1.0.6",
   "homepage": "https://github.com/clbx/kubectl-browse-pvc",
   "description": "Browse PVCs from the command line. Creates a job thats binds an unbound PVC and execs into it.",
   "archSrc": {
     "x86_64-linux": {
-      "url": "https://github.com/clbx/kubectl-browse-pvc/releases/download/v1.0.5/kubectl-browse-pvc-linux.zip",
-      "sha256": "f89676f545a2eca92418486a55805dd190021ee933be83f46d71a63d1179265d",
+      "url": "https://github.com/clbx/kubectl-browse-pvc/releases/download/v1.0.6/kubectl-browse-pvc-linux.zip",
+      "sha256": "64668cb08e73134a8fa2a03aab8f39f26b3d84340a5e7c2c21ed4181ffc85f20",
       "bin": "kubectl-browse-pvc",
       "files": [
         {
