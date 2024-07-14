@@ -1,0 +1,68 @@
+{
+  "plugin": "track",
+  "version": "v0.1.0",
+  "homepage": "https://github.com/semihbkgr/kubectl-track",
+  "description": "This plugin tracks changes between resource versions for a Kubernetes object.\nIt continuously monitors the resource, displaying differences between versions to\nhelp with debugging and understanding the resource evolution during their lifetime.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/semihbkgr/kubectl-track/releases/download/v0.1.0/kubectl-track_darwin_arm64.tar.gz",
+      "sha256": "41c5d75a95f01b4f1fae1c0b1205cfe55b7347bc112966e09d960e79f09b9766",
+      "bin": "kubectl-track",
+      "files": [
+        {
+          "from": "./kubectl-track",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/semihbkgr/kubectl-track/releases/download/v0.1.0/kubectl-track_linux_arm64.tar.gz",
+      "sha256": "cd18da4ce6bd06cbf45f78797e862a2440e5d4740b431bd9060414a5f2fb83c9",
+      "bin": "kubectl-track",
+      "files": [
+        {
+          "from": "./kubectl-track",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/semihbkgr/kubectl-track/releases/download/v0.1.0/kubectl-track_darwin_amd64.tar.gz",
+      "sha256": "ce68c12dba4dff4df863e5b33e0cae706ccc91b67c9287473d1148a9f68a0081",
+      "bin": "kubectl-track",
+      "files": [
+        {
+          "from": "./kubectl-track",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/semihbkgr/kubectl-track/releases/download/v0.1.0/kubectl-track_linux_amd64.tar.gz",
+      "sha256": "6bed1dfa0da471e227590f873937dc8ae4dbf17e103f2770fe696f5fbc9cca88",
+      "bin": "kubectl-track",
+      "files": [
+        {
+          "from": "./kubectl-track",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}
