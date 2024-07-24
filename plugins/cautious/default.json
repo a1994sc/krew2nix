@@ -1,0 +1,41 @@
+{
+  "plugin": "cautious",
+  "version": "v0.0.4",
+  "homepage": "https://github.com/fedeztk/kubectl-cautious",
+  "description": "Cautiously run kubectl commands, no more accidental deletions!\nSupports regexes and is configured via a yaml file under ~/.kube\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/fedeztk/kubectl-cautious/releases/download/v0.0.4/cautious_darwin_arm64.tar.gz",
+      "sha256": "8c9a202fdba194998d4312b0a154c362b08abbd4f9a91abf947d4e8b4acf7c26",
+      "bin": "cautious",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/fedeztk/kubectl-cautious/releases/download/v0.0.4/cautious_darwin_amd64.tar.gz",
+      "sha256": "b9da3da96ea59aab110adf87d4b6cc346741a84f5603038544de56736e85ecd5",
+      "bin": "cautious",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/fedeztk/kubectl-cautious/releases/download/v0.0.4/cautious_linux_amd64.tar.gz",
+      "sha256": "db609567fe023e822ab549c40bdcf999201dba593cc442e7e04b3f8c91ea501b",
+      "bin": "cautious",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}
