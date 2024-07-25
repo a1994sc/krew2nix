@@ -1,12 +1,12 @@
 {
   "plugin": "kollama",
-  "version": "v0.7.1",
+  "version": "v0.8.0",
   "homepage": "https://github.com/nekomeowww/ollama-operator",
   "description": "Usage:\n  kubectl kollama deploy llama2\n  This plugin will help you to interact with the Ollama Operator to deploy any LLM (Llama Language Model) to your Kubernetes cluster.\n  Read more documentation at: https://github.com/nekomeowww/ollama-operator\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/nekomeowww/ollama-operator/releases/download/v0.7.1/kollama_v0.7.1_darwin_arm64.tar.gz",
-      "sha256": "484767d87e7b04129a805fb38c2c0139cd072c0401725e2113ea354ad84f6a73",
+      "url": "https://github.com/nekomeowww/ollama-operator/releases/download/v0.8.0/kollama_v0.8.0_darwin_arm64.tar.gz",
+      "sha256": "b69155ffdfd5df94632eba33fc4578931f095d31975928670271fcea1586b438",
       "bin": "kollama",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/nekomeowww/ollama-operator/releases/download/v0.7.1/kollama_v0.7.1_linux_arm64.tar.gz",
-      "sha256": "d4500fc4c05ad0681ab93330a796c87afcd201d0b2699f7cd120901d54891f24",
+      "url": "https://github.com/nekomeowww/ollama-operator/releases/download/v0.8.0/kollama_v0.8.0_linux_arm64.tar.gz",
+      "sha256": "4f36431ad363f505e66439547f2584e2e7eb023a672aa28e61e50d56ded920e2",
       "bin": "kollama",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/nekomeowww/ollama-operator/releases/download/v0.7.1/kollama_v0.7.1_darwin_amd64.tar.gz",
-      "sha256": "510645dbf77ec0d2865c255698c00dd7d2235ba70c62eeddf4a647f052b644a1",
+      "url": "https://github.com/nekomeowww/ollama-operator/releases/download/v0.8.0/kollama_v0.8.0_darwin_amd64.tar.gz",
+      "sha256": "72b047b6ce7e5ce11e3f6ac94be517908cc560dfb9b3b51a2be922771b837ace",
       "bin": "kollama",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/nekomeowww/ollama-operator/releases/download/v0.7.1/kollama_v0.7.1_linux_amd64.tar.gz",
-      "sha256": "a35fa09db73d6c91377a8713895f056aedd43405be40fd73caba86539b90fc6f",
+      "url": "https://github.com/nekomeowww/ollama-operator/releases/download/v0.8.0/kollama_v0.8.0_linux_amd64.tar.gz",
+      "sha256": "087451493da83d941931b78ed2fc09728904e157502adea921fec62dbc5d28bb",
       "bin": "kollama",
       "files": [
         {
