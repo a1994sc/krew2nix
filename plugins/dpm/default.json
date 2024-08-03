@@ -1,12 +1,12 @@
 {
   "plugin": "dpm",
-  "version": "v0.1.0",
+  "version": "v0.1.1",
   "homepage": "https://github.com/bavarianbidi/kubectl-dpm",
   "description": "Wraps the custom debug profile subcommand to make it easier \nto switch between different debug profiles for pods.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/bavarianbidi/kubectl-dpm/releases/download/v0.1.0/kubectl-dpm_0.1.0_darwin_arm64.tar.gz",
-      "sha256": "1e5d3d8ef3ac8d8aa134e7d98041ca1dc245e59f1de8282ec621fe25fcd7622b",
+      "url": "https://github.com/bavarianbidi/kubectl-dpm/releases/download/v0.1.1/kubectl-dpm_v0.1.1_darwin_arm64.tar.gz",
+      "sha256": "f30ea9503572d025c0d8e543e4955da637e71b6bba007bfd5902c1d6a8e79d48",
       "bin": "kubectl-dpm",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/bavarianbidi/kubectl-dpm/releases/download/v0.1.0/kubectl-dpm_0.1.0_linux_arm64.tar.gz",
-      "sha256": "b35bfc181b63683436ead08ef71165deb705de55d109bbc5480d195ca00498a6",
+      "url": "https://github.com/bavarianbidi/kubectl-dpm/releases/download/v0.1.1/kubectl-dpm_v0.1.1_linux_arm64.tar.gz",
+      "sha256": "7602a11c752922727142fa09560b5b2c5873e4944fbb1d37a9dafff1ac362518",
       "bin": "kubectl-dpm",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/bavarianbidi/kubectl-dpm/releases/download/v0.1.0/kubectl-dpm_0.1.0_darwin_amd64.tar.gz",
-      "sha256": "5d5cc0e1c762fb4bcd18428329d199393796a4b070e11511115578fdf9103f88",
+      "url": "https://github.com/bavarianbidi/kubectl-dpm/releases/download/v0.1.1/kubectl-dpm_v0.1.1_darwin_amd64.tar.gz",
+      "sha256": "8982326a87d9624b78b9d6417cbc5b76d44d8d60c2008638d1668000f7767cd6",
       "bin": "kubectl-dpm",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/bavarianbidi/kubectl-dpm/releases/download/v0.1.0/kubectl-dpm_0.1.0_linux_amd64.tar.gz",
-      "sha256": "9260d9261b7ff8591fc6351532c43fa4292d296bb9be30280d575cf0d12537aa",
+      "url": "https://github.com/bavarianbidi/kubectl-dpm/releases/download/v0.1.1/kubectl-dpm_v0.1.1_linux_amd64.tar.gz",
+      "sha256": "adaf8180f393c8173113231882272dcf0a5b3cf4c3828779554a591d64adb7c4",
       "bin": "kubectl-dpm",
       "files": [
         {
