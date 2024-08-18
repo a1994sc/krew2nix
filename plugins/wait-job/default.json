@@ -1,0 +1,52 @@
+{
+  "plugin": "wait-job",
+  "version": "v0.1.0",
+  "homepage": "https://github.com/brianpursley/kubectl-wait-job",
+  "description": "Waits for a Job to complete or fail, exiting with an \nexit code of 0 if the Job completes successfully, or\n1 if the Job fails.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/brianpursley/kubectl-wait-job/releases/download/v0.1.0/kubectl-wait-job.tar.gz",
+      "sha256": "dff60252710f7b19551933006db5270358cbab9a27d3076864098cd672599fe2",
+      "bin": "kubectl-wait-job",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/brianpursley/kubectl-wait-job/releases/download/v0.1.0/kubectl-wait-job.tar.gz",
+      "sha256": "dff60252710f7b19551933006db5270358cbab9a27d3076864098cd672599fe2",
+      "bin": "kubectl-wait-job",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/brianpursley/kubectl-wait-job/releases/download/v0.1.0/kubectl-wait-job.tar.gz",
+      "sha256": "dff60252710f7b19551933006db5270358cbab9a27d3076864098cd672599fe2",
+      "bin": "kubectl-wait-job",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/brianpursley/kubectl-wait-job/releases/download/v0.1.0/kubectl-wait-job.tar.gz",
+      "sha256": "dff60252710f7b19551933006db5270358cbab9a27d3076864098cd672599fe2",
+      "bin": "kubectl-wait-job",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}
