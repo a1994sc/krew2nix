@@ -1,0 +1,30 @@
+{
+  "plugin": "cluster-compare",
+  "version": "v0.0.1",
+  "homepage": "https://github.com/openshift/kube-compare",
+  "description": "The cluster-compare plugin is capable of performing an intelligent diff between a reference configuration and the specific configuration applied to a cluster.\nThe comparison is capable of suppressing diffs of content which is expected to be user variable, validating required and optional configuration, and ignoring known runtime variable fields.\nWith these capabilities, a cluster administrator, solutions architect, support engineers, and others can validate a cluster’s configuration against a baseline reference configuration.\n",
+  "archSrc": {
+    "x86_64-darwin": {
+      "url": "https://github.com/openshift/kube-compare/releases/download/v0.0.1/kube-compare_darwin_amd64.tar.gz",
+      "sha256": "5d0bd1079d70d89c5ab99fca3b10756dfd1b244f089cf75e0e5a9d6b5ddb17d4",
+      "bin": "kubectl-cluster_compare",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/openshift/kube-compare/releases/download/v0.0.1/kube-compare_linux_amd64.tar.gz",
+      "sha256": "174c6dfc407718deaa9f1316cf2830099dbffbbbbe3dd0ec5fcb141c2972bc72",
+      "bin": "kubectl-cluster_compare",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

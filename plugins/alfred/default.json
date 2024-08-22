@@ -1,0 +1,68 @@
+{
+  "plugin": "alfred",
+  "version": "v0.1.0",
+  "homepage": "https://github.com/kemalcanbora/kube-alfred",
+  "description": "Alfred is an AI-powered assistant for Kubernetes. It allows you to ask\nquestions about Kubernetes directly from kubectl, providing intelligent\nresponses using the Anthropic API.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/kemalcanbora/kube-alfred/releases/download/v0.1.0/kube-alfred_Darwin_arm64.tar.gz",
+      "sha256": "68d4dfd4484eb26878f8e7aabbb93167408d630ca929be44e25fb24cc88792dd",
+      "bin": "kube-alfred",
+      "files": [
+        {
+          "from": "kube-alfred",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/kemalcanbora/kube-alfred/releases/download/v0.1.0/kube-alfred_Linux_arm64.tar.gz",
+      "sha256": "ce7317f9b7fa373592d8c1c0c021660ffc6fac3ad11ab2d153db3e6dd4971081",
+      "bin": "kube-alfred",
+      "files": [
+        {
+          "from": "kube-alfred",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/kemalcanbora/kube-alfred/releases/download/v0.1.0/kube-alfred_Darwin_x86_64.tar.gz",
+      "sha256": "fa4bc46b3ec14bd9ea8a0be98b64b954b0acf1f6593b3cd4932af67ab4c1327c",
+      "bin": "kube-alfred",
+      "files": [
+        {
+          "from": "kube-alfred",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/kemalcanbora/kube-alfred/releases/download/v0.1.0/kube-alfred_Linux_x86_64.tar.gz",
+      "sha256": "9a6411da8787c884ecc46efacf39bc092f8bd02c34d5c77e3cf9b2ea2d1b8745",
+      "bin": "kube-alfred",
+      "files": [
+        {
+          "from": "kube-alfred",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}
