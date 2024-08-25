@@ -1,12 +1,12 @@
 {
   "plugin": "cnf",
-  "version": "v0.0.5",
+  "version": "v0.0.6",
   "homepage": "https://github.com/hedgieinsocks/kubectl-cnf",
   "description": "The plugin facilitates convenient kubeconfig selection\nIt optionally launches a subshell with the chosen KUBECONFIG\nThis way you can multitask by dedicating each cluster its own terminal tab\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/hedgieinsocks/kubectl-cnf/archive/refs/tags/v0.0.5.tar.gz",
-      "sha256": "824339609266b9fdd8beb65ea7fcf003af1d81a78ff967ef65296bb0223e46f5",
+      "url": "https://github.com/hedgieinsocks/kubectl-cnf/archive/refs/tags/v0.0.6.tar.gz",
+      "sha256": "f16ea7ed29dadd50b41d9e1d15fdf97182c9815d551129f87bbc5ddf2ca795a5",
       "bin": "./kubectl-cnf",
       "files": [
         {
@@ -20,8 +20,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/hedgieinsocks/kubectl-cnf/archive/refs/tags/v0.0.5.tar.gz",
-      "sha256": "824339609266b9fdd8beb65ea7fcf003af1d81a78ff967ef65296bb0223e46f5",
+      "url": "https://github.com/hedgieinsocks/kubectl-cnf/archive/refs/tags/v0.0.6.tar.gz",
+      "sha256": "f16ea7ed29dadd50b41d9e1d15fdf97182c9815d551129f87bbc5ddf2ca795a5",
       "bin": "./kubectl-cnf",
       "files": [
         {
@@ -35,8 +35,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/hedgieinsocks/kubectl-cnf/archive/refs/tags/v0.0.5.tar.gz",
-      "sha256": "824339609266b9fdd8beb65ea7fcf003af1d81a78ff967ef65296bb0223e46f5",
+      "url": "https://github.com/hedgieinsocks/kubectl-cnf/archive/refs/tags/v0.0.6.tar.gz",
+      "sha256": "f16ea7ed29dadd50b41d9e1d15fdf97182c9815d551129f87bbc5ddf2ca795a5",
       "bin": "./kubectl-cnf",
       "files": [
         {
@@ -50,8 +50,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/hedgieinsocks/kubectl-cnf/archive/refs/tags/v0.0.5.tar.gz",
-      "sha256": "824339609266b9fdd8beb65ea7fcf003af1d81a78ff967ef65296bb0223e46f5",
+      "url": "https://github.com/hedgieinsocks/kubectl-cnf/archive/refs/tags/v0.0.6.tar.gz",
+      "sha256": "f16ea7ed29dadd50b41d9e1d15fdf97182c9815d551129f87bbc5ddf2ca795a5",
       "bin": "./kubectl-cnf",
       "files": [
         {
