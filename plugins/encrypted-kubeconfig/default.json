@@ -1,0 +1,38 @@
+{
+  "plugin": "encrypted-kubeconfig",
+  "version": "v1.0.2",
+  "homepage": "https://github.com/n4-de/kubectl-encrypted-kubeconfig",
+  "description": "This plugin provides a way to work with encrypted KUBECONFIG files.\nThe plugin itself can also convert an unencrypted KUBECONFIG file into\nan encrypted one.\nThe encryption part is done using the age library and the key used to\ndecrypt the KUBECONFIG file is stored in the system's keyring. This is\ndone using the go-keyring library, which supports Linux, Mac and and\nWindows systems.\nThe idea behind the plugin is to provide additional protection for\nKUBECONFIG files using Encryption at Rest, so that in the worst-case\nscenario of a data leak, there is no need to worry about compromised\nclusters.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/n4-de/kubectl-encrypted-kubeconfig/releases/download/v1.0.2/encrypted-kubeconfig-darwin-arm64.tar.gz",
+      "sha256": "ef6db0649742fd5c80ef96ac9a52c989bf28e46ca88b385f490e3701af6de684",
+      "bin": "encrypted-kubeconfig",
+      "files": [
+        {
+          "from": "LICENSE",
+          "to": "."
+        },
+        {
+          "from": "encrypted-kubeconfig",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/n4-de/kubectl-encrypted-kubeconfig/releases/download/v1.0.2/encrypted-kubeconfig-linux-amd64.tar.gz",
+      "sha256": "9516b25b495d8ac973799e7c46573e0794997afdc829eb67406fa9318c8de4bf",
+      "bin": "encrypted-kubeconfig",
+      "files": [
+        {
+          "from": "LICENSE",
+          "to": "."
+        },
+        {
+          "from": "encrypted-kubeconfig",
+          "to": "."
+        }
+      ]
+    }
+  }
+}
