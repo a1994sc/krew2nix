@@ -1,12 +1,12 @@
 {
   "plugin": "support-bundle",
-  "version": "v0.101.2",
+  "version": "v0.102.0",
   "homepage": "https://github.com/replicatedhq/troubleshoot",
   "description": "This plugin collects information about the cluster, and automatically\nredacts sensitive data from being collected. This can optionally include\napplication-specific data.  The plugin writes the collected files into a\nsingle archive named support-bundle.tar.gz. This archive can be manually\ninspected or uploaded to https://vendor.replicated.com for automated\nanalysis.\n\nApplication developers can create and host a Collector manifest that\ndefines information to be collected.\n\nFor information on creating a Collector manifest, view the documentation\nat https://help.replicated.com/docs/troubleshoot/kubernetes/collectors/defining-collectors/\n\nUsage:\n  $ kubectl support-bundle <uri>\n\n  where <uri> references a set of application collectors\n\n  For example:\n\n  $ kubectl support-bundle https://troubleshoot.replicated.com\n\nFor additional options:\n  $ kubectl support-bundle --help\n\nDocumentation:\n  Full documentation on this plugin is available at:\n  https://help.replicated.com/docs/troubleshoot/kubernetes/support-bundle/overview/\n\n  For application developers writing collectors and analyzers:\n  https://help.replicated.com/docs/troubleshoot/kubernetes/collectors/defining-collectors/\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/replicatedhq/troubleshoot/releases/download/v0.101.2/support-bundle_darwin_arm64.tar.gz",
-      "sha256": "556892f00c7fba5715747b51250add46403a4327cd567bc6a24daaa60c154a4c",
+      "url": "https://github.com/replicatedhq/troubleshoot/releases/download/v0.102.0/support-bundle_darwin_arm64.tar.gz",
+      "sha256": "a8b9f18dccac4fab2298521ec7c2ac36b6b2bb59284f0442cc595c29e5c80e96",
       "bin": "support-bundle",
       "files": [
         {
@@ -20,8 +20,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/replicatedhq/troubleshoot/releases/download/v0.101.2/support-bundle_linux_arm64.tar.gz",
-      "sha256": "e3a59ba123e967b7c3348b0aa07c6f14ea842e9e524fa93272550a5af6d08cc8",
+      "url": "https://github.com/replicatedhq/troubleshoot/releases/download/v0.102.0/support-bundle_linux_arm64.tar.gz",
+      "sha256": "f573a9eb63bfd3761d254194b826f8de329fc7fc707d614cacd3f9b32373e9a1",
       "bin": "support-bundle",
       "files": [
         {
@@ -35,8 +35,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/replicatedhq/troubleshoot/releases/download/v0.101.2/support-bundle_darwin_amd64.tar.gz",
-      "sha256": "8b294be0121f730e89d8466582d38bdbe83742c2a201f295c3d175d0676d4698",
+      "url": "https://github.com/replicatedhq/troubleshoot/releases/download/v0.102.0/support-bundle_darwin_amd64.tar.gz",
+      "sha256": "0f914a4585dc0fc0a531db36457b1ba84d3c23245881da1b401e69f943f613f6",
       "bin": "support-bundle",
       "files": [
         {
@@ -50,8 +50,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/replicatedhq/troubleshoot/releases/download/v0.101.2/support-bundle_linux_amd64.tar.gz",
-      "sha256": "5f83e2fae94cbe92eda612dcf00efe87db7cbed1b5ccbda49bfe284c6ebf6fe3",
+      "url": "https://github.com/replicatedhq/troubleshoot/releases/download/v0.102.0/support-bundle_linux_amd64.tar.gz",
+      "sha256": "892a30c63b8c2da4727d647b90295ac7a9db709ad3c046a7474f9c7898374249",
       "bin": "support-bundle",
       "files": [
         {
