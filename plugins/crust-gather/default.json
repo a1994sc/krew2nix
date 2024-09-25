@@ -1,12 +1,12 @@
 {
   "plugin": "crust-gather",
-  "version": "v0.5.4",
+  "version": "v0.6.0",
   "homepage": "https://github.com/crust-gather/crust-gather",
   "description": "`crust-gather` is a useful cluster debugging tool.\nIt allows user to collect full or partial cluster state\nvia a selection of filters. The desired set of resources\ncan be reduced or extended based on GVK or namespace\nselection.\n\n`crust-gather` collects pod logs across the cluster.\nThe tool also allows collecting custom logs from\nthe node itself, such as kubelet logs.\n\nIt is a common requirement to remove secret data from the\noutput, so `crust-gather` provides flags and configuration\noptions to exclude secret data from any collected content.\n\n```bash\n$ kubectl crust-gather collect --help\n$ kubectl crust-gather collect\n```\n\nTo simplify the debugging process, `crust-gather` supports\nserving the collected archive via an embedded API server\nreplica, which is compatible with kubectl or k9s clients.\n\n```bash\n$ kubectl crust-gather serve --help\n$ kubectl crust-gather serve &\n```\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/crust-gather/crust-gather/releases/download/v0.5.4/kubectl-crust-gather_v0.5.4_darwin_arm64.tar.gz",
-      "sha256": "6fad3e6432ddd8699a1e2276b09d58bbbab793b39e9d045b49c548ebcbeb0a12",
+      "url": "https://github.com/crust-gather/crust-gather/releases/download/v0.6.0/kubectl-crust-gather_v0.6.0_darwin_arm64.tar.gz",
+      "sha256": "116bd4560bf3fcfb83886df1930fa9f62befe4a0fc627cd5d66cd8a84f48b267",
       "bin": "kubectl-crust-gather",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/crust-gather/crust-gather/releases/download/v0.5.4/kubectl-crust-gather_v0.5.4_linux_arm64.tar.gz",
-      "sha256": "43b33c3fc0e11788166af5461e6f18e217c4c675e77d7713047de8cf6736d411",
+      "url": "https://github.com/crust-gather/crust-gather/releases/download/v0.6.0/kubectl-crust-gather_v0.6.0_linux_arm64.tar.gz",
+      "sha256": "52d276e450165ca423bb3a03a834d20bc23d1d1435f321202e7c83f36ea85540",
       "bin": "kubectl-crust-gather",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/crust-gather/crust-gather/releases/download/v0.5.4/kubectl-crust-gather_v0.5.4_darwin_amd64.tar.gz",
-      "sha256": "6fad3e6432ddd8699a1e2276b09d58bbbab793b39e9d045b49c548ebcbeb0a12",
+      "url": "https://github.com/crust-gather/crust-gather/releases/download/v0.6.0/kubectl-crust-gather_v0.6.0_darwin_amd64.tar.gz",
+      "sha256": "116bd4560bf3fcfb83886df1930fa9f62befe4a0fc627cd5d66cd8a84f48b267",
       "bin": "kubectl-crust-gather",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/crust-gather/crust-gather/releases/download/v0.5.4/kubectl-crust-gather_v0.5.4_linux_amd64.tar.gz",
-      "sha256": "2c896185b2b8aeeeb34da8475f1298ce2beb58c44eaf7a8308e63f15fdc2cd25",
+      "url": "https://github.com/crust-gather/crust-gather/releases/download/v0.6.0/kubectl-crust-gather_v0.6.0_linux_amd64.tar.gz",
+      "sha256": "45b9a09965730f93a90a5a818a7e3840f4cf226f74945b18d86b70b4fab926c1",
       "bin": "kubectl-crust-gather",
       "files": [
         {
