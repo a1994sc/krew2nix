@@ -1,12 +1,12 @@
 {
   "plugin": "cost",
-  "version": "v0.6.3",
+  "version": "v0.6.6",
   "homepage": "https://github.com/kubecost/kubectl-cost",
   "description": "Uses Kubecost's API to gather and format cluster cost information broken\ndown by various aggregations like namespace, deployment, and label.\n\nKubecost is a cluster-side daemon that tracks the real cost of Kubernetes\nresources by combining resource utilization monitoring with your provider's\ncost data. Kubecost support GCP/GKE, AWS/EKS, Azure/AKS, and custom\n(including on-prem) \"providers\" via user-specified pricing sheets.\n\nWebsite: https://www.kubecost.com/\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/kubecost/kubectl-cost/releases/download/v0.6.3/kubectl-cost-darwin-arm64.tar.gz",
-      "sha256": "5a9ca58d87175d2ee68f7ca7f7a9ab5cbef7849000d7ea68f8caf7ebc612e216",
+      "url": "https://github.com/kubecost/kubectl-cost/releases/download/v0.6.6/kubectl-cost-darwin-arm64.tar.gz",
+      "sha256": "bb58cb6c4a8b3d6a4a2152bb1f469601b0fbd57d5784a77bd3b9df864d59a375",
       "bin": "kubectl-cost",
       "files": [
         {
@@ -20,8 +20,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/kubecost/kubectl-cost/releases/download/v0.6.3/kubectl-cost-darwin-amd64.tar.gz",
-      "sha256": "fa52e80207620f3992caa9547b14f3c274a18e72ea5e043175ff70d0a42d43fa",
+      "url": "https://github.com/kubecost/kubectl-cost/releases/download/v0.6.6/kubectl-cost-darwin-amd64.tar.gz",
+      "sha256": "f0e11734dd683d688ff1f47ed5d087f7eaad2761b0ef2281ebbd2f54ee670865",
       "bin": "kubectl-cost",
       "files": [
         {
@@ -35,8 +35,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/kubecost/kubectl-cost/releases/download/v0.6.3/kubectl-cost-linux-amd64.tar.gz",
-      "sha256": "f99c53d2c9d73cecedaaca58c1545d0a74ee4d3f64b3652f24e229c5efb847ae",
+      "url": "https://github.com/kubecost/kubectl-cost/releases/download/v0.6.6/kubectl-cost-linux-amd64.tar.gz",
+      "sha256": "1b9a768763b3a0dbcd8570935ad60c376542f137550abe049dd63fcec68a0eaf",
       "bin": "kubectl-cost",
       "files": [
         {
