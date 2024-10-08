@@ -1,12 +1,12 @@
 {
   "plugin": "image",
-  "version": "v1.0.10",
+  "version": "v1.0.12",
   "homepage": "https://github.com/pete911/kubectl-image",
   "description": "kubectl image is a subcommand to query images in the Kubernetes cluster, their size, id and tag. Output also\ndisplays the number of pods (running, failed and restarted) per image.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/pete911/kubectl-image/releases/download/v1.0.10/kubectl-image_1.0.10_darwin_arm64.tar.gz",
-      "sha256": "afbbb90c5b98233912eb18baa282b4bca8b7c19f72adb0667db5256d95e2fba4",
+      "url": "https://github.com/pete911/kubectl-image/releases/download/v1.0.12/kubectl-image_1.0.12_darwin_arm64.tar.gz",
+      "sha256": "d2a5dc40b85dd1f9808484bcb5a58611ab93c81230fef519294566e48d60b064",
       "bin": "kubectl-image",
       "files": [
         {
@@ -20,8 +20,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/pete911/kubectl-image/releases/download/v1.0.10/kubectl-image_1.0.10_linux_arm64.tar.gz",
-      "sha256": "ee3fe615c78de5394983f68f2fbb58ac1f707e8c173002a798ef32a8b9dbd372",
+      "url": "https://github.com/pete911/kubectl-image/releases/download/v1.0.12/kubectl-image_1.0.12_linux_arm64.tar.gz",
+      "sha256": "715b867710a993b96c00570dfcd6e506a7405e0f845e3c3a97082082475e9425",
       "bin": "kubectl-image",
       "files": [
         {
@@ -35,8 +35,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/pete911/kubectl-image/releases/download/v1.0.10/kubectl-image_1.0.10_darwin_amd64.tar.gz",
-      "sha256": "3fc45027070ae0a5f60a60a57bcb2d45e96a65a197fad5c119e2841ce50d5e20",
+      "url": "https://github.com/pete911/kubectl-image/releases/download/v1.0.12/kubectl-image_1.0.12_darwin_amd64.tar.gz",
+      "sha256": "22edb4fb8ad35a6313f44704715404436c508eb632a504bf88d1143f20f1622f",
       "bin": "kubectl-image",
       "files": [
         {
@@ -50,8 +50,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/pete911/kubectl-image/releases/download/v1.0.10/kubectl-image_1.0.10_linux_amd64.tar.gz",
-      "sha256": "13f24ec268f4249b29ce4fc5ce74b4c7d73e6607480467f74c2ed89962930c91",
+      "url": "https://github.com/pete911/kubectl-image/releases/download/v1.0.12/kubectl-image_1.0.12_linux_amd64.tar.gz",
+      "sha256": "4d63db706099afa39fe354b80f2729e4bd3a7fa929856b7f0ddd4acc0138e1bb",
       "bin": "kubectl-image",
       "files": [
         {
