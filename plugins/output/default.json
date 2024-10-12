@@ -1,0 +1,68 @@
+{
+  "plugin": "output",
+  "version": "v0.1.6",
+  "homepage": "https://github.com/GrigoriyMikhalkin/kubectl-output",
+  "description": "This plugin allows you to set custom outputs for specific resources/namespaces.\nSupports both custom-column and custom-column-file formats for templates.\nWhen running get command serves as a wrapper for kubectl command.",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/GrigoriyMikhalkin/kubectl-output/releases/download/v0.1.6/output_darwin_arm64.tar.gz",
+      "sha256": "d4fba52daacad4cd7b3d32b2141ca2fdf98ea19f4b0a2df87777a8501674e1ee",
+      "bin": "output",
+      "files": [
+        {
+          "from": "./output",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/GrigoriyMikhalkin/kubectl-output/releases/download/v0.1.6/output_linux_arm64.tar.gz",
+      "sha256": "d5809e3ce0c515094b4aaacdcd59919fb575eadc1c232f1308709b491e855934",
+      "bin": "output",
+      "files": [
+        {
+          "from": "./output",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/GrigoriyMikhalkin/kubectl-output/releases/download/v0.1.6/output_darwin_amd64.tar.gz",
+      "sha256": "8fe68f09fba75334f039bcd3013611c3efdfe91fa8bbe5bb61be7c62ab878424",
+      "bin": "output",
+      "files": [
+        {
+          "from": "./output",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/GrigoriyMikhalkin/kubectl-output/releases/download/v0.1.6/output_linux_amd64.tar.gz",
+      "sha256": "1347a20c44bffbf02ae16f2d64e333634a82a1842a3253cdc2f38092d46bbb76",
+      "bin": "output",
+      "files": [
+        {
+          "from": "./output",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}
