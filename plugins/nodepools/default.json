@@ -1,12 +1,12 @@
 {
   "plugin": "nodepools",
-  "version": "v0.0.6",
+  "version": "v0.0.7",
   "homepage": "https://github.com/grafana/kubectl-nodepools",
   "description": "Some cloud providers allow to manage your cluster nodes in pools/groups\nwhere all their nodes share base settings. This plugin allows you to\nlist node pools/groups in the current cluster, alongside a count of how\nmany nodes there are in each pool/group and their instance type. In\naddition to this you can also list nodes for a given node pool/group by\nname.\n\nThis plugin supports the standard kubectl flags for environment and\ncluster selection and authentication.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/grafana/kubectl-nodepools/releases/download/v0.0.6/kubectl-nodepools_v0.0.6_darwin_arm64.tar.gz",
-      "sha256": "b77935e93cc0dc0627d329569aeb99397939ad7f0baf5767177fa8c0a4b321f4",
+      "url": "https://github.com/grafana/kubectl-nodepools/releases/download/v0.0.7/kubectl-nodepools_v0.0.7_darwin_arm64.tar.gz",
+      "sha256": "a03d8f837584059564b0e3112639d7d08273222617cd7b5071c6b22c8f353e24",
       "bin": "kubectl-nodepools",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/grafana/kubectl-nodepools/releases/download/v0.0.6/kubectl-nodepools_v0.0.6_linux_arm64.tar.gz",
-      "sha256": "6152f75ef051abe4fb1d0879e798e4c45082c16d2c7c76deae619347a01dd2b4",
+      "url": "https://github.com/grafana/kubectl-nodepools/releases/download/v0.0.7/kubectl-nodepools_v0.0.7_linux_arm64.tar.gz",
+      "sha256": "e924d1376ad67c64bf1f56993060af1bff69fb205c8a4c0b1829750fade957df",
       "bin": "kubectl-nodepools",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/grafana/kubectl-nodepools/releases/download/v0.0.6/kubectl-nodepools_v0.0.6_darwin_amd64.tar.gz",
-      "sha256": "d0dd8a261d7c6a2227b64a403943e28c3671ec7a84da4d6ce7b8315e38840a69",
+      "url": "https://github.com/grafana/kubectl-nodepools/releases/download/v0.0.7/kubectl-nodepools_v0.0.7_darwin_amd64.tar.gz",
+      "sha256": "76559e1bed4f9011a7be48ad9c31d8bdc9a943a4688f5839049cd0ab32f6b5ff",
       "bin": "kubectl-nodepools",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/grafana/kubectl-nodepools/releases/download/v0.0.6/kubectl-nodepools_v0.0.6_linux_amd64.tar.gz",
-      "sha256": "15e8781dbd43f8792597acf971ebca865ffe4a59b40e5218d439993b52a1a6ce",
+      "url": "https://github.com/grafana/kubectl-nodepools/releases/download/v0.0.7/kubectl-nodepools_v0.0.7_linux_amd64.tar.gz",
+      "sha256": "b8434bb513d76b43ec17d17af77a7abb0c51128798ee621dc8d9d7cd549c125a",
       "bin": "kubectl-nodepools",
       "files": [
         {
