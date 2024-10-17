@@ -1,12 +1,12 @@
 {
   "plugin": "slice",
-  "version": "v1.3.1",
+  "version": "v1.4.0",
   "homepage": "https://github.com/patrickdappollonio/kubectl-slice",
   "description": "This is a tool that can split a multi-YAML Kubernetes manifest into multiple subfiles using\na naming convention you choose. This is done by parsing the YAML code and giving you the option\nto access any key from the YAML object by loading it into a Go Templates.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/patrickdappollonio/kubectl-slice/releases/download/v1.3.1/kubectl-slice_darwin_arm64.tar.gz",
-      "sha256": "a67b10bb6f3e0d2dc9223c384445698281ec11d2cac8f8922ef7ce90459b1f8e",
+      "url": "https://github.com/patrickdappollonio/kubectl-slice/releases/download/v1.4.0/kubectl-slice_darwin_arm64.tar.gz",
+      "sha256": "758ef3613ac4d1c77d07bdb64420dea97b0ebab482af980f3e3df2a72b9ff53f",
       "bin": "kubectl-slice",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/patrickdappollonio/kubectl-slice/releases/download/v1.3.1/kubectl-slice_linux_arm64.tar.gz",
-      "sha256": "2fc60a8df17fa32ae1754aa641ae5a7e5cd3a896b04939e05d18c7893595f569",
+      "url": "https://github.com/patrickdappollonio/kubectl-slice/releases/download/v1.4.0/kubectl-slice_linux_arm64.tar.gz",
+      "sha256": "bfe17aac81e9fc37b53c7089b6800dd737a4953eab4da46f9f5eb590d00b82e6",
       "bin": "kubectl-slice",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/patrickdappollonio/kubectl-slice/releases/download/v1.3.1/kubectl-slice_darwin_x86_64.tar.gz",
-      "sha256": "356d4e65381b6fed26b73270dfa167852a23ec8e381311540c850082e0658d8c",
+      "url": "https://github.com/patrickdappollonio/kubectl-slice/releases/download/v1.4.0/kubectl-slice_darwin_x86_64.tar.gz",
+      "sha256": "39096232ae23e1e98baa6d5e1a617dad1afdb758887ff4ac8bf9b2eb34470070",
       "bin": "kubectl-slice",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/patrickdappollonio/kubectl-slice/releases/download/v1.3.1/kubectl-slice_linux_x86_64.tar.gz",
-      "sha256": "0cbb232ed37b4beca589e42e6753c4349b3152c3fa8842d9d01e70f5fe02bef5",
+      "url": "https://github.com/patrickdappollonio/kubectl-slice/releases/download/v1.4.0/kubectl-slice_linux_x86_64.tar.gz",
+      "sha256": "380f55eeb79e0c82a7421579e0dcd5be36970c5620025e9a5f4499cdc98f7407",
       "bin": "kubectl-slice",
       "files": [
         {
