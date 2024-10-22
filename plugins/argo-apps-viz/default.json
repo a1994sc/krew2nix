@@ -1,0 +1,38 @@
+{
+  "plugin": "argo-apps-viz",
+  "version": "v0.1.0",
+  "homepage": "https://github.com/syndlex/argo-apps-viz",
+  "description": "Generates visual representations (using go-echarts) to document \nand illustrate ArgoCD concepts, such as the 'App of Apps' pattern\nacross multiple clusters and dependency trees, primarily for\ndocumentation, learning, and teaching purposes.\n",
+  "archSrc": {
+    "x86_64-darwin": {
+      "url": "https://github.com/syndlex/argo-apps-viz/releases/download/v0.1.0/argo-apps-viz_darwin_amd64.tar.gz",
+      "sha256": "c5422a5c1344245e6cb6dc7656143aea1c7b58c7d3b6ce47e348b6b1554ebd97",
+      "bin": "argo-apps-viz",
+      "files": [
+        {
+          "from": "./argo-apps-viz",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/syndlex/argo-apps-viz/releases/download/v0.1.0/argo-apps-viz_linux_amd64.tar.gz",
+      "sha256": "f321f594a8bdacdcff5bfef76c8c7f99cd9bc46cd035d962badee70d44489f9e",
+      "bin": "argo-apps-viz",
+      "files": [
+        {
+          "from": "./argo-apps-viz",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

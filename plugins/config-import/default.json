@@ -1,0 +1,68 @@
+{
+  "plugin": "config-import",
+  "version": "v0.6.0",
+  "homepage": "https://github.com/rafi/kubectl-config-import",
+  "description": "By default, an interactive fzf selection for namespace and secret is used\nfor user to select and merge as a kubeconfig. Using `-f` or `--file` you can\nmerge a file, or simply via stdin.\n\nExamples:\n\n  kubectl config-import default remote-cluster-secret\n  kubectl config-import -f ~/Downloads/foo\n  cat foo | kubectl config-import\n  kubectl config-import --delete\n  kubectl config-import --edit\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/rafi/kubectl-config-import/archive/refs/tags/v0.6.0.tar.gz",
+      "sha256": "af91ebf36984d24c8466f980134727f6b881e267f02f09bcdc45af73c403e27a",
+      "bin": "kubectl-config_import",
+      "files": [
+        {
+          "from": "kubectl-config-import-*/kubectl-*",
+          "to": "."
+        },
+        {
+          "from": "kubectl-config-import-*/LICENSE*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/rafi/kubectl-config-import/archive/refs/tags/v0.6.0.tar.gz",
+      "sha256": "af91ebf36984d24c8466f980134727f6b881e267f02f09bcdc45af73c403e27a",
+      "bin": "kubectl-config_import",
+      "files": [
+        {
+          "from": "kubectl-config-import-*/kubectl-*",
+          "to": "."
+        },
+        {
+          "from": "kubectl-config-import-*/LICENSE*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/rafi/kubectl-config-import/archive/refs/tags/v0.6.0.tar.gz",
+      "sha256": "af91ebf36984d24c8466f980134727f6b881e267f02f09bcdc45af73c403e27a",
+      "bin": "kubectl-config_import",
+      "files": [
+        {
+          "from": "kubectl-config-import-*/kubectl-*",
+          "to": "."
+        },
+        {
+          "from": "kubectl-config-import-*/LICENSE*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/rafi/kubectl-config-import/archive/refs/tags/v0.6.0.tar.gz",
+      "sha256": "af91ebf36984d24c8466f980134727f6b881e267f02f09bcdc45af73c403e27a",
+      "bin": "kubectl-config_import",
+      "files": [
+        {
+          "from": "kubectl-config-import-*/kubectl-*",
+          "to": "."
+        },
+        {
+          "from": "kubectl-config-import-*/LICENSE*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}
