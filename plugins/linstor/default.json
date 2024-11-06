@@ -1,12 +1,12 @@
 {
   "plugin": "linstor",
-  "version": "v0.3.0",
+  "version": "v0.3.1",
   "homepage": "https://github.com/piraeusdatastore/kubectl-linstor",
   "description": "Usage:\n  kubectl linstor ...\n  Executes control commands for the LINSTOR storage system directly via kubectl.\n  Read more documentation at: https://github.com/piraeusdatastore/kubectl-linstor\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/piraeusdatastore/kubectl-linstor/releases/download/v0.3.0/kubectl-linstor_v0.3.0_darwin_arm64.tar.gz",
-      "sha256": "25fc50e2d2e9003a760c2d8b1e91b2db8f0fa87d7ab15e9be9074f4f6b4f74d7",
+      "url": "https://github.com/piraeusdatastore/kubectl-linstor/releases/download/v0.3.1/kubectl-linstor_v0.3.1_darwin_arm64.tar.gz",
+      "sha256": "f277b4c48f401730d66ff654ccf783f606c58aef051f030f5a5fcb8618df7a04",
       "bin": "kubectl-linstor",
       "files": [
         {
@@ -20,8 +20,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/piraeusdatastore/kubectl-linstor/releases/download/v0.3.0/kubectl-linstor_v0.3.0_linux_arm64.tar.gz",
-      "sha256": "6b1ea502176ce573b621b542cab2a42922a07dcfb1489b121fb28fca0bc56276",
+      "url": "https://github.com/piraeusdatastore/kubectl-linstor/releases/download/v0.3.1/kubectl-linstor_v0.3.1_linux_arm64.tar.gz",
+      "sha256": "c7b05ef1b7a31410878746aa1f2d531ad58dbf01ed3f395c758e22a0bf081184",
       "bin": "kubectl-linstor",
       "files": [
         {
@@ -35,8 +35,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/piraeusdatastore/kubectl-linstor/releases/download/v0.3.0/kubectl-linstor_v0.3.0_darwin_amd64.tar.gz",
-      "sha256": "267fc77d6b7443d0aa8d87baa7bb6bde2a5a4b899be2c9a1d7f56f8a9f54df43",
+      "url": "https://github.com/piraeusdatastore/kubectl-linstor/releases/download/v0.3.1/kubectl-linstor_v0.3.1_darwin_amd64.tar.gz",
+      "sha256": "50bc906765a1d5280f32cc3ab325679b0ab9adddeb8300b5ea9d7394f055d16a",
       "bin": "kubectl-linstor",
       "files": [
         {
@@ -50,8 +50,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/piraeusdatastore/kubectl-linstor/releases/download/v0.3.0/kubectl-linstor_v0.3.0_linux_amd64.tar.gz",
-      "sha256": "dc4a04cae660b9f4fe56762bd5f563ad4794349d3ba991c5b53943d80b1a80b9",
+      "url": "https://github.com/piraeusdatastore/kubectl-linstor/releases/download/v0.3.1/kubectl-linstor_v0.3.1_linux_amd64.tar.gz",
+      "sha256": "029d30493f65b4026793cb2eeff017295ef3ef97fd81936eabbbf6e9131892b1",
       "bin": "kubectl-linstor",
       "files": [
         {
