@@ -1,12 +1,12 @@
 {
   "plugin": "datadog",
-  "version": "v1.9.0",
+  "version": "v1.10.0",
   "homepage": "https://github.com/DataDog/datadog-operator",
   "description": "The datadog kubectl plugin provides useful utilities to operate datadog-agent components\nvia the Datadog Operator and the DatadogAgent CRD.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/DataDog/datadog-operator/releases/download/v1.9.0/kubectl-datadog_1.9.0_darwin_arm64.zip",
-      "sha256": "e68f120f2bac5be84ac71f398859d00dbd50df1b76a0f22875335a0b447452aa",
+      "url": "https://github.com/DataDog/datadog-operator/releases/download/v1.10.0/kubectl-datadog_1.10.0_darwin_arm64.zip",
+      "sha256": "c9715bf810ce0e2cdd167c47e5fcabd733d01aaa72c578ae302b5852c8884600",
       "bin": "kubectl-datadog",
       "files": [
         {
@@ -20,8 +20,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/DataDog/datadog-operator/releases/download/v1.9.0/kubectl-datadog_1.9.0_linux_arm64.zip",
-      "sha256": "52f6c0cd9c3b5184f335a8d36781407d2c4658c261912b2630c66adfe314cbde",
+      "url": "https://github.com/DataDog/datadog-operator/releases/download/v1.10.0/kubectl-datadog_1.10.0_linux_arm64.zip",
+      "sha256": "587af0bc45c1bdbd0c27ab573390178292ee0b02902a8b5d4aa36e3c9a431b96",
       "bin": "kubectl-datadog",
       "files": [
         {
@@ -35,8 +35,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/DataDog/datadog-operator/releases/download/v1.9.0/kubectl-datadog_1.9.0_darwin_amd64.zip",
-      "sha256": "0d004f3092d678c84c8d6300de429d1f3e9af5a531233773fc5cc7122bd9195a",
+      "url": "https://github.com/DataDog/datadog-operator/releases/download/v1.10.0/kubectl-datadog_1.10.0_darwin_amd64.zip",
+      "sha256": "34ef24fcb493eb0da72ce3b28a9add882cc3542ff4ba345bf19fc07c30cad400",
       "bin": "kubectl-datadog",
       "files": [
         {
@@ -50,8 +50,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/DataDog/datadog-operator/releases/download/v1.9.0/kubectl-datadog_1.9.0_linux_amd64.zip",
-      "sha256": "22232f9b3b27aff9b5d64ed48a51f21ff50b60689683c244b7b829123319fc50",
+      "url": "https://github.com/DataDog/datadog-operator/releases/download/v1.10.0/kubectl-datadog_1.10.0_linux_amd64.zip",
+      "sha256": "8e29c296ff60f566164d90a884cc08d9f8f6a753e986c2e4cf719b9031fb2b58",
       "bin": "kubectl-datadog",
       "files": [
         {
