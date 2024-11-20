@@ -1,12 +1,12 @@
 {
   "plugin": "cluster-compare",
-  "version": "v0.3.0",
+  "version": "v0.4.0",
   "homepage": "https://github.com/openshift/kube-compare",
   "description": "The cluster-compare plugin is capable of performing an intelligent diff between a reference configuration and the specific configuration applied to a cluster.\nThe comparison is capable of suppressing diffs of content which is expected to be user variable, validating required and optional configuration, and ignoring known runtime variable fields.\nWith these capabilities, a cluster administrator, solutions architect, support engineers, and others can validate a cluster’s configuration against a baseline reference configuration.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/openshift/kube-compare/releases/download/v0.3.0/kube-compare_darwin_arm64.tar.gz",
-      "sha256": "882b742c944e78ec0070e2e76c05c2636374e4a9f52cf95eac554786dd0e67ac",
+      "url": "https://github.com/openshift/kube-compare/releases/download/v0.4.0/kube-compare_darwin_arm64.tar.gz",
+      "sha256": "3c2b22f1a9804ab211269fc218cc8b54bdcc9c59cc96fcbefc1cb4d9b704342c",
       "bin": "kubectl-cluster_compare",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/openshift/kube-compare/releases/download/v0.3.0/kube-compare_linux_arm64.tar.gz",
-      "sha256": "92fd86d407dfe79e45f5d55a8c3888214ca9aceca2da95150628cd280155e566",
+      "url": "https://github.com/openshift/kube-compare/releases/download/v0.4.0/kube-compare_linux_arm64.tar.gz",
+      "sha256": "52f5d95683720921af6f1a123daca3e15a25577e9d52af82928361f658644056",
       "bin": "kubectl-cluster_compare",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/openshift/kube-compare/releases/download/v0.3.0/kube-compare_darwin_amd64.tar.gz",
-      "sha256": "617dfd4e464998ad2cab94b7abb88aa74cccbde0be24f8d187568701d73a643b",
+      "url": "https://github.com/openshift/kube-compare/releases/download/v0.4.0/kube-compare_darwin_amd64.tar.gz",
+      "sha256": "18115ced961073d46f8d10ffae590124b6f8333d1d78b80e027fafd0536dbe74",
       "bin": "kubectl-cluster_compare",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/openshift/kube-compare/releases/download/v0.3.0/kube-compare_linux_amd64.tar.gz",
-      "sha256": "6345fd5967b3e44a75d40f4dbbf041757def9c2a50cdd94fc85e98470db10acd",
+      "url": "https://github.com/openshift/kube-compare/releases/download/v0.4.0/kube-compare_linux_amd64.tar.gz",
+      "sha256": "c09aaa4cca0e06458d1d693fa4fc966dbe708d324a5ecccb757a840c6bd9c4f5",
       "bin": "kubectl-cluster_compare",
       "files": [
         {
