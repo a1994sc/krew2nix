@@ -1,12 +1,12 @@
 {
   "plugin": "node-shell",
-  "version": "v1.10.2",
+  "version": "v1.11.0",
   "homepage": "https://github.com/kvaps/kubectl-node-shell",
   "description": "Start a root shell in the node's host OS running.\nYou need to be able to start privileged containers for that.\n\nUsage:\n\n  Get standard bash shell:\n  $ kubectl node-shell <node>\n  \n  Use X-mode (mount /host, and do not enter host namespace)\n  $ kubectl node-shell -x <node>\n\n  Execute custom command:\n  $ kubectl node-shell <node> -- echo 123\n  \n  Use stdin:\n  $ cat /etc/passwd | kubectl node-shell <node> -- sh -c 'cat > /tmp/passwd'\n  \n  Run oneliner script:\n  $ kubectl node-shell <node> -- sh -c 'cat /tmp/passwd; rm -f /tmp/passwd'\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/kvaps/kubectl-node-shell/archive/v1.10.2.tar.gz",
-      "sha256": "d2f47463224696115c9db2c2a7fd0c135c2ec2f2b9470f57f7b0c283df9912a5",
+      "url": "https://github.com/kvaps/kubectl-node-shell/archive/v1.11.0.tar.gz",
+      "sha256": "b8da7cbde602f3087f3765e6f7d714d1377d2a67c99de45cca2e0df9142fe7f5",
       "bin": "kubectl-node_shell",
       "files": [
         {
@@ -20,8 +20,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/kvaps/kubectl-node-shell/archive/v1.10.2.tar.gz",
-      "sha256": "d2f47463224696115c9db2c2a7fd0c135c2ec2f2b9470f57f7b0c283df9912a5",
+      "url": "https://github.com/kvaps/kubectl-node-shell/archive/v1.11.0.tar.gz",
+      "sha256": "b8da7cbde602f3087f3765e6f7d714d1377d2a67c99de45cca2e0df9142fe7f5",
       "bin": "kubectl-node_shell",
       "files": [
         {
@@ -35,8 +35,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/kvaps/kubectl-node-shell/archive/v1.10.2.tar.gz",
-      "sha256": "d2f47463224696115c9db2c2a7fd0c135c2ec2f2b9470f57f7b0c283df9912a5",
+      "url": "https://github.com/kvaps/kubectl-node-shell/archive/v1.11.0.tar.gz",
+      "sha256": "b8da7cbde602f3087f3765e6f7d714d1377d2a67c99de45cca2e0df9142fe7f5",
       "bin": "kubectl-node_shell",
       "files": [
         {
@@ -50,8 +50,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/kvaps/kubectl-node-shell/archive/v1.10.2.tar.gz",
-      "sha256": "d2f47463224696115c9db2c2a7fd0c135c2ec2f2b9470f57f7b0c283df9912a5",
+      "url": "https://github.com/kvaps/kubectl-node-shell/archive/v1.11.0.tar.gz",
+      "sha256": "b8da7cbde602f3087f3765e6f7d714d1377d2a67c99de45cca2e0df9142fe7f5",
       "bin": "kubectl-node_shell",
       "files": [
         {
