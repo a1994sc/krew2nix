@@ -1,0 +1,68 @@
+{
+  "plugin": "saconfig",
+  "version": "v0.1.3",
+  "homepage": "https://github.com/larsks/kubectl-saconfig",
+  "description": "Request a token using the [TokenRequest] API and generate a kubeconfig file\nfor authenticating as a service account. Outputs the generated\nconfiguration to stdout (default) or to a file of your choice (--output).\n\n[tokenrequest]: https://kubernetes.io/docs/reference/kubernetes-api/authentication-resources/token-request-v1/\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/larsks/kubectl-saconfig/releases/download/v0.1.3/kubectl-saconfig-darwin-arm64.tar.gz",
+      "sha256": "b193071172fbfdbf760e542c4b20cdf90ddadbd0c9713c9b48c06a8399c77442",
+      "bin": "./kubectl-saconfig",
+      "files": [
+        {
+          "from": "kubectl-saconfig",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/larsks/kubectl-saconfig/releases/download/v0.1.3/kubectl-saconfig-linux-arm64.tar.gz",
+      "sha256": "750f5b78dd4da1aabc6362154afa9cf42920e8dc57f43fbe4f1e48a1b399c1ca",
+      "bin": "./kubectl-saconfig",
+      "files": [
+        {
+          "from": "kubectl-saconfig",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/larsks/kubectl-saconfig/releases/download/v0.1.3/kubectl-saconfig-darwin-amd64.tar.gz",
+      "sha256": "d3c1b261a31cf4812c9b41d88891b0cf9b0428915ae1b7e8d165886be9af2b5a",
+      "bin": "./kubectl-saconfig",
+      "files": [
+        {
+          "from": "kubectl-saconfig",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/larsks/kubectl-saconfig/releases/download/v0.1.3/kubectl-saconfig-linux-amd64.tar.gz",
+      "sha256": "3d339dc5fc9a830c4d463b040ea19d975f08ee464640008eda01192bb2c73d2d",
+      "bin": "./kubectl-saconfig",
+      "files": [
+        {
+          "from": "kubectl-saconfig",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

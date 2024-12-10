@@ -1,0 +1,52 @@
+{
+  "plugin": "kamaji",
+  "version": "v1.0.0",
+  "homepage": "https://github.com/clastix/kamaji-kubectl-plugin",
+  "description": "This plugin allows to perform some actions on the Kamaji resources,\nsuch as Tenant Control Planes.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/clastix/kamaji-kubectl-plugin/releases/download/v1.0.0/kubectl-kamaji_Darwin_arm64.tar.gz",
+      "sha256": "e0b7a2b8f5797ac7d0551e30cf039457d3a6277789e2e2dac81827577ffbaa96",
+      "bin": "kubectl-kamaji",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/clastix/kamaji-kubectl-plugin/releases/download/v1.0.0/kubectl-kamaji_Linux_arm64.tar.gz",
+      "sha256": "316b60a34b9c2c48f8d6e4ae2f1e1aa64c040a686d8aa5645d9e03d23e711155",
+      "bin": "kubectl-kamaji",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/clastix/kamaji-kubectl-plugin/releases/download/v1.0.0/kubectl-kamaji_Darwin_x86_64.tar.gz",
+      "sha256": "f143aea609383b1db682200c83b578492a71d28fb77ef866f24ac2bc2e8bc4cd",
+      "bin": "kubectl-kamaji",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/clastix/kamaji-kubectl-plugin/releases/download/v1.0.0/kubectl-kamaji_Linux_x86_64.tar.gz",
+      "sha256": "11265b3a0f2ef0315dfb25a181999116ea98da8c49d97144b406922a82fea6c4",
+      "bin": "kubectl-kamaji",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}
