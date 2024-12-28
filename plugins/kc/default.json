@@ -1,12 +1,12 @@
 {
   "plugin": "kc",
-  "version": "v0.32.0",
+  "version": "v0.32.1",
   "homepage": "https://github.com/sunny0826/kubecm",
   "description": "List, switch, add, delete and more interactive operations to manage kubeconfig.\nIt also supports kubeconfig management from cloud.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/sunny0826/kubecm/releases/download/v0.32.0/kubecm_v0.32.0_Darwin_arm64.tar.gz",
-      "sha256": "0162a647f01bd0591ab538bec6d9690f867d9394e2c58f250b3852c670d49c9e",
+      "url": "https://github.com/sunny0826/kubecm/releases/download/v0.32.1/kubecm_v0.32.1_Darwin_arm64.tar.gz",
+      "sha256": "696b1074b3284bd9357fbbb4cb1a25dd64b8b03985d5ff3049bd7427f6c71780",
       "bin": "kubecm",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/sunny0826/kubecm/releases/download/v0.32.0/kubecm_v0.32.0_Linux_arm64.tar.gz",
-      "sha256": "2632ac67d2ff0d4df74f3c80804899d7259025ba172552080847fe462382d005",
+      "url": "https://github.com/sunny0826/kubecm/releases/download/v0.32.1/kubecm_v0.32.1_Linux_arm64.tar.gz",
+      "sha256": "e463209d7bc913f9d4a1d3896492feef4974676b57e7c6024578516d2baaaa04",
       "bin": "kubecm",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/sunny0826/kubecm/releases/download/v0.32.0/kubecm_v0.32.0_Darwin_x86_64.tar.gz",
-      "sha256": "f9057e9f5200091270d80ccb4fc60620045298d8843a731b84cd2104cad591ba",
+      "url": "https://github.com/sunny0826/kubecm/releases/download/v0.32.1/kubecm_v0.32.1_Darwin_x86_64.tar.gz",
+      "sha256": "6037c02a1d71fc026bdc8317f4d7c3a2f24bd29a2dd55796cf341b34bdc4a033",
       "bin": "kubecm",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/sunny0826/kubecm/releases/download/v0.32.0/kubecm_v0.32.0_Linux_x86_64.tar.gz",
-      "sha256": "9aeccfab3814dcb1cb7dc166fbfd232ef17f45ffd61ff493a16695407da45e02",
+      "url": "https://github.com/sunny0826/kubecm/releases/download/v0.32.1/kubecm_v0.32.1_Linux_x86_64.tar.gz",
+      "sha256": "74f4a67d46d557a638f8aca9adc180d9cedc0b4a01a2411e430815adb4bc48f2",
       "bin": "kubecm",
       "files": [
         {
