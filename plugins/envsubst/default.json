@@ -1,12 +1,12 @@
 {
   "plugin": "envsubst",
-  "version": "v1.0.15",
+  "version": "v1.0.17",
   "homepage": "https://github.com/hashmap-kz/kubectl-envsubst",
   "description": "Expand env-vars in manifests passed to kubectl, before applying them.\nVariable expansion is fully predictable and controlled (managed by cli).\nSupports all flags passed by kubectl,\nby just proxying them, without any modification.\nJust handles specially two main options --filename and --recursive.\nAll other options are passed as is.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/hashmap-kz/kubectl-envsubst/releases/download/v1.0.15/kubectl-envsubst_v1.0.15_darwin_arm64.tar.gz",
-      "sha256": "0411a7d8a6455782e96d5a441707ea710ee540719c6a650abbb64fd473b14ec8",
+      "url": "https://github.com/hashmap-kz/kubectl-envsubst/releases/download/v1.0.17/kubectl-envsubst_v1.0.17_darwin_arm64.tar.gz",
+      "sha256": "5c49e553dd2c731bbf1313aa9fffbe544d165ebf1dc2c8fd6fa1ab11b499437c",
       "bin": "kubectl-envsubst",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/hashmap-kz/kubectl-envsubst/releases/download/v1.0.15/kubectl-envsubst_v1.0.15_linux_arm64.tar.gz",
-      "sha256": "4838ae64747dc720e5b9dd0cd0ba27ff5e0bf46ad37ab167e2c6cd4e0eec40b2",
+      "url": "https://github.com/hashmap-kz/kubectl-envsubst/releases/download/v1.0.17/kubectl-envsubst_v1.0.17_linux_arm64.tar.gz",
+      "sha256": "00b4abf1603c5bd10fc1759d4195a80677921095cf7ec5709bd509874fda00bb",
       "bin": "kubectl-envsubst",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/hashmap-kz/kubectl-envsubst/releases/download/v1.0.15/kubectl-envsubst_v1.0.15_darwin_amd64.tar.gz",
-      "sha256": "49aa3d0aec3da4a1fd297d87c93769eb30df6f219f096cae2b504b46a1a2ad60",
+      "url": "https://github.com/hashmap-kz/kubectl-envsubst/releases/download/v1.0.17/kubectl-envsubst_v1.0.17_darwin_amd64.tar.gz",
+      "sha256": "55289dfb059d03bb2901acdc7c919e17d02d340eccb68db6c028eaaa6942649f",
       "bin": "kubectl-envsubst",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/hashmap-kz/kubectl-envsubst/releases/download/v1.0.15/kubectl-envsubst_v1.0.15_linux_amd64.tar.gz",
-      "sha256": "a6dc4070f68fc131ab279747f0276e7476c8b8257b52ac81781a632cdde88a22",
+      "url": "https://github.com/hashmap-kz/kubectl-envsubst/releases/download/v1.0.17/kubectl-envsubst_v1.0.17_linux_amd64.tar.gz",
+      "sha256": "6cf5bf9ff8b31297a2a7cd196ebabe4f203e510f4cdcdd3699fbb9275fa9ab20",
       "bin": "kubectl-envsubst",
       "files": [
         {
