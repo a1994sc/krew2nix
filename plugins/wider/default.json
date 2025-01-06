@@ -1,0 +1,74 @@
+{
+  "plugin": "wider",
+  "version": "v0.0.1",
+  "homepage": "https://github.com/boriscosic/wider",
+  "description": "Get pods and associated node information. Extend the output with custom-columns \nby leveraging keys from pod or node specs. \nExamples:\n`$ kubectl wider`\n`$ kubectl wider -n istio-system -o custom-columns=\"NAME:.metadata.name,NODE:.node.metadata.name`\n",
+  "archSrc": {
+    "aarch64-": {
+      "url": "https://github.com/boriscosic/wider/releases/download/v0.0.1/v0.0.1.zip",
+      "sha256": "753d0a7eac6f25e68ec40ba01c86d6bcdeb981a6480c212bfe22b517b52f1385",
+      "bin": "kubectl-wider",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-darwin": {
+      "url": "https://github.com/boriscosic/wider/releases/download/v0.0.1/v0.0.1.zip",
+      "sha256": "753d0a7eac6f25e68ec40ba01c86d6bcdeb981a6480c212bfe22b517b52f1385",
+      "bin": "kubectl-wider",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/boriscosic/wider/releases/download/v0.0.1/v0.0.1.zip",
+      "sha256": "753d0a7eac6f25e68ec40ba01c86d6bcdeb981a6480c212bfe22b517b52f1385",
+      "bin": "kubectl-wider",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-": {
+      "url": "https://github.com/boriscosic/wider/releases/download/v0.0.1/v0.0.1.zip",
+      "sha256": "753d0a7eac6f25e68ec40ba01c86d6bcdeb981a6480c212bfe22b517b52f1385",
+      "bin": "kubectl-wider",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/boriscosic/wider/releases/download/v0.0.1/v0.0.1.zip",
+      "sha256": "753d0a7eac6f25e68ec40ba01c86d6bcdeb981a6480c212bfe22b517b52f1385",
+      "bin": "kubectl-wider",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/boriscosic/wider/releases/download/v0.0.1/v0.0.1.zip",
+      "sha256": "753d0a7eac6f25e68ec40ba01c86d6bcdeb981a6480c212bfe22b517b52f1385",
+      "bin": "kubectl-wider",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}
