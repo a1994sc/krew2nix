@@ -1,0 +1,68 @@
+{
+  "plugin": "envx",
+  "version": "v0.2.0",
+  "homepage": "https://github.com/majodev/kubectl-envx",
+  "description": "A kubectl plugin to extract environment variables from Kubernetes resources\nincluding those defined in envFrom references (ConfigMaps and Secrets). It can\ndisplay these variables or use them to run local commands with the extracted\nenvironment.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/majodev/kubectl-envx/releases/download/v0.2.0/kubectl-envx.tar.gz",
+      "sha256": "fee2b88bba77ff1d3fa00b046513416531aef67898be8f5f4b1159ac5f73e710",
+      "bin": "kubectl-envx",
+      "files": [
+        {
+          "from": "kubectl-envx",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/majodev/kubectl-envx/releases/download/v0.2.0/kubectl-envx.tar.gz",
+      "sha256": "fee2b88bba77ff1d3fa00b046513416531aef67898be8f5f4b1159ac5f73e710",
+      "bin": "kubectl-envx",
+      "files": [
+        {
+          "from": "kubectl-envx",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/majodev/kubectl-envx/releases/download/v0.2.0/kubectl-envx.tar.gz",
+      "sha256": "fee2b88bba77ff1d3fa00b046513416531aef67898be8f5f4b1159ac5f73e710",
+      "bin": "kubectl-envx",
+      "files": [
+        {
+          "from": "kubectl-envx",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/majodev/kubectl-envx/releases/download/v0.2.0/kubectl-envx.tar.gz",
+      "sha256": "fee2b88bba77ff1d3fa00b046513416531aef67898be8f5f4b1159ac5f73e710",
+      "bin": "kubectl-envx",
+      "files": [
+        {
+          "from": "kubectl-envx",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}
