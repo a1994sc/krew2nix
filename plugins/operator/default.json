@@ -1,12 +1,12 @@
 {
   "plugin": "operator",
-  "version": "v0.5.1",
+  "version": "v0.6.0",
   "homepage": "https://github.com/operator-framework/kubectl-operator",
   "description": "This plugin is a package manager for operators in your cluster. It\nsimplifies adding and removing operator catalogs, and it has familiar\ncommands for installing, uninstalling, and listing available and\ninstalled operators.\n\nOne example of a catalog is the public operatorhub.io index, which\nis installed by default with Operator Lifecycle Manager.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/operator-framework/kubectl-operator/releases/download/v0.5.1/kubectl-operator_v0.5.1_darwin_arm64.tar.gz",
-      "sha256": "d25d31f9cc18e706e9e49a3ce46dc4a962fd4174c419c2cd7537e2eafaa5b205",
+      "url": "https://github.com/operator-framework/kubectl-operator/releases/download/v0.6.0/kubectl-operator_v0.6.0_darwin_arm64.tar.gz",
+      "sha256": "94a51b0cc3e52caf17e2e8ce4f5f0e5a2a29126b7c4733403e30557762a91de5",
       "bin": "kubectl-operator",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/operator-framework/kubectl-operator/releases/download/v0.5.1/kubectl-operator_v0.5.1_linux_arm64.tar.gz",
-      "sha256": "127709c2e1938b6bf3f1a33aa4490588ff76adb93db9a5171b8133aa22843e59",
+      "url": "https://github.com/operator-framework/kubectl-operator/releases/download/v0.6.0/kubectl-operator_v0.6.0_linux_arm64.tar.gz",
+      "sha256": "485dc89204d8443df48ccb2bfe504ba2b798752a6ea1e0e5bb5a037354fd1e8f",
       "bin": "kubectl-operator",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/operator-framework/kubectl-operator/releases/download/v0.5.1/kubectl-operator_v0.5.1_darwin_amd64.tar.gz",
-      "sha256": "20fa2b0a8b1abe1d238834a588acdd4718dc8a9b7397b1b0d89f47348399f282",
+      "url": "https://github.com/operator-framework/kubectl-operator/releases/download/v0.6.0/kubectl-operator_v0.6.0_darwin_amd64.tar.gz",
+      "sha256": "d6f0c047b39ddd55f633ce8d6522fa24a9651236779bd26e2dffd4243595d629",
       "bin": "kubectl-operator",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/operator-framework/kubectl-operator/releases/download/v0.5.1/kubectl-operator_v0.5.1_linux_amd64.tar.gz",
-      "sha256": "1a27c91aa9aaa59f6453f134b8400b24e509ef5a80573db55ef75c92fed3527c",
+      "url": "https://github.com/operator-framework/kubectl-operator/releases/download/v0.6.0/kubectl-operator_v0.6.0_linux_amd64.tar.gz",
+      "sha256": "d3f2f84b91a4ac3919c2ab455a6c540c5920bb5caeac0865b879ca9f92133971",
       "bin": "kubectl-operator",
       "files": [
         {

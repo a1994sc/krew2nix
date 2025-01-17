@@ -1,12 +1,12 @@
 {
   "plugin": "cond",
-  "version": "v0.2.0",
+  "version": "v0.3.0",
   "homepage": "https://github.com/ahmetb/kubectl-cond",
   "description": "A human-friendly alternative to \"kubectl describe\" to view\nresource conditions for Kubernetes objects.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/ahmetb/kubectl-cond/releases/download/v0.2.0/kubectl-cond_v0.2.0_darwin_arm64.tar.gz",
-      "sha256": "c21300fc229f99535fc80a2c8bee3bd38fd3f416a6a0e62abbe8881c6625290a",
+      "url": "https://github.com/ahmetb/kubectl-cond/releases/download/v0.3.0/kubectl-cond_v0.3.0_darwin_arm64.tar.gz",
+      "sha256": "0e06a87f765ca643f92aca406846f662905c8c43896fee035a30935f65ac4993",
       "bin": "kubectl-cond",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/ahmetb/kubectl-cond/releases/download/v0.2.0/kubectl-cond_v0.2.0_darwin_amd64.tar.gz",
-      "sha256": "991db3dca34b14ca875be28e9640373002d4fb404212d9479be9a4d876c4a244",
+      "url": "https://github.com/ahmetb/kubectl-cond/releases/download/v0.3.0/kubectl-cond_v0.3.0_darwin_amd64.tar.gz",
+      "sha256": "9206ef42dbd8f937afea54e0b8704faca765ad65df5de454907f9bd7fdff9567",
       "bin": "kubectl-cond",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/ahmetb/kubectl-cond/releases/download/v0.2.0/kubectl-cond_v0.2.0_linux_amd64.tar.gz",
-      "sha256": "3b0f0300c6c074eb7c07cd878f0a0a7f2b9b17f6d6f50918e74292386761e16f",
+      "url": "https://github.com/ahmetb/kubectl-cond/releases/download/v0.3.0/kubectl-cond_v0.3.0_linux_amd64.tar.gz",
+      "sha256": "035a0b3c6f969bef0279c837fa858060ef7aae32d43da09f2e4ed26fd620b9ac",
       "bin": "kubectl-cond",
       "files": [
         {
