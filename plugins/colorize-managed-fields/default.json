@@ -1,0 +1,52 @@
+{
+  "plugin": "colorize-managed-fields",
+  "version": "v0.0.5",
+  "homepage": "https://github.com/tt-kuma/kubectl-colorize-managed-fields",
+  "description": "Prints the specified resources with fields colorized based on managed fields\nto help visually understand them.\n\nFields managed by a single manager are uniquely colorized to distinguish\neach manager. Fields managed by multiple managers uniformly colorized with\na predefined color indicating a conflict, regardless of the combination of\nmanagers.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/tt-kuma/kubectl-colorize-managed-fields/releases/download/v0.0.5/kubectl-colorize-managed-fields_darwin_arm64.tar.gz",
+      "sha256": "2998ee634945de0fe5c3fc11ecc08a982be61d5f2f1173cd49cf6fce464e6aee",
+      "bin": "kubectl-colorize_managed_fields",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/tt-kuma/kubectl-colorize-managed-fields/releases/download/v0.0.5/kubectl-colorize-managed-fields_linux_arm64.tar.gz",
+      "sha256": "c823a78d32e99afcb6b74cba90e83785e313fa0e690aef9fd7d40b1df98ff950",
+      "bin": "kubectl-colorize_managed_fields",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/tt-kuma/kubectl-colorize-managed-fields/releases/download/v0.0.5/kubectl-colorize-managed-fields_darwin_amd64.tar.gz",
+      "sha256": "98b4ff30bb1a46f7fbf96d4b9dc559e82ec1199ffd5af8191a4469e318103cab",
+      "bin": "kubectl-colorize_managed_fields",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/tt-kuma/kubectl-colorize-managed-fields/releases/download/v0.0.5/kubectl-colorize-managed-fields_linux_amd64.tar.gz",
+      "sha256": "3bd84d37dc5645181a8e720499dbeac0360572c5f7eebb0d3f41313ceb5917c3",
+      "bin": "kubectl-colorize_managed_fields",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}
