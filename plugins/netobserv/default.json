@@ -1,12 +1,12 @@
 {
   "plugin": "netobserv",
-  "version": "v0.0.5",
+  "version": "v0.0.7",
   "homepage": "https://github.com/netobserv/network-observability-cli",
   "description": "Deploys NetObserv eBPF agent on your k8s cluster to collect flows \nor packets from nodes network interfaces and streams data to a local \ncollector for analysis and visualization. \n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/netobserv/network-observability-cli/releases/download/v0.0.5/netobserv-cli.tar.gz",
-      "sha256": "316e9c4bb20af1a3f9fcd6662b1f3acfa985da8603ef15ed435fe17e7e3c7e96",
+      "url": "https://github.com/netobserv/network-observability-cli/releases/download/v0.0.7/netobserv-cli.tar.gz",
+      "sha256": "a5def765540a6b5f525c4b339aae56bc350163d932663efd5bc9d94e5b06f689",
       "bin": "netobserv",
       "files": [
         {
@@ -20,8 +20,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/netobserv/network-observability-cli/releases/download/v0.0.5/netobserv-cli.tar.gz",
-      "sha256": "316e9c4bb20af1a3f9fcd6662b1f3acfa985da8603ef15ed435fe17e7e3c7e96",
+      "url": "https://github.com/netobserv/network-observability-cli/releases/download/v0.0.7/netobserv-cli.tar.gz",
+      "sha256": "a5def765540a6b5f525c4b339aae56bc350163d932663efd5bc9d94e5b06f689",
       "bin": "netobserv",
       "files": [
         {
@@ -35,8 +35,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/netobserv/network-observability-cli/releases/download/v0.0.5/netobserv-cli.tar.gz",
-      "sha256": "316e9c4bb20af1a3f9fcd6662b1f3acfa985da8603ef15ed435fe17e7e3c7e96",
+      "url": "https://github.com/netobserv/network-observability-cli/releases/download/v0.0.7/netobserv-cli.tar.gz",
+      "sha256": "a5def765540a6b5f525c4b339aae56bc350163d932663efd5bc9d94e5b06f689",
       "bin": "netobserv",
       "files": [
         {
@@ -50,8 +50,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/netobserv/network-observability-cli/releases/download/v0.0.5/netobserv-cli.tar.gz",
-      "sha256": "316e9c4bb20af1a3f9fcd6662b1f3acfa985da8603ef15ed435fe17e7e3c7e96",
+      "url": "https://github.com/netobserv/network-observability-cli/releases/download/v0.0.7/netobserv-cli.tar.gz",
+      "sha256": "a5def765540a6b5f525c4b339aae56bc350163d932663efd5bc9d94e5b06f689",
       "bin": "netobserv",
       "files": [
         {
