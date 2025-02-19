@@ -1,35 +1,49 @@
 {
   "plugin": "popeye",
-  "version": "v0.11.1",
+  "version": "v0.22.1",
   "homepage": "https://popeyecli.io",
   "description": "Popeye is a utility that scans live Kubernetes clusters and reports\npotential issues with deployed resources and configurations.\nIt sanitizes your cluster based on what's deployed and not what's\nsitting on disk. By scanning your cluster, it detects misconfigurations\nand ensure best practices are in place thus preventing potential future\nheadaches. It aims at reducing the cognitive overload one faces when\noperating a Kubernetes cluster in the wild. Furthermore, if your\ncluster employs a metric-server, it reports potential resources\nover/under allocations and attempts to warn you should your cluster\nrun out of capacity.\n\nPopeye is a readonly tool, it does not alter any of your Kubernetes\nresources in any way!\n",
   "archSrc": {
-    "x86_64-darwin": {
-      "url": "https://github.com/derailed/popeye/releases/download/v0.11.1/popeye_Darwin_x86_64.tar.gz",
-      "sha256": "80e7012d5b99ce3c0062fae2f2f2097019532565c091001ce933a6f954f4479b",
-      "bin": "kubectl-popeye",
+    "aarch64-darwin": {
+      "url": "https://github.com/derailed/popeye/releases/download/v0.22.1/popeye_darwin_arm64.tar.gz",
+      "sha256": "71dc8b8dc7d7cad60f9c377d4bb22a0ef5bac189c617951ebc20343f83a6704d",
+      "bin": "popeye",
       "files": [
         {
-          "from": "popeye",
-          "to": "kubectl-popeye"
-        },
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/derailed/popeye/releases/download/v0.22.1/popeye_linux_arm64.tar.gz",
+      "sha256": "5188b0b521966113580f0fef7769173af6303061dee10df247536f9bb55fe988",
+      "bin": "popeye",
+      "files": [
         {
-          "from": "LICENSE",
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/derailed/popeye/releases/download/v0.22.1/popeye_darwin_amd64.tar.gz",
+      "sha256": "3dafce865dd778e2501ccbfd53fcbeecfc3244a43d4d1b02446064e39ac58d4e",
+      "bin": "popeye",
+      "files": [
+        {
+          "from": "*",
           "to": "."
         }
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/derailed/popeye/releases/download/v0.11.1/popeye_Linux_x86_64.tar.gz",
-      "sha256": "d4471c3f5a3636ce9effc7e5c5d1ebeab44f11e828e4677e31a925cab90b66ae",
-      "bin": "kubectl-popeye",
+      "url": "https://github.com/derailed/popeye/releases/download/v0.22.1/popeye_linux_amd64.tar.gz",
+      "sha256": "d58a3c0ba45805d452c32628320eecdcb5172fd5f42c82e12aeecc7a17eb930b",
+      "bin": "popeye",
       "files": [
         {
-          "from": "popeye",
-          "to": "kubectl-popeye"
-        },
-        {
-          "from": "LICENSE",
+          "from": "*",
           "to": "."
         }
       ]
