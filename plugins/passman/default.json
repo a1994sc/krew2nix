@@ -1,12 +1,12 @@
 {
   "plugin": "passman",
-  "version": "v1.2.3",
+  "version": "v1.2.5",
   "homepage": "https://github.com/chrisns/kubectl-passman",
   "description": "An effective way to keep your credentials somewhere better than in plain text\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/chrisns/kubectl-passman/releases/download/v1.2.3/kubectl-passman-darwin-arm64.zip",
-      "sha256": "762bb02a15ba2ef7029a38a1ca7860a861c2f4bda4b241d32bf417aef7a57c29",
+      "url": "https://github.com/chrisns/kubectl-passman/releases/download/v1.2.5/kubectl-passman-darwin-arm64.zip",
+      "sha256": "7899f5447721be8e77b90480b3bed2d353f8dab216d0526fe41e08fdb47cd5ff",
       "bin": "./kubectl-passman",
       "files": [
         {
@@ -20,8 +20,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/chrisns/kubectl-passman/releases/download/v1.2.3/kubectl-passman-linux-arm64.zip",
-      "sha256": "e5a0c2f3b0b66b0cb0a078420ecfd102a3f12ef63a05fc89d32d0e473c987c19",
+      "url": "https://github.com/chrisns/kubectl-passman/releases/download/v1.2.5/kubectl-passman-linux-arm64.zip",
+      "sha256": "5174baf1eee8e57929a0fff813b3a8bdc37b260ea52a9544716e28b842e6b3b6",
       "bin": "./kubectl-passman",
       "files": [
         {
@@ -34,24 +34,9 @@
         }
       ]
     },
-    "x86_64-darwin": {
-      "url": "https://github.com/chrisns/kubectl-passman/releases/download/v1.2.3/kubectl-passman-darwin-amd64.zip",
-      "sha256": "d6d9138af60ec1a57645dac8e4ce93dadd84efe1802543e05bff45871dcec2e6",
-      "bin": "./kubectl-passman",
-      "files": [
-        {
-          "from": "kubectl-passman-darwin-amd64",
-          "to": "kubectl-passman"
-        },
-        {
-          "from": "LICENSE",
-          "to": "."
-        }
-      ]
-    },
     "x86_64-linux": {
-      "url": "https://github.com/chrisns/kubectl-passman/releases/download/v1.2.3/kubectl-passman-linux-amd64.zip",
-      "sha256": "dac6b4eb52ffae5c0b230144dd9fe1e4f573c5b34524edac4ff82e30b46c7c0a",
+      "url": "https://github.com/chrisns/kubectl-passman/releases/download/v1.2.5/kubectl-passman-linux-amd64.zip",
+      "sha256": "3b01d6a1487e230a01b2119ba5f7e1ce30ed9372342f77b5c3403973f23cd132",
       "bin": "./kubectl-passman",
       "files": [
         {
