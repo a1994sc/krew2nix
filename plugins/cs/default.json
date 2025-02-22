@@ -1,12 +1,12 @@
 {
   "plugin": "cs",
-  "version": "v0.1.0",
+  "version": "v0.1.1",
   "homepage": "https://github.com/dodevops/kc",
-  "description": "Usage:\n  kubectl cs [--only-current-context] [target]\n  Run `kubectl cs` to switch to a Kubernetes context and/or namespace. You can directly specify the context to switch to\n    in the form of `context:namespace`. If you leave either of the two parts empty, it will only change the remaining part.\n\n  Examples:\n\n    * `kubectl cs int:` - Switch to the currently active namespace in the `int` context\n    * `kubectl cs :kube-system` - Switch to the namespace `kube-system` in the currently active context\n    * `kubectl cs int:kube-system` - Switch to the namespace `kube-system` in the `int` context\n\n    If you don't specify anything, `kubectl cs` will present a selection list of all namespaces in all contexts, which can\n    be filtered and selected. If that takes too long, the flag `--only-current-context` can be used, which only enumerates\n    the namespaces of the current context.\n",
+  "description": "Usage:\n  kubectl cs [--only-current-context] [target]\n  Run `kubectl cs` to switch to a Kubernetes context and/or namespace. You can directly specify the context to switch to\n    in the form of `context:namespace`. If you leave either of the two parts empty, it will only change the remaining part.\n  \n  Examples:\n    \n    * `kubectl cs int:` - Switch to the currently active namespace in the `int` context\n    * `kubectl cs :kube-system` - Switch to the namespace `kube-system` in the currently active context\n    * `kubectl cs int:kube-system` - Switch to the namespace `kube-system` in the `int` context\n    \n    If you don't specify anything, `kubectl cs` will present a selection list of all namespaces in all contexts, which can\n    be filtered and selected. If that takes too long, the flag `--only-current-context` can be used, which only enumerates\n    the namespaces of the current context.",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/dodevops/kc/releases/download/v0.1.0/kubectl-cs-darwin-arm64.tar.gz",
-      "sha256": "90edc7c83c0913b195bd1e906a1ed0d580107bf07b847258f82ebe905f08eaba",
+      "url": "https://github.com/dodevops/kc/releases/download/v0.1.1/kubectl-cs-darwin-arm64.tar.gz",
+      "sha256": "28cf4f7d48eb5ac252103b3bd8e56565636708457a9564c7ebcad65fe80c21fb",
       "bin": "kubectl-cs",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/dodevops/kc/releases/download/v0.1.0/kubectl-cs-linux-arm64.tar.gz",
-      "sha256": "1b95f7835f7c659b87a5d4a442acaae6819ee1b370cbc180f82995011d190de7",
+      "url": "https://github.com/dodevops/kc/releases/download/v0.1.1/kubectl-cs-linux-arm64.tar.gz",
+      "sha256": "cedeff30d790133ba46936d29f4045e4d2978c4d0b821c5a011d403c27500003",
       "bin": "kubectl-cs",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/dodevops/kc/releases/download/v0.1.0/kubectl-cs-darwin-amd64.tar.gz",
-      "sha256": "96d53c2addc6d7d1e6ee732543a93545f499c149e830cbc59c9cf5633de7663b",
+      "url": "https://github.com/dodevops/kc/releases/download/v0.1.1/kubectl-cs-darwin-amd64.tar.gz",
+      "sha256": "a912abe8f209695dfaa627bf7fc775187be35a64058206fbb60b2e6e9f9c97f9",
       "bin": "kubectl-cs",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/dodevops/kc/releases/download/v0.1.0/kubectl-cs-linux-amd64.tar.gz",
-      "sha256": "a54393d1102d1cb75c62cbb8725be892cecdbf65274f7bc549a40cef84f460c0",
+      "url": "https://github.com/dodevops/kc/releases/download/v0.1.1/kubectl-cs-linux-amd64.tar.gz",
+      "sha256": "236ab5ade296cd17a5fd4718b60b351c8e88692d41dd5cb07dc0461b7c064d76",
       "bin": "kubectl-cs",
       "files": [
         {
