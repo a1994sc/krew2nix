@@ -1,0 +1,68 @@
+{
+  "plugin": "cnp-viz",
+  "version": "v0.1.0",
+  "homepage": "https://github.com/mostafahussein/kubectl-cnp-viz",
+  "description": "Visualize Cilium Network Policies without leaving the terminal\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/mostafahussein/kubectl-cnp-viz/releases/download/v0.1.0/kubectl-cnp-viz_darwin_arm64.tar.gz",
+      "sha256": "ddb2972322b8f203f13fd6ca270d9b698768afa198675c47ae31aeef31321b8a",
+      "bin": "kubectl-cnp-viz",
+      "files": [
+        {
+          "from": "./kubectl-cnp-viz",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/mostafahussein/kubectl-cnp-viz/releases/download/v0.1.0/kubectl-cnp-viz_linux_arm64.tar.gz",
+      "sha256": "21d1830830c8d3fd151cc199ce311ae0ab8e6d65ce943cf50c2580c83cff89a0",
+      "bin": "kubectl-cnp-viz",
+      "files": [
+        {
+          "from": "./kubectl-cnp-viz",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/mostafahussein/kubectl-cnp-viz/releases/download/v0.1.0/kubectl-cnp-viz_darwin_amd64.tar.gz",
+      "sha256": "4db9cfc3e3cc2a3e270ad5a398e153425e0b7e020eb9f2539354809f59c378f3",
+      "bin": "kubectl-cnp-viz",
+      "files": [
+        {
+          "from": "./kubectl-cnp-viz",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/mostafahussein/kubectl-cnp-viz/releases/download/v0.1.0/kubectl-cnp-viz_linux_amd64.tar.gz",
+      "sha256": "d3a90e3eb29b300cdc87bcdd0e094e4a20adab018640c3371aec1becda82f1bb",
+      "bin": "kubectl-cnp-viz",
+      "files": [
+        {
+          "from": "./kubectl-cnp-viz",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}
