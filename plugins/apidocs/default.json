@@ -1,12 +1,12 @@
 {
   "plugin": "apidocs",
-  "version": "v1.0.10",
+  "version": "v1.0.12",
   "homepage": "https://github.com/hashmap-kz/kubectl-apidocs",
   "description": "A tool that displays kubectl API resources in a tree view.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/hashmap-kz/kubectl-apidocs/releases/download/v1.0.10/kubectl-apidocs_v1.0.10_darwin_arm64.tar.gz",
-      "sha256": "621c8a9e4ffcc55b9553eb1113710485f96c393755d30586b76a3dbdc5e1a213",
+      "url": "https://github.com/hashmap-kz/kubectl-apidocs/releases/download/v1.0.12/kubectl-apidocs_v1.0.12_darwin_arm64.tar.gz",
+      "sha256": "baf2e79c2233a78ea69a3425afe73a288809433cd38b58040e14b386e9469510",
       "bin": "kubectl-apidocs",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/hashmap-kz/kubectl-apidocs/releases/download/v1.0.10/kubectl-apidocs_v1.0.10_linux_arm64.tar.gz",
-      "sha256": "711a00ad7378f9dfb9825b4ba62462a514f033ae298b662528cd6ae438343ebc",
+      "url": "https://github.com/hashmap-kz/kubectl-apidocs/releases/download/v1.0.12/kubectl-apidocs_v1.0.12_linux_arm64.tar.gz",
+      "sha256": "ce533512fab8669a2e22208ea989669c44f5156be6fe30886b9a887a9b8f46f3",
       "bin": "kubectl-apidocs",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/hashmap-kz/kubectl-apidocs/releases/download/v1.0.10/kubectl-apidocs_v1.0.10_darwin_amd64.tar.gz",
-      "sha256": "b55d11c89152db417d06f504c6a3c4482108af41ca4a6a86a47d3f79fdf73d7c",
+      "url": "https://github.com/hashmap-kz/kubectl-apidocs/releases/download/v1.0.12/kubectl-apidocs_v1.0.12_darwin_amd64.tar.gz",
+      "sha256": "dd3031af14af489d9da5399f71401d28986d383a25493d40b74bef71b4ba4f0f",
       "bin": "kubectl-apidocs",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/hashmap-kz/kubectl-apidocs/releases/download/v1.0.10/kubectl-apidocs_v1.0.10_linux_amd64.tar.gz",
-      "sha256": "eb6a5a16479bbe7456e03d640e5da25c393e44f43930d351479bac302a606a23",
+      "url": "https://github.com/hashmap-kz/kubectl-apidocs/releases/download/v1.0.12/kubectl-apidocs_v1.0.12_linux_amd64.tar.gz",
+      "sha256": "0456615d9329dc80af1bead3aa9c90fc5229e6c36afc4ed1c90f7b691b2371e5",
       "bin": "kubectl-apidocs",
       "files": [
         {
