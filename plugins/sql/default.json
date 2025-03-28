@@ -1,12 +1,12 @@
 {
   "plugin": "sql",
-  "version": "v0.3.31",
+  "version": "v0.3.32",
   "homepage": "https://github.com/yaacov/kubectl-sql",
   "description": "This plugin enables to query the kubernetes API server via a SQL like language.\n",
   "archSrc": {
     "x86_64-linux": {
-      "url": "https://github.com/yaacov/kubectl-sql/releases/download/v0.3.31/kubectl-sql.tar.gz",
-      "sha256": "b36e0dbb9ecc43328d32e2018e3ac72b0e6d1bf99a85ef5d657a15d52a7d1117",
+      "url": "https://github.com/yaacov/kubectl-sql/releases/download/v0.3.32/kubectl-sql.tar.gz",
+      "sha256": "8f66b049045240e8f90a18e3ed1a832cb0dbdeddf55ed75b3b089b5584811236",
       "bin": "kubectl-sql",
       "files": [
         {
