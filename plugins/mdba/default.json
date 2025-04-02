@@ -1,12 +1,12 @@
 {
   "plugin": "mdba",
-  "version": "v0.0.7",
+  "version": "v0.0.8",
   "homepage": "https://github.com/hedgieinsocks/kubectl-mdba",
   "description": "This unofficial plugin helps manage\nmariadb-operator semi-sync replication clusters:\nlaunch mariadb shell, switch the primary pod,\nrecreate a replica pod, etc.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/hedgieinsocks/kubectl-mdba/archive/refs/tags/v0.0.7.tar.gz",
-      "sha256": "57cd0319e585c238e2f5fc342df0a55e48fc16ba28032e691459baf74e9e4ba6",
+      "url": "https://github.com/hedgieinsocks/kubectl-mdba/archive/refs/tags/v0.0.8.tar.gz",
+      "sha256": "2fca0e2ef063b24ee096fd685b26f91247b94c108e73878b1e2d740dd0b1c06c",
       "bin": "./kubectl-mdba",
       "files": [
         {
@@ -20,8 +20,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/hedgieinsocks/kubectl-mdba/archive/refs/tags/v0.0.7.tar.gz",
-      "sha256": "57cd0319e585c238e2f5fc342df0a55e48fc16ba28032e691459baf74e9e4ba6",
+      "url": "https://github.com/hedgieinsocks/kubectl-mdba/archive/refs/tags/v0.0.8.tar.gz",
+      "sha256": "2fca0e2ef063b24ee096fd685b26f91247b94c108e73878b1e2d740dd0b1c06c",
       "bin": "./kubectl-mdba",
       "files": [
         {
@@ -35,8 +35,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/hedgieinsocks/kubectl-mdba/archive/refs/tags/v0.0.7.tar.gz",
-      "sha256": "57cd0319e585c238e2f5fc342df0a55e48fc16ba28032e691459baf74e9e4ba6",
+      "url": "https://github.com/hedgieinsocks/kubectl-mdba/archive/refs/tags/v0.0.8.tar.gz",
+      "sha256": "2fca0e2ef063b24ee096fd685b26f91247b94c108e73878b1e2d740dd0b1c06c",
       "bin": "./kubectl-mdba",
       "files": [
         {
@@ -50,8 +50,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/hedgieinsocks/kubectl-mdba/archive/refs/tags/v0.0.7.tar.gz",
-      "sha256": "57cd0319e585c238e2f5fc342df0a55e48fc16ba28032e691459baf74e9e4ba6",
+      "url": "https://github.com/hedgieinsocks/kubectl-mdba/archive/refs/tags/v0.0.8.tar.gz",
+      "sha256": "2fca0e2ef063b24ee096fd685b26f91247b94c108e73878b1e2d740dd0b1c06c",
       "bin": "./kubectl-mdba",
       "files": [
         {
