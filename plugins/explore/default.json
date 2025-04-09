@@ -1,12 +1,12 @@
 {
   "plugin": "explore",
-  "version": "v0.11.0",
+  "version": "v0.12.0",
   "homepage": "https://github.com/keisku/kubectl-explore",
   "description": "Fuzzy-find and explain the fields associated with\nsupported API resource.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/keisku/kubectl-explore/releases/download/v0.11.0/kubectl-explore_v0.11.0_darwin_arm64.tar.gz",
-      "sha256": "f1d6c7a83ccb63851ecac8493fd6258f6a64929bad9fe37c7516fc973a3da2bc",
+      "url": "https://github.com/keisku/kubectl-explore/releases/download/v0.12.0/kubectl-explore_v0.12.0_darwin_arm64.tar.gz",
+      "sha256": "ff41cd6b438f6eb941f2d0ded74948a88b571960277bd4f20bc0d0cd5f762e48",
       "bin": "kubectl-explore",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/keisku/kubectl-explore/releases/download/v0.11.0/kubectl-explore_v0.11.0_linux_arm64.tar.gz",
-      "sha256": "af30c2973cd5c7bc41803f95d31635024cd8758176dc1412684d15c0088f230f",
+      "url": "https://github.com/keisku/kubectl-explore/releases/download/v0.12.0/kubectl-explore_v0.12.0_linux_arm64.tar.gz",
+      "sha256": "fd42b44c4231dc47da1547b5d71675de9373b359004a90ca5c26995715b8ab8c",
       "bin": "kubectl-explore",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/keisku/kubectl-explore/releases/download/v0.11.0/kubectl-explore_v0.11.0_darwin_amd64.tar.gz",
-      "sha256": "97c88349b6dbefacda7f693345bf654a770dd862d1a29ee1be4f279f1f3659ad",
+      "url": "https://github.com/keisku/kubectl-explore/releases/download/v0.12.0/kubectl-explore_v0.12.0_darwin_amd64.tar.gz",
+      "sha256": "30d935330c10e21e0ff585b50f5acf8d17df6973fce4faf25cf09d5709437c86",
       "bin": "kubectl-explore",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/keisku/kubectl-explore/releases/download/v0.11.0/kubectl-explore_v0.11.0_linux_amd64.tar.gz",
-      "sha256": "143a38bee32a039c4d59a04bc9565f2a9c0e385727267137c670c6102a7232b3",
+      "url": "https://github.com/keisku/kubectl-explore/releases/download/v0.12.0/kubectl-explore_v0.12.0_linux_amd64.tar.gz",
+      "sha256": "be340994ef2bb86d9e8ce15eab41c59b9cbcfb18159de3cc07be6266e6f5b457",
       "bin": "kubectl-explore",
       "files": [
         {
