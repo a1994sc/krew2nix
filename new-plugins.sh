@@ -17,6 +17,9 @@ quiet_git() {
 
 quiet_git clone https://github.com/kubernetes-sigs/krew-index.git target/
 
+# delete the whole "plugins" folder to as to clean out plugins removed from upstream
+rm -rf plugins
+
 for filename in target/plugins/*; do
   plugin=$(basename ${filename%.*})
   mkdir -p plugins/$plugin
