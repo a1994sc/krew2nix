@@ -31,7 +31,11 @@
         };
         treefmtEval = treefmt-nix.lib.evalModule pkgs ./treefmt.nix;
         environ = {
-          default.buildInputs = [ pkgs.ruby ];
+          default.buildInputs = [
+            pkgs.ruby
+            pkgs.curl
+          ];
+          default.nativeBuildInputs = [ pkgs.cacert ];
           testing = {
             buildInputs =
               with pkgs;
@@ -63,7 +67,7 @@
         };
         devShells = {
           ci = pkgs.mkShell { inherit (environ.default) buildInputs; };
-          default = pkgs.mkShell { inherit (environ.default) buildInputs; };
+          default = pkgs.mkShell { inherit (environ.default) buildInputs nativeBuildInputs; };
           testing = pkgs.mkShell { inherit (environ.testing) buildInputs; };
         };
       }
