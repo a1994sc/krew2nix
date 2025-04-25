@@ -1,12 +1,12 @@
 {
   "plugin": "node-ssm",
-  "version": "v0.0.5",
+  "version": "v0.0.6",
   "homepage": "https://github.com/VioletCranberry/kubectl-node-ssm",
   "description": "Start an SSM session with AWS SSM managed EKS node using\nlocal AWS CLI and ssm-plugin. EKS node name (private-dns-name)\nwill be resolved to instance ID using AWS API and AWS profile\nwith region parsed from current kubeconfig.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/VioletCranberry/kubectl-node-ssm/releases/download/v0.0.5/kubectl-node_ssm-v0.0.5-darwin-arm64.tar.gz",
-      "sha256": "01c9a0bb288719626bffa6034d0c22bf414b934dddceb0f5f4855058436d34b8",
+      "url": "https://github.com/VioletCranberry/kubectl-node-ssm/releases/download/v0.0.6/kubectl-node_ssm-v0.0.6-darwin-arm64.tar.gz",
+      "sha256": "25b64e3f00fec4a66e0032bd744875a299203221b9c45c59c6002cf5a2936d80",
       "bin": "node-ssm",
       "files": [
         {
@@ -24,8 +24,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/VioletCranberry/kubectl-node-ssm/releases/download/v0.0.5/kubectl-node_ssm-v0.0.5-linux-arm64.tar.gz",
-      "sha256": "6ce5c68eb2d4d08cf16a0a5ef2a2dc68e847e25ce9af47f9da1a99e228d6d9c0",
+      "url": "https://github.com/VioletCranberry/kubectl-node-ssm/releases/download/v0.0.6/kubectl-node_ssm-v0.0.6-linux-arm64.tar.gz",
+      "sha256": "60e2601d5be2fd91235bdca985ba5727d57d2a4f83d802c2e9e3e4b9b622e36c",
       "bin": "node-ssm",
       "files": [
         {
@@ -43,8 +43,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/VioletCranberry/kubectl-node-ssm/releases/download/v0.0.5/kubectl-node_ssm-v0.0.5-darwin-amd64.tar.gz",
-      "sha256": "f4c30c86fa0859652db17908d33cf9a5a0b7bcaeb0eaf3d4b5482cd2110fe82e",
+      "url": "https://github.com/VioletCranberry/kubectl-node-ssm/releases/download/v0.0.6/kubectl-node_ssm-v0.0.6-darwin-amd64.tar.gz",
+      "sha256": "2aba34c1f0f40e8a7d0b0eb9ebd81fb81a79e240a65e3c1af49258ca23845cae",
       "bin": "node-ssm",
       "files": [
         {
@@ -62,8 +62,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/VioletCranberry/kubectl-node-ssm/releases/download/v0.0.5/kubectl-node_ssm-v0.0.5-linux-amd64.tar.gz",
-      "sha256": "795e9ca79cc27bd0751898db4688dfca5e40cbe45cf0771e4f4ca470be001882",
+      "url": "https://github.com/VioletCranberry/kubectl-node-ssm/releases/download/v0.0.6/kubectl-node_ssm-v0.0.6-linux-amd64.tar.gz",
+      "sha256": "16d9971e2e6c1deb3967782dc6fb72762a77170eddb848fa4aebc65bad13bf94",
       "bin": "node-ssm",
       "files": [
         {
