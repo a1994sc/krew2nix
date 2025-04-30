@@ -2,15 +2,15 @@ name: Gather new plugins
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 1 2-30/2 * *'  # every other day
-
-permissions:
-  contents: write
-  pull-requests: write
+    - cron: '0 0 * * *'  # every day at midnight
 
 jobs:
   update:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      id-token: write
     steps:
       - uses: actions/checkout@0ad4b8fadaa221de15dcec353f45205ec38ea70b # v4.2.2
 
@@ -18,15 +18,17 @@ jobs:
           git config user.name "$GITHUB_ACTOR"
           git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
 
+      - name: Setup gitsign
+        uses: chainguard-dev/actions/setup-gitsign@0cda751b114eb55c388e88f7479292668165602a # v1.0.2
+
       - uses: DeterminateSystems/nix-installer-action@e50d5f73bfe71c2dd0aa4218de8f4afa59f8f81d # v16
 
       - run: |
-          nix develop .#ci
           ./new-plugins.sh
 
       - name: Commit & Push changes
         uses: actions-js/push@5a7cbd780d82c0c937b5977586e641b2fd94acc5 # v1.5
         with:
           branch: 'main'
-          message: "chore(flake): Get new plugins"
+          message: "chore(flake): get new plugins"
           github_token: ${{ secrets.GITHUB_TOKEN }}

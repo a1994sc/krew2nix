@@ -34,5 +34,5 @@ jobs:
         uses: actions-js/push@5a7cbd780d82c0c937b5977586e641b2fd94acc5 # v1.5
         with:
           branch: 'main'
-          message: "chore(flake): bump inputs"
+          message: "chore(flake): nix flake inputs"
           github_token: ${{ secrets.GITHUB_TOKEN }}
