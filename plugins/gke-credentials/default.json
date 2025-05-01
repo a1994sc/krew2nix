@@ -1,3 +1,52 @@
 {
-  "version": ""
+  "plugin": "gke-credentials",
+  "version": "v1.0.1",
+  "homepage": "https://github.com/danisla/kubefunc",
+  "description": "",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/danisla/kubefunc/archive/v1.0.1.zip",
+      "sha256": "c548f94d8efd1fb8aa35a54b7e5cdb64ae012447122d9704f3cee4163bbbe9c3",
+      "bin": "gke-credentials.sh",
+      "files": [
+        {
+          "from": "/*/gke-credentials/*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/danisla/kubefunc/archive/v1.0.1.zip",
+      "sha256": "c548f94d8efd1fb8aa35a54b7e5cdb64ae012447122d9704f3cee4163bbbe9c3",
+      "bin": "gke-credentials.sh",
+      "files": [
+        {
+          "from": "/*/gke-credentials/*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/danisla/kubefunc/archive/v1.0.1.zip",
+      "sha256": "c548f94d8efd1fb8aa35a54b7e5cdb64ae012447122d9704f3cee4163bbbe9c3",
+      "bin": "gke-credentials.sh",
+      "files": [
+        {
+          "from": "/*/gke-credentials/*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/danisla/kubefunc/archive/v1.0.1.zip",
+      "sha256": "c548f94d8efd1fb8aa35a54b7e5cdb64ae012447122d9704f3cee4163bbbe9c3",
+      "bin": "gke-credentials.sh",
+      "files": [
+        {
+          "from": "/*/gke-credentials/*",
+          "to": "."
+        }
+      ]
+    }
+  }
 }

@@ -1,12 +1,12 @@
 {
   "plugin": "kyverno",
-  "version": "v1.14.0",
+  "version": "v1.14.1",
   "homepage": "https://github.com/kyverno/kyverno",
   "description": "Kyverno is used to test kyverno policies and apply policies to resources files\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/kyverno/kyverno/releases/download/v1.14.0/kyverno-cli_v1.14.0_darwin_arm64.tar.gz",
-      "sha256": "89424cd5f0c99f0dcc1fd5a650a7d3bddb3be1e7c34291113561983320365ef8",
+      "url": "https://github.com/kyverno/kyverno/releases/download/v1.14.1/kyverno-cli_v1.14.1_darwin_arm64.tar.gz",
+      "sha256": "e87835f60eb737c00ae143bbad48aaf8cb8890bdde76083f07c079ce5af13cfb",
       "bin": "kyverno",
       "files": [
         {
@@ -20,8 +20,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/kyverno/kyverno/releases/download/v1.14.0/kyverno-cli_v1.14.0_darwin_x86_64.tar.gz",
-      "sha256": "fa23cd70d708f2f6407e33a6569ab01e3bf0b5a08004d39c7fa16bb2231b45e5",
+      "url": "https://github.com/kyverno/kyverno/releases/download/v1.14.1/kyverno-cli_v1.14.1_darwin_x86_64.tar.gz",
+      "sha256": "fdd5ba7eb06de310c2d54fa8b6a1c9a6ebd047cdbc3844c00d74cfc88723afdc",
       "bin": "kyverno",
       "files": [
         {
@@ -35,8 +35,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/kyverno/kyverno/releases/download/v1.14.0/kyverno-cli_v1.14.0_linux_x86_64.tar.gz",
-      "sha256": "569978ffff26577c0b8fb1efe4956b8ddbaff0616389f120ca9e810ba8f178cb",
+      "url": "https://github.com/kyverno/kyverno/releases/download/v1.14.1/kyverno-cli_v1.14.1_linux_x86_64.tar.gz",
+      "sha256": "b4052be8e8022b028925bfcec41daa8c111e16dd54f0cfe36e71cc3ee51f93d9",
       "bin": "kyverno",
       "files": [
         {
