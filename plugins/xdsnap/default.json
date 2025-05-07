@@ -1,0 +1,68 @@
+{
+  "plugin": "xdsnap",
+  "version": "v0.2.7",
+  "homepage": "https://github.com/markcampv/xdsnap",
+  "description": "xDSnap helps platform and service mesh operators extract debug-level\nconfiguration and endpoint state from Envoy sidecars connected to Consul.\nIt's helpful for analyzing upstream issues, traffic configuration, and\nxDS debug state.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/markcampv/xdsnap/releases/download/v0.2.7/xdsnap_0.2.7_darwin_arm64.tar.gz",
+      "sha256": "c1db73c903b47765ee7ac3061e8cb509210ec74b47c3bc1c4f00052f863163e8",
+      "bin": "kubectl-xdsnap",
+      "files": [
+        {
+          "from": "kubectl-xdsnap",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/markcampv/xdsnap/releases/download/v0.2.7/xdsnap_0.2.7_linux_arm64.tar.gz",
+      "sha256": "fea24874cbef66f80bf86b746c2df2a912d3b1fa0b5fe84e158c320abbe70ff6",
+      "bin": "kubectl-xdsnap",
+      "files": [
+        {
+          "from": "kubectl-xdsnap",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/markcampv/xdsnap/releases/download/v0.2.7/xdsnap_0.2.7_darwin_amd64.tar.gz",
+      "sha256": "83906ce6e9a6065fc29c28130aae04f554bdd4d77eb27e587cd6b0a72ec9b4b5",
+      "bin": "kubectl-xdsnap",
+      "files": [
+        {
+          "from": "kubectl-xdsnap",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/markcampv/xdsnap/releases/download/v0.2.7/xdsnap_0.2.7_linux_amd64.tar.gz",
+      "sha256": "0849c292c4a9c7f46aeabb5f57c78c005677a1f86d8c33c356aff1cede8d543e",
+      "bin": "kubectl-xdsnap",
+      "files": [
+        {
+          "from": "kubectl-xdsnap",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}
