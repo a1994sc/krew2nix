@@ -1,12 +1,12 @@
 {
   "plugin": "resource-backup",
-  "version": "v0.1.1",
+  "version": "v0.2.0",
   "homepage": "https://github.com/zak905/kubectl-resource-backup",
   "description": "Backs up Kubernetes objects (including CRDs) to the local file system. \nBefore saving any resource, some additional processing is done to remove:\n- the status stanza if the object has any.\n- the server generated fields from the object metadata. \n- any field with a null value.\nThe aims is to make the saved objects look like the original creation request.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/zak905/kubectl-resource-backup/releases/download/v0.1.1/kubectl-resource-backup_darwin_arm64.tar.gz",
-      "sha256": "8f68416af9cdd50664012d97c4df3e9c6d7f1b96dc3a9109ef21949071a0b926",
+      "url": "https://github.com/zak905/kubectl-resource-backup/releases/download/v0.2.0/kubectl-resource-backup_darwin_arm64.tar.gz",
+      "sha256": "2c0430066d676093cafadf45bfd3beaa229cddae7b4904811f24658b3b828b86",
       "bin": "kubectl-resource-backup",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/zak905/kubectl-resource-backup/releases/download/v0.1.1/kubectl-resource-backup_linux_arm64.tar.gz",
-      "sha256": "e8ee74a150abf873572c0980d29ca36dbb02f6710623c0200f5ad837eff8c0ed",
+      "url": "https://github.com/zak905/kubectl-resource-backup/releases/download/v0.2.0/kubectl-resource-backup_linux_arm64.tar.gz",
+      "sha256": "8f4d56a34b007215968c4101d24baffe4b73f8a0e2a933188068926fd60511dc",
       "bin": "kubectl-resource-backup",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/zak905/kubectl-resource-backup/releases/download/v0.1.1/kubectl-resource-backup_darwin_amd64.tar.gz",
-      "sha256": "0309e778928f7cb6fd77a6b6ba3374a29330ea69456ebdad60639b6f52012e6c",
+      "url": "https://github.com/zak905/kubectl-resource-backup/releases/download/v0.2.0/kubectl-resource-backup_darwin_amd64.tar.gz",
+      "sha256": "4b398c8564ec45aff5380dd9f79acd20c2c9f98d7376ea83375e9134c7c00ffb",
       "bin": "kubectl-resource-backup",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/zak905/kubectl-resource-backup/releases/download/v0.1.1/kubectl-resource-backup_linux_amd64.tar.gz",
-      "sha256": "310b9d6fa5d6234e015ec0f484535a220095817b848c0742f7a82bb9d68f0ae3",
+      "url": "https://github.com/zak905/kubectl-resource-backup/releases/download/v0.2.0/kubectl-resource-backup_linux_amd64.tar.gz",
+      "sha256": "f7120a734050d0500a24ad9c4903170fa741cf244af9160ad596e7da49458735",
       "bin": "kubectl-resource-backup",
       "files": [
         {
