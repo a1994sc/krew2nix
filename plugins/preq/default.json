@@ -1,12 +1,12 @@
 {
   "plugin": "preq",
-  "version": "v0.1.16",
+  "version": "v0.1.21",
   "homepage": "https://github.com/prequel-dev/preq",
   "description": "preq (prounounced \"preek\") is a free and open community-driven reliability problem detector. Use preq to detect\nthe latest bugs, misconfigurations, anti-patterns, and known issues from a community of practitioners. \nCREs provide engineers, on-call support, and SRE agents with impact and community recommended mitigations.\n\npreq is powered by Common Reliability Enumerations (CREs) that are contributed by the problem detection community and Prequel's Reliability Research Team. Reliability intelligence helps teams see a broad range of problems earlier, so they can prioritize, pinpoint, and reduce the risk of outages.\n\nVisit https://docs.prequel.dev for more information.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/prequel-dev/preq/releases/download/v0.1.16/kubectl-preq_darwin-arm64.tar.gz",
-      "sha256": "4c93b90559c413b2db8f65c93a502b86dbcabe672b55fa8fe729a9c04bd44443",
+      "url": "https://github.com/prequel-dev/preq/releases/download/v0.1.21/kubectl-preq_darwin-arm64.tar.gz",
+      "sha256": "a2dc55587e5d757879f3dafd690a535e249db229d986c3d0784d38b6aef80bba",
       "bin": "kubectl-preq",
       "files": [
         {
@@ -24,8 +24,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/prequel-dev/preq/releases/download/v0.1.16/kubectl-preq_linux-arm64.tar.gz",
-      "sha256": "3019e574923c9d5c80fbc796e830cd79ff9e83c8316941717f694410bfca4df5",
+      "url": "https://github.com/prequel-dev/preq/releases/download/v0.1.21/kubectl-preq_linux-arm64.tar.gz",
+      "sha256": "315747b7d6f6dde3fc9f720040b5c9e4ffea08a04237b899879d8aeceede527f",
       "bin": "kubectl-preq",
       "files": [
         {
@@ -43,8 +43,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/prequel-dev/preq/releases/download/v0.1.16/kubectl-preq_linux-amd64.tar.gz",
-      "sha256": "f65a99203bc2f056e49beec8cd9837635d55184e981731900f7d259444aa4607",
+      "url": "https://github.com/prequel-dev/preq/releases/download/v0.1.21/kubectl-preq_linux-amd64.tar.gz",
+      "sha256": "4131cd048668ef4229c7625233fa93afa3aa619cf7d3e74e85246e4f338bac26",
       "bin": "kubectl-preq",
       "files": [
         {
