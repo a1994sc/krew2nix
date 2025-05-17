@@ -1,3 +1,52 @@
 {
-  "version": ""
+  "plugin": "openebs",
+  "version": "v0.6.0",
+  "homepage": "https://github.com/openebs/openebsctl",
+  "description": "The openebs plugin provides a simplified interface to view\nand debug different OpenEBS volumes and related storage resources.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/openebs/openebsctl/releases/download/v0.6.0/kubectl-openebs_v0.6.0_Darwin_arm64.tar.gz",
+      "sha256": "9d2b284b9817192e4f29dbd0db33015715761ab3b593032ba38420354622bc27",
+      "bin": "kubectl-openebs",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/openebs/openebsctl/releases/download/v0.6.0/kubectl-openebs_v0.6.0_Linux_arm64.tar.gz",
+      "sha256": "959393542251fb282563b46c44c615dd62bf13f437878d334c39803f80454646",
+      "bin": "kubectl-openebs",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/openebs/openebsctl/releases/download/v0.6.0/kubectl-openebs_v0.6.0_Darwin_x86_64.tar.gz",
+      "sha256": "d7fdc8005fa1d863c7785584ce650cdfb636e0b8df51c09de5644ae001ad9b07",
+      "bin": "kubectl-openebs",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/openebs/openebsctl/releases/download/v0.6.0/kubectl-openebs_v0.6.0_Linux_x86_64.tar.gz",
+      "sha256": "a025a7ae2153359e743de8a6a7c0ad0c254a3a8861a76bec567b2fe557981bbd",
+      "bin": "kubectl-openebs",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
 }
