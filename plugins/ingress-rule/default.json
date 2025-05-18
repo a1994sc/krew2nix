@@ -1,3 +1,53 @@
 {
-  "version": ""
+  "plugin": "ingress-rule",
+  "version": "v0.4.0",
+  "homepage": "https://github.com/pragaonj/ingress-rule-updater",
+  "description": "Add/remove rules to/from a Kubernetes Ingress via command line.\nThis plugin allows the configuration of an Ingress resource with command line arguments.\n\nWhen adding/deleting a backend rule the Ingress will be updated.\nOn creation of a rule for a non-existing Ingress name a new Ingress will be created.\nIf the last rule is deleted the Ingress will be deleted as well.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/pragaonj/ingress-rule-updater/releases/download/v0.4.0/ingress-rule_v0.4.0_darwin_arm64.tar.gz",
+      "sha256": "2f54eabd7174faffa5f7ef0f2d2074c148f7714c74f71fbc5b9efc1acd0d3d21",
+      "bin": "ingress-rule",
+      "files": [
+        {
+          "from": "./ingress-rule",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/pragaonj/ingress-rule-updater/releases/download/v0.4.0/ingress-rule_v0.4.0_darwin_amd64.tar.gz",
+      "sha256": "e489c9fc850ce385bccbcc4d4535801a9a20a1e9cfb78b5b4a6e667c076b492f",
+      "bin": "ingress-rule",
+      "files": [
+        {
+          "from": "./ingress-rule",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/pragaonj/ingress-rule-updater/releases/download/v0.4.0/ingress-rule_v0.4.0_linux_amd64.tar.gz",
+      "sha256": "1afccf5f7f1a91e882fd7fb2c541522ef2d9f4880b89bcd02119da59342f428d",
+      "bin": "ingress-rule",
+      "files": [
+        {
+          "from": "./ingress-rule",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
 }

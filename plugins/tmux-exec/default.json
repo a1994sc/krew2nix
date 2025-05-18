@@ -1,3 +1,52 @@
 {
-  "version": ""
+  "plugin": "tmux-exec",
+  "version": "v0.4.0",
+  "homepage": "https://github.com/predatorray/kubectl-tmux-exec",
+  "description": "This plugin uses Tmux to multiplex commands to pods.\nInstead of `exec bash` into multiple pod's containers one-at-a-time,\nyou can now do it at the same time by opening multiple panes in a window.\nRun 'kubectl tmux-exec --help' for more information on the plugin.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/predatorray/kubectl-tmux-exec/releases/download/v0.4.0/kubectl-tmux-exec-0.4.0.tar.gz",
+      "sha256": "f82c498432f02a7ff619546733011360426a16190a122f849a9a8a82e795ee1e",
+      "bin": "bin/kubectl-tmux_exec",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/predatorray/kubectl-tmux-exec/releases/download/v0.4.0/kubectl-tmux-exec-0.4.0.tar.gz",
+      "sha256": "f82c498432f02a7ff619546733011360426a16190a122f849a9a8a82e795ee1e",
+      "bin": "bin/kubectl-tmux_exec",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/predatorray/kubectl-tmux-exec/releases/download/v0.4.0/kubectl-tmux-exec-0.4.0.tar.gz",
+      "sha256": "f82c498432f02a7ff619546733011360426a16190a122f849a9a8a82e795ee1e",
+      "bin": "bin/kubectl-tmux_exec",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/predatorray/kubectl-tmux-exec/releases/download/v0.4.0/kubectl-tmux-exec-0.4.0.tar.gz",
+      "sha256": "f82c498432f02a7ff619546733011360426a16190a122f849a9a8a82e795ee1e",
+      "bin": "bin/kubectl-tmux_exec",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
 }
