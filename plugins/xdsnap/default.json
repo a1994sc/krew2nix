@@ -1,12 +1,12 @@
 {
   "plugin": "xdsnap",
-  "version": "v0.2.7",
+  "version": "v0.2.8",
   "homepage": "https://github.com/markcampv/xdsnap",
   "description": "xDSnap helps platform and service mesh operators extract debug-level\nconfiguration and endpoint state from Envoy sidecars connected to Consul.\nIt's helpful for analyzing upstream issues, traffic configuration, and\nxDS debug state.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/markcampv/xdsnap/releases/download/v0.2.7/xdsnap_0.2.7_darwin_arm64.tar.gz",
-      "sha256": "c1db73c903b47765ee7ac3061e8cb509210ec74b47c3bc1c4f00052f863163e8",
+      "url": "https://github.com/markcampv/xdsnap/releases/download/v0.2.8/xdsnap_v0.2.8_darwin_arm64.tar.gz",
+      "sha256": "ac0cc3278db5a6c78c812d6aab93672d9e00c0ff13b3db152465b90dbb3f81cc",
       "bin": "kubectl-xdsnap",
       "files": [
         {
@@ -20,8 +20,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/markcampv/xdsnap/releases/download/v0.2.7/xdsnap_0.2.7_linux_arm64.tar.gz",
-      "sha256": "fea24874cbef66f80bf86b746c2df2a912d3b1fa0b5fe84e158c320abbe70ff6",
+      "url": "https://github.com/markcampv/xdsnap/releases/download/v0.2.8/xdsnap_v0.2.8_linux_arm64.tar.gz",
+      "sha256": "a3b1247ba7fb48ad233e8f331c75ab17f160431c5a1a2bff1761247ae05f6022",
       "bin": "kubectl-xdsnap",
       "files": [
         {
@@ -35,8 +35,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/markcampv/xdsnap/releases/download/v0.2.7/xdsnap_0.2.7_darwin_amd64.tar.gz",
-      "sha256": "83906ce6e9a6065fc29c28130aae04f554bdd4d77eb27e587cd6b0a72ec9b4b5",
+      "url": "https://github.com/markcampv/xdsnap/releases/download/v0.2.8/xdsnap_v0.2.8_darwin_amd64.tar.gz",
+      "sha256": "0682544154bc4eafa6346a8e36e94013171e4cc4bc6ff4c23f12a32ba8f81894",
       "bin": "kubectl-xdsnap",
       "files": [
         {
@@ -50,8 +50,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/markcampv/xdsnap/releases/download/v0.2.7/xdsnap_0.2.7_linux_amd64.tar.gz",
-      "sha256": "0849c292c4a9c7f46aeabb5f57c78c005677a1f86d8c33c356aff1cede8d543e",
+      "url": "https://github.com/markcampv/xdsnap/releases/download/v0.2.8/xdsnap_v0.2.8_linux_amd64.tar.gz",
+      "sha256": "98bb1ac58dee641b626e0ef3802233ca0f1c6b4650636abb85348d40cc1060ee",
       "bin": "kubectl-xdsnap",
       "files": [
         {
