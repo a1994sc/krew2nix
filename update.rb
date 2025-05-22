@@ -25,7 +25,17 @@ OS_TO_NIX = {
 }
 
 def http_get(path)
-  YAML.load URI.open("https://raw.githubusercontent.com/kubernetes-sigs/krew-index/master/plugins/#{path}.yaml").read
+  retries = 3
+  delay = 3
+
+  begin
+    YAML.load URI.open("https://raw.githubusercontent.com/kubernetes-sigs/krew-index/master/plugins/#{path}.yaml").read
+  rescue OpenURI::HTTPError => e
+    fail "All retries are exhausted" if retries == 0
+    puts "Error well trying to open url: #{retries -= 1}"
+    sleep delay
+    retry
+  end
 end
 
 def get_sources(data)
