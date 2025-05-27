@@ -1,12 +1,12 @@
 {
   "plugin": "kueue",
-  "version": "v0.11.4",
+  "version": "v0.12.0",
   "homepage": "https://kueue.sigs.k8s.io/docs/reference/kubectl-kueue/",
   "description": "The kubectl-kueue plugin, kueuectl, allows you to list, create, resume\nand stop kueue resources such as clusterqueues, localqueues and workloads.\n\nSee the documentation for more information: https://kueue.sigs.k8s.io/docs/reference/kubectl-kueue/\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/kubernetes-sigs/kueue/releases/download/v0.11.4/kubectl-kueue-darwin-arm64.tar.gz",
-      "sha256": "a498b8f46b46762471132dbe21d7b2731d47eb7df3534e0249d9095d16d37a1f",
+      "url": "https://github.com/kubernetes-sigs/kueue/releases/download/v0.12.0/kubectl-kueue-darwin-arm64.tar.gz",
+      "sha256": "ed0e5b2727b07ce51a2e4cfb2fd62eddbc871255cdd073fe2f8de83b434da5be",
       "bin": "kubectl-kueue",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/kubernetes-sigs/kueue/releases/download/v0.11.4/kubectl-kueue-linux-arm64.tar.gz",
-      "sha256": "7542a7032f7fd8ef2cff15e2933882f4a974074fefd4d220cbf8889fcecea987",
+      "url": "https://github.com/kubernetes-sigs/kueue/releases/download/v0.12.0/kubectl-kueue-linux-arm64.tar.gz",
+      "sha256": "436f8cb3292ce0ac193e5c8d9cf2fff04a47c34616285a495521e6ef34d5ee77",
       "bin": "kubectl-kueue",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/kubernetes-sigs/kueue/releases/download/v0.11.4/kubectl-kueue-darwin-amd64.tar.gz",
-      "sha256": "a00c2954a4d88444b76cc0a23357200dcfd70bbbc6106fce5ed811a90edbb7ab",
+      "url": "https://github.com/kubernetes-sigs/kueue/releases/download/v0.12.0/kubectl-kueue-darwin-amd64.tar.gz",
+      "sha256": "ef79be307225044f7165c745859dec56fec2cf39edca78b5bade87dffab212a9",
       "bin": "kubectl-kueue",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/kubernetes-sigs/kueue/releases/download/v0.11.4/kubectl-kueue-linux-amd64.tar.gz",
-      "sha256": "9545d06309322c0b53d545454d300ba1454362aca7f056704505774a6bc32194",
+      "url": "https://github.com/kubernetes-sigs/kueue/releases/download/v0.12.0/kubectl-kueue-linux-amd64.tar.gz",
+      "sha256": "f7181fbfbd17859a9b8f8ecc3771da937d072c9fac54e14a2f15b1a6a2d82ff6",
       "bin": "kubectl-kueue",
       "files": [
         {
