@@ -1,12 +1,12 @@
 {
   "plugin": "node-resource",
-  "version": "v0.1.1",
+  "version": "v0.2.0",
   "homepage": "https://github.com/ahmetb/kubectl-node_resource",
   "description": "Show node CPU/memory allocations (pod requests) and actual utilizations\nfor all nodes in the cluster, or a subset of nodes (by label selector),\neither as a list and/or, as a summary table with histograms/percentiles.\nOptimized to work in large clusters with many nodes and pods.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/ahmetb/kubectl-node_resource/releases/download/v0.1.1/kubectl-node_resource_v0.1.1_darwin_arm64.tar.gz",
-      "sha256": "e7901cd991bad3bb8c269c844efd48d4abbb3bd81f3bd0ee9387afc66f095864",
+      "url": "https://github.com/ahmetb/kubectl-node_resource/releases/download/v0.2.0/kubectl-node_resource_v0.2.0_darwin_arm64.tar.gz",
+      "sha256": "bfa70d500e7e59bb7f48b7edc8a94f025c4e5b1ea4c10293fc2df7a7f4ad36ec",
       "bin": "kubectl-node_resource",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/ahmetb/kubectl-node_resource/releases/download/v0.1.1/kubectl-node_resource_v0.1.1_darwin_amd64.tar.gz",
-      "sha256": "8c68be684ec6459b8fa3a8d80831a1932e963b40c282733c64a9ac598af1e5a9",
+      "url": "https://github.com/ahmetb/kubectl-node_resource/releases/download/v0.2.0/kubectl-node_resource_v0.2.0_darwin_amd64.tar.gz",
+      "sha256": "6a797f0a00c909145c08936af7043713b80720f9429c8ff1b55d40b4074e23da",
       "bin": "kubectl-node_resource",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/ahmetb/kubectl-node_resource/releases/download/v0.1.1/kubectl-node_resource_v0.1.1_linux_amd64.tar.gz",
-      "sha256": "bb73e37e58e2c8d4e2505c72dd91965ce66308d796235774bcb04f28fc34602d",
+      "url": "https://github.com/ahmetb/kubectl-node_resource/releases/download/v0.2.0/kubectl-node_resource_v0.2.0_linux_amd64.tar.gz",
+      "sha256": "a2c86858df223823e1828392af618e326cd39bad485b929cfc275ff8decbb386",
       "bin": "kubectl-node_resource",
       "files": [
         {
