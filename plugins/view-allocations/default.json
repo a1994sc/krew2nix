@@ -1,12 +1,12 @@
 {
   "plugin": "view-allocations",
-  "version": "v0.21.1",
+  "version": "v0.21.2",
   "homepage": "https://github.com/davidB/kubectl-view-allocations",
   "description": "This plugin lists resources (cpu, memory, gpu,...) allocations (requested,\nlimit, allocatable) as defined in the manifest of nodes and running pods,\nand utilization from metrics-server.\ntry `kubectl view-allocations -h`, `kubectl view-allocations`\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/davidB/kubectl-view-allocations/releases/download/0.21.1/kubectl-view-allocations_0.21.1-aarch64-apple-darwin.tar.gz",
-      "sha256": "acaa53a4588cc60faa8d2e833e774435fc49230be34d284f9741c80ad4a52ce9",
+      "url": "https://github.com/davidB/kubectl-view-allocations/releases/download/0.21.2/kubectl-view-allocations_0.21.2-aarch64-apple-darwin.tar.gz",
+      "sha256": "7eb50a9a36b63850f1921bcc0d3884826cc44451747a7a7f06a00c6f1ba473d6",
       "bin": "./kubectl-view-allocations",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/davidB/kubectl-view-allocations/releases/download/0.21.1/kubectl-view-allocations_0.21.1-aarch64-unknown-linux-musl.tar.gz",
-      "sha256": "bcf99cd5cc5b3803f2cd72885796a50fdb23097b8f745f867aa8f6c012957282",
+      "url": "https://github.com/davidB/kubectl-view-allocations/releases/download/0.21.2/kubectl-view-allocations_0.21.2-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "329e527e3233b0b8b2c0ece02e8b48d3225f63350944a3519a952b264ebd955a",
       "bin": "./kubectl-view-allocations",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/davidB/kubectl-view-allocations/releases/download/0.21.1/kubectl-view-allocations_0.21.1-x86_64-apple-darwin.tar.gz",
-      "sha256": "202eaeac89ebad2f06bc1501532d3b8ade3dceb4e8715c34679d3dcd0843a22c",
+      "url": "https://github.com/davidB/kubectl-view-allocations/releases/download/0.21.2/kubectl-view-allocations_0.21.2-x86_64-apple-darwin.tar.gz",
+      "sha256": "4b5b3a24e01d5831311c1859329be4b68c43b608b62041df3319241facd34431",
       "bin": "./kubectl-view-allocations",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/davidB/kubectl-view-allocations/releases/download/0.21.1/kubectl-view-allocations_0.21.1-x86_64-unknown-linux-musl.tar.gz",
-      "sha256": "195a3dff121ddd311aa5d79abb78becee39ad2fe244777cfc798b76ea53e02e8",
+      "url": "https://github.com/davidB/kubectl-view-allocations/releases/download/0.21.2/kubectl-view-allocations_0.21.2-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "2e05314a4d6fd0644ce4d511e3df19a1ee361aed1c738ad81c5fba46db2147fa",
       "bin": "./kubectl-view-allocations",
       "files": [
         {
