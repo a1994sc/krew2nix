@@ -1,12 +1,12 @@
 {
   "plugin": "subm",
-  "version": "v0.19.2",
+  "version": "v0.20.1",
   "homepage": "https://github.com/submariner-io/subctl",
   "description": "CLI to install, uninstall and troubleshoot Submariner on a Kubernetes cluster.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/submariner-io/releases/releases/download/v0.19.2/subctl-v0.19.2-darwin-arm64.tar.gz",
-      "sha256": "da4443e13167a397d97d5a58e4c6609321d4a8eca6733d8e29be3b403b9e3de1",
+      "url": "https://github.com/submariner-io/releases/releases/download/v0.20.1/subctl-v0.20.1-darwin-arm64.tar.gz",
+      "sha256": "ea2104eea060c07dc3fe12e2396c3ba246106787cb6a5a5ae7db8a6a1bdf22cb",
       "bin": "subctl",
       "files": [
         {
@@ -20,8 +20,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/submariner-io/releases/releases/download/v0.19.2/subctl-v0.19.2-linux-arm64.tar.gz",
-      "sha256": "14bb3a8d51df711f488902dce7fe70df6abebe6e192340e964ba4171db4e8002",
+      "url": "https://github.com/submariner-io/releases/releases/download/v0.20.1/subctl-v0.20.1-linux-arm64.tar.gz",
+      "sha256": "1c57fd030031b042a646db03b22724e481148c79d1e33f3b64a6b5fa3311eb89",
       "bin": "subctl",
       "files": [
         {
@@ -35,8 +35,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/submariner-io/releases/releases/download/v0.19.2/subctl-v0.19.2-darwin-amd64.tar.gz",
-      "sha256": "89309b07e66d8fbf227ca50ef15d5426bb61fb3d2cfe575defe9ba7a22f2969e",
+      "url": "https://github.com/submariner-io/releases/releases/download/v0.20.1/subctl-v0.20.1-darwin-amd64.tar.gz",
+      "sha256": "a74343e99adddc0d74eef2b1a6956fc243f0e61b634a903e86b943fa260d4682",
       "bin": "subctl",
       "files": [
         {
@@ -50,8 +50,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/submariner-io/releases/releases/download/v0.19.2/subctl-v0.19.2-linux-amd64.tar.gz",
-      "sha256": "ed73b99035188134a43b2859a04cbe0cfd5838dac68975e90450b1533cc713bf",
+      "url": "https://github.com/submariner-io/releases/releases/download/v0.20.1/subctl-v0.20.1-linux-amd64.tar.gz",
+      "sha256": "b8f4adc2ba40aba015999668a7698beb27839cd1a2dee8a3516b4ce521d38c08",
       "bin": "subctl",
       "files": [
         {
