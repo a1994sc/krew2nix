@@ -1,12 +1,12 @@
 {
   "plugin": "hlf",
-  "version": "v1.11.2",
+  "version": "v1.12.0",
   "homepage": "https://github.com/hyperledger-bevel/bevel-operator-fabric",
   "description": "The kubectl-hlf plugin wraps the HLF Operator and provides a simple\ninterface to create and manage Hyperledger Fabric Peers, \nOrderers and Certificate authorities\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/hyperledger-bevel/bevel-operator-fabric/releases/download/v1.11.2/hlf-operator_v1.11.2_darwin_arm64.zip",
-      "sha256": "7cbcab9b1f94ff8a652d80ca2a4fab43195c641964da48ed739272ae0668085e",
+      "url": "https://github.com/hyperledger-bevel/bevel-operator-fabric/releases/download/v1.12.0/hlf-operator_v1.12.0_darwin_arm64.zip",
+      "sha256": "65b8e5fcb48b33aeac6c29e6fbe130181178558cf289123abbbd8510b195743a",
       "bin": "kubectl-hlf",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/hyperledger-bevel/bevel-operator-fabric/releases/download/v1.11.2/hlf-operator_v1.11.2_linux_arm64.zip",
-      "sha256": "0a2c73798533b1e0edb42c3c27f6e450f5401882bc9653487dc5c7b6f1f26c59",
+      "url": "https://github.com/hyperledger-bevel/bevel-operator-fabric/releases/download/v1.12.0/hlf-operator_v1.12.0_linux_arm64.zip",
+      "sha256": "b7d64df7742fb0d56ac6116a2ede506600fc0de65438b2c5b2d1ed82a5a044d8",
       "bin": "kubectl-hlf",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/hyperledger-bevel/bevel-operator-fabric/releases/download/v1.11.2/hlf-operator_v1.11.2_darwin_amd64.zip",
-      "sha256": "2f8480aac93137414bf668f2f783109941fddce93f5c80ef412afdcc809cfb65",
+      "url": "https://github.com/hyperledger-bevel/bevel-operator-fabric/releases/download/v1.12.0/hlf-operator_v1.12.0_darwin_amd64.zip",
+      "sha256": "e99285d8eae5a24f0f5f7f6902cc73079cc8c9063e8793b4d54e54dab45feaaa",
       "bin": "kubectl-hlf",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/hyperledger-bevel/bevel-operator-fabric/releases/download/v1.11.2/hlf-operator_v1.11.2_linux_amd64.zip",
-      "sha256": "867f0e419f4573b48cf65bdda76d2850265792dfd9716f0d6262a494b613ae8b",
+      "url": "https://github.com/hyperledger-bevel/bevel-operator-fabric/releases/download/v1.12.0/hlf-operator_v1.12.0_linux_amd64.zip",
+      "sha256": "2f5478afe0ea8d75fe7db929c47aebd10b7815c5aed45a224cfe9d1440e76a3a",
       "bin": "kubectl-hlf",
       "files": [
         {
