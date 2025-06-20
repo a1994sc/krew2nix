@@ -1,0 +1,52 @@
+{
+  "plugin": "watch-diff",
+  "version": "v0.0.1",
+  "homepage": "https://github.com/alexmt/kubectl-watch-diff",
+  "description": "Watches the the k8s resource with the given name.\nPrints the diff of the resource when it changes.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/alexmt/kubectl-watch-diff/releases/download/v0.1.0/watchdiff-darwin-arm64.zip",
+      "sha256": "8d66bb04b1e1c7c921f470c05e504f62cea31e8562c783920a471ef5639f4822",
+      "bin": "dist/watchdiff",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/alexmt/kubectl-watch-diff/releases/download/v0.1.0/watchdiff-linux-arm64.zip",
+      "sha256": "805328d74a14c7bb60d35bf9637f1dedca295491f185ab1e81329dfc27a0c8d1",
+      "bin": "dist/watchdiff",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/alexmt/kubectl-watch-diff/releases/download/v0.1.0/watchdiff-darwin-amd64.zip",
+      "sha256": "7aa7bf0ec9940a365febc98bfbb59856144ec9b98e71983015cf85ece82dd8af",
+      "bin": "dist/watchdiff",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/alexmt/kubectl-watch-diff/releases/download/v0.1.0/watchdiff-linux-amd64.zip",
+      "sha256": "c19dc4428b2381d5610e5258b04352138cdb4453f895b3c77969b6edcf2cbaa1",
+      "bin": "dist/watchdiff",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}
