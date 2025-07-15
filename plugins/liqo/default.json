@@ -1,12 +1,12 @@
 {
   "plugin": "liqo",
-  "version": "v1.0.0",
+  "version": "v1.0.1",
   "homepage": "https://github.com/liqotech/liqo",
   "description": "Liqo is a platform to enable dynamic and decentralized resource sharing across\nKubernetes clusters, either on-prem or managed. Liqo allows to run pods on a\nremote cluster seamlessly and without any modification of Kubernetes and the\napplications. With Liqo it is possible to extend the control and data plane of a\nKubernetes cluster across the cluster's boundaries, making multi-cluster native\nand transparent: collapse an entire remote cluster to a local virtual node,\nenabling workloads offloading, resource management and cross-cluster communication\ncompliant with the standard Kubernetes approach.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/liqotech/liqo/releases/download/v1.0.0/liqoctl-darwin-arm64.tar.gz",
-      "sha256": "cebc9417b7093f6c93997e0698558e84e291a119284f144e36129719b1059eb7",
+      "url": "https://github.com/liqotech/liqo/releases/download/v1.0.1/liqoctl-darwin-arm64.tar.gz",
+      "sha256": "cab6d90b3eba2c270341741698f829ac15404e3514d2ef126b1e25e1ba2b3865",
       "bin": "liqoctl",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/liqotech/liqo/releases/download/v1.0.0/liqoctl-linux-arm64.tar.gz",
-      "sha256": "2eb05b83bb267033222df51087629576aa33c6121cab6b047d4a6752e19087d4",
+      "url": "https://github.com/liqotech/liqo/releases/download/v1.0.1/liqoctl-linux-arm64.tar.gz",
+      "sha256": "d66f3a6751ff6411ef1f172875a6068459cc0c7b63a461ea47fe10f63506f81f",
       "bin": "liqoctl",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/liqotech/liqo/releases/download/v1.0.0/liqoctl-darwin-amd64.tar.gz",
-      "sha256": "b8153cda0ae107616cb8f015d295b476f0d1fe9e583653c31aa2870069788f60",
+      "url": "https://github.com/liqotech/liqo/releases/download/v1.0.1/liqoctl-darwin-amd64.tar.gz",
+      "sha256": "715591b0092f462c7f9fd78004122a6df8f0ab7f5d4720c5b24397c006d1dc52",
       "bin": "liqoctl",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/liqotech/liqo/releases/download/v1.0.0/liqoctl-linux-amd64.tar.gz",
-      "sha256": "14de37ab1b66a22e52e09d3c93e679bdee6f31e57308601c53e5f2b6a82438b8",
+      "url": "https://github.com/liqotech/liqo/releases/download/v1.0.1/liqoctl-linux-amd64.tar.gz",
+      "sha256": "871e7637f69a7d67fcdac9db909d2ab2bffb161693165e581abd09d2e1ae32b2",
       "bin": "liqoctl",
       "files": [
         {
