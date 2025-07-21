@@ -1,12 +1,12 @@
 {
   "plugin": "conditioner",
-  "version": "v1.3.0",
+  "version": "v1.4.1",
   "homepage": "https://github.com/devbytes-cloud/conditioner",
   "description": "Conditioner allows you to add, update, or remove conditions on Kubernetes nodes. It's a handy tool for cluster administrators to manage node status conditions effectively.",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/devbytes-cloud/conditioner/releases/download/v1.3.0/conditioner_Darwin_arm64.tar.gz",
-      "sha256": "936e0b0393f48ced70038f1e33f34e222829e4a677d65e370c117a477812d6af",
+      "url": "https://github.com/devbytes-cloud/conditioner/releases/download/v1.4.1/conditioner_Darwin_arm64.tar.gz",
+      "sha256": "8a0f8694fbc511d4ebdafb686a9fe0ec29f8ec8bf385111e3675446156cac01e",
       "bin": "kubectl-conditioner",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/devbytes-cloud/conditioner/releases/download/v1.3.0/conditioner_Linux_arm64.tar.gz",
-      "sha256": "3ec4fe52f553cc2ac2e99cf9db7dbaa132340db1f7fd7ffd2afcc9b623a49b7c",
+      "url": "https://github.com/devbytes-cloud/conditioner/releases/download/v1.4.1/conditioner_Linux_arm64.tar.gz",
+      "sha256": "f44c05eaedcf79a82883a57e7209a08a0cab0a2fc594bc8176e7e5e4bf4dd51a",
       "bin": "kubectl-conditioner",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/devbytes-cloud/conditioner/releases/download/v1.3.0/conditioner_Darwin_x86_64.tar.gz",
-      "sha256": "084ce54e0a44124a17c2ee107e342533440b90c63c1a308536c041ffbda33de8",
+      "url": "https://github.com/devbytes-cloud/conditioner/releases/download/v1.4.1/conditioner_Darwin_x86_64.tar.gz",
+      "sha256": "c10a3ad64e255f9e454c1d93170d63fa494fcab108f5a992a2a557273b72fb04",
       "bin": "kubectl-conditioner",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/devbytes-cloud/conditioner/releases/download/v1.3.0/conditioner_Linux_x86_64.tar.gz",
-      "sha256": "4edde16de43656154204df93639f29a8108fb9fcd0865c343297ff3e0e86c57d",
+      "url": "https://github.com/devbytes-cloud/conditioner/releases/download/v1.4.1/conditioner_Linux_x86_64.tar.gz",
+      "sha256": "791f8d41ee35817837bf0ff7f81976d8471aa112106b3bbebaa5ae4b74373d31",
       "bin": "kubectl-conditioner",
       "files": [
         {
