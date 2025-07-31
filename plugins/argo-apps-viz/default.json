@@ -1,12 +1,12 @@
 {
   "plugin": "argo-apps-viz",
-  "version": "v0.1.3",
+  "version": "v0.2.0",
   "homepage": "https://github.com/syndlex/argo-apps-viz",
   "description": "Generates visual representations (using go-echarts) to document \nand illustrate ArgoCD concepts, such as the 'App of Apps' pattern\nacross multiple clusters and dependency trees, primarily for\ndocumentation, learning, and teaching purposes.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/syndlex/argo-apps-viz/releases/download/v0.1.3/argo-apps-viz_darwin_arm64.tar.gz",
-      "sha256": "94e8c05b0bfdab4fde6c343f675838b4f5ef3fbd9c99238bf34ae8e903da1898",
+      "url": "https://github.com/syndlex/argo-apps-viz/releases/download/v0.2.0/argo-apps-viz_darwin_arm64.tar.gz",
+      "sha256": "9158d31a017b1c14930a0da1bd23d59362ea64bc00705f745ff1fd934887e653",
       "bin": "argo-apps-viz",
       "files": [
         {
@@ -20,8 +20,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/syndlex/argo-apps-viz/releases/download/v0.1.3/argo-apps-viz_linux_arm64.tar.gz",
-      "sha256": "0266875d7b40f2d05085fee0d7588da7f36670573a5e65d9baf67053825888a9",
+      "url": "https://github.com/syndlex/argo-apps-viz/releases/download/v0.2.0/argo-apps-viz_linux_arm64.tar.gz",
+      "sha256": "dcb35d9bb229c99f72f3ddb9546feb89183350c92c207d4e943cbe740370096a",
       "bin": "argo-apps-viz",
       "files": [
         {
@@ -35,8 +35,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/syndlex/argo-apps-viz/releases/download/v0.1.3/argo-apps-viz_darwin_amd64.tar.gz",
-      "sha256": "58147534aca9a66d29142cc4fb8c4e59e9a237759ef84f894882175b4741ea5d",
+      "url": "https://github.com/syndlex/argo-apps-viz/releases/download/v0.2.0/argo-apps-viz_darwin_amd64.tar.gz",
+      "sha256": "36075a2f21f1a785d4c4e318dea53b57fd1476a7987055109f26309def22640a",
       "bin": "argo-apps-viz",
       "files": [
         {
@@ -50,8 +50,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/syndlex/argo-apps-viz/releases/download/v0.1.3/argo-apps-viz_linux_amd64.tar.gz",
-      "sha256": "9f878da8bfb7fdeb721138bd2fd58bb7dce33817b9f4f4b43a8866316974ea9e",
+      "url": "https://github.com/syndlex/argo-apps-viz/releases/download/v0.2.0/argo-apps-viz_linux_amd64.tar.gz",
+      "sha256": "8bf5eac75c4e0c2525eb3611126eed728f9fa6011823bfdb509a296013a0c42b",
       "bin": "argo-apps-viz",
       "files": [
         {

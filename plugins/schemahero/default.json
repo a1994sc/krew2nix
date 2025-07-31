@@ -1,12 +1,12 @@
 {
   "plugin": "schemahero",
-  "version": "v0.21.0",
+  "version": "v0.22.0",
   "homepage": "https://schemahero.io",
   "description": "SchemaHero is a database schema migration tool that converts a schema\ndefinition into migration scripts to be applied to a database engine\n(with current support for Postgres, Mysql, rqlite and CockroachDB).\n\nSchemaHero allows developers to define a database table schema as a\ndeclarative Kubernetes object and then apply the definition to the\ncluster. The SchemaHero operator will then query the current database\nschema and generate (and optionally apply) the necessary SQL\nstatements to update the database to the desired schema.\n\nTo learn more, try the tutorial at https://schemahero.io/tutorial/\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/schemahero/schemahero/releases/download/v0.21.0/kubectl-schemahero_darwin_arm64.tar.gz",
-      "sha256": "404df53f4951a0ac3f017431082a0f27d509195ba646fdb00ce1dd7978fe8ff0",
+      "url": "https://github.com/schemahero/schemahero/releases/download/v0.22.0/kubectl-schemahero_darwin_arm64.tar.gz",
+      "sha256": "b51a9f5fd87de20fda18384fe9884c1cbbf7066695abab5ec9a0a4935c0bff45",
       "bin": "kubectl-schemahero",
       "files": [
         {
@@ -20,8 +20,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/schemahero/schemahero/releases/download/v0.21.0/kubectl-schemahero_linux_arm64.tar.gz",
-      "sha256": "62d08bc14b1df21ca9db021d4325a1577583b4485c49469a099b2a8d25c81868",
+      "url": "https://github.com/schemahero/schemahero/releases/download/v0.22.0/kubectl-schemahero_linux_arm64.tar.gz",
+      "sha256": "1236de2d7708a20ab0f1dcb247756274fb90437290c991039ba9c5c37c2467bc",
       "bin": "kubectl-schemahero",
       "files": [
         {
@@ -35,8 +35,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/schemahero/schemahero/releases/download/v0.21.0/kubectl-schemahero_darwin_amd64.tar.gz",
-      "sha256": "b8401b20f99df745fbfa095bc711900a84de6bb0ac08379687cb04a82189be6d",
+      "url": "https://github.com/schemahero/schemahero/releases/download/v0.22.0/kubectl-schemahero_darwin_amd64.tar.gz",
+      "sha256": "ea37352d0e79077eea94bec1137316d745eef9a4c838a47626a6c3a2329cd83b",
       "bin": "kubectl-schemahero",
       "files": [
         {
@@ -50,8 +50,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/schemahero/schemahero/releases/download/v0.21.0/kubectl-schemahero_linux_amd64.tar.gz",
-      "sha256": "eeba09c9240a38a7629db212fe8e683f48c5a7b705351d3bcb83b0962d23690d",
+      "url": "https://github.com/schemahero/schemahero/releases/download/v0.22.0/kubectl-schemahero_linux_amd64.tar.gz",
+      "sha256": "3731eea2dd396d9250fd652b486bf52330d1593e49b6bbb762649798a63a51d6",
       "bin": "kubectl-schemahero",
       "files": [
         {
