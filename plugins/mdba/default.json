@@ -1,12 +1,12 @@
 {
   "plugin": "mdba",
-  "version": "v0.0.10",
+  "version": "v0.0.11",
   "homepage": "https://github.com/hedgieinsocks/kubectl-mdba",
   "description": "This unofficial plugin helps manage\nmariadb-operator semi-sync replication clusters:\nlaunch mariadb shell, switch the primary pod,\nrecreate a replica pod, etc.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/hedgieinsocks/kubectl-mdba/archive/refs/tags/v0.0.10.tar.gz",
-      "sha256": "89e5d63a46e4cfba9757ed2035e13ca64f735dd2cc72ff11362d2d0dcae476a1",
+      "url": "https://github.com/hedgieinsocks/kubectl-mdba/archive/refs/tags/v0.0.11.tar.gz",
+      "sha256": "b806c254993af9cae41a3eba3396cbde95693e0a60ea49c6f314860f19ba2310",
       "bin": "./kubectl-mdba",
       "files": [
         {
@@ -20,8 +20,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/hedgieinsocks/kubectl-mdba/archive/refs/tags/v0.0.10.tar.gz",
-      "sha256": "89e5d63a46e4cfba9757ed2035e13ca64f735dd2cc72ff11362d2d0dcae476a1",
+      "url": "https://github.com/hedgieinsocks/kubectl-mdba/archive/refs/tags/v0.0.11.tar.gz",
+      "sha256": "b806c254993af9cae41a3eba3396cbde95693e0a60ea49c6f314860f19ba2310",
       "bin": "./kubectl-mdba",
       "files": [
         {
@@ -35,8 +35,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/hedgieinsocks/kubectl-mdba/archive/refs/tags/v0.0.10.tar.gz",
-      "sha256": "89e5d63a46e4cfba9757ed2035e13ca64f735dd2cc72ff11362d2d0dcae476a1",
+      "url": "https://github.com/hedgieinsocks/kubectl-mdba/archive/refs/tags/v0.0.11.tar.gz",
+      "sha256": "b806c254993af9cae41a3eba3396cbde95693e0a60ea49c6f314860f19ba2310",
       "bin": "./kubectl-mdba",
       "files": [
         {
@@ -50,8 +50,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/hedgieinsocks/kubectl-mdba/archive/refs/tags/v0.0.10.tar.gz",
-      "sha256": "89e5d63a46e4cfba9757ed2035e13ca64f735dd2cc72ff11362d2d0dcae476a1",
+      "url": "https://github.com/hedgieinsocks/kubectl-mdba/archive/refs/tags/v0.0.11.tar.gz",
+      "sha256": "b806c254993af9cae41a3eba3396cbde95693e0a60ea49c6f314860f19ba2310",
       "bin": "./kubectl-mdba",
       "files": [
         {
