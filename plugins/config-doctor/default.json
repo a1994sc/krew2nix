@@ -1,12 +1,12 @@
 {
   "plugin": "config-doctor",
-  "version": "v0.3.6",
+  "version": "v0.3.7",
   "homepage": "https://github.com/aptakube/kubectl-config-doctor",
   "description": "This plugin validates and test different kubeconfigs settings",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/aptakube/kubectl-config-doctor/releases/download/v0.3.6/kubectl-config-doctor-darwin-arm64.tar.gz",
-      "sha256": "6b96f41e50c41f2c7f8a83b10b80fa14b608bdf5ddc6ab12710c514ff1e3ac6b",
+      "url": "https://github.com/aptakube/kubectl-config-doctor/releases/download/v0.3.7/kubectl-config-doctor-darwin-arm64.tar.gz",
+      "sha256": "caaf205a812d5798c953da4e8d35d5d3e9979f35247431344c72adfab7de1771",
       "bin": "./kubectl-config-doctor",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/aptakube/kubectl-config-doctor/releases/download/v0.3.6/kubectl-config-doctor-darwin-amd64.tar.gz",
-      "sha256": "154848a9e26b7d9f6c1e8afcae69025de0c920261d2693609bf5d05cd9fd6e2a",
+      "url": "https://github.com/aptakube/kubectl-config-doctor/releases/download/v0.3.7/kubectl-config-doctor-darwin-amd64.tar.gz",
+      "sha256": "c63560ea9ecbf08a58fa30571b862ca264abe847c2259905a46d4f8bbf83b136",
       "bin": "./kubectl-config-doctor",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/aptakube/kubectl-config-doctor/releases/download/v0.3.6/kubectl-config-doctor-linux-amd64.tar.gz",
-      "sha256": "66a42d8d45b1178c12b54df2d50c877575d44775f15dbf38bbcaae3b8ba4957a",
+      "url": "https://github.com/aptakube/kubectl-config-doctor/releases/download/v0.3.7/kubectl-config-doctor-linux-amd64.tar.gz",
+      "sha256": "d4fc3e59a6a0ff2d8d1a4ea8006328bdfb83a8a32b280238c0e50e0fb5168dc5",
       "bin": "./kubectl-config-doctor",
       "files": [
         {
