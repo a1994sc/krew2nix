@@ -1,12 +1,12 @@
 {
   "plugin": "rabbitmq",
-  "version": "v2.16.0",
+  "version": "v2.16.1",
   "homepage": "https://github.com/rabbitmq/cluster-operator",
   "description": "A plugin providing utilities to operate RabbitMQ clusters deployed\nby the RabbitMQ cluster operator.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/rabbitmq/cluster-operator/archive/v2.16.0.tar.gz",
-      "sha256": "db39c02222ee67313a279639c38f33a4aeb734321b6de4661686cf8b05b7b9ff",
+      "url": "https://github.com/rabbitmq/cluster-operator/archive/v2.16.1.tar.gz",
+      "sha256": "5b24bde65d945187bdd509918c6a1a6c50ce406eef4393d25a526b2a399c0f6f",
       "bin": "kubectl-rabbitmq",
       "files": [
         {
@@ -20,8 +20,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/rabbitmq/cluster-operator/archive/v2.16.0.tar.gz",
-      "sha256": "db39c02222ee67313a279639c38f33a4aeb734321b6de4661686cf8b05b7b9ff",
+      "url": "https://github.com/rabbitmq/cluster-operator/archive/v2.16.1.tar.gz",
+      "sha256": "5b24bde65d945187bdd509918c6a1a6c50ce406eef4393d25a526b2a399c0f6f",
       "bin": "kubectl-rabbitmq",
       "files": [
         {
@@ -35,8 +35,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/rabbitmq/cluster-operator/archive/v2.16.0.tar.gz",
-      "sha256": "db39c02222ee67313a279639c38f33a4aeb734321b6de4661686cf8b05b7b9ff",
+      "url": "https://github.com/rabbitmq/cluster-operator/archive/v2.16.1.tar.gz",
+      "sha256": "5b24bde65d945187bdd509918c6a1a6c50ce406eef4393d25a526b2a399c0f6f",
       "bin": "kubectl-rabbitmq",
       "files": [
         {
@@ -50,8 +50,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/rabbitmq/cluster-operator/archive/v2.16.0.tar.gz",
-      "sha256": "db39c02222ee67313a279639c38f33a4aeb734321b6de4661686cf8b05b7b9ff",
+      "url": "https://github.com/rabbitmq/cluster-operator/archive/v2.16.1.tar.gz",
+      "sha256": "5b24bde65d945187bdd509918c6a1a6c50ce406eef4393d25a526b2a399c0f6f",
       "bin": "kubectl-rabbitmq",
       "files": [
         {
