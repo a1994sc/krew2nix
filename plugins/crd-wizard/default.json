@@ -1,0 +1,68 @@
+{
+  "plugin": "crd-wizard",
+  "version": "v0.0.6",
+  "homepage": "https://github.com/pehlicd/crd-wizard",
+  "description": "crd-wizard is a powerful kubernetes plugin that provides two ways to\nexplore Custom Resource Definitions (CRDs) and Custom Resources (CRs) in your Kubernetes cluster:\n\n  - A beautiful and interactive Terminal User Interface (TUI)\n  - A simple web server providing a JSON API for CRDs\n\nRead more documentation at: https://github.com/pehlicd/crd-wizard\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/pehlicd/crd-wizard/releases/download/v0.0.6/kubectl-crd_wizard_v0.0.6_darwin_arm64.tar.gz",
+      "sha256": "c1bf37fa007dfa82819ddd79a5fc6893e5ef5b9f55528533c0a01c798e0f252b",
+      "bin": "kubectl-crd_wizard",
+      "files": [
+        {
+          "from": "LICENSE",
+          "to": "."
+        },
+        {
+          "from": "kubectl-crd_wizard",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/pehlicd/crd-wizard/releases/download/v0.0.6/kubectl-crd_wizard_v0.0.6_linux_arm64.tar.gz",
+      "sha256": "40d920718cadcd82cb3ed605c43d4179cc3340e9794fe40f17ebcaf02e3da174",
+      "bin": "kubectl-crd_wizard",
+      "files": [
+        {
+          "from": "LICENSE",
+          "to": "."
+        },
+        {
+          "from": "kubectl-crd_wizard",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/pehlicd/crd-wizard/releases/download/v0.0.6/kubectl-crd_wizard_v0.0.6_darwin_amd64.tar.gz",
+      "sha256": "895b60bfd24748bf84828c6240e14f3630ef02e8e5d710b40851089de99f0551",
+      "bin": "kubectl-crd_wizard",
+      "files": [
+        {
+          "from": "LICENSE",
+          "to": "."
+        },
+        {
+          "from": "kubectl-crd_wizard",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/pehlicd/crd-wizard/releases/download/v0.0.6/kubectl-crd_wizard_v0.0.6_linux_amd64.tar.gz",
+      "sha256": "446d0e4572ce0afde99785f4e3ff2fff501ed1fcd10e852d48ec2a9fe1e86e21",
+      "bin": "kubectl-crd_wizard",
+      "files": [
+        {
+          "from": "LICENSE",
+          "to": "."
+        },
+        {
+          "from": "kubectl-crd_wizard",
+          "to": "."
+        }
+      ]
+    }
+  }
+}
