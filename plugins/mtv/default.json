@@ -1,12 +1,12 @@
 {
   "plugin": "mtv",
-  "version": "v0.1.33",
+  "version": "v0.1.35",
   "homepage": "https://github.com/yaacov/kubectl-mtv",
   "description": "This plugin helps users migrate virtualization workloads from oVirt, VMware, OpenStack, and OVA files to KubeVirt on Kubernetes.\n",
   "archSrc": {
     "x86_64-linux": {
-      "url": "https://github.com/yaacov/kubectl-mtv/releases/download/v0.1.33/kubectl-mtv.tar.gz",
-      "sha256": "c455349213438ed232b6196b0bf53286a827bba0a4cfa9b0f63666d3534336da",
+      "url": "https://github.com/yaacov/kubectl-mtv/releases/download/v0.1.35/kubectl-mtv.tar.gz",
+      "sha256": "5d15d1ef3a3e8fbb91204dc0c1f169aa1ec39de024c04dced10ecb88e30360f6",
       "bin": "kubectl-mtv",
       "files": [
         {
