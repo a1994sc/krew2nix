@@ -1,12 +1,12 @@
 {
   "plugin": "karmada",
-  "version": "v1.14.3",
+  "version": "v1.15.0",
   "homepage": "https://github.com/karmada-io/karmada",
   "description": "Karmada (Kubernetes Armada) is a Kubernetes management system that enables\nyou to run your cloud-native applications across multiple Kubernetes\nclusters and clouds, with no changes to your applications. By speaking\nKubernetes-native APIs and providing advanced scheduling capabilities,\nKarmada enables truly open, multi-cloud Kubernetes.\nThis cli tools controls a federation of Karmada clusters.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/karmada-io/karmada/releases/download/v1.14.3/kubectl-karmada-darwin-arm64.tgz",
-      "sha256": "c5a7c38da5d5ce517ab67408e1c2f90fab9d2ac2df7ab46757c3e7b55b4f9522",
+      "url": "https://github.com/karmada-io/karmada/releases/download/v1.15.0/kubectl-karmada-darwin-arm64.tgz",
+      "sha256": "faeb9607dad1005d19a5630efd945dfcbe9992ba19b1bfd88b05c48824f6a9d9",
       "bin": "kubectl-karmada",
       "files": [
         {
@@ -20,8 +20,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/karmada-io/karmada/releases/download/v1.14.3/kubectl-karmada-linux-arm64.tgz",
-      "sha256": "1a047d03d026340c14061b0ce66c7e0084209c88cf9f1d3088aa01edb7b8de7a",
+      "url": "https://github.com/karmada-io/karmada/releases/download/v1.15.0/kubectl-karmada-linux-arm64.tgz",
+      "sha256": "044be1abbbd847f986eef7368e77dc6d338f2c239e28ae8306b50126027f6da4",
       "bin": "kubectl-karmada",
       "files": [
         {
@@ -35,8 +35,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/karmada-io/karmada/releases/download/v1.14.3/kubectl-karmada-darwin-amd64.tgz",
-      "sha256": "dad407af0cb3fa2912be0964e393d799b3120ec864beebf8fa0f3585d1d3220b",
+      "url": "https://github.com/karmada-io/karmada/releases/download/v1.15.0/kubectl-karmada-darwin-amd64.tgz",
+      "sha256": "3d7664970c70a512bf47a0cd4df402535c62d4616c038ae1a5a62fbd786678b5",
       "bin": "kubectl-karmada",
       "files": [
         {
@@ -50,8 +50,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/karmada-io/karmada/releases/download/v1.14.3/kubectl-karmada-linux-amd64.tgz",
-      "sha256": "a7cf1d22df518777c906bd7e809eea1d44820a295c0b1b8cae0358d5176d1fe6",
+      "url": "https://github.com/karmada-io/karmada/releases/download/v1.15.0/kubectl-karmada-linux-amd64.tgz",
+      "sha256": "2086f7f204bc99b0f047159eaf52bbcaa6c2db194b406236f6b2bfd25e27a853",
       "bin": "kubectl-karmada",
       "files": [
         {
