@@ -1,12 +1,12 @@
 {
   "plugin": "pv-mounter",
-  "version": "v25.35.0",
+  "version": "v25.37.0",
   "homepage": "https://github.com/fenio/pv-mounter",
   "description": "Plugin that allows to mount PVC locally using SSHFS\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/fenio/pv-mounter/releases/download/v25.35.0/pv-mounter_v25.35.0_darwin_arm64.tar.gz",
-      "sha256": "bb019683a572330b9d8b8f9f60a3b24c94d7beab142ae3a37d61bd9e44b585cf",
+      "url": "https://github.com/fenio/pv-mounter/releases/download/v25.37.0/pv-mounter_v25.37.0_darwin_arm64.tar.gz",
+      "sha256": "a6b9bd5fef5505cb1166b1a08d21e5eb711c055e8d14d862d92958ce848941bf",
       "bin": "pv-mounter",
       "files": [
         {
@@ -20,8 +20,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/fenio/pv-mounter/releases/download/v25.35.0/pv-mounter_v25.35.0_linux_arm64.tar.gz",
-      "sha256": "7ebbfa1147fb32bc85aecd5640b34a96a21baa97d7098dcd97829da5bc3d5e2a",
+      "url": "https://github.com/fenio/pv-mounter/releases/download/v25.37.0/pv-mounter_v25.37.0_linux_arm64.tar.gz",
+      "sha256": "479b729c334ffd3438a048a6f83ff32a1bd6b039f9d241d9439bc746ae42def6",
       "bin": "pv-mounter",
       "files": [
         {
@@ -35,8 +35,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/fenio/pv-mounter/releases/download/v25.35.0/pv-mounter_v25.35.0_darwin_amd64.tar.gz",
-      "sha256": "0e6ce9485e4c1a742ff982d02a93ed7767b8e4c43dec6404591e74a146afcc4a",
+      "url": "https://github.com/fenio/pv-mounter/releases/download/v25.37.0/pv-mounter_v25.37.0_darwin_amd64.tar.gz",
+      "sha256": "a9de2bd750a2b3077b539bd26c716b9f1ec4c86f8532b5f2f20f09954a5a8efa",
       "bin": "pv-mounter",
       "files": [
         {
@@ -50,8 +50,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/fenio/pv-mounter/releases/download/v25.35.0/pv-mounter_v25.35.0_linux_amd64.tar.gz",
-      "sha256": "a7fa969748b0a8bded47dc2c1e8ada66573127f68619b0afc63fdd841cb28f70",
+      "url": "https://github.com/fenio/pv-mounter/releases/download/v25.37.0/pv-mounter_v25.37.0_linux_amd64.tar.gz",
+      "sha256": "2dd26b4c47a3d9245340076f96fd8ac19c3e36ff9dbd78fc19065b8047f9a9d7",
       "bin": "pv-mounter",
       "files": [
         {
