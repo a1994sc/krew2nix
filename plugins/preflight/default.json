@@ -1,12 +1,12 @@
 {
   "plugin": "preflight",
-  "version": "v0.121.3",
+  "version": "v0.122.0",
   "homepage": "https://github.com/replicatedhq/troubleshoot",
   "description": "This plugin executes application-specific preflight checks and conformance\ntests against a cluster, prior to installation of an application.\n\nApplication developers can create and host a Preflight manifest that\ndefines the minimum and desired Kubernetes environment for an application.\nBefore installing the application, a cluster admin can use this plugin to\nexecute the application preflight checksto identify any missing\ncomponents, configuration or incompatibilities between the cluster and the\ndesired environment.\n\nWhen executing Preflight tests, the test results will be displayed in a\nterminal-based UI on the workstation that executed the command.\n\nFor information on creating a Preflight manifest, view the documentation\nat https://help.replicated.com/docs/troubleshoot/kubernetes/analysis/\n\nUsage:\n  $ kubectl preflight <uri/path>\n\n  where <uri/path> references a set of application preflight checks\n\n  For example:\n\n  $ kubectl preflight https://preflight.replicated.com\n\nFor additional options:\n  $ kubectl preflight --help\n\nDocumentation:\n  Full documentation on this plugin is available at:\n  https://help.replicated.com/docs/troubleshoot/kubernetes/preflight/overview/\n\n  For application developers writing collectors and analyzers:\n  https://help.replicated.com/docs/troubleshoot/kubernetes/collectors/defining-collectors/\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/replicatedhq/troubleshoot/releases/download/v0.121.3/preflight_darwin_arm64.tar.gz",
-      "sha256": "86fc575a9bbcbce35d5099596532cc7d353fff111be03b396da845d30d5d6b4d",
+      "url": "https://github.com/replicatedhq/troubleshoot/releases/download/v0.122.0/preflight_darwin_arm64.tar.gz",
+      "sha256": "a52589f4ea74ab86614a738f01ff6217f68ad4f7947d57d049e2428a9b3a6513",
       "bin": "preflight",
       "files": [
         {
@@ -20,8 +20,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/replicatedhq/troubleshoot/releases/download/v0.121.3/preflight_linux_arm64.tar.gz",
-      "sha256": "5ee666acc7e1c2a1233fdf01e6045d78868fb58b58ac9081de80e991bc04abf8",
+      "url": "https://github.com/replicatedhq/troubleshoot/releases/download/v0.122.0/preflight_linux_arm64.tar.gz",
+      "sha256": "5ccb834e95961225c173144db4fb92a0165612b442fd9eb19469b4c2e1474bb0",
       "bin": "preflight",
       "files": [
         {
@@ -35,8 +35,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/replicatedhq/troubleshoot/releases/download/v0.121.3/preflight_darwin_amd64.tar.gz",
-      "sha256": "513160c6464a1f351d60b3d803a57d8e916c10786c4f5776709d1936880330dc",
+      "url": "https://github.com/replicatedhq/troubleshoot/releases/download/v0.122.0/preflight_darwin_amd64.tar.gz",
+      "sha256": "9ab8e43f7c39f15232f6a881f9394b6853fcf6356818edb9d5b9a400c558bb80",
       "bin": "preflight",
       "files": [
         {
@@ -50,8 +50,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/replicatedhq/troubleshoot/releases/download/v0.121.3/preflight_linux_amd64.tar.gz",
-      "sha256": "7c95851b8f9787dcaaab6760dfb425e712675e37e6f6eea5b232a766cd875840",
+      "url": "https://github.com/replicatedhq/troubleshoot/releases/download/v0.122.0/preflight_linux_amd64.tar.gz",
+      "sha256": "82281cd7887ec68e7a77b2f5eca3030399b9bc5b8dad03a198f15a4bf5f36b2c",
       "bin": "preflight",
       "files": [
         {
