@@ -1,12 +1,12 @@
 {
   "plugin": "rename-pvc",
-  "version": "v0.5.0",
+  "version": "v0.6.0",
   "homepage": "https://github.com/stackitcloud/rename-pvc",
   "description": "rename-pvc renames an existing PersistentVolumeClaim (PVC) by creating a new PVC\nwith the same spec and rebinding the existing PersistentClaim (PV) to the newly created PVC.\nAfterwards the old PVC is automatically deleted.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/stackitcloud/rename-pvc/releases/download/v0.5.0/rename-pvc-darwin-arm64.tar.gz",
-      "sha256": "c244b40a859a1eea4a9700f49d70185191fec25071e80fc9a3a48406fa991d20",
+      "url": "https://github.com/stackitcloud/rename-pvc/releases/download/v0.6.0/rename-pvc-darwin-arm64.tar.gz",
+      "sha256": "5e3407479ceb3ba6198a58405b9ac38670b2d11abb7a76f3e41b651873b5d5bd",
       "bin": "rename-pvc",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/stackitcloud/rename-pvc/releases/download/v0.5.0/rename-pvc-linux-arm64.tar.gz",
-      "sha256": "0b31d14f1aeec70f26eca95f805388bc755c93ec8d41aeae94dbc068a41b626c",
+      "url": "https://github.com/stackitcloud/rename-pvc/releases/download/v0.6.0/rename-pvc-linux-arm64.tar.gz",
+      "sha256": "b68d83c02b8c3bb3420c43f6a8aab613b62e15171765186f7f945e277a0e2151",
       "bin": "rename-pvc",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/stackitcloud/rename-pvc/releases/download/v0.5.0/rename-pvc-darwin-amd64.tar.gz",
-      "sha256": "9095e6e316b298adb3ed96de8a6b921cfda0803e31ddab172f4099155284354d",
+      "url": "https://github.com/stackitcloud/rename-pvc/releases/download/v0.6.0/rename-pvc-darwin-amd64.tar.gz",
+      "sha256": "3192ebf793b707b43b4e28b1b407b1a75ad345237e9f2ca51b3878f455c0fa29",
       "bin": "rename-pvc",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/stackitcloud/rename-pvc/releases/download/v0.5.0/rename-pvc-linux-amd64.tar.gz",
-      "sha256": "485727b6e254732f287a0f78d4f9767d405c3dba1d4c2db847ef2abab585e658",
+      "url": "https://github.com/stackitcloud/rename-pvc/releases/download/v0.6.0/rename-pvc-linux-amd64.tar.gz",
+      "sha256": "0a253e0b8d5cd5cefac2c9eedf7cbfdef0dcfd1d9e1bd56895bb615b3ce0007e",
       "bin": "rename-pvc",
       "files": [
         {
