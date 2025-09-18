@@ -1,16 +1,65 @@
 {
   "plugin": "sql",
-  "version": "v0.3.35",
+  "version": "v0.3.41",
   "homepage": "https://github.com/yaacov/kubectl-sql",
-  "description": "This plugin enables to query the kubernetes API server via a SQL like language.\n",
+  "description": "kubectl-sql is a kubectl plugin that allows you to query Kubernetes resources\nusing SQL-like syntax. It supports complex queries with WHERE clauses, sorting,\nlimiting, and filtering across multiple resource types and namespaces.\n\nFeatures:\n- SQL-like query language with operators (=, !=, ~=, >, <, etc.)\n- Support for all Kubernetes resource types\n- Cross-namespace queries\n- Multiple output formats (table, json, yaml, name)\n- Array operations (any, all, len)\n- Time and size unit support\n",
   "archSrc": {
-    "x86_64-linux": {
-      "url": "https://github.com/yaacov/kubectl-sql/releases/download/v0.3.35/kubectl-sql.tar.gz",
-      "sha256": "e8bc6295842844b87896ce3d9b5845606a2c317b8ab4dad68d70ac60d3732534",
+    "aarch64-darwin": {
+      "url": "https://github.com/yaacov/kubectl-sql/releases/download/v0.3.41/kubectl-sql-v0.3.41-darwin-arm64.tar.gz",
+      "sha256": "70468c576be8bc6455d4b0961d5569fef91da66f4cd252b7221dc8a5f5cb1f1f",
       "bin": "kubectl-sql",
       "files": [
         {
-          "from": "*",
+          "from": "kubectl-sql-darwin-arm64",
+          "to": "kubectl-sql"
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/yaacov/kubectl-sql/releases/download/v0.3.41/kubectl-sql-v0.3.41-linux-arm64.tar.gz",
+      "sha256": "d0e4e811dc75e0e28fb3ba75f32092ce4aaaaafaa18f2c844d183882bb3162e5",
+      "bin": "kubectl-sql",
+      "files": [
+        {
+          "from": "kubectl-sql-linux-arm64",
+          "to": "kubectl-sql"
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/yaacov/kubectl-sql/releases/download/v0.3.41/kubectl-sql-v0.3.41-darwin-amd64.tar.gz",
+      "sha256": "46c3ae68eb2e7ac2f024215423122810241450e82e2b581b6a2bfed253df774e",
+      "bin": "kubectl-sql",
+      "files": [
+        {
+          "from": "kubectl-sql-darwin-amd64",
+          "to": "kubectl-sql"
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/yaacov/kubectl-sql/releases/download/v0.3.41/kubectl-sql-v0.3.41-linux-amd64.tar.gz",
+      "sha256": "1fbda4ee429988494c9003dd1f3363d8b2c191cb0fa0e3cabefe275a9c6d234b",
+      "bin": "kubectl-sql",
+      "files": [
+        {
+          "from": "kubectl-sql-linux-amd64",
+          "to": "kubectl-sql"
+        },
+        {
+          "from": "LICENSE",
           "to": "."
         }
       ]

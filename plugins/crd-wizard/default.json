@@ -1,12 +1,12 @@
 {
   "plugin": "crd-wizard",
-  "version": "v0.1.1",
+  "version": "v0.1.2",
   "homepage": "https://github.com/pehlicd/crd-wizard",
   "description": "crd-wizard is a powerful kubernetes plugin that provides two ways to\nexplore Custom Resource Definitions (CRDs) and Custom Resources (CRs) in your Kubernetes cluster:\n\n  - A beautiful and interactive Terminal User Interface (TUI)\n  - A simple web server providing a JSON API for CRDs\n\nRead more documentation at: https://github.com/pehlicd/crd-wizard\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/pehlicd/crd-wizard/releases/download/v0.1.1/kubectl-crd_wizard_v0.1.1_darwin_arm64.tar.gz",
-      "sha256": "5d719f127b5689d7c1202b703c35a0b4b5a7160b27cc382edcc3af2760ce86a0",
+      "url": "https://github.com/pehlicd/crd-wizard/releases/download/v0.1.2/kubectl-crd_wizard_v0.1.2_darwin_arm64.tar.gz",
+      "sha256": "2852620a4ffaa20cb2d110b24789a0da61c621fb984381e09a34f3fcfb01eb04",
       "bin": "kubectl-crd_wizard",
       "files": [
         {
@@ -20,8 +20,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/pehlicd/crd-wizard/releases/download/v0.1.1/kubectl-crd_wizard_v0.1.1_linux_arm64.tar.gz",
-      "sha256": "301240fd9fac6f2f6fe6d8518a837cf75fc0b11f84afbf2fc1df9235a2535cd9",
+      "url": "https://github.com/pehlicd/crd-wizard/releases/download/v0.1.2/kubectl-crd_wizard_v0.1.2_linux_arm64.tar.gz",
+      "sha256": "ccf3c3b7aeef2d6abe20a574058afe002c5b186db4870a7051ca674d024f2ccf",
       "bin": "kubectl-crd_wizard",
       "files": [
         {
@@ -35,8 +35,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/pehlicd/crd-wizard/releases/download/v0.1.1/kubectl-crd_wizard_v0.1.1_darwin_amd64.tar.gz",
-      "sha256": "367ca60267d223ab6f9aa637f09daf04221259f79e349c76cf68c200ca839363",
+      "url": "https://github.com/pehlicd/crd-wizard/releases/download/v0.1.2/kubectl-crd_wizard_v0.1.2_darwin_amd64.tar.gz",
+      "sha256": "451b098d6dca6dccfdf5169399c963c8fc23247cf004b44cf64c42d7b7663388",
       "bin": "kubectl-crd_wizard",
       "files": [
         {
@@ -50,8 +50,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/pehlicd/crd-wizard/releases/download/v0.1.1/kubectl-crd_wizard_v0.1.1_linux_amd64.tar.gz",
-      "sha256": "fdafc1e4b9bb9ea777ce4413a85a08d9c40993c8578c602f03486f3b59e38c9b",
+      "url": "https://github.com/pehlicd/crd-wizard/releases/download/v0.1.2/kubectl-crd_wizard_v0.1.2_linux_amd64.tar.gz",
+      "sha256": "e9b4e7b858f574301e1e2046d1784c0d1dcde50b766cd16e32c4eb5ecc26ea33",
       "bin": "kubectl-crd_wizard",
       "files": [
         {
