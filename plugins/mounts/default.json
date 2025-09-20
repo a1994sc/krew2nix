@@ -1,65 +1,49 @@
 {
   "plugin": "mounts",
-  "version": "v0.0.4",
+  "version": "v0.1.3",
   "homepage": "https://github.com/yeqianmen/kubectl-mounts",
-  "description": "A kubectl plugin that displays detailed information about pod volumes\nand volumeMounts, helping developers inspect Kubernetes storage usage.\n",
+  "description": "kubectl-mounts is a kubectl plugin that lists all Pods in the\ncurrent namespace along with their Volumes and VolumeMounts.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/yeqianmen/kubectl-mounts/releases/download/v0.0.4/kubectl-mounts_darwin_arm64.tar.gz",
-      "sha256": "dd6b762aea89c20bb337d7fa0ac8afc61aa3f25d88655ef663036e482aac8d34",
+      "url": "https://github.com/yeqianmen/kubectl-mounts/releases/download/v0.1.3/kubectl-mounts_darwin_arm64.tar.gz",
+      "sha256": "ef5d422187ac1974b91588b86a3f9c100f1da87daaeb974fc35b5d03a4a2e4ea",
       "bin": "kubectl-mounts",
       "files": [
         {
-          "from": "kubectl-mounts",
-          "to": "."
-        },
-        {
-          "from": "LICENSE",
+          "from": "*",
           "to": "."
         }
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/yeqianmen/kubectl-mounts/releases/download/v0.0.4/kubectl-mounts_linux_arm64.tar.gz",
-      "sha256": "4e875be446dc6fe9dd56ad84a6bb89ce5aa4d77d33660268ce8e3d39ea3f47b3",
+      "url": "https://github.com/yeqianmen/kubectl-mounts/releases/download/v0.1.3/kubectl-mounts_linux_arm64.tar.gz",
+      "sha256": "bdf3d8a6df4bd292b95d3baa169022534a64b1ece7ca71817af7e320367047d8",
       "bin": "kubectl-mounts",
       "files": [
         {
-          "from": "kubectl-mounts",
-          "to": "."
-        },
-        {
-          "from": "LICENSE",
+          "from": "*",
           "to": "."
         }
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/yeqianmen/kubectl-mounts/releases/download/v0.0.4/kubectl-mounts_darwin_amd64.tar.gz",
-      "sha256": "74a8c3e5c44ad0ab44f0b3ae001e3bd3a87595fa916b22b785af44835e191774",
+      "url": "https://github.com/yeqianmen/kubectl-mounts/releases/download/v0.1.3/kubectl-mounts_darwin_amd64.tar.gz",
+      "sha256": "040fcf0b8cee7a25dfdaf2b8107a00e4a77e1a983a4bc9def40f2f0f36be10e2",
       "bin": "kubectl-mounts",
       "files": [
         {
-          "from": "kubectl-mounts",
-          "to": "."
-        },
-        {
-          "from": "LICENSE",
+          "from": "*",
           "to": "."
         }
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/yeqianmen/kubectl-mounts/releases/download/v0.0.4/kubectl-mounts_linux_amd64.tar.gz",
-      "sha256": "9952c1793a6212b59cc7efef6e1fa5fe1ea1f8b814fb81237a6df83f34c6882b",
+      "url": "https://github.com/yeqianmen/kubectl-mounts/releases/download/v0.1.3/kubectl-mounts_linux_amd64.tar.gz",
+      "sha256": "3459d9de7f40f4e49f591b7a4f822bf6b405315ed433342433ccaeb36e9b3864",
       "bin": "kubectl-mounts",
       "files": [
         {
-          "from": "kubectl-mounts",
-          "to": "."
-        },
-        {
-          "from": "LICENSE",
+          "from": "*",
           "to": "."
         }
       ]
