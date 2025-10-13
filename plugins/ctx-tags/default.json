@@ -1,0 +1,52 @@
+{
+  "plugin": "ctx-tags",
+  "version": "v0.1.2",
+  "homepage": "https://github.com/tgigli/kubectl-ctx-tags",
+  "description": "Organize and manage kubectl contexts using tags with an interactive TUI.\n\nFeatures:\n- Tag management for kubectl contexts\n- Interactive fuzzy search TUI\n- Multi-tag filtering (AND logic)\n- Saved searches as *supertags\n- Context switching and editing\n- Context deletion with confirmation\n- Safe storage using kubeconfig extensions field\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/tgigli/kubectl-ctx-tags/releases/download/v0.1.2/kubectl-ctx-tags-0.1.2-darwin-arm64.tar.gz",
+      "sha256": "e9a7f9ea8389d80def1fd80d71b5b82eda3fb9b91a9906c5a20600d7d3d49a78",
+      "bin": "kubectl-ctx-tags",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/tgigli/kubectl-ctx-tags/releases/download/v0.1.2/kubectl-ctx-tags-0.1.2-linux-arm64.tar.gz",
+      "sha256": "55c801d0413cf77ad1610c9b744a595da438a6de61dc0ad7d4507fb77955a7d2",
+      "bin": "kubectl-ctx-tags",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/tgigli/kubectl-ctx-tags/releases/download/v0.1.2/kubectl-ctx-tags-0.1.2-darwin-amd64.tar.gz",
+      "sha256": "5913fe31fd739ac57f615631e616bcdf3351b1c587d678c6a780b525c9d0000c",
+      "bin": "kubectl-ctx-tags",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/tgigli/kubectl-ctx-tags/releases/download/v0.1.2/kubectl-ctx-tags-0.1.2-linux-amd64.tar.gz",
+      "sha256": "4f5837208cd6e3fb83189d0e6d9d8ebe296db41a50b7ce0c9c346e02c92765df",
+      "bin": "kubectl-ctx-tags",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}
