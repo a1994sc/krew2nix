@@ -1,0 +1,52 @@
+{
+  "plugin": "ip-check",
+  "version": "v0.1.0",
+  "homepage": "https://github.com/4rivappa/kubectl-ip-check",
+  "description": "The ip-check plugin provides visibility into IP address allocation and usage\nacross EKS clusters using VPC CNI. It analyzes each node's ENI allocation\nfrom AWS EC2 and compares it with actual pod IP consumption to identify\noverallocation and help optimize VPC CNI configuration.\n\nPerfect for troubleshooting IP exhaustion issues and optimizing WARM_ENI_TARGET\nand WARM_IP_TARGET settings in large EKS clusters.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/4rivappa/kubectl-ip-check/releases/download/v0.1.0/kubectl-ip-check-darwin-arm64.tar.gz",
+      "sha256": "4bdabeb2f3d3afbbb897000aba0141797d44f19d8d710c164aa3eb1ad9541693",
+      "bin": "kubectl-ip_check",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/4rivappa/kubectl-ip-check/releases/download/v0.1.0/kubectl-ip-check-linux-arm64.tar.gz",
+      "sha256": "049a1b6b388cef9af6cda8df8434364377bbe89504ca22c5848dbd78bd1823a1",
+      "bin": "kubectl-ip_check",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/4rivappa/kubectl-ip-check/releases/download/v0.1.0/kubectl-ip-check-darwin-amd64.tar.gz",
+      "sha256": "9c0152783fc020885102521fc4eed8491170e1daf140d8e0c0916c90ef3199b8",
+      "bin": "kubectl-ip_check",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/4rivappa/kubectl-ip-check/releases/download/v0.1.0/kubectl-ip-check-linux-amd64.tar.gz",
+      "sha256": "06b978591e10c95c743a71569198cf7676953a4aede417132bb74fecddfc5a03",
+      "bin": "kubectl-ip_check",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}
