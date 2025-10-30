@@ -1,0 +1,41 @@
+{
+  "plugin": "kimspect",
+  "version": "v0.0.35",
+  "homepage": "https://github.com/koithos/kimspect",
+  "description": "kimspect is a kubernetes container image inspection tool that provides\ncomprehensive visibility into container images running inside your cluster\nand can get container image & registry information by pods, namespaces and nodes\nin your cluster\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/koithos/kimspect/releases/download/v0.0.35/kimspect-aarch64-apple-darwin.tar.gz",
+      "sha256": "4ee189e5e82879e900eefb4f8ce6b8a21667c86cbacd037a36d5817bfdc2dd9f",
+      "bin": "kimspect",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/koithos/kimspect/releases/download/v0.0.35/kimspect-x86_64-apple-darwin.tar.gz",
+      "sha256": "fc2a2f92a001d71d8c90442727f54244dc1e1bf1eaecad268ba3d8bbc1f44aee",
+      "bin": "kimspect",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/koithos/kimspect/releases/download/v0.0.35/kimspect-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "abcf9575c03b129d07ce6bbd764ba727fb0928ed2704ae31dd5157ad040cc324",
+      "bin": "kimspect",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}
