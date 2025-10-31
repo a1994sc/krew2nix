@@ -1,12 +1,12 @@
 {
   "plugin": "fd",
-  "version": "v0.6.0",
+  "version": "v0.8.0",
   "homepage": "https://github.com/alikhil/kubectl-find",
   "description": "It's a plugin for kubectl that gives you a UNIX find-like experience.\nFind then print, patch or delete any resource matching the provided criteria based on name, age, labels, etc\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/alikhil/kubectl-find/releases/download/v0.6.0/kubectl-fd_Darwin_arm64.tar.gz",
-      "sha256": "6721d755c9d6c7f7ec722c408361d584f24d2bae5f2faf6196a4676f874291ed",
+      "url": "https://github.com/alikhil/kubectl-find/releases/download/v0.8.0/kubectl-fd_Darwin_arm64.tar.gz",
+      "sha256": "11e7877ff6d6711c6c2262fe731221f11923816ffa430411bfa85e257e2c881a",
       "bin": "kubectl-fd",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/alikhil/kubectl-find/releases/download/v0.6.0/kubectl-fd_Linux_arm64.tar.gz",
-      "sha256": "89895a6bedd75809c5ea1c9bac07f877bb83fa8309207d9ba33aabd78f608363",
+      "url": "https://github.com/alikhil/kubectl-find/releases/download/v0.8.0/kubectl-fd_Linux_arm64.tar.gz",
+      "sha256": "ed439b3db532c8ca081ca9527e53781fcfd39f79b3535e74e5c3fabf9331a02b",
       "bin": "kubectl-fd",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/alikhil/kubectl-find/releases/download/v0.6.0/kubectl-fd_Darwin_x86_64.tar.gz",
-      "sha256": "81c3f4b616a6c803b4dc6922fad3d7d85ce1bb8ee3cb46a18aef70592a8e4a89",
+      "url": "https://github.com/alikhil/kubectl-find/releases/download/v0.8.0/kubectl-fd_Darwin_x86_64.tar.gz",
+      "sha256": "6dece80c943e326adf9b17a43d3e508477a750cae4317669662b80084fd2013d",
       "bin": "kubectl-fd",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/alikhil/kubectl-find/releases/download/v0.6.0/kubectl-fd_Linux_x86_64.tar.gz",
-      "sha256": "cce42de72a8ca3200f07689446ef7228dede34b664ad25bbadd26d9192845310",
+      "url": "https://github.com/alikhil/kubectl-find/releases/download/v0.8.0/kubectl-fd_Linux_x86_64.tar.gz",
+      "sha256": "2c22a4a0b000f8ee67f15b8f5e2aee1c059c46608a65fc35df6b024bf0180786",
       "bin": "kubectl-fd",
       "files": [
         {
