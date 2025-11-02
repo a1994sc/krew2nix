@@ -1,0 +1,68 @@
+{
+  "plugin": "wild",
+  "version": "v1.0.2",
+  "homepage": "https://github.com/alex-vee-sh/kube-wild",
+  "description": "kubectl-wild adds simple wildcard matching and safety features for resource names,\nthen delegates to kubectl for output and actions.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/alex-vee-sh/kube-wild/releases/download/v1.0.2/kubectl-wild_darwin_arm64.tar.gz",
+      "sha256": "61250a576c4447bc174c05e8f95698e1103a46f85fd305cd87c92a69049f23a0",
+      "bin": "kubectl-wild",
+      "files": [
+        {
+          "from": "kubectl-wild",
+          "to": "kubectl-wild"
+        },
+        {
+          "from": "LICENSE",
+          "to": "LICENSE"
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/alex-vee-sh/kube-wild/releases/download/v1.0.2/kubectl-wild_linux_arm64.tar.gz",
+      "sha256": "f71af8cf77536d022a28353c02ec06b9ef327f91c272dec6160761be51d7032a",
+      "bin": "kubectl-wild",
+      "files": [
+        {
+          "from": "kubectl-wild",
+          "to": "kubectl-wild"
+        },
+        {
+          "from": "LICENSE",
+          "to": "LICENSE"
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/alex-vee-sh/kube-wild/releases/download/v1.0.2/kubectl-wild_darwin_amd64.tar.gz",
+      "sha256": "4266e902aefc591000c343d926a193d6008b217811f0b6f2c939d549ec055277",
+      "bin": "kubectl-wild",
+      "files": [
+        {
+          "from": "kubectl-wild",
+          "to": "kubectl-wild"
+        },
+        {
+          "from": "LICENSE",
+          "to": "LICENSE"
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/alex-vee-sh/kube-wild/releases/download/v1.0.2/kubectl-wild_linux_amd64.tar.gz",
+      "sha256": "e3cfadc8a055f92172a404995ec4feb2eddcd2787c11ba7e5f9a98b48210ff7b",
+      "bin": "kubectl-wild",
+      "files": [
+        {
+          "from": "kubectl-wild",
+          "to": "kubectl-wild"
+        },
+        {
+          "from": "LICENSE",
+          "to": "LICENSE"
+        }
+      ]
+    }
+  }
+}
