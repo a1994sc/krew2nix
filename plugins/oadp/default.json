@@ -1,12 +1,12 @@
 {
   "plugin": "oadp",
-  "version": "v0.3.1",
+  "version": "v0.3.2",
   "homepage": "https://github.com/migtools/oadp-cli",
   "description": "kubectl-oadp is a kubectl plugin for managing OpenShift API for Data Protection (OADP) backup and restore operations.\n\nIt provides both admin and non-admin commands:\n- Admin commands: Full OADP/Velero backup and restore operations\n- Non-admin commands: Namespace-scoped backup operations with automatic namespace detection\n\nThe plugin automatically detects the appropriate namespace from your current kubectl context\nfor non-admin operations, following the principle of least privilege.\n\nFeatures:\n- Create and manage OADP backups\n- View backup status and logs  \n- Delete backups\n- Support for both cluster-admin and namespace-scoped operations\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/migtools/oadp-cli/releases/download/v0.3.1/kubectl-oadp_v0.3.1_darwin_arm64.tar.gz",
-      "sha256": "4fa88a1d7533307462250188f5955f6967c97390f2116d523c5c6c6f07b34ff8",
+      "url": "https://github.com/migtools/oadp-cli/releases/download/v0.3.2/kubectl-oadp_v0.3.2_darwin_arm64.tar.gz",
+      "sha256": "94a71e6b2fdec6b263915a909b6966c6ea530b1948eae5a654b1a17db4a8b3df",
       "bin": "kubectl-oadp",
       "files": [
         {
@@ -20,8 +20,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/migtools/oadp-cli/releases/download/v0.3.1/kubectl-oadp_v0.3.1_linux_arm64.tar.gz",
-      "sha256": "2bf22df0d000e69b1ecd17df2674eb4eef4822521a16c123c9102727a8928e18",
+      "url": "https://github.com/migtools/oadp-cli/releases/download/v0.3.2/kubectl-oadp_v0.3.2_linux_arm64.tar.gz",
+      "sha256": "61c621804d8e278faf210b64c69b48f4745bc4c53ec466462a5a094c6915b8ff",
       "bin": "kubectl-oadp",
       "files": [
         {
@@ -35,8 +35,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/migtools/oadp-cli/releases/download/v0.3.1/kubectl-oadp_v0.3.1_darwin_amd64.tar.gz",
-      "sha256": "7a18df091829af1bd3ed06ef7bef2898cf83c8642ccc0152d4cb2baf51572df8",
+      "url": "https://github.com/migtools/oadp-cli/releases/download/v0.3.2/kubectl-oadp_v0.3.2_darwin_amd64.tar.gz",
+      "sha256": "7096c57782647432214493b9c8625b17f89a8646883839200836d45a7e7605cc",
       "bin": "kubectl-oadp",
       "files": [
         {
@@ -50,8 +50,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/migtools/oadp-cli/releases/download/v0.3.1/kubectl-oadp_v0.3.1_linux_amd64.tar.gz",
-      "sha256": "f03714ce390f83be1c3f5f978ae0d1f0680ac8f4b36d8eb98203166a34560285",
+      "url": "https://github.com/migtools/oadp-cli/releases/download/v0.3.2/kubectl-oadp_v0.3.2_linux_amd64.tar.gz",
+      "sha256": "060a63889ddee194ba4c077b80ebb0230bb463213c61a8a18c7a3eec805e5119",
       "bin": "kubectl-oadp",
       "files": [
         {
