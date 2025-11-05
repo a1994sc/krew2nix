@@ -1,12 +1,12 @@
 {
   "plugin": "stern",
-  "version": "v1.33.0",
+  "version": "v1.33.1",
   "homepage": "https://github.com/stern/stern",
   "description": "Stern allows you to `tail` multiple pods on Kubernetes and multiple containers\nwithin the pod. Each result is color coded for quicker debugging.\n\nThe query is a regular expression so the pod name can easily be filtered and\nyou don't need to specify the exact id (for instance omitting the deployment\nid). If a pod is deleted it gets removed from tail and if a new pod is added it\nautomatically gets tailed.\n\nWhen a pod contains multiple containers Stern can tail all of them too without\nhaving to do this manually for each one. Simply specify the `container` flag to\nlimit what containers to show. By default all containers are listened to.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/stern/stern/releases/download/v1.33.0/stern_1.33.0_darwin_arm64.tar.gz",
-      "sha256": "e6bd1b294384b1e40c23d9238de08f118d331bb1b93be19d1c10d5345a47dded",
+      "url": "https://github.com/stern/stern/releases/download/v1.33.1/stern_1.33.1_darwin_arm64.tar.gz",
+      "sha256": "bdca897b9bd5a0ee8b4d1f4e00c8e63cf503d2f85abceab4ae6a276a7d232d95",
       "bin": "stern",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/stern/stern/releases/download/v1.33.0/stern_1.33.0_linux_arm64.tar.gz",
-      "sha256": "747abadcd780a07d19e4f27e23d22050497728843b95043f77ef8a3e7892913a",
+      "url": "https://github.com/stern/stern/releases/download/v1.33.1/stern_1.33.1_linux_arm64.tar.gz",
+      "sha256": "41ff85d85aeaf6f61b1cfb7aeccad64d7f66051b51f955f55b49ce20b5822374",
       "bin": "stern",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/stern/stern/releases/download/v1.33.0/stern_1.33.0_darwin_amd64.tar.gz",
-      "sha256": "0bd8921d580d8ad0d6e0379e7ce1eb8b8e850608b9ca4b8432cb982ffabf980b",
+      "url": "https://github.com/stern/stern/releases/download/v1.33.1/stern_1.33.1_darwin_amd64.tar.gz",
+      "sha256": "6dc34102318ef012a4cb16f786c5930240b202b33c20666399230826e857107e",
       "bin": "stern",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/stern/stern/releases/download/v1.33.0/stern_1.33.0_linux_amd64.tar.gz",
-      "sha256": "87b5b8926a9b49202fddef1b509f72b4961ae777cd1d33a73924841765855084",
+      "url": "https://github.com/stern/stern/releases/download/v1.33.1/stern_1.33.1_linux_amd64.tar.gz",
+      "sha256": "185be29c6a22bd07c0791ec697900943c0cc27292e5a5640a07a543886f1bfc9",
       "bin": "stern",
       "files": [
         {

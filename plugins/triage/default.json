@@ -1,0 +1,38 @@
+{
+  "plugin": "triage",
+  "version": "v0.1.1",
+  "homepage": "https://github.com/Lc-Lin/kubectl-triage",
+  "description": "kubectl-triage provides 5-second diagnostic snapshots for failed\nKubernetes pods.\n\nIt intelligently aggregates the critical information you need:\n- Pod status and container states\n- Critical events (Warning/Error only, filtering out noise)\n- Previous crash logs (if container restarted)\n- Current container logs\n\nOnly failed/restarted containers are shown by default, keeping output\nfocused.\n\nKey features:\n- Smart health detection (catches \"flapping\" pods)\n- Intelligent container filtering (RestartCount > 0)\n- Signal-over-noise event filtering\n- Parallel log collection for speed\n- Beautiful color-coded output\n",
+  "archSrc": {
+    "x86_64-darwin": {
+      "url": "https://github.com/Lc-Lin/kubectl-triage/releases/download/v0.1.1/kubectl-triage_darwin_amd64.tar.gz",
+      "sha256": "baabb936ec8051cd06910c3fa1678d4f8641cc717397e120b0f765023d548b9f",
+      "bin": "kubectl-triage",
+      "files": [
+        {
+          "from": "kubectl-triage",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/Lc-Lin/kubectl-triage/releases/download/v0.1.1/kubectl-triage_linux_amd64.tar.gz",
+      "sha256": "d212e7202a4db0df9fe611057067fe8388412f2efb271ae2bd185e24c1fa665b",
+      "bin": "kubectl-triage",
+      "files": [
+        {
+          "from": "kubectl-triage",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "plugin": "actuator",
+  "version": "v0.0.2",
+  "homepage": "https://github.com/deviceinsight/kubectl-actuator",
+  "description": "This plugin allows you to interact with Spring Boot Actuator endpoints. You can use it to view and modify log levels, view scheduled tasks, and more.\nExamples:\n  # Show loggers and their log levels\n  kubectl actuator --pod my-app-pod logger\n  # Set log level\n  kubectl actuator --pod my-app-pod logger com.example.app.service DEBUG\n  # View scheduled tasks\n  kubectl actuator --deployment my-app scheduled-tasks\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/deviceinsight/kubectl-actuator/releases/download/v0.0.2/kubectl-actuator_Darwin_arm64.tar.gz",
+      "sha256": "797ee5c1d00bfd484cc1827bb1628111888058cd62f62fb2102f92348bb342f6",
+      "bin": "kubectl-actuator",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/deviceinsight/kubectl-actuator/releases/download/v0.0.2/kubectl-actuator_Darwin_x86_64.tar.gz",
+      "sha256": "b0dac9fb47ec16b5d240ff2ec1d689314e561e1310b93cb92cbd148b90b87bfb",
+      "bin": "kubectl-actuator",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/deviceinsight/kubectl-actuator/releases/download/v0.0.2/kubectl-actuator_Linux_x86_64.tar.gz",
+      "sha256": "a6e2b5011ae8bbf131f1a6b12bc926814a36a8fd65ff68fb199a24068bdd8e4d",
+      "bin": "kubectl-actuator",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}
