@@ -1,12 +1,12 @@
 {
   "plugin": "volsync",
-  "version": "v0.13.1",
+  "version": "v0.14.0",
   "homepage": "https://github.com/backube/volsync",
   "description": "This plugin provides a set of commands to interact with the VolSync\noperator.\n\nIt provides an easy method to perform several common data replication\nworkflows without directly creating/manipulating VolSync's CRs.\n",
   "archSrc": {
     "aarch64-linux": {
-      "url": "https://github.com/backube/volsync/releases/download/v0.13.1/kubectl-volsync-linux-arm64.tar.gz",
-      "sha256": "fcecfc88b3a8b0cc64328b9b5d26d0cae5e18119cd6aaa5436cc93fcc993e499",
+      "url": "https://github.com/backube/volsync/releases/download/v0.14.0/kubectl-volsync-linux-arm64.tar.gz",
+      "sha256": "c5e47b2aed4779899b842c4fc16d92b14a0794c1f13743c292820d91c99bee17",
       "bin": "kubectl-volsync",
       "files": [
         {
@@ -20,8 +20,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/backube/volsync/releases/download/v0.13.1/kubectl-volsync-linux-amd64.tar.gz",
-      "sha256": "97eb7c09d99507630d3718bce83e2982927a72b5a645143db673ebb9635a7916",
+      "url": "https://github.com/backube/volsync/releases/download/v0.14.0/kubectl-volsync-linux-amd64.tar.gz",
+      "sha256": "fc9ff24340a6a5820a4d292787345e9b9bd672221611360149e0f7ed10b45b82",
       "bin": "kubectl-volsync",
       "files": [
         {
