@@ -1,12 +1,12 @@
 {
   "plugin": "permissions",
-  "version": "v0.2.1",
+  "version": "v0.2.4",
   "homepage": "https://github.com/garethjevans/kubectl-permissions",
   "description": "This plugin lets you trace ServiceAccounts to Roles, RoleBindings and permissions \nto troubleshoot the bindings and transitive permission assignments.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/garethjevans/kubectl-permissions/releases/download/v0.2.1/kubectl-permissions_v0.2.1_darwin_arm64.tar.gz",
-      "sha256": "9789d4a66f4fce203923a34b179b788740a5fcc460d968ea76911b1b553d2cad",
+      "url": "https://github.com/garethjevans/kubectl-permissions/releases/download/v0.2.4/kubectl-permissions_v0.2.4_darwin_arm64.tar.gz",
+      "sha256": "1874cd2154505c70b6b04092b86fb553bef3c6add4ea8ed22b9bd59f5a91d898",
       "bin": "kubectl-permissions",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/garethjevans/kubectl-permissions/releases/download/v0.2.1/kubectl-permissions_v0.2.1_darwin_amd64.tar.gz",
-      "sha256": "ce208414ed60148e5863eb7ebff05d94c7281f573330955cd8657cd5ecb79b42",
+      "url": "https://github.com/garethjevans/kubectl-permissions/releases/download/v0.2.4/kubectl-permissions_v0.2.4_darwin_amd64.tar.gz",
+      "sha256": "0e3a3a992cbcd815abafe7b474ed0b5e7105bb1aaef30a3c379d35999884793f",
       "bin": "kubectl-permissions",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/garethjevans/kubectl-permissions/releases/download/v0.2.1/kubectl-permissions_v0.2.1_linux_amd64.tar.gz",
-      "sha256": "de429783f8599d3aab9f8a1a79b3b09791d6569b8e5c525c018f95df0d857732",
+      "url": "https://github.com/garethjevans/kubectl-permissions/releases/download/v0.2.4/kubectl-permissions_v0.2.4_linux_amd64.tar.gz",
+      "sha256": "54a439756ef36072a83fb51849d064675cb6408bf0f0eaf7a743a949c0d5f118",
       "bin": "kubectl-permissions",
       "files": [
         {
