@@ -1,0 +1,52 @@
+{
+  "plugin": "edit-secret",
+  "version": "v0.1.1",
+  "homepage": "https://github.com/BardiaYaghmaie/kubectl-edit-secret",
+  "description": "Edit Kubernetes secrets by automatically decoding base64 values before\nopening in your editor, then re-encoding and applying changes on save.\n\nThis plugin removes the need to manually decode and encode base64 values\nwhen working with secrets. It fetches the secret, decodes all data fields,\nopens them in a clean YAML format in your preferred editor, and handles\nthe re-encoding transparently.\n\nSupports editing all keys in a secret or a specific key. Works with\nstandard kubectl flags including namespace, context, and kubeconfig.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/BardiaYaghmaie/kubectl-edit-secret/releases/download/v0.1.1/kubectl-edit-secret_darwin_arm64.tar.gz",
+      "sha256": "38ad0a693586b2b6cd70f556b0ec57cb628cabb3cb667a9a57b54212b4f65ab6",
+      "bin": "kubectl-edit_secret",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/BardiaYaghmaie/kubectl-edit-secret/releases/download/v0.1.1/kubectl-edit-secret_linux_arm64.tar.gz",
+      "sha256": "437818658cda7a1da4fb38e06d62d425277ca135e36b6708f644c9e2b88ce8f0",
+      "bin": "kubectl-edit_secret",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/BardiaYaghmaie/kubectl-edit-secret/releases/download/v0.1.1/kubectl-edit-secret_darwin_amd64.tar.gz",
+      "sha256": "86e1559b0a5c7d06a0e4f2c234acc447671d09d30ebebba879f3a4dbcc20f292",
+      "bin": "kubectl-edit_secret",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/BardiaYaghmaie/kubectl-edit-secret/releases/download/v0.1.1/kubectl-edit-secret_linux_amd64.tar.gz",
+      "sha256": "8ea944119a6e0bfacd74b65e551cce3589565cbcfc24c018244531e9e1d62ee2",
+      "bin": "kubectl-edit_secret",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}
