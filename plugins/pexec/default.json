@@ -1,12 +1,12 @@
 {
   "plugin": "pexec",
-  "version": "v0.4.1",
+  "version": "v0.4.6",
   "homepage": "https://github.com/ssup2/kpexec",
   "description": "pexec is a kubernetes cli that runs commands in a container with high\nprivileges. It runs a highly privileged container on the same node as\nthe target container and joins into the namespaces of the target container\n(IPC, UTS, PID, net, mount). This is useful for debugging where you often\nneed to execute commands with high privileges. Also, pexec has a tools\nmode, which adds useful debugging tools into the debugged container. The\ntools mode is useful when there necessary debugging tools are missing in the\ntarget container.\n\nIn contrast, kubectl-exec runs the command with the same privileges as the\ncontainer. For example, if a container does not have network privileges,\nthe command executed by kubectl-exec also has no network privileges.\nThis makes debugging the pod difficult. If you use pexec instead\nof kubectl-exec, you can easily get high privileges for debugging.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/ssup2/kpexec/releases/download/v0.4.1/kubectl_pexec_v0.4.1_Darwin_arm64.tar.gz",
-      "sha256": "594ed9d0a4d2045294b06d85f265c66ade6eb8b65df8e6bb170a426a304d88f3",
+      "url": "https://github.com/ssup2/kpexec/releases/download/v0.4.6/kubectl_pexec_v0.4.6_darwin_arm64.tar.gz",
+      "sha256": "a1067ba1952022a80e61bd18ebdd035e0a2a850cb01c174e41bbdbe7a2ff8578",
       "bin": "kubectl-pexec",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/ssup2/kpexec/releases/download/v0.4.1/kubectl_pexec_v0.4.1_Linux_arm64.tar.gz",
-      "sha256": "abce9c5e10c890e8157d2bf0c7e99536a02574449066afe50e51ae9107a369b7",
+      "url": "https://github.com/ssup2/kpexec/releases/download/v0.4.6/kubectl_pexec_v0.4.6_linux_arm64.tar.gz",
+      "sha256": "dc770abdd01d739a668da7f634357088a88f2cfa99062ba957813ea9929bf224",
       "bin": "kubectl-pexec",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/ssup2/kpexec/releases/download/v0.4.1/kubectl_pexec_v0.4.1_Darwin_amd64.tar.gz",
-      "sha256": "469b731642642e7091da743aa3e3ae94a8c94cd1facc122532cbcb333e22d836",
+      "url": "https://github.com/ssup2/kpexec/releases/download/v0.4.6/kubectl_pexec_v0.4.6_darwin_amd64.tar.gz",
+      "sha256": "17d518f934216130295273b5e420527487972added804e20aa63a98b5970085e",
       "bin": "kubectl-pexec",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/ssup2/kpexec/releases/download/v0.4.1/kubectl_pexec_v0.4.1_Linux_amd64.tar.gz",
-      "sha256": "2ff67d813ea3d55aa9378bad4a2ba735c5bf4730d5a5b6e73543ce3e0c6698e9",
+      "url": "https://github.com/ssup2/kpexec/releases/download/v0.4.6/kubectl_pexec_v0.4.6_linux_amd64.tar.gz",
+      "sha256": "781cce121c7e206bf2c13f45982f36b379f4613d9515558b7631e9fc93956c07",
       "bin": "kubectl-pexec",
       "files": [
         {
