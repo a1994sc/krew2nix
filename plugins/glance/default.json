@@ -1,12 +1,12 @@
 {
   "plugin": "glance",
-  "version": "v0.2.1",
+  "version": "v0.2.2",
   "homepage": "https://gitlab.com/davidxarnold/glance",
   "description": "Glance is a kubectl plugin that displays cluster resource allocation and utilization.\n\nIt allows you to quickly view:\n- Node resource allocation (CPU and memory)\n- Pod resource requests and limits\n- Cluster-wide totals\n- Cloud provider node information (optional)\n\nFeatures:\n- Multiple output formats (text, pretty, JSON, charts)\n- Human-readable and exact value display\n- Label and field selectors\n\nUsage:\n  kubectl glance                    # Default view\n  kubectl glance -o pretty          # Colored output\n  kubectl glance -o json            # JSON format\n  kubectl glance --selector tier=app # Filter by labels\n  kubectl glance -c                 # Include cloud provider info\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://gitlab.com/api/v4/projects/9502011/packages/generic/kubectl-glance/0.2.1/kubectl-glance-0.2.1-darwin-arm64.tar.gz",
-      "sha256": "3337c853e3643bb76df050b5f30d205c4f798b50df87704544fafb3cfef010be",
+      "url": "https://gitlab.com/api/v4/projects/9502011/packages/generic/kubectl-glance/0.2.2/kubectl-glance-0.2.2-darwin-arm64.tar.gz",
+      "sha256": "ae84b3e8b82ea1add4e13401110650dcbfbf9372b479fd905253d78bfe633c0c",
       "bin": "kubectl-glance",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://gitlab.com/api/v4/projects/9502011/packages/generic/kubectl-glance/0.2.1/kubectl-glance-0.2.1-linux-arm64.tar.gz",
-      "sha256": "bd1e9d8e53bb28a84f6fa1c3b569f171ec2fa755689e7499dfeb69bd52f49bc9",
+      "url": "https://gitlab.com/api/v4/projects/9502011/packages/generic/kubectl-glance/0.2.2/kubectl-glance-0.2.2-linux-arm64.tar.gz",
+      "sha256": "98af9ac87ddb9eb75fe4b3ab0bf1d2e8f57bb3ae714bf44ecdd586ed01ef1822",
       "bin": "kubectl-glance",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://gitlab.com/api/v4/projects/9502011/packages/generic/kubectl-glance/0.2.1/kubectl-glance-0.2.1-darwin-amd64.tar.gz",
-      "sha256": "968d7cfa7ead984bb965db37f915e45fb7b95a540b4fae3987f831a26fbdf7be",
+      "url": "https://gitlab.com/api/v4/projects/9502011/packages/generic/kubectl-glance/0.2.2/kubectl-glance-0.2.2-darwin-amd64.tar.gz",
+      "sha256": "25cbd956ede72fec4f01edda894f700f7d8f353c10b45b0cccc6793542d05f4a",
       "bin": "kubectl-glance",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://gitlab.com/api/v4/projects/9502011/packages/generic/kubectl-glance/0.2.1/kubectl-glance-0.2.1-linux-amd64.tar.gz",
-      "sha256": "b14d283529ba1bf673ed42e2a4c99acb77151456268bbbaea970ce8ae77e8382",
+      "url": "https://gitlab.com/api/v4/projects/9502011/packages/generic/kubectl-glance/0.2.2/kubectl-glance-0.2.2-linux-amd64.tar.gz",
+      "sha256": "4d8e691ee9dd4d1b66f8572600dc0dd8c65f65ab08a8cabdcce5c3518ab7310a",
       "bin": "kubectl-glance",
       "files": [
         {
