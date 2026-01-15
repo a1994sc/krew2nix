@@ -1,12 +1,12 @@
 {
   "plugin": "realname-diff",
-  "version": "v0.4.1",
+  "version": "v0.4.2",
   "homepage": "https://github.com/hhiroshell/kubectl-realname-diff",
   "description": "Kubectl realname-diff works the same as kubectl diff, but if you set \"real\nname\" as a label, local and live resources with the same label will be\ncompared.\nThis is especially beneficial if you use the Kustomize and enable hash\nsuffixing ConfigMap/Secret names. In case of `kubectl diff`, local and live\nresources with hash suffixed name are considered as irrelevant. So you will not\nbe able to get any results comparing them.\nWith realname-diff, you can compare the resources with hash suffixed name by\nspecifying the comparison target with \"real name\" labels.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/hhiroshell/kubectl-realname-diff/releases/download/v0.4.1/kubectl-realname-diff-darwin-arm64.tar.gz",
-      "sha256": "d9fc2dc3637f1a8406c5543765b231969911a2b89b906b73bf24586b98e4a3e0",
+      "url": "https://github.com/hhiroshell/kubectl-realname-diff/releases/download/v0.4.2/kubectl-realname-diff-darwin-arm64.tar.gz",
+      "sha256": "a3f67ed4ca0054789c7d57711a57d46a0f4351a1702fac3673bda4a3d362df29",
       "bin": "kubectl-realname_diff",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/hhiroshell/kubectl-realname-diff/releases/download/v0.4.1/kubectl-realname-diff-linux-arm64.tar.gz",
-      "sha256": "783c78db0803f29a8772826145d905b98d8df715bc42bfcaf4ac49681fe07a4e",
+      "url": "https://github.com/hhiroshell/kubectl-realname-diff/releases/download/v0.4.2/kubectl-realname-diff-linux-arm64.tar.gz",
+      "sha256": "bd98b7963702e22f80a4fd944e92cee21724897b29f2d81c7b42c3fede65369c",
       "bin": "kubectl-realname_diff",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/hhiroshell/kubectl-realname-diff/releases/download/v0.4.1/kubectl-realname-diff-darwin-amd64.tar.gz",
-      "sha256": "50dd0be3c8d7b12a5248e37dadd3d03667db0923baea436aca01193b8395c7f8",
+      "url": "https://github.com/hhiroshell/kubectl-realname-diff/releases/download/v0.4.2/kubectl-realname-diff-darwin-amd64.tar.gz",
+      "sha256": "a0137a12cb1482d5a9634b5f236ee9be77f067d8f5e11f692c52ad326e9ab262",
       "bin": "kubectl-realname_diff",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/hhiroshell/kubectl-realname-diff/releases/download/v0.4.1/kubectl-realname-diff-linux-amd64.tar.gz",
-      "sha256": "33273df1192efb6be7545dbb2bd454b01dc9bc4970503a11c12ed1307ddcb5a7",
+      "url": "https://github.com/hhiroshell/kubectl-realname-diff/releases/download/v0.4.2/kubectl-realname-diff-linux-amd64.tar.gz",
+      "sha256": "c37763ffd03b63ad73337d3daf12e1a717dc3f7e0609f7f63679e03a6af5d01d",
       "bin": "kubectl-realname_diff",
       "files": [
         {
