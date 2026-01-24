@@ -1,12 +1,12 @@
 {
   "plugin": "moco",
-  "version": "v0.32.0",
+  "version": "v0.33.0",
   "homepage": "https://github.com/cybozu-go/moco",
   "description": "kubectl-moco is a kubectl plugin for controlling MySQL clusters created by the MySQL operator MOCO.\nMOCO is a MySQL operator on Kubernetes.\nIts primary function is to manage MySQL clusters using GTID-based semi-synchronous replication.\nIt does not manage group replication clusters.\nRead more documentation at: https://cybozu-go.github.io/moco/index.html\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/cybozu-go/moco/releases/download/v0.32.0/kubectl-moco_v0.32.0_darwin_arm64.tar.gz",
-      "sha256": "a744f8b411c61a45675de20cfddfbc9ebe23c9eb32ee97d4161ee5827989aad8",
+      "url": "https://github.com/cybozu-go/moco/releases/download/v0.33.0/kubectl-moco_v0.33.0_darwin_arm64.tar.gz",
+      "sha256": "4d333c7ccaca563aefe8b7607851d8cf9324e762975def98654a4bd6ee935c1d",
       "bin": "kubectl-moco",
       "files": [
         {
@@ -20,8 +20,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/cybozu-go/moco/releases/download/v0.32.0/kubectl-moco_v0.32.0_linux_arm64.tar.gz",
-      "sha256": "9888b657871af5957fc455cfe6aed853df978c57445524e8c436e31239fe4148",
+      "url": "https://github.com/cybozu-go/moco/releases/download/v0.33.0/kubectl-moco_v0.33.0_linux_arm64.tar.gz",
+      "sha256": "f57af922c4f6d7eae7e4e2009da886a444b15a4d663d21136864b621994863ab",
       "bin": "kubectl-moco",
       "files": [
         {
@@ -35,8 +35,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/cybozu-go/moco/releases/download/v0.32.0/kubectl-moco_v0.32.0_darwin_amd64.tar.gz",
-      "sha256": "0d51f82d9fa7040a63a2b4850bdde4453b2e6eff6d32b03313885de0babe1674",
+      "url": "https://github.com/cybozu-go/moco/releases/download/v0.33.0/kubectl-moco_v0.33.0_darwin_amd64.tar.gz",
+      "sha256": "f81bd85bfb86cbd1df7cf889a7878bc7e4ed5454c357d1be433a943cdb1c8ca5",
       "bin": "kubectl-moco",
       "files": [
         {
@@ -50,8 +50,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/cybozu-go/moco/releases/download/v0.32.0/kubectl-moco_v0.32.0_linux_amd64.tar.gz",
-      "sha256": "93ed10d8dbafaedcf922a85ddf9435d2517703bd02ada92080850ea16baec097",
+      "url": "https://github.com/cybozu-go/moco/releases/download/v0.33.0/kubectl-moco_v0.33.0_linux_amd64.tar.gz",
+      "sha256": "dc082fee45c30a45688bef44f60694003f6c325fae7e4518231486516dccce0d",
       "bin": "kubectl-moco",
       "files": [
         {
