@@ -1,0 +1,98 @@
+{
+  "plugin": "openunison-cli",
+  "version": "v1.0.0",
+  "homepage": "https://github.com/OpenUnison/openunison-cli",
+  "description": "kubectl exec plugin that will launch a browser to authenticate you \nwithout having a pre-existing kubectl configuration file.  The first\ntime you execute this plugin, include the host of your OpenUnison \nserver and the plugin will launch a browser and authenticate you.  As\nyou work with kubectl it will keep your short-lived tokens updated and\nif they expire, automatically re-launch a browser window to authenticate\nyou.\n",
+  "archSrc": {
+    "aarch64-": {
+      "url": "https://nexus.tremolo.io/repository/openunison-cli/openunison-cli-v1.0.0-win.zip",
+      "sha256": "3b03a02c197d5a1b091f482c445f81717fd7dfd99e1f52c1d4016ea9d82997cb",
+      "bin": "openunison-cli.exe",
+      "files": [
+        {
+          "from": "openunison-cli.exe",
+          "to": "openunison-cli.exe"
+        },
+        {
+          "from": "LICENSE",
+          "to": "LICENSE"
+        }
+      ]
+    },
+    "aarch64-darwin": {
+      "url": "https://nexus.tremolo.io/repository/openunison-cli/openunison-cli-v1.0.0-macos.zip",
+      "sha256": "17c61e87dc201d4fdfe3d6cb45a5968e067a3519860708d8a6ab57e05c6621f0",
+      "bin": "openunison-cli",
+      "files": [
+        {
+          "from": "openunison-cli",
+          "to": "openunison-cli"
+        },
+        {
+          "from": "LICENSE",
+          "to": "LICENSE"
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://nexus.tremolo.io/repository/openunison-cli/openunison-cli-v1.0.0-linux.zip",
+      "sha256": "eb0c2c6d1b5ecb9f040469d35b98426cc2d1a45d302a32c9587dc39175702532",
+      "bin": "openunison-cli",
+      "files": [
+        {
+          "from": "openunison-cli",
+          "to": "openunison-cli"
+        },
+        {
+          "from": "LICENSE",
+          "to": "LICENSE"
+        }
+      ]
+    },
+    "x86_64-": {
+      "url": "https://nexus.tremolo.io/repository/openunison-cli/openunison-cli-v1.0.0-win.zip",
+      "sha256": "3b03a02c197d5a1b091f482c445f81717fd7dfd99e1f52c1d4016ea9d82997cb",
+      "bin": "openunison-cli.exe",
+      "files": [
+        {
+          "from": "openunison-cli.exe",
+          "to": "openunison-cli.exe"
+        },
+        {
+          "from": "LICENSE",
+          "to": "LICENSE"
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://nexus.tremolo.io/repository/openunison-cli/openunison-cli-v1.0.0-macos.zip",
+      "sha256": "17c61e87dc201d4fdfe3d6cb45a5968e067a3519860708d8a6ab57e05c6621f0",
+      "bin": "openunison-cli",
+      "files": [
+        {
+          "from": "openunison-cli",
+          "to": "openunison-cli"
+        },
+        {
+          "from": "LICENSE",
+          "to": "LICENSE"
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://nexus.tremolo.io/repository/openunison-cli/openunison-cli-v1.0.0-linux.zip",
+      "sha256": "eb0c2c6d1b5ecb9f040469d35b98426cc2d1a45d302a32c9587dc39175702532",
+      "bin": "openunison-cli",
+      "files": [
+        {
+          "from": "openunison-cli",
+          "to": "openunison-cli"
+        },
+        {
+          "from": "LICENSE",
+          "to": "LICENSE"
+        }
+      ]
+    }
+  }
+}

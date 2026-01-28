@@ -2,7 +2,7 @@
   "plugin": "oulogin",
   "version": "v0.0.7",
   "homepage": "https://github.com/TremoloSecurity/kubectl-login",
-  "description": "Launches a browser to login to the cluster via OpenUnison.  OpenUnison's \ncertificate MUST be trusted by the local system.  \n",
+  "description": "DEPRECATED - use the openunison-cli plugin instead.\nLaunches a browser to login to the cluster via OpenUnison.  OpenUnison's \ncertificate MUST be trusted by the local system.  \n",
   "archSrc": {
     "aarch64-": {
       "url": "https://nexus.tremolo.io/repository/oulogin/oulogin-0.0.7-win.zip",
