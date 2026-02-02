@@ -1,0 +1,52 @@
+{
+  "plugin": "reach",
+  "version": "v1.0.0",
+  "homepage": "https://github.com/amdadulbari/kubectl-reach",
+  "description": "Tests network connectivity from an existing Pod to a target (IP, DNS, or Service)\nby injecting an ephemeral debug container into the source Pod. Useful for\nverifying if NetworkPolicies or Service Meshes are blocking traffic. Requires\nKubernetes 1.25+ (EphemeralContainers). Does not restart application containers.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/amdadulbari/kubectl-reach/releases/download/v1.0.0/kubectl-reach_1.0.0_darwin_arm64.tar.gz",
+      "sha256": "940bfc290d9b8e7a9de5576728fd1a59d7a2dbc5ba55a077066a6a352e93223d",
+      "bin": "kubectl-reach",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/amdadulbari/kubectl-reach/releases/download/v1.0.0/kubectl-reach_1.0.0_linux_arm64.tar.gz",
+      "sha256": "fb676f51a379f12c193f7bbf9199b9a49ac96fcacb78fa5742e300432faf7fa6",
+      "bin": "kubectl-reach",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/amdadulbari/kubectl-reach/releases/download/v1.0.0/kubectl-reach_1.0.0_darwin_amd64.tar.gz",
+      "sha256": "0f27cc5ff707c998ea8e89db26cc00393b984b75ea381495bfd1605101e3b39f",
+      "bin": "kubectl-reach",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/amdadulbari/kubectl-reach/releases/download/v1.0.0/kubectl-reach_1.0.0_linux_amd64.tar.gz",
+      "sha256": "e26cf6bd9fce177626d24efa91c9006ba0e9cdfd08c28d35b4165c4d9a6964db",
+      "bin": "kubectl-reach",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}
