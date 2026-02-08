@@ -1,12 +1,12 @@
 {
   "plugin": "grep",
-  "version": "v1.28.0",
+  "version": "v1.29.0",
   "homepage": "https://github.com/guessi/kubectl-grep",
   "description": "Filter Kubernetes resources by matching their names\n\nExamples:\n\nList all pods in all namespaces\n$ kubectl grep pods --all-namespaces\n\nList all pods in namespace \"star-lab\" which contain the keyword \"flash\"\n$ kubectl grep pods -n star-lab flash\n\nNo more pipe, built-in grep :-)\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/guessi/kubectl-grep/releases/download/v1.28.0/kubectl-grep-Darwin-arm64.tar.gz",
-      "sha256": "21f87c8c3ce4717f5656b0c7b5d73a1140d1ddf543d2eff5c68a5f1ea415dc76",
+      "url": "https://github.com/guessi/kubectl-grep/releases/download/v1.29.0/kubectl-grep-Darwin-arm64.tar.gz",
+      "sha256": "bb282b8dd323e1e98ce165ad9224df0f2fa7b07a61716e27e50448a87a0137f7",
       "bin": "kubectl-grep",
       "files": [
         {
@@ -20,8 +20,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/guessi/kubectl-grep/releases/download/v1.28.0/kubectl-grep-Linux-arm64.tar.gz",
-      "sha256": "dcc5ac97894312cd2add5c94b89b260f650517e7ae4f743c19438cf79826b81b",
+      "url": "https://github.com/guessi/kubectl-grep/releases/download/v1.29.0/kubectl-grep-Linux-arm64.tar.gz",
+      "sha256": "1de09d36cbc067e2d35964419b67c090602e5443f85d90f08cacaf7bf299618c",
       "bin": "kubectl-grep",
       "files": [
         {
@@ -35,8 +35,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/guessi/kubectl-grep/releases/download/v1.28.0/kubectl-grep-Darwin-x86_64.tar.gz",
-      "sha256": "2e854a710b05eef8e856ce41c3aa413ae7f431e09af534f2157dd8f20641378c",
+      "url": "https://github.com/guessi/kubectl-grep/releases/download/v1.29.0/kubectl-grep-Darwin-x86_64.tar.gz",
+      "sha256": "8581596385f269f1b95c434fe3c6a2316fc2faa675ad30dbeffe09af4bc7dbd9",
       "bin": "kubectl-grep",
       "files": [
         {
@@ -50,8 +50,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/guessi/kubectl-grep/releases/download/v1.28.0/kubectl-grep-Linux-x86_64.tar.gz",
-      "sha256": "5b93084afce316132669d362195ebb26ec3c98e49ab1fac27ae6369154ca8d54",
+      "url": "https://github.com/guessi/kubectl-grep/releases/download/v1.29.0/kubectl-grep-Linux-x86_64.tar.gz",
+      "sha256": "e113424b5d04d64ae758932ab47c33e9da1d48f99a52b1cf480768415a2427f8",
       "bin": "kubectl-grep",
       "files": [
         {
