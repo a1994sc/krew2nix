@@ -1,12 +1,12 @@
 {
   "plugin": "blame",
-  "version": "v0.0.12",
+  "version": "v0.1.0",
   "homepage": "https://github.com/knight42/kubectl-blame",
   "description": "Annotate each line in the given resource's YAML with information from the managedFields to show\nwho last modified the field.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/knight42/kubectl-blame/releases/download/v0.0.12/kubectl-blame-v0.0.12-darwin-arm64.tar.gz",
-      "sha256": "b39813153d2268f82f59c3fc9f7e026dafb95e0b1bdc7dd305fb943240a5518f",
+      "url": "https://github.com/knight42/kubectl-blame/releases/download/v0.1.0/kubectl-blame-v0.1.0-darwin-arm64.tar.gz",
+      "sha256": "5b8b4a500a8922feefdb39b4d9b1f52537c5410596d177912fb6c06afd7ccf1e",
       "bin": "kubectl-blame",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/knight42/kubectl-blame/releases/download/v0.0.12/kubectl-blame-v0.0.12-linux-arm64.tar.gz",
-      "sha256": "a4808671c95abd15d5fd4211be322437294c14bc25c53dd4e5cb343c8b28dc06",
+      "url": "https://github.com/knight42/kubectl-blame/releases/download/v0.1.0/kubectl-blame-v0.1.0-linux-arm64.tar.gz",
+      "sha256": "61b2727d1c0663116b96ed9bd1167f19a6c59d3bcddcd5574a4f745e05c98a01",
       "bin": "kubectl-blame",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/knight42/kubectl-blame/releases/download/v0.0.12/kubectl-blame-v0.0.12-darwin-amd64.tar.gz",
-      "sha256": "12459ebbf19e8dd90fd8cf58a025528c7cce3da47b7f5ad64484ff0fc1c12ec3",
+      "url": "https://github.com/knight42/kubectl-blame/releases/download/v0.1.0/kubectl-blame-v0.1.0-darwin-amd64.tar.gz",
+      "sha256": "e24d8bdab19c350a9f4859c7c18002f7b71fdb42c2601aae52d7089e637f6d2e",
       "bin": "kubectl-blame",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/knight42/kubectl-blame/releases/download/v0.0.12/kubectl-blame-v0.0.12-linux-amd64.tar.gz",
-      "sha256": "47a625857480ec2a7a9e729d9c271711911105b29ef4338a69a731ff5fd50d7b",
+      "url": "https://github.com/knight42/kubectl-blame/releases/download/v0.1.0/kubectl-blame-v0.1.0-linux-amd64.tar.gz",
+      "sha256": "013fd5e31ba6b4b19a5f2f9304bbb51b9dae7a2c86f7a6bdc1d1a6d5e50cbc16",
       "bin": "kubectl-blame",
       "files": [
         {
