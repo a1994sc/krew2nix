@@ -1,12 +1,12 @@
 {
   "plugin": "mittens",
-  "version": "v0.0.10",
+  "version": "v0.0.12",
   "homepage": "https://github.com/Lappihuan/mittens",
-  "description": "Interactively proxy Kubernetes Services by deploying\nmitmproxy intercepting proxy sidecars for traffic inspection.\n",
+  "description": "Interactively proxy Kubernetes Services by deploying\nmitmproxy intercepting proxy sidecars.\n",
   "archSrc": {
     "aarch64-linux": {
-      "url": "https://github.com/Lappihuan/mittens/releases/download/v0.0.10/mittens_v0.0.10_linux_arm64.tar.gz",
-      "sha256": "447b92eae3c0f7126ffc054f29cf2efefd9f09481998898d4ec1a6947d0d1dbc",
+      "url": "https://github.com/Lappihuan/mittens/releases/download/v0.0.12/mittens_v0.0.12_linux_arm64.tar.gz",
+      "sha256": "937661b54ab2de92a7ee3404a7fb2d4fce6f7803aad9d46fd055b87afa9d14c0",
       "bin": "kubectl-mittens",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/Lappihuan/mittens/releases/download/v0.0.10/mittens_v0.0.10_linux_amd64.tar.gz",
-      "sha256": "5414ec916adf8672ed83e2992de230545a14cee55d89a1601b9c9e2c581d7a20",
+      "url": "https://github.com/Lappihuan/mittens/releases/download/v0.0.12/mittens_v0.0.12_linux_amd64.tar.gz",
+      "sha256": "02c2f24296ee0cb66952ca4e42161b8c7e9e24f804eb3de8e8c1513380579b7a",
       "bin": "kubectl-mittens",
       "files": [
         {
