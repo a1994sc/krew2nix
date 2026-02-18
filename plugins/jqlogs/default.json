@@ -1,0 +1,52 @@
+{
+  "plugin": "jqlogs",
+  "version": "v1.0.0",
+  "homepage": "https://github.com/shihyuho/kubectl-jqlogs",
+  "description": "Formats JSON logs from pods using a built-in jq processor. It behaves like\n\"kubectl logs\" but automatically detects and prettifies valid JSON lines.\nNon-JSON lines are printed as-is (Hybrid Processing). It supports all std\nkubectl logs flags mode, rich colors, and YAML output.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/shihyuho/kubectl-jqlogs/releases/download/v1.0.0/kubectl-jqlogs_Darwin_arm64.tar.gz",
+      "sha256": "b5d5f6a4537a613756513b792841b3e0a68432ab99ad5e81914da50dfe367c03",
+      "bin": "kubectl-jqlogs",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/shihyuho/kubectl-jqlogs/releases/download/v1.0.0/kubectl-jqlogs_Linux_arm64.tar.gz",
+      "sha256": "eb530a83b04bd3f4c4d7d983bdb54bf1a21d45e2f74788105d70d24f57145774",
+      "bin": "kubectl-jqlogs",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/shihyuho/kubectl-jqlogs/releases/download/v1.0.0/kubectl-jqlogs_Darwin_x86_64.tar.gz",
+      "sha256": "9b1e9f3bb1ee41e4d8b6f513183248a5ec04a0c2a64e0cf57a6e76e6c3a0ef84",
+      "bin": "kubectl-jqlogs",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/shihyuho/kubectl-jqlogs/releases/download/v1.0.0/kubectl-jqlogs_Linux_x86_64.tar.gz",
+      "sha256": "01bfffbecee7fe6f51bcac0094dc690e0a0a744a8baef3c5868c72ae40e79cd1",
+      "bin": "kubectl-jqlogs",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

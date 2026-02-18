@@ -1,0 +1,52 @@
+{
+  "plugin": "podump",
+  "version": "v1.7.2",
+  "homepage": "https://github.com/fnzv/kubectl-podump",
+  "description": "A command-line tool to quickly inspect network traffic.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/fnzv/kubectl-podump/releases/download/v1.7.2/podump_darwin_arm64.tar.gz",
+      "sha256": "a9497847f8ec89e85fe1fd62e1bbf8ec5978b83ca913df6bb2129468c5ea7900",
+      "bin": "kubectl-podump",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/fnzv/kubectl-podump/releases/download/v1.7.2/podump_linux_arm64.tar.gz",
+      "sha256": "c85e7d6a63e356cb8de1085829f02cc36d6d8df0226179c8f4c3200b31f4acb1",
+      "bin": "kubectl-podump",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/fnzv/kubectl-podump/releases/download/v1.7.2/podump_darwin_amd64.tar.gz",
+      "sha256": "5dadd0f7d34058a92f3f4f1746a08b0a4295ea919d9b6a7ed96fcafe5bf97d47",
+      "bin": "kubectl-podump",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/fnzv/kubectl-podump/releases/download/v1.7.2/podump_linux_amd64.tar.gz",
+      "sha256": "55bc7fbda3cbc3e945a97395c31bb629a08a38b60baddc86bb9e12bd5374f9ff",
+      "bin": "kubectl-podump",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}
