@@ -1,12 +1,12 @@
 {
   "plugin": "tns-csi",
-  "version": "v0.4.6",
+  "version": "v0.4.7",
   "homepage": "https://github.com/fenio/tns-csi",
   "description": "kubectl plugin for managing TrueNAS CSI driver volumes.\n\nCommands:\n- list: List all managed volumes with clone relationships\n- list-snapshots: List snapshots with source volumes\n- list-orphaned: Find volumes without matching PVCs\n- describe: Show detailed volume information\n- health: Check health of all volumes\n- troubleshoot: Diagnose PVC issues\n- summary: Dashboard overview of all resources\n- cleanup: Delete orphaned volumes safely\n- mark-adoptable: Mark volumes for DR/adoption\n- adopt: Generate PV manifest for adoption\n- status: Show volume status from TrueNAS\n- connectivity: Test TrueNAS connection\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/fenio/tns-csi/releases/download/plugin-v0.4.6/kubectl-tns_csi-darwin-arm64.tar.gz",
-      "sha256": "0c21df04276db956d2d0baa17c8101632c2f7eb91197e7266eecdc6a99ade321",
+      "url": "https://github.com/fenio/tns-csi/releases/download/plugin-v0.4.7/kubectl-tns_csi-darwin-arm64.tar.gz",
+      "sha256": "189993a1e978ec348cadbbc66e7cdbefa463c52ed89fd4f3559699b70af4cfe9",
       "bin": "kubectl-tns_csi",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/fenio/tns-csi/releases/download/plugin-v0.4.6/kubectl-tns_csi-linux-arm64.tar.gz",
-      "sha256": "c8852ddad6f6aaf5f4fca0c473788cac9ba1c1a2abd53a43a0e71e128a34d228",
+      "url": "https://github.com/fenio/tns-csi/releases/download/plugin-v0.4.7/kubectl-tns_csi-linux-arm64.tar.gz",
+      "sha256": "f61c9b1044c0e2b30d22a7915b53c31aef205d806715f4871f412f9a3492b473",
       "bin": "kubectl-tns_csi",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/fenio/tns-csi/releases/download/plugin-v0.4.6/kubectl-tns_csi-darwin-amd64.tar.gz",
-      "sha256": "174eddf935f8659ef60fdcd6b1b0daa00c93ab109bbd50b300a1b63c934fb982",
+      "url": "https://github.com/fenio/tns-csi/releases/download/plugin-v0.4.7/kubectl-tns_csi-darwin-amd64.tar.gz",
+      "sha256": "0bb9de03ecececb9f9a1ad248b338c698b9fccdf63ff471e0308321035318b7d",
       "bin": "kubectl-tns_csi",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/fenio/tns-csi/releases/download/plugin-v0.4.6/kubectl-tns_csi-linux-amd64.tar.gz",
-      "sha256": "418a69ac8fba1b62542796f6dc6d95c961ef4a9666c0372d02bb3a9f63dad537",
+      "url": "https://github.com/fenio/tns-csi/releases/download/plugin-v0.4.7/kubectl-tns_csi-linux-amd64.tar.gz",
+      "sha256": "81b970b8f43a6a3c9b734766e4106cdadcfa8fe870003f54415f2144c5f072f2",
       "bin": "kubectl-tns_csi",
       "files": [
         {
