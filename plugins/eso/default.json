@@ -1,0 +1,68 @@
+{
+  "plugin": "eso",
+  "version": "v0.2.0",
+  "homepage": "https://github.com/josegonzalez/kubectl-eso",
+  "description": "Manage Secrets within the External Secrets Operator ecosystem.\n\nkubectl-eso provides commands for managing ExternalSecret and SecretStore resources,\nsimplifying common workflows when working with the External Secrets Operator.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/josegonzalez/kubectl-eso/releases/download/v0.2.0/kubectl-eso_0.2.0_darwin_arm64.tar.gz",
+      "sha256": "03b907e740ab4a83923bcee0f3aebfc038b55ee2ad31be8a4f3183bf21a2b8eb",
+      "bin": "kubectl-eso",
+      "files": [
+        {
+          "from": "kubectl-eso",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/josegonzalez/kubectl-eso/releases/download/v0.2.0/kubectl-eso_0.2.0_linux_arm64.tar.gz",
+      "sha256": "c87f4466080b4f90a3e4d3fa2cbd581d90a496a64b55dd24d056a8f555d1d661",
+      "bin": "kubectl-eso",
+      "files": [
+        {
+          "from": "kubectl-eso",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/josegonzalez/kubectl-eso/releases/download/v0.2.0/kubectl-eso_0.2.0_darwin_amd64.tar.gz",
+      "sha256": "3798cd3a300ccd6b3a59b1a30347050cbb7daf1fa8f435042401742efbf3c717",
+      "bin": "kubectl-eso",
+      "files": [
+        {
+          "from": "kubectl-eso",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/josegonzalez/kubectl-eso/releases/download/v0.2.0/kubectl-eso_0.2.0_linux_amd64.tar.gz",
+      "sha256": "a7b94897d9dc4ec19caf40e962e4811d02a7560dab6ad736abef205b52c51274",
+      "bin": "kubectl-eso",
+      "files": [
+        {
+          "from": "kubectl-eso",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}
