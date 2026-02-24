@@ -1,12 +1,12 @@
 {
   "plugin": "pvmigrate",
-  "version": "v0.12.1",
+  "version": "v0.12.2",
   "homepage": "https://github.com/replicatedhq/pvmigrate",
   "description": "This plugin migrates PVs from one StorageClass to another, changing\nPVCs and restarting pods as required.\n\nUsage:\n  $ kubectl pvmigrate --source-sc myoriginalsc --dest-sc mynewsc\n\n  where both `myoriginalsc` and `mynewsc` are StorageClasses.\n\nFor additional options:\n  $ kubectl pvmigrate --help\n",
   "archSrc": {
     "x86_64-darwin": {
-      "url": "https://github.com/replicatedhq/pvmigrate/releases/download/v0.12.1/pvmigrate_darwin_amd64.tar.gz",
-      "sha256": "951fa949374cb9a17b5cc7378210c118259814e7aeb6612767aaf8d3e9d8637f",
+      "url": "https://github.com/replicatedhq/pvmigrate/releases/download/v0.12.2/pvmigrate_darwin_amd64.tar.gz",
+      "sha256": "da5f3007bf68e62556324a6c6f18748aa7caa0125e2c2a07273b14067e72948a",
       "bin": "pvmigrate",
       "files": [
         {
@@ -20,8 +20,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/replicatedhq/pvmigrate/releases/download/v0.12.1/pvmigrate_linux_amd64.tar.gz",
-      "sha256": "dcac1d5a0375ce95fa1071a7cc19e6a8abcde8cf61c36384072625716b069cb9",
+      "url": "https://github.com/replicatedhq/pvmigrate/releases/download/v0.12.2/pvmigrate_linux_amd64.tar.gz",
+      "sha256": "b82883a5799f41336511f47c113d10c36125edc6cb8972e4ec11f40d0570ad2e",
       "bin": "pvmigrate",
       "files": [
         {
