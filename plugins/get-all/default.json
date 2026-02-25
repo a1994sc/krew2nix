@@ -1,12 +1,12 @@
 {
   "plugin": "get-all",
-  "version": "v1.4.2",
+  "version": "v1.4.3",
   "homepage": "https://github.com/stackitcloud/kubectl-get-all",
   "description": "Like 'kubectl get all', but get _really_ all resources\n\nFor a complete overview of all resources in a kubernetes cluster,\n`kubectl get all --all-namespaces`\nis not enough, because it simply does not show everything. This helper\nlists _really_ all resources on the cluster.\n\nMore on https://github.com/stackitcloud/kubectl-get-all/blob/main/doc/USAGE.md\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/stackitcloud/kubectl-get-all/releases/download/v1.4.2/get-all_v1.4.2_darwin_arm64.tar.gz",
-      "sha256": "9730c446610d5767631526c25d95e4d27ce56cf2b2b4ffb7f68afee5fad97734",
+      "url": "https://github.com/stackitcloud/kubectl-get-all/releases/download/v1.4.3/get-all_v1.4.3_darwin_arm64.tar.gz",
+      "sha256": "54e9fc61c2b3d669c1c80d31ed035421a07b5b85f41bd333bd3413f316aa2e1b",
       "bin": "get-all",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/stackitcloud/kubectl-get-all/releases/download/v1.4.2/get-all_v1.4.2_linux_arm64.tar.gz",
-      "sha256": "f1e5b5c9b87e90ee0ddaab3846e43dbce63c3b8e1d2757492404bc0a31ec8414",
+      "url": "https://github.com/stackitcloud/kubectl-get-all/releases/download/v1.4.3/get-all_v1.4.3_linux_arm64.tar.gz",
+      "sha256": "4d472e7cfee9329c9b66172f915732516ccc0fd85131bd5628863eedce24ca6c",
       "bin": "get-all",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/stackitcloud/kubectl-get-all/releases/download/v1.4.2/get-all_v1.4.2_darwin_amd64.tar.gz",
-      "sha256": "47a2538096e42e5cf8ff90ea3a7132003c5519bee170eadbaa8841e9075e2462",
+      "url": "https://github.com/stackitcloud/kubectl-get-all/releases/download/v1.4.3/get-all_v1.4.3_darwin_amd64.tar.gz",
+      "sha256": "1ebdfdee73b442c441e4d7866abca4fb0c09b736a533185a7a73da397ba4a79b",
       "bin": "get-all",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/stackitcloud/kubectl-get-all/releases/download/v1.4.2/get-all_v1.4.2_linux_amd64.tar.gz",
-      "sha256": "e51d7a57c2b24bd135ab597f3eddac1b1277c078703997e13f9cebe31b865229",
+      "url": "https://github.com/stackitcloud/kubectl-get-all/releases/download/v1.4.3/get-all_v1.4.3_linux_amd64.tar.gz",
+      "sha256": "95cab8485456ef96faf9b2161413b259b719e6e4cb0b82ebb4bf6097a4a3e4f4",
       "bin": "get-all",
       "files": [
         {
