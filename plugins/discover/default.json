@@ -1,12 +1,12 @@
 {
   "plugin": "discover",
-  "version": "v0.1.7",
+  "version": "v0.1.8",
   "homepage": "https://github.com/mateimicu/kdiscover",
   "description": "Discover all the cluster from a provider (AWS, GCP, Azure, etc)\nand export the kubeconfig credentials.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/mateimicu/kdiscover/releases/download/v0.1.7/kdiscover_v0.1.7_darwin_arm64.tar.gz",
-      "sha256": "8e3f1f6543039299943fef689d9573c724a15c79f356133f4bd7bbc4cea9edf0",
+      "url": "https://github.com/mateimicu/kdiscover/releases/download/v0.1.8/kdiscover_v0.1.8_darwin_arm64.tar.gz",
+      "sha256": "90d2c76c8493c8313a7c56bb5602ef43e2d3055de66f00391a6b99f8d83b3838",
       "bin": "kubectl-discover",
       "files": [
         {
@@ -20,8 +20,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/mateimicu/kdiscover/releases/download/v0.1.7/kdiscover_v0.1.7_linux_arm64.tar.gz",
-      "sha256": "5dd4cc5ce6c3dd79c6fd6cb55c4559e236ac16280a0bf258da56f5032cb1adc6",
+      "url": "https://github.com/mateimicu/kdiscover/releases/download/v0.1.8/kdiscover_v0.1.8_linux_arm64.tar.gz",
+      "sha256": "ae902286abcbda57107ecd6382dcdef24e61ff6ebb9622fc46f52084ed9d9b46",
       "bin": "kubectl-discover",
       "files": [
         {
@@ -35,8 +35,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/mateimicu/kdiscover/releases/download/v0.1.7/kdiscover_v0.1.7_darwin_amd64.tar.gz",
-      "sha256": "98be56b2bbeb1099974c6657c555a41dfdeb408a97e0b4a535906d751ebaa271",
+      "url": "https://github.com/mateimicu/kdiscover/releases/download/v0.1.8/kdiscover_v0.1.8_darwin_amd64.tar.gz",
+      "sha256": "ac78ba020a58565ec286be3e0390446d3b78bda3adbbe8093a1265938a400413",
       "bin": "kubectl-discover",
       "files": [
         {
@@ -50,8 +50,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/mateimicu/kdiscover/releases/download/v0.1.7/kdiscover_v0.1.7_linux_amd64.tar.gz",
-      "sha256": "64ce6eca26aa168b60612f98d22115ddb7ad3a6212891f6b5f235b18627971ae",
+      "url": "https://github.com/mateimicu/kdiscover/releases/download/v0.1.8/kdiscover_v0.1.8_linux_amd64.tar.gz",
+      "sha256": "bb4906724dc4f82b593e039d7d32c253b45a9c552faed0932d388a3ddeb6ce95",
       "bin": "kubectl-discover",
       "files": [
         {
