@@ -1,12 +1,12 @@
 {
   "plugin": "kubetail",
-  "version": "v0.12.0",
+  "version": "v0.12.1",
   "homepage": "https://github.com/kubetail-org/kubetail",
   "description": "Kubetail is a general-purpose logging tool for Kubernetes, optimized for\ntailing logs across multi-container workloads in real-time. With Kubetail,\nyou can view logs from all the containers in a workload merged into a single,\nchronological timeline, delivered to your browser or terminal.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/kubetail-org/kubetail/releases/download/cli%2Fv0.12.0/kubetail-darwin-arm64.tar.gz",
-      "sha256": "bb5553b9f045027a53d158c9b2f77c54261a987bbf4c6253a19b85e6315dd941",
+      "url": "https://github.com/kubetail-org/kubetail/releases/download/cli%2Fv0.12.1/kubetail-darwin-arm64.tar.gz",
+      "sha256": "462882901e589a78026070ffda7bd678c98d893647f25a2e23713dfbc06cd1a6",
       "bin": "kubetail",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/kubetail-org/kubetail/releases/download/cli%2Fv0.12.0/kubetail-linux-arm64.tar.gz",
-      "sha256": "97320f6c02c5e9db345c6bb3198ae71e99b9deab98e840ab26b16a756de9744d",
+      "url": "https://github.com/kubetail-org/kubetail/releases/download/cli%2Fv0.12.1/kubetail-linux-arm64.tar.gz",
+      "sha256": "4258467a739e0fc7f31f95d8fdacbd0677f2c0d78fe820f8cd3a0604640769a0",
       "bin": "kubetail",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/kubetail-org/kubetail/releases/download/cli%2Fv0.12.0/kubetail-darwin-amd64.tar.gz",
-      "sha256": "8460d98f0115a055b0f78794ab509900f175fa834780beee715fc87abf97c87a",
+      "url": "https://github.com/kubetail-org/kubetail/releases/download/cli%2Fv0.12.1/kubetail-darwin-amd64.tar.gz",
+      "sha256": "fe35707f8fa09986e6bf6975cb2264e96eea15a4e4c312e4ae4960c5ecc212c0",
       "bin": "kubetail",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/kubetail-org/kubetail/releases/download/cli%2Fv0.12.0/kubetail-linux-amd64.tar.gz",
-      "sha256": "d02ab85d5f0295c59a5887fa0f614527decdba49459877ff929850a364f3ac4f",
+      "url": "https://github.com/kubetail-org/kubetail/releases/download/cli%2Fv0.12.1/kubetail-linux-amd64.tar.gz",
+      "sha256": "239d69234850c5378300324317134a55ac8868282be5b08669a710f0f23d2241",
       "bin": "kubetail",
       "files": [
         {
