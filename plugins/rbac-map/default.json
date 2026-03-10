@@ -1,0 +1,52 @@
+{
+  "plugin": "rbac-map",
+  "version": "v0.2.1",
+  "homepage": "https://github.com/hrishin/kubectl-rbacmap",
+  "description": "kubectl-rbac-map finds all permissions associated with Kubernetes subjects\nby inspecting Roles, ClusterRoles, RoleBindings, and ClusterRoleBindings.\nIt resolves complex mappings (like AWS IAM ARNs to EKS identities) and\noutputs the exact access granted in clean tables, markdown, or CSV.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/hrishin/kubectl-rbacmap/releases/download/v0.2.1/kubectl-rbacmap_Darwin_arm64.tar.gz",
+      "sha256": "da3d38354ffc121b836b680a75833ca431b5c7e45908635559ae01f9eb98a9b4",
+      "bin": "kubectl-rbac-map",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/hrishin/kubectl-rbacmap/releases/download/v0.2.1/kubectl-rbacmap_Linux_arm64.tar.gz",
+      "sha256": "28669e5727469609e863d2ca21a5e173299ece9e0b07c13c771f3b5c1c14bdd4",
+      "bin": "kubectl-rbac-map",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/hrishin/kubectl-rbacmap/releases/download/v0.2.1/kubectl-rbacmap_Darwin_x86_64.tar.gz",
+      "sha256": "89d0ba9ee71cb7c256cd7ec5a4c49e78283a8820b0684bd5ae70200d283d8171",
+      "bin": "kubectl-rbac-map",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/hrishin/kubectl-rbacmap/releases/download/v0.2.1/kubectl-rbacmap_Linux_x86_64.tar.gz",
+      "sha256": "623ed2a79f5d698e73586086aa9abacfe795b9a9a7f4be6ff4cd654d72433b86",
+      "bin": "kubectl-rbac-map",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}
