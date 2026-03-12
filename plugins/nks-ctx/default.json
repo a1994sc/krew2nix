@@ -1,0 +1,53 @@
+{
+  "plugin": "nks-ctx",
+  "version": "v0.1.0",
+  "homepage": "https://github.com/consol-lee/nks-ctx",
+  "description": "kubectl plugin for managing NKS (Ncloud Kubernetes Service) cluster contexts\nusing NCP IAM authentication.\n\nFeatures:\n- List all NKS clusters in your NCP account\n- Automatically configure kubeconfig for all clusters\n- Switch between cluster contexts (similar to kubectl ctx)\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/consol-lee/nks-ctx/releases/download/v0.1.0/kubectl-nks_ctx-darwin-arm64.tar.gz",
+      "sha256": "7832095302e1636cd224d6a18052bab85e6af9b397eacdac5a740246ace52289",
+      "bin": "kubectl-nks_ctx",
+      "files": [
+        {
+          "from": "kubectl-nks_ctx",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/consol-lee/nks-ctx/releases/download/v0.1.0/kubectl-nks_ctx-darwin-amd64.tar.gz",
+      "sha256": "7e81f063cf23c2a9bea4b190f642b9f540d8cda69799469dca6be4c71ed25496",
+      "bin": "kubectl-nks_ctx",
+      "files": [
+        {
+          "from": "kubectl-nks_ctx",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/consol-lee/nks-ctx/releases/download/v0.1.0/kubectl-nks_ctx-linux-amd64.tar.gz",
+      "sha256": "7f90118f2be6cf859e31d023286c6909cd568628537acd9f884f3fd065c488b8",
+      "bin": "kubectl-nks_ctx",
+      "files": [
+        {
+          "from": "kubectl-nks_ctx",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

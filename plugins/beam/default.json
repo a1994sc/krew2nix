@@ -1,0 +1,52 @@
+{
+  "plugin": "beam",
+  "version": "v0.1.0",
+  "homepage": "https://github.com/codeadict/kubectl-beam",
+  "description": "kubectl-beam is a kubectl plugin for connecting to BEAM (Erlang/Elixir)\nnodes running in Kubernetes pods with full TTY support and optional\nObserver GUI integration.\n\nFeatures:\n- Connect to Erlang nodes using erl or Elixir nodes using iex\n- Support for both short names and long names\n- Automatic cookie detection from common paths\n- Erlang Observer GUI support\n- Full TTY support with proper terminal handling\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/codeadict/kubectl-beam/releases/download/v0.1.0/kubectl-beam.tar.gz",
+      "sha256": "064957862d8a927351c49c7581f7de0e623d6c3323e71b904391f7aeb9e52a72",
+      "bin": "kubectl-beam",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/codeadict/kubectl-beam/releases/download/v0.1.0/kubectl-beam.tar.gz",
+      "sha256": "064957862d8a927351c49c7581f7de0e623d6c3323e71b904391f7aeb9e52a72",
+      "bin": "kubectl-beam",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/codeadict/kubectl-beam/releases/download/v0.1.0/kubectl-beam.tar.gz",
+      "sha256": "064957862d8a927351c49c7581f7de0e623d6c3323e71b904391f7aeb9e52a72",
+      "bin": "kubectl-beam",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/codeadict/kubectl-beam/releases/download/v0.1.0/kubectl-beam.tar.gz",
+      "sha256": "064957862d8a927351c49c7581f7de0e623d6c3323e71b904391f7aeb9e52a72",
+      "bin": "kubectl-beam",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}
