@@ -1,12 +1,12 @@
 {
   "plugin": "viewnode",
-  "version": "v0.9.5",
+  "version": "v0.9.6",
   "homepage": "https://github.com/NTTDATA-DACH/viewnode",
   "description": "This plugin displays nodes with their pods and containers.\nIt provides information about requested and used resources, e.g. memory.\nIt supports filtering of nodes and pods.\nIt is very useful when you need to monitor multiple resources like nodes, pods or containers\nin a dynamic environment like a CI/CD platform where pods live and die frequently.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/NTTDATA-DACH/viewnode/releases/download/v0.9.5/viewnode_v0.9.5_darwin_arm64.tar.gz",
-      "sha256": "3c2a6cf792d8a7bbdabbaa88f23cf13af6f22aaee654a3ab88eb6abb09af2852",
+      "url": "https://github.com/NTTDATA-DACH/viewnode/releases/download/v0.9.6/viewnode_v0.9.6_darwin_arm64.tar.gz",
+      "sha256": "e5eb687d0cc317357814814a54047645de37b307d42e78e9eb9b22c7fd36a6d1",
       "bin": "viewnode",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/NTTDATA-DACH/viewnode/releases/download/v0.9.5/viewnode_v0.9.5_darwin_amd64.tar.gz",
-      "sha256": "adf43eca72c6e2007485011e64c197ae4f5f02431c16a5c205db51af2c8a2a60",
+      "url": "https://github.com/NTTDATA-DACH/viewnode/releases/download/v0.9.6/viewnode_v0.9.6_darwin_amd64.tar.gz",
+      "sha256": "40a8428f40210919ffd5370b7c595b9fdf953a85c72bb98e855effee418a53d8",
       "bin": "viewnode",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/NTTDATA-DACH/viewnode/releases/download/v0.9.5/viewnode_v0.9.5_linux_amd64.tar.gz",
-      "sha256": "3f10947fc1676e83a5924e86222623282ba57875b66f7d17ced4d58df22c5d7e",
+      "url": "https://github.com/NTTDATA-DACH/viewnode/releases/download/v0.9.6/viewnode_v0.9.6_linux_amd64.tar.gz",
+      "sha256": "939f196e40e05a39c77aa4f29b8c07952d0b21f68a23ee9987aec032e63b97c9",
       "bin": "viewnode",
       "files": [
         {

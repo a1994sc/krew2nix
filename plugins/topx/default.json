@@ -1,0 +1,41 @@
+{
+  "plugin": "topx",
+  "version": "v1.2.5",
+  "homepage": "https://github.com/mms-gianni/kubectl-topx",
+  "description": "kubectl-topx is a Kubernetes CLI tool for monitoring CPU and memory \nresources (requests, limits, and actual usage) in real-time.\n\nFeatures:\n- Shows CPU and memory requests, limits, and current usage\n- Live updates with configurable refresh intervals\n- Progress bars for visual representation\n- Color-coded output based on usage level\n- Historical metrics with visual histograms\n\nPrerequisites:\n- Metrics Server must be installed in your Kubernetes cluster\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/mms-gianni/kubectl-topx/releases/download/v1.2.5/kubectl-topx-v1.2.5-darwin-arm64.tar.gz",
+      "sha256": "4e936d33153f66dc096669eb7c9e5a1dea6faf78d73b482c6f784b13898ec4d4",
+      "bin": "kubectl-topx",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/mms-gianni/kubectl-topx/releases/download/v1.2.5/kubectl-topx-v1.2.5-darwin-amd64.tar.gz",
+      "sha256": "52a238c9e2807d275653f1a9467706df55366d97179e8316ec8ff22dae87d6f4",
+      "bin": "kubectl-topx",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/mms-gianni/kubectl-topx/releases/download/v1.2.5/kubectl-topx-v1.2.5-linux-amd64.tar.gz",
+      "sha256": "dbe649d04d5fba27fbe7dafc5de6f3ecc0e5fe8b88dc7192e511cdf67917ac59",
+      "bin": "kubectl-topx",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}
