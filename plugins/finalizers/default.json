@@ -1,0 +1,68 @@
+{
+  "plugin": "finalizers",
+  "version": "v0.0.1",
+  "homepage": "https://github.com/tremes/kubectl-finalizers",
+  "description": "A kubectl plugin for discovering and fixing resources blocked by pending finalizers.\n\nThis plugin helps Kubernetes administrators resolve resources that are stuck in a\ndeletion state by automatically clearing their finalizers. It can scan resources\nin a specific namespace or cluster-scoped resources.\n\nFeatures:\n- Identifies Kubernetes resources with pending deletion\n- Removes finalizer values from stuck resources\n- Supports namespace-specific and cluster-scoped resource scanning\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/tremes/kubectl-finalizers/releases/download/v0.0.1/kubectl-finalizers_Darwin_arm64.tar.gz",
+      "sha256": "12efbfa946093631298b6e0d471d4a455f846c5c061b18ce3e0bb56f6dc91aba",
+      "bin": "kubectl-finalizers",
+      "files": [
+        {
+          "from": "kubectl-finalizers",
+          "to": "kubectl-finalizers"
+        },
+        {
+          "from": "LICENSE",
+          "to": "LICENSE"
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/tremes/kubectl-finalizers/releases/download/v0.0.1/kubectl-finalizers_Linux_arm64.tar.gz",
+      "sha256": "d1d238614fde5b083c7c9142bcaa8c152a2d2d8385d7d62d51533d0e1a0e6df2",
+      "bin": "kubectl-finalizers",
+      "files": [
+        {
+          "from": "kubectl-finalizers",
+          "to": "kubectl-finalizers"
+        },
+        {
+          "from": "LICENSE",
+          "to": "LICENSE"
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/tremes/kubectl-finalizers/releases/download/v0.0.1/kubectl-finalizers_Darwin_x86_64.tar.gz",
+      "sha256": "91e3f28afdc1b7a83a00806207af5e4c8dafdd29019a4c72884e93f11fcad3ee",
+      "bin": "kubectl-finalizers",
+      "files": [
+        {
+          "from": "kubectl-finalizers",
+          "to": "kubectl-finalizers"
+        },
+        {
+          "from": "LICENSE",
+          "to": "LICENSE"
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/tremes/kubectl-finalizers/releases/download/v0.0.1/kubectl-finalizers_Linux_x86_64.tar.gz",
+      "sha256": "21969c88e56d2d00ec2daa3af5c5ba758d02e69b01ea8f651c17e011a76f8bed",
+      "bin": "kubectl-finalizers",
+      "files": [
+        {
+          "from": "kubectl-finalizers",
+          "to": "kubectl-finalizers"
+        },
+        {
+          "from": "LICENSE",
+          "to": "LICENSE"
+        }
+      ]
+    }
+  }
+}
