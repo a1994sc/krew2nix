@@ -1,12 +1,12 @@
 {
   "plugin": "debug-queries",
-  "version": "v0.0.1",
+  "version": "v0.1.2",
   "homepage": "https://github.com/yaacov/kubectl-debug-queries",
   "description": "kubectl-debug-queries is a kubectl plugin for querying Kubernetes resources,\nlogs, and events. It works as both a CLI tool and an MCP server for\nAI assistants (Claude Desktop, Cursor IDE, OpenShift Lightspeed).\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/yaacov/kubectl-debug-queries/releases/download/v0.0.1/kubectl-debug-queries-v0.0.1-darwin-arm64.tar.gz",
-      "sha256": "1d5988284ee08a666bc9129976d3934e7b7d84e9b8856b533c6551890a35b470",
+      "url": "https://github.com/yaacov/kubectl-debug-queries/releases/download/v0.1.2/kubectl-debug-queries-v0.1.2-darwin-arm64.tar.gz",
+      "sha256": "1c9e9ac6f61b1a6aa8375f25eaabbb469b442666775da2fc063cc76aaf459c8a",
       "bin": "kubectl-debug_queries",
       "files": [
         {
@@ -20,8 +20,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/yaacov/kubectl-debug-queries/releases/download/v0.0.1/kubectl-debug-queries-v0.0.1-linux-arm64.tar.gz",
-      "sha256": "112b5086cf3859b7c5d0b42df90191d13e5cee8471b72f4db07598e5e1ea5769",
+      "url": "https://github.com/yaacov/kubectl-debug-queries/releases/download/v0.1.2/kubectl-debug-queries-v0.1.2-linux-arm64.tar.gz",
+      "sha256": "56aee20c4bcee22f728d3299b0478216085cf9602b8dc57c9d46f553503d263f",
       "bin": "kubectl-debug_queries",
       "files": [
         {
@@ -35,8 +35,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/yaacov/kubectl-debug-queries/releases/download/v0.0.1/kubectl-debug-queries-v0.0.1-darwin-amd64.tar.gz",
-      "sha256": "500f111a9d5e064cca83d6f0fe3e5c720de1fe85250c2ab083cd4c7576b6374c",
+      "url": "https://github.com/yaacov/kubectl-debug-queries/releases/download/v0.1.2/kubectl-debug-queries-v0.1.2-darwin-amd64.tar.gz",
+      "sha256": "240d57b44eb390bb89d75949a343d5695ba95635937ce3157e0988a5b8ebd62a",
       "bin": "kubectl-debug_queries",
       "files": [
         {
@@ -50,8 +50,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/yaacov/kubectl-debug-queries/releases/download/v0.0.1/kubectl-debug-queries-v0.0.1-linux-amd64.tar.gz",
-      "sha256": "8d5e9b0bb806d37e3d0d7f7380b7de1182d09c09dbe96b53335f1e52eb8ddb0a",
+      "url": "https://github.com/yaacov/kubectl-debug-queries/releases/download/v0.1.2/kubectl-debug-queries-v0.1.2-linux-amd64.tar.gz",
+      "sha256": "5e768ab29f676733b23f28cdc2beb67bce518372dbe0800438bca801b379655a",
       "bin": "kubectl-debug_queries",
       "files": [
         {
