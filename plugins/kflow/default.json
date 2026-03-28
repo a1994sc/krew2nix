@@ -1,0 +1,41 @@
+{
+  "plugin": "kflow",
+  "version": "v0.0.10",
+  "homepage": "https://github.com/AlexsJones/kflow",
+  "description": "kflow is like 'top' for Kubernetes networking. It reads kernel conntrack\ntables via node-local daemons and visualizes per-node network connections\nin a terminal UI.\n\nFeatures:\n- Real-time connection tracking across all nodes\n- TUI with connection details, throughput metrics\n- Easy DaemonSet installation via 'kubectl kflow install'\n\nQuick start:\n  kubectl kflow install -n monitoring\n  kubectl kflow\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/AlexsJones/kflow/releases/download/v0.0.10/kflow-darwin-arm64.tar.gz",
+      "sha256": "028f18081537830bd4edd407239a9cc0e935bd26fa314c3ef9cacc5e6ad748d8",
+      "bin": "kflow",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/AlexsJones/kflow/releases/download/v0.0.10/kflow-darwin-amd64.tar.gz",
+      "sha256": "f17f9ae3183784fef9631023c452b773f655a2e434053498f02f4e56516e1b3a",
+      "bin": "kflow",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/AlexsJones/kflow/releases/download/v0.0.10/kflow-linux-amd64.tar.gz",
+      "sha256": "74c662bf47827c1550ba1724c69f36b95cf1fe57cb312a9e2e555b9b34cd5d22",
+      "bin": "kflow",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

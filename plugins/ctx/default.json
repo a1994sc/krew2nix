@@ -1,12 +1,12 @@
 {
   "plugin": "ctx",
-  "version": "v0.10.2",
+  "version": "v0.11.0",
   "homepage": "https://github.com/ahmetb/kubectx",
   "description": "Also known as \"kubectx\", a utility to switch between context entries in\nyour kubeconfig file efficiently.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/ahmetb/kubectx/archive/v0.10.2.tar.gz",
-      "sha256": "b6c5f73eba17293cc860a7f46080bda43a547ba0ccbee63595476afa7b2b17eb",
+      "url": "https://github.com/ahmetb/kubectx/archive/v0.11.0.tar.gz",
+      "sha256": "1c8eb6b30c0067f89e5b2f9480865b0e3229a221fadddb644ce192d663c63907",
       "bin": "kubectx",
       "files": [
         {
@@ -20,8 +20,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/ahmetb/kubectx/archive/v0.10.2.tar.gz",
-      "sha256": "b6c5f73eba17293cc860a7f46080bda43a547ba0ccbee63595476afa7b2b17eb",
+      "url": "https://github.com/ahmetb/kubectx/archive/v0.11.0.tar.gz",
+      "sha256": "1c8eb6b30c0067f89e5b2f9480865b0e3229a221fadddb644ce192d663c63907",
       "bin": "kubectx",
       "files": [
         {
@@ -35,8 +35,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/ahmetb/kubectx/archive/v0.10.2.tar.gz",
-      "sha256": "b6c5f73eba17293cc860a7f46080bda43a547ba0ccbee63595476afa7b2b17eb",
+      "url": "https://github.com/ahmetb/kubectx/archive/v0.11.0.tar.gz",
+      "sha256": "1c8eb6b30c0067f89e5b2f9480865b0e3229a221fadddb644ce192d663c63907",
       "bin": "kubectx",
       "files": [
         {
@@ -50,8 +50,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/ahmetb/kubectx/archive/v0.10.2.tar.gz",
-      "sha256": "b6c5f73eba17293cc860a7f46080bda43a547ba0ccbee63595476afa7b2b17eb",
+      "url": "https://github.com/ahmetb/kubectx/archive/v0.11.0.tar.gz",
+      "sha256": "1c8eb6b30c0067f89e5b2f9480865b0e3229a221fadddb644ce192d663c63907",
       "bin": "kubectx",
       "files": [
         {

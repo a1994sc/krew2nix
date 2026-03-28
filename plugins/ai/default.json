@@ -1,12 +1,12 @@
 {
   "plugin": "ai",
-  "version": "v0.0.30",
+  "version": "v0.0.31",
   "homepage": "https://github.com/GoogleCloudPlatform/kubectl-ai",
   "description": "This plugin provides a natural language interface to carry out kubernetes\nrelated tasks. The plugin can plan and execute multiple steps given a high\nlevel description of a task.\nIt's important to note that this plugin does not replace kubectl. Instead,\nit makes kubectl accessible to non-kubernetes users and makes kubectl users\nmore productive because now they don't have to remember all the syntax and\ncommands to perform common tasks.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/GoogleCloudPlatform/kubectl-ai/releases/download/v0.0.30/kubectl-ai_Darwin_arm64.tar.gz",
-      "sha256": "520c0ffc7128a1bc16a0ee1aa705e88a40cee65791ee3a0cfe0b6270f40785d6",
+      "url": "https://github.com/GoogleCloudPlatform/kubectl-ai/releases/download/v0.0.31/kubectl-ai_Darwin_arm64.tar.gz",
+      "sha256": "dded8831a44bdfa29304b5872ece3ec9976f852a3f1b97777ba31d5bb60095d7",
       "bin": "kubectl-ai",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/GoogleCloudPlatform/kubectl-ai/releases/download/v0.0.30/kubectl-ai_Linux_arm64.tar.gz",
-      "sha256": "e81cc133f5f8b2f48dc1a9132ff0c2417a9b7f1f7e4ae7223b6f93e0e4490b60",
+      "url": "https://github.com/GoogleCloudPlatform/kubectl-ai/releases/download/v0.0.31/kubectl-ai_Linux_arm64.tar.gz",
+      "sha256": "c2eb7fb99bf5217968a505ab38b0a230d86d1581957ccdda66167020b114d90d",
       "bin": "kubectl-ai",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/GoogleCloudPlatform/kubectl-ai/releases/download/v0.0.30/kubectl-ai_Darwin_x86_64.tar.gz",
-      "sha256": "57005ac7f1b6f70921638098432b80fb904f794f6f73317f15b23a69c40d506f",
+      "url": "https://github.com/GoogleCloudPlatform/kubectl-ai/releases/download/v0.0.31/kubectl-ai_Darwin_x86_64.tar.gz",
+      "sha256": "7dc5f921063b74122f935e8f730cbe763bf868495b7cea03017f404ce7dd4de0",
       "bin": "kubectl-ai",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/GoogleCloudPlatform/kubectl-ai/releases/download/v0.0.30/kubectl-ai_Linux_x86_64.tar.gz",
-      "sha256": "ef09fc76e0998e6083190fa6aa5b0bb4ee2ba668bfd420205f8e0f0c25b3c981",
+      "url": "https://github.com/GoogleCloudPlatform/kubectl-ai/releases/download/v0.0.31/kubectl-ai_Linux_x86_64.tar.gz",
+      "sha256": "872ef891232b01772c46a54b1866b383e043100e3806835158187c603eb490d1",
       "bin": "kubectl-ai",
       "files": [
         {
