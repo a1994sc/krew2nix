@@ -1,12 +1,12 @@
 {
   "plugin": "vela",
-  "version": "v1.10.7",
+  "version": "v1.10.8",
   "homepage": "https://kubevela.io",
   "description": "kubectl vela is a kubectl plugin from the KubeVela project. KubeVela is\na modern application platform that is fully self-service, and adapts to\nyour needs when you grow. This plugin allows you to better view, manage\nand maintain KubeVela applications.",
   "archSrc": {
     "x86_64-darwin": {
-      "url": "https://github.com/oam-dev/kubevela/releases/download/v1.10.7/kubectl-vela-v1.10.7-darwin-amd64.tar.gz",
-      "sha256": "9d782193baaab8c706a5bb0410692d175a3ec7a203d108994f23bf01c0a93d38",
+      "url": "https://github.com/oam-dev/kubevela/releases/download/v1.10.8/kubectl-vela-v1.10.8-darwin-amd64.tar.gz",
+      "sha256": "173ba7a200e955285653e183e5f42368866b0eec880f789219338e69e218ad71",
       "bin": "kubectl-vela",
       "files": [
         {
@@ -20,8 +20,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/oam-dev/kubevela/releases/download/v1.10.7/kubectl-vela-v1.10.7-linux-amd64.tar.gz",
-      "sha256": "1574737f9f193eb9cab779f9ea05315c5794e749e24dadb629ab4f1fc94863b5",
+      "url": "https://github.com/oam-dev/kubevela/releases/download/v1.10.8/kubectl-vela-v1.10.8-linux-amd64.tar.gz",
+      "sha256": "6837ebc3425fd719c9be38d12d7da65cc7d16b4586fb9f4dd176d2851dba47e0",
       "bin": "kubectl-vela",
       "files": [
         {
