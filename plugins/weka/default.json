@@ -1,0 +1,52 @@
+{
+  "plugin": "weka",
+  "version": "v0.2.3",
+  "homepage": "https://github.com/weka/kubectl-weka",
+  "description": "Kubectl plugin for WEKA operator and cluster planning, deployment, management and maintenance (status, preflight, logs, instances, support bundles).\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/weka/kubectl-weka/releases/download/v0.2.3/kubectl-weka_v0.2.3_darwin_arm64.tar.gz",
+      "sha256": "9f6e269e98881d0a14ae6f0e419d140e6420c71a4370fc04afed89596e27d1c2",
+      "bin": "kubectl-weka",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/weka/kubectl-weka/releases/download/v0.2.3/kubectl-weka_v0.2.3_linux_arm64.tar.gz",
+      "sha256": "e5fc9d797eec9110f2e9fbb4a987bb7316f39011d1b3582ec843a809ec05fb42",
+      "bin": "kubectl-weka",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/weka/kubectl-weka/releases/download/v0.2.3/kubectl-weka_v0.2.3_darwin_amd64.tar.gz",
+      "sha256": "3adb875fc6fecc3796a32dd1f8499f975a1e1b9803ee7e2c0c91e20dc4f261e2",
+      "bin": "kubectl-weka",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/weka/kubectl-weka/releases/download/v0.2.3/kubectl-weka_v0.2.3_linux_amd64.tar.gz",
+      "sha256": "f26fcc59b4f094d366b9685750fe9b86c395dc82f4c19ca80c0cb0c21419937e",
+      "bin": "kubectl-weka",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}
