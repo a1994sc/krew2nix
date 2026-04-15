@@ -1,0 +1,52 @@
+{
+  "plugin": "ditto",
+  "version": "v0.2.2",
+  "homepage": "https://github.com/rawkode/kubectl-ditto",
+  "description": "Generate YAML manifests for any Kubernetes resource or CRD installed in\nyour cluster. Uses the cluster's OpenAPI schema to produce accurate YAML\nwith smart defaults, field descriptions as comments, and optional\ninteractive prompts.\n\nSupports plural names, short names, kind names, and fully-qualified\nCRD names (e.g. certificates.cert-manager.io).\n\nExamples:\n  kubectl ditto deployment -n default my-app\n  kubectl ditto svc -n default my-service\n  kubectl ditto certificates.cert-manager.io -n default my-cert\n  kubectl ditto deployment -n default my-app --interactive\n  kubectl ditto deployment -n default my-app --minimal\n  kubectl ditto deployment -n default my-app --full\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/rawkode/kubectl-ditto/releases/download/v0.2.2/kubectl-ditto-darwin-arm64.tar.gz",
+      "sha256": "d7d433c1cc3c6f29a4e5abed4f80677725550c5bde17a94290531e52e47c0bfb",
+      "bin": "kubectl-ditto",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/rawkode/kubectl-ditto/releases/download/v0.2.2/kubectl-ditto-linux-arm64.tar.gz",
+      "sha256": "4c677f6ee41f2678259757e5c2d0065ed8990e964faf36e6c3729783a66c06d7",
+      "bin": "kubectl-ditto",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/rawkode/kubectl-ditto/releases/download/v0.2.2/kubectl-ditto-darwin-amd64.tar.gz",
+      "sha256": "aa88e90f724936e78c9dc3e118df90fdf5ac23a22c1643fad3ebcd13571ea331",
+      "bin": "kubectl-ditto",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/rawkode/kubectl-ditto/releases/download/v0.2.2/kubectl-ditto-linux-amd64.tar.gz",
+      "sha256": "3cc3bb15eb40f91573b962563ee778c1f171f07fbb28e06d56aa4d534fe8ba2d",
+      "bin": "kubectl-ditto",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}
