@@ -1,12 +1,12 @@
 {
   "plugin": "radar",
-  "version": "v1.4.4",
+  "version": "v1.4.6",
   "homepage": "https://github.com/skyhook-io/radar",
   "description": "Radar provides real-time visibility into your Kubernetes cluster.\n\nFeatures:\n- Topology visualization of resources and their relationships\n- Service traffic maps showing network connections\n- Event timeline with resource change history\n- Resource browser with YAML editing\n- Helm release management\n- Pod logs and terminal exec\n- Port forwarding\n\nLocal-first. No account required. No cloud dependency.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/skyhook-io/radar/releases/download/v1.4.4/radar_v1.4.4_darwin_arm64.tar.gz",
-      "sha256": "9c5cef8d9fb03a4fcaf89421b5d5f4e80b10d4811e821594262abd8c10be248f",
+      "url": "https://github.com/skyhook-io/radar/releases/download/v1.4.6/radar_v1.4.6_darwin_arm64.tar.gz",
+      "sha256": "08d538607fdc17a2dc5c8e2de091e7d8e11db49c417f935acba57a1c369ede83",
       "bin": "kubectl-radar",
       "files": [
         {
@@ -20,8 +20,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/skyhook-io/radar/releases/download/v1.4.4/radar_v1.4.4_linux_arm64.tar.gz",
-      "sha256": "43d962c916c6283c471ee8e12f52d17cda1963b63fae670af32b463c63b53f2c",
+      "url": "https://github.com/skyhook-io/radar/releases/download/v1.4.6/radar_v1.4.6_linux_arm64.tar.gz",
+      "sha256": "fcd756881817b4f4018a0610b320e71c8b803248320a625c06ffb6f13f9c3793",
       "bin": "kubectl-radar",
       "files": [
         {
@@ -35,8 +35,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/skyhook-io/radar/releases/download/v1.4.4/radar_v1.4.4_darwin_amd64.tar.gz",
-      "sha256": "7f9f62741978671cb0ef7322941ada7992c7b4d8582df3301484a7e4107239e8",
+      "url": "https://github.com/skyhook-io/radar/releases/download/v1.4.6/radar_v1.4.6_darwin_amd64.tar.gz",
+      "sha256": "5c5392ebc8fb8d555c903671b1ef9da991a792efd3c32860ca2e691492834991",
       "bin": "kubectl-radar",
       "files": [
         {
@@ -50,8 +50,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/skyhook-io/radar/releases/download/v1.4.4/radar_v1.4.4_linux_amd64.tar.gz",
-      "sha256": "038278583a67f34aa18d41b449d3ae1c2b2a6b608b378d75a00ce20fd348c603",
+      "url": "https://github.com/skyhook-io/radar/releases/download/v1.4.6/radar_v1.4.6_linux_amd64.tar.gz",
+      "sha256": "474ba07313079a9d97cabe641ac4d4f732214439f9bdd11ef096ca0028f2caeb",
       "bin": "kubectl-radar",
       "files": [
         {
