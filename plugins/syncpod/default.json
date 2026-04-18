@@ -1,0 +1,52 @@
+{
+  "plugin": "syncpod",
+  "version": "v1.0.2",
+  "homepage": "https://github.com/hashmap-kz/kubectl-syncpod",
+  "description": "Small utility that mounts PVCs using a temporary helper pod\nand transfers files via high-performance SFTP, without impacting\napplication containers or requiring in-container tools.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/hashmap-kz/kubectl-syncpod/releases/download/v1.0.2/kubectl-syncpod_v1.0.2_darwin_arm64.tar.gz",
+      "sha256": "ed7d5386046e70f00fbf57d4f6d762c4217ee21a02a05c46633f977caf889b31",
+      "bin": "kubectl-syncpod",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/hashmap-kz/kubectl-syncpod/releases/download/v1.0.2/kubectl-syncpod_v1.0.2_linux_arm64.tar.gz",
+      "sha256": "1992a880a5a77f15d02f8a08032c17b8753fcae5ac47e8b600830cee210dd88b",
+      "bin": "kubectl-syncpod",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/hashmap-kz/kubectl-syncpod/releases/download/v1.0.2/kubectl-syncpod_v1.0.2_darwin_amd64.tar.gz",
+      "sha256": "213d59c86b3a10b1580e28cc84e13d2eee5e15f25edc313f525aff61bf08a417",
+      "bin": "kubectl-syncpod",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/hashmap-kz/kubectl-syncpod/releases/download/v1.0.2/kubectl-syncpod_v1.0.2_linux_amd64.tar.gz",
+      "sha256": "3089a1d9ecab20342cadd66794bb40407fdaab93ed3349c523f50f4d6089cdbf",
+      "bin": "kubectl-syncpod",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}
