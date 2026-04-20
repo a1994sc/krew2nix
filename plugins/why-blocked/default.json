@@ -1,0 +1,68 @@
+{
+  "plugin": "why-blocked",
+  "version": "v0.2.0",
+  "homepage": "https://github.com/opensource-alison/why-blocked",
+  "description": "why-blocked evaluates Kubernetes manifests against 14 security rules\nand 1 advisory, all grounded in CIS Kubernetes Benchmark and Pod\nSecurity Standards. Every rule cites a specific standard reference.\n\nIt also detects which admission system blocked a resource\n(Pod Security Admission, Kyverno, Gatekeeper, RBAC, or a generic\nadmission webhook) and shows concrete YAML fix examples for each\nviolation.\n\nWorks fully offline for core evaluation. No cluster access required.\nSupports 5 languages: en, ko, ja, zh, es.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/opensource-alison/why-blocked/releases/download/v0.2.0/kubectl-why_0.2.0_darwin_arm64.tar.gz",
+      "sha256": "aa9087490bfaebe3a4e33bb2e63181ff6f45af03bb66b60dbf658de37c7d2596",
+      "bin": "kubectl-why-blocked",
+      "files": [
+        {
+          "from": "kubectl-why",
+          "to": "kubectl-why-blocked"
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/opensource-alison/why-blocked/releases/download/v0.2.0/kubectl-why_0.2.0_linux_arm64.tar.gz",
+      "sha256": "47d4fa6af52782fe7401e2779e38b5d89e851b0b58f8908ac88c5c9d7b9c85ca",
+      "bin": "kubectl-why-blocked",
+      "files": [
+        {
+          "from": "kubectl-why",
+          "to": "kubectl-why-blocked"
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/opensource-alison/why-blocked/releases/download/v0.2.0/kubectl-why_0.2.0_darwin_amd64.tar.gz",
+      "sha256": "47a67f1a5211e7b4b2a561c402fd1269291390fa7960b39c15e66f229f820fba",
+      "bin": "kubectl-why-blocked",
+      "files": [
+        {
+          "from": "kubectl-why",
+          "to": "kubectl-why-blocked"
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/opensource-alison/why-blocked/releases/download/v0.2.0/kubectl-why_0.2.0_linux_amd64.tar.gz",
+      "sha256": "b8372b3cb46703b1984cee780dbc7326f5f621047435d6ea61799663a69832f5",
+      "bin": "kubectl-why-blocked",
+      "files": [
+        {
+          "from": "kubectl-why",
+          "to": "kubectl-why-blocked"
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}
