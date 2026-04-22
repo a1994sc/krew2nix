@@ -1,12 +1,12 @@
 {
   "plugin": "mtv",
-  "version": "v0.2.7",
+  "version": "v0.2.8",
   "homepage": "https://github.com/yaacov/kubectl-mtv",
   "description": "kubectl-mtv is a kubectl plugin for migrating virtual machines to KubeVirt using Forklift.\nIt helps migrate VMs from vSphere, oVirt, OpenStack, and OVA to Kubernetes/OpenShift\nwith advanced query capabilities, mapping management, and migration planning.\n\nFeatures:\n- Multi-Platform Support: Migrate from vSphere, oVirt, OpenStack, and OVA\n- Flexible Mapping: Use existing mappings, inline pairs, or automatic defaults\n- Advanced Queries: Filter and search inventory with powerful query language\n- VDDK Support: Optimized VMware disk transfers\n- Real-time Monitoring: Track migration progress live\n- Warm Migrations: Minimize downtime for critical systems\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/yaacov/kubectl-mtv/releases/download/v0.2.7/kubectl-mtv-v0.2.7-darwin-arm64.tar.gz",
-      "sha256": "e80b3c9e7e6062ffb35982231db8dbb9c02daa07b7f4360814071c37b1e736f5",
+      "url": "https://github.com/yaacov/kubectl-mtv/releases/download/v0.2.8/kubectl-mtv-v0.2.8-darwin-arm64.tar.gz",
+      "sha256": "a9a7f2fbe7ebe14e48aed6f305e3762c424b22d09808f49228b01b00849b00a9",
       "bin": "kubectl-mtv",
       "files": [
         {
@@ -20,8 +20,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/yaacov/kubectl-mtv/releases/download/v0.2.7/kubectl-mtv-v0.2.7-linux-arm64.tar.gz",
-      "sha256": "1ad45da8bc21c69cbe0f99be1dd150408553dad3705628562f81997689f0bb2c",
+      "url": "https://github.com/yaacov/kubectl-mtv/releases/download/v0.2.8/kubectl-mtv-v0.2.8-linux-arm64.tar.gz",
+      "sha256": "a86afddaf1c7240b4d5950ad3645a539f7017e67545a3acc8c0592d87dcf0a2c",
       "bin": "kubectl-mtv",
       "files": [
         {
@@ -35,8 +35,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/yaacov/kubectl-mtv/releases/download/v0.2.7/kubectl-mtv-v0.2.7-darwin-amd64.tar.gz",
-      "sha256": "2bbd0447f07b533afe2edb7e3891f4bffde4340e7a68cc4269513f206423d806",
+      "url": "https://github.com/yaacov/kubectl-mtv/releases/download/v0.2.8/kubectl-mtv-v0.2.8-darwin-amd64.tar.gz",
+      "sha256": "398d7991b1eb7170203f62687855753da9c1edf3551afef951a6b96b6334f95f",
       "bin": "kubectl-mtv",
       "files": [
         {
@@ -50,8 +50,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/yaacov/kubectl-mtv/releases/download/v0.2.7/kubectl-mtv-v0.2.7-linux-amd64.tar.gz",
-      "sha256": "f5fa2382f020f42bcb731cec58e5032274ebcf536d46bce4ea43aae3f8d3faf9",
+      "url": "https://github.com/yaacov/kubectl-mtv/releases/download/v0.2.8/kubectl-mtv-v0.2.8-linux-amd64.tar.gz",
+      "sha256": "7e6ec9c4ade94a03ee28d739a98c74f72198e367b245474092b4603ae299944e",
       "bin": "kubectl-mtv",
       "files": [
         {
