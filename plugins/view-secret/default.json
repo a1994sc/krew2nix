@@ -1,12 +1,12 @@
 {
   "plugin": "view-secret",
-  "version": "v0.15.1",
+  "version": "v0.16.0",
   "homepage": "https://github.com/elsesiy/kubectl-view-secret",
   "description": "Base64 decode by key or all key/value pairs in a given secret.\n\n# print secret keys\n$ kubectl view-secret <secret>\n\n# decode specific entry\n$ kubectl view-secret <secret> <key>\n\n# decode all secret contents\n$ kubectl view-secret <secret> -a/--all\n\n# print keys for secret in different namespace\n$ kubectl view-secret <secret> -n/--namespace foo\n\n# print keys for secret in different context\n$ kubectl view-secret <secret> -c/--context ctx\n\n# print keys for secret by providing kubeconfig\n$ kubectl view-secret <secret> -k/--kubeconfig <cfg>\n\n# suppress info output\n$ kubectl view-secret <secret> -q/--quiet\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/elsesiy/kubectl-view-secret/releases/download/v0.15.1/kubectl-view-secret_v0.15.1_darwin_arm64.tar.gz",
-      "sha256": "7637592f4ccdd17d86924b371875f98a96eae13a042dd19cfde83964497fda8c",
+      "url": "https://github.com/elsesiy/kubectl-view-secret/releases/download/v0.16.0/kubectl-view-secret_v0.16.0_darwin_arm64.tar.gz",
+      "sha256": "53ab023f7b60396c790a396f6a3bc33e173b5ebf14081cfac18354a0d23264d4",
       "bin": "kubectl-view-secret",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/elsesiy/kubectl-view-secret/releases/download/v0.15.1/kubectl-view-secret_v0.15.1_linux_arm64.tar.gz",
-      "sha256": "55b6e5656f1e8c2b70e47a85b32aa43a79e8e8a12c442692bf05896afbd7c239",
+      "url": "https://github.com/elsesiy/kubectl-view-secret/releases/download/v0.16.0/kubectl-view-secret_v0.16.0_linux_arm64.tar.gz",
+      "sha256": "04644e43378f74a09cf60a081759e8b8bbe8281924c0dc20dab31e9d00ab0f37",
       "bin": "kubectl-view-secret",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/elsesiy/kubectl-view-secret/releases/download/v0.15.1/kubectl-view-secret_v0.15.1_darwin_amd64.tar.gz",
-      "sha256": "8a8300485739f67274a08d35658818dcc7711e4b9767e6e2479e474dbdb1c8f6",
+      "url": "https://github.com/elsesiy/kubectl-view-secret/releases/download/v0.16.0/kubectl-view-secret_v0.16.0_darwin_amd64.tar.gz",
+      "sha256": "090d96a5a9728171ecebba42a15ab2c7835d3b63fb4fdc6d76e615ea0b7fb7e1",
       "bin": "kubectl-view-secret",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/elsesiy/kubectl-view-secret/releases/download/v0.15.1/kubectl-view-secret_v0.15.1_linux_amd64.tar.gz",
-      "sha256": "72122262c28a6de88c06a7846c57255a4820f107d83aad974b74df4059b11bdb",
+      "url": "https://github.com/elsesiy/kubectl-view-secret/releases/download/v0.16.0/kubectl-view-secret_v0.16.0_linux_amd64.tar.gz",
+      "sha256": "dad8f7d257e17e0a382f139bd756cdb437268d77973ad8ba3c55b346ce5bdd92",
       "bin": "kubectl-view-secret",
       "files": [
         {
