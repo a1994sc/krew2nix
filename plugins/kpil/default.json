@@ -1,0 +1,68 @@
+{
+  "plugin": "kpil",
+  "version": "v0.0.2",
+  "homepage": "https://github.com/qjoly/kpil",
+  "description": "kpil provisions a temporary, read-only Kubernetes ServiceAccount\n(secrets excluded), generates a short-lived kubeconfig, and launches\nthe GitHub Copilot CLI inside an isolated container.\nAll RBAC resources and the kubeconfig are deleted on exit.\n\nRequires Docker or Podman and a GH_TOKEN with copilot access.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/qjoly/kpil/releases/download/v0.0.2/kpil_0.0.2_darwin_arm64.tar.gz",
+      "sha256": "938d25e27cf1e6bda1bbe77c52a9edc4deed34b3ef6aa0ca0bf7352f07a1a2c0",
+      "bin": "kpil",
+      "files": [
+        {
+          "from": "kpil",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/qjoly/kpil/releases/download/v0.0.2/kpil_0.0.2_linux_arm64.tar.gz",
+      "sha256": "9e262f97bc1ff321ed601657e8aed189aa33aff99337b380301698dc860086e3",
+      "bin": "kpil",
+      "files": [
+        {
+          "from": "kpil",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/qjoly/kpil/releases/download/v0.0.2/kpil_0.0.2_darwin_amd64.tar.gz",
+      "sha256": "c3a8386717721d83e4a797a9f374d4cf1cabde9bc96255d46295a432f0a1e8ef",
+      "bin": "kpil",
+      "files": [
+        {
+          "from": "kpil",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/qjoly/kpil/releases/download/v0.0.2/kpil_0.0.2_linux_amd64.tar.gz",
+      "sha256": "c7e82f7a6c52f3bb15255e15561185c2ed89eeca5ab53a96b8f4f391430c6415",
+      "bin": "kpil",
+      "files": [
+        {
+          "from": "kpil",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

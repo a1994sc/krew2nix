@@ -1,0 +1,52 @@
+{
+  "plugin": "inspect",
+  "version": "v1.0.0",
+  "homepage": "https://github.com/irenedo/kubectl-inspect",
+  "description": "An interactive terminal UI for browsing Kubernetes resource and CRD field\nstructures. Instead of typing kubectl explain repeatedly, use the collapsible\ntree view to explore fields and see full explain output in real-time.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/irenedo/kubectl-inspect/releases/download/v1.0.0/kubectl-inspect_v1.0.0_darwin_arm64.tar.gz",
+      "sha256": "e412c78e8ba582768e55e5f29d18439b5c630ddd85c93e67eb0dd9a9f26c0d1c",
+      "bin": "kubectl-inspect",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/irenedo/kubectl-inspect/releases/download/v1.0.0/kubectl-inspect_v1.0.0_linux_arm64.tar.gz",
+      "sha256": "89e1c363609050999bd51081bf8660b31a553a1fea8491bc53d1c53183bba0d9",
+      "bin": "kubectl-inspect",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/irenedo/kubectl-inspect/releases/download/v1.0.0/kubectl-inspect_v1.0.0_darwin_amd64.tar.gz",
+      "sha256": "c554bfb8735af89cbe5a0232129d8b2d81beff4a2291dc845a62a8b091e63e93",
+      "bin": "kubectl-inspect",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/irenedo/kubectl-inspect/releases/download/v1.0.0/kubectl-inspect_v1.0.0_linux_amd64.tar.gz",
+      "sha256": "2cb0dc3c94a24f249f4f9cbc50e7147d5b8cad48c4038fbcaedb2516a21ad066",
+      "bin": "kubectl-inspect",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}
