@@ -1,12 +1,12 @@
 {
   "plugin": "mtv-metrics",
-  "version": "v0.1.11",
+  "version": "v0.1.13",
   "homepage": "https://github.com/yaacov/kubectl-metrics",
   "description": "kubectl-mtv-metrics is a kubectl plugin for querying Prometheus and Thanos\nmetrics for Kubernetes. It works as both a CLI tool and an MCP\nserver for AI assistants (Claude Desktop, Cursor IDE, OpenShift Lightspeed).\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/yaacov/kubectl-metrics/releases/download/v0.1.11/kubectl-metrics-v0.1.11-darwin-arm64.tar.gz",
-      "sha256": "9683ee3cd388b4cf04d71fd9351aa9f904d0d63b3327a400a271160aeaa1474b",
+      "url": "https://github.com/yaacov/kubectl-metrics/releases/download/v0.1.13/kubectl-metrics-v0.1.13-darwin-arm64.tar.gz",
+      "sha256": "4223859a0511c0dedacd622fc55b512b4e6c0a3efb8fb19e0d73b7a0c329e901",
       "bin": "kubectl-mtv_metrics",
       "files": [
         {
@@ -20,8 +20,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/yaacov/kubectl-metrics/releases/download/v0.1.11/kubectl-metrics-v0.1.11-linux-arm64.tar.gz",
-      "sha256": "2eb5995e08d9a79b5409ede4e577af112e8f9158f2a2ec5952c93c16b5fbcb66",
+      "url": "https://github.com/yaacov/kubectl-metrics/releases/download/v0.1.13/kubectl-metrics-v0.1.13-linux-arm64.tar.gz",
+      "sha256": "7329c79d6e71232cac8a4b50473c9d547000d1815e32e29b529044a7873fe019",
       "bin": "kubectl-mtv_metrics",
       "files": [
         {
@@ -35,8 +35,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/yaacov/kubectl-metrics/releases/download/v0.1.11/kubectl-metrics-v0.1.11-darwin-amd64.tar.gz",
-      "sha256": "7c2fc419cf0d9e64685dfbc52871cc08610a0c64c4384785416a887539b9a48f",
+      "url": "https://github.com/yaacov/kubectl-metrics/releases/download/v0.1.13/kubectl-metrics-v0.1.13-darwin-amd64.tar.gz",
+      "sha256": "9f75008110707c8ef4287dc0612c360b683322ff266bada56b9616ea961ca36b",
       "bin": "kubectl-mtv_metrics",
       "files": [
         {
@@ -50,8 +50,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/yaacov/kubectl-metrics/releases/download/v0.1.11/kubectl-metrics-v0.1.11-linux-amd64.tar.gz",
-      "sha256": "8b41b83832a644141de00b35d3ceffc2ecb32d33572dbf6fa3ccd491ceb8fe78",
+      "url": "https://github.com/yaacov/kubectl-metrics/releases/download/v0.1.13/kubectl-metrics-v0.1.13-linux-amd64.tar.gz",
+      "sha256": "ef5e5b1ab83cc719aab39e81aa0d0908af8d87f71b3005ea2d7b7427eed1995f",
       "bin": "kubectl-mtv_metrics",
       "files": [
         {
