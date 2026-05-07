@@ -1,0 +1,52 @@
+{
+  "plugin": "k8i",
+  "version": "v0.1.0",
+  "homepage": "https://github.com/ViktorUJ/kubectl-k8i",
+  "description": "kubectl-k8i shows a compact overview of all cluster nodes with CPU/memory\nrequests, limits, usage, capacity, and load percentage — color-coded for\nquick visual assessment.\n\nKey features:\n- Color-coded load: green (≤60%), yellow (61–80%), red (>80%)\n- Overcommit highlighting for CPU and memory\n- Node metadata: instance type, capacity type, arch, zone, pool, nodeclaim, age, taints\n- Autoscaler detection: Karpenter, Cluster Autoscaler, Spot.io\n- Filter by labels, taints, or any node attribute\n- Sort by any column (cpu_load, mem_use, age, etc.)\n- Group nodes by taint sets\n- Output formats: table (default), JSON, YAML\n- Shell completion for all flags (kubectl 1.26+)\n- Zero runtime dependencies — single static binary\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/ViktorUJ/kubectl-k8i/releases/download/v0.1.0/kubectl-k8i_darwin_arm64.tar.gz",
+      "sha256": "bb32dc757e9b24cf2b0a0e99da92a8e2a8ea0903f11c1da8f5f1c317f8de34f3",
+      "bin": "kubectl-k8i",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/ViktorUJ/kubectl-k8i/releases/download/v0.1.0/kubectl-k8i_linux_arm64.tar.gz",
+      "sha256": "43b6c62a03de6a501bcde97da54cbf9fdf870165f8a94b4a903eb4635cfac66e",
+      "bin": "kubectl-k8i",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/ViktorUJ/kubectl-k8i/releases/download/v0.1.0/kubectl-k8i_darwin_amd64.tar.gz",
+      "sha256": "09a910bb7a177f9ddabd00400342b97eee604b28b0562d2728410c60c2ebe43c",
+      "bin": "kubectl-k8i",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/ViktorUJ/kubectl-k8i/releases/download/v0.1.0/kubectl-k8i_linux_amd64.tar.gz",
+      "sha256": "274605c4288db8ec06a83fb72ea7b00a0c26b17884396d7d4fbb3adaed2bc941",
+      "bin": "kubectl-k8i",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}
