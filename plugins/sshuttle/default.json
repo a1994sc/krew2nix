@@ -1,65 +1,81 @@
 {
   "plugin": "sshuttle",
-  "version": "v0.1.0",
+  "version": "v0.2.6",
   "homepage": "https://github.com/jjo/kubectl-sshuttle",
-  "description": "Manages a proxy pod in a Kubernetes cluster and uses sshuttle to\ntunnel traffic through it. Lets you reach IPs and subnets that are\nonly accessible from inside the cluster network.\n\nIt deploys a lightweight proxy pod, then uses sshuttle with kubectl\nexec as the transport layer to create a transparent VPN tunnel.\n\nRequires sshuttle installed locally (pip install sshuttle).\n",
+  "description": "Manages a proxy pod in a Kubernetes cluster and tunnels traffic\nthrough it. Lets you reach IPs and subnets that are only accessible\nfrom inside the cluster network.\n\nThree transport modes:\n  default            — sshuttle locally, python+sshuttle in pod\n  --rushtle-server   — sshuttle locally, rushtle server in pod\n                       (works around kubectl-exec >1KB stdin\n                        truncation seen on tailscale-fronted clusters)\n  --rushtle          — rushtle on both ends, no sshuttle/python at all\n                       (linux+macos, requires root locally for NAT setup)\n\nDefault and --rushtle-server modes require sshuttle locally\n(pip install sshuttle). The bundled `rushtle` binary is used for\n--rushtle mode.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/jjo/kubectl-sshuttle/releases/download/v0.1.0/kubectl-sshuttle_0.1.0_darwin_arm64.tar.gz",
-      "sha256": "577437d1e4c7759513a653e4c3cdfaf955e9501c5f98b130620359f027d0d721",
+      "url": "https://github.com/jjo/kubectl-sshuttle/releases/download/v0.2.6/kubectl-sshuttle_v0.2.6_darwin_arm64.tar.gz",
+      "sha256": "ac84368220dcd457a16a35c52d83dfc7f78fc5be1e0beed0325379162e43c2c4",
       "bin": "kubectl-sshuttle",
       "files": [
+        {
+          "from": "LICENSE",
+          "to": "."
+        },
         {
           "from": "kubectl-sshuttle",
           "to": "."
         },
         {
-          "from": "LICENSE",
+          "from": "rushtle",
           "to": "."
         }
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/jjo/kubectl-sshuttle/releases/download/v0.1.0/kubectl-sshuttle_0.1.0_linux_arm64.tar.gz",
-      "sha256": "70cba28d7f4227879167e942acfb1f3161f65b8fa6f8a41634358399eae002e5",
+      "url": "https://github.com/jjo/kubectl-sshuttle/releases/download/v0.2.6/kubectl-sshuttle_v0.2.6_linux_arm64.tar.gz",
+      "sha256": "dd8b90aeb00ecb826dbbfcf9fec85017352cb865fd4f63e4d134104f0c742aef",
       "bin": "kubectl-sshuttle",
       "files": [
+        {
+          "from": "LICENSE",
+          "to": "."
+        },
         {
           "from": "kubectl-sshuttle",
           "to": "."
         },
         {
-          "from": "LICENSE",
+          "from": "rushtle",
           "to": "."
         }
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/jjo/kubectl-sshuttle/releases/download/v0.1.0/kubectl-sshuttle_0.1.0_darwin_amd64.tar.gz",
-      "sha256": "71dc79175d422f937443472670a76614ac6f0eb16f630473caa049ce6f8094f1",
+      "url": "https://github.com/jjo/kubectl-sshuttle/releases/download/v0.2.6/kubectl-sshuttle_v0.2.6_darwin_amd64.tar.gz",
+      "sha256": "719e32f9563327c92c4e8ada593c20aead39eab1bd77eb2f113c9cd9d18b6f62",
       "bin": "kubectl-sshuttle",
       "files": [
+        {
+          "from": "LICENSE",
+          "to": "."
+        },
         {
           "from": "kubectl-sshuttle",
           "to": "."
         },
         {
-          "from": "LICENSE",
+          "from": "rushtle",
           "to": "."
         }
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/jjo/kubectl-sshuttle/releases/download/v0.1.0/kubectl-sshuttle_0.1.0_linux_amd64.tar.gz",
-      "sha256": "8263366b50eeb104037309fef28fbe0e50d20b5b9bed4acf551ebf55bbae1c58",
+      "url": "https://github.com/jjo/kubectl-sshuttle/releases/download/v0.2.6/kubectl-sshuttle_v0.2.6_linux_amd64.tar.gz",
+      "sha256": "23e57f9adf7ae93bac3e789fe36bfdeb8e7c0257001cc5b7ed488dfc1c3e8765",
       "bin": "kubectl-sshuttle",
       "files": [
+        {
+          "from": "LICENSE",
+          "to": "."
+        },
         {
           "from": "kubectl-sshuttle",
           "to": "."
         },
         {
-          "from": "LICENSE",
+          "from": "rushtle",
           "to": "."
         }
       ]
