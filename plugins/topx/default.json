@@ -1,12 +1,12 @@
 {
   "plugin": "topx",
-  "version": "v1.2.6",
+  "version": "v1.2.7",
   "homepage": "https://github.com/mms-gianni/kubectl-topx",
   "description": "kubectl-topx is a Kubernetes CLI tool for monitoring CPU and memory \nresources (requests, limits, and actual usage) in real-time.\n\nFeatures:\n- Shows CPU and memory requests, limits, and current usage\n- Live updates with configurable refresh intervals\n- Progress bars for visual representation\n- Color-coded output based on usage level\n- Historical metrics with visual histograms\n\nPrerequisites:\n- Metrics Server must be installed in your Kubernetes cluster\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/mms-gianni/kubectl-topx/releases/download/v1.2.6/kubectl-topx-v1.2.6-darwin-arm64.tar.gz",
-      "sha256": "bef60ec1a4fe06f12b36b02f2f21dbbd9b1ce444927efc8481e7da11e158b518",
+      "url": "https://github.com/mms-gianni/kubectl-topx/releases/download/v1.2.7/kubectl-topx-v1.2.7-darwin-arm64.tar.gz",
+      "sha256": "953ef858517a2a2e7618792c4ca88b203b8dc2ac8e1e4e1e5df5152267da036d",
       "bin": "kubectl-topx",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/mms-gianni/kubectl-topx/releases/download/v1.2.6/kubectl-topx-v1.2.6-darwin-amd64.tar.gz",
-      "sha256": "ae9900d51d79764a8c464e3fee4f7422832658b5b909508194b02aa97ba74a00",
+      "url": "https://github.com/mms-gianni/kubectl-topx/releases/download/v1.2.7/kubectl-topx-v1.2.7-darwin-amd64.tar.gz",
+      "sha256": "befc8de276b75a3d9874c809109b8bd07f062666e25b369e084a264d230d8c39",
       "bin": "kubectl-topx",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/mms-gianni/kubectl-topx/releases/download/v1.2.6/kubectl-topx-v1.2.6-linux-amd64.tar.gz",
-      "sha256": "2bc740815c22ec7fc2c9033630a3e634c02df435f331fd3c83bb6681ee1f3605",
+      "url": "https://github.com/mms-gianni/kubectl-topx/releases/download/v1.2.7/kubectl-topx-v1.2.7-linux-amd64.tar.gz",
+      "sha256": "011dee3d2765e6cbb3084e176da3874f9a1ccdcea997aa68a471737f9496f990",
       "bin": "kubectl-topx",
       "files": [
         {
