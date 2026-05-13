@@ -1,12 +1,12 @@
 {
   "plugin": "rbac-map",
-  "version": "v0.2.1",
+  "version": "v0.2.2",
   "homepage": "https://github.com/hrishin/kubectl-rbacmap",
-  "description": "kubectl-rbac-map finds all permissions associated with Kubernetes subjects\nby inspecting Roles, ClusterRoles, RoleBindings, and ClusterRoleBindings.\nIt resolves complex mappings (like AWS IAM ARNs to EKS identities) and\noutputs the exact access granted in clean tables, markdown, or CSV.\n",
+  "description": "kubectl-rbac-map finds all permissions associated with Kubernetes subjects\nby inspecting Roles, ClusterRoles, RoleBindings, and ClusterRoleBindings.\nIt resolves complex mappings (like AWS IAM ARNs to EKS identities) and\noutputs the exact access granted in clean tables, markdown, or CSV.\nIt also supports reverse lookup: given a resource, find all subjects with access.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/hrishin/kubectl-rbacmap/releases/download/v0.2.1/kubectl-rbacmap_Darwin_arm64.tar.gz",
-      "sha256": "da3d38354ffc121b836b680a75833ca431b5c7e45908635559ae01f9eb98a9b4",
+      "url": "https://github.com/hrishin/kubectl-rbacmap/releases/download/v0.2.2/kubectl-rbacmap_Darwin_arm64.tar.gz",
+      "sha256": "21257f920d39f6ed6a229712c7a58d1687f1c673c562b812a2a0b8fb59bc0f09",
       "bin": "kubectl-rbac-map",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/hrishin/kubectl-rbacmap/releases/download/v0.2.1/kubectl-rbacmap_Linux_arm64.tar.gz",
-      "sha256": "28669e5727469609e863d2ca21a5e173299ece9e0b07c13c771f3b5c1c14bdd4",
+      "url": "https://github.com/hrishin/kubectl-rbacmap/releases/download/v0.2.2/kubectl-rbacmap_Linux_arm64.tar.gz",
+      "sha256": "3ca79774a54262cdb3884fb5e23d9aa758c1c7de82ddfc1156fa5dbe97e732ad",
       "bin": "kubectl-rbac-map",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/hrishin/kubectl-rbacmap/releases/download/v0.2.1/kubectl-rbacmap_Darwin_x86_64.tar.gz",
-      "sha256": "89d0ba9ee71cb7c256cd7ec5a4c49e78283a8820b0684bd5ae70200d283d8171",
+      "url": "https://github.com/hrishin/kubectl-rbacmap/releases/download/v0.2.2/kubectl-rbacmap_Darwin_x86_64.tar.gz",
+      "sha256": "6e34f709c2c1ef910362ffcb21b727be192f8c2f222a2d1045973b6f52b341b7",
       "bin": "kubectl-rbac-map",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/hrishin/kubectl-rbacmap/releases/download/v0.2.1/kubectl-rbacmap_Linux_x86_64.tar.gz",
-      "sha256": "623ed2a79f5d698e73586086aa9abacfe795b9a9a7f4be6ff4cd654d72433b86",
+      "url": "https://github.com/hrishin/kubectl-rbacmap/releases/download/v0.2.2/kubectl-rbacmap_Linux_x86_64.tar.gz",
+      "sha256": "485650f09efdfce234de18c915505ce6e802e5fd98604d81de5415e531b65a47",
       "bin": "kubectl-rbac-map",
       "files": [
         {
