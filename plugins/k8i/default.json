@@ -1,12 +1,12 @@
 {
   "plugin": "k8i",
-  "version": "v0.1.0",
+  "version": "v0.1.1",
   "homepage": "https://github.com/ViktorUJ/kubectl-k8i",
   "description": "kubectl-k8i shows a compact overview of all cluster nodes with CPU/memory\nrequests, limits, usage, capacity, and load percentage — color-coded for\nquick visual assessment.\n\nKey features:\n- Color-coded load: green (≤60%), yellow (61–80%), red (>80%)\n- Overcommit highlighting for CPU and memory\n- Node metadata: instance type, capacity type, arch, zone, pool, nodeclaim, age, taints\n- Autoscaler detection: Karpenter, Cluster Autoscaler, Spot.io\n- Filter by labels, taints, or any node attribute\n- Sort by any column (cpu_load, mem_use, age, etc.)\n- Group nodes by taint sets\n- Output formats: table (default), JSON, YAML\n- Shell completion for all flags (kubectl 1.26+)\n- Zero runtime dependencies — single static binary\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/ViktorUJ/kubectl-k8i/releases/download/v0.1.0/kubectl-k8i_darwin_arm64.tar.gz",
-      "sha256": "bb32dc757e9b24cf2b0a0e99da92a8e2a8ea0903f11c1da8f5f1c317f8de34f3",
+      "url": "https://github.com/ViktorUJ/kubectl-k8i/releases/download/v0.1.1/kubectl-k8i_darwin_arm64.tar.gz",
+      "sha256": "7c3105576d2082b46afb5f59ea9a62d18b1d584e0c7980b7d19917357f1fe37e",
       "bin": "kubectl-k8i",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/ViktorUJ/kubectl-k8i/releases/download/v0.1.0/kubectl-k8i_linux_arm64.tar.gz",
-      "sha256": "43b6c62a03de6a501bcde97da54cbf9fdf870165f8a94b4a903eb4635cfac66e",
+      "url": "https://github.com/ViktorUJ/kubectl-k8i/releases/download/v0.1.1/kubectl-k8i_linux_arm64.tar.gz",
+      "sha256": "ae7706bc8007977bad7a96a580e153dd9353a65b2ad29ede0ff63bf0aae3e509",
       "bin": "kubectl-k8i",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/ViktorUJ/kubectl-k8i/releases/download/v0.1.0/kubectl-k8i_darwin_amd64.tar.gz",
-      "sha256": "09a910bb7a177f9ddabd00400342b97eee604b28b0562d2728410c60c2ebe43c",
+      "url": "https://github.com/ViktorUJ/kubectl-k8i/releases/download/v0.1.1/kubectl-k8i_darwin_amd64.tar.gz",
+      "sha256": "ed5ebd02602077e714931076ac3633c906f3537c0fe913fd510bd60cb7adcc8d",
       "bin": "kubectl-k8i",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/ViktorUJ/kubectl-k8i/releases/download/v0.1.0/kubectl-k8i_linux_amd64.tar.gz",
-      "sha256": "274605c4288db8ec06a83fb72ea7b00a0c26b17884396d7d4fbb3adaed2bc941",
+      "url": "https://github.com/ViktorUJ/kubectl-k8i/releases/download/v0.1.1/kubectl-k8i_linux_amd64.tar.gz",
+      "sha256": "9cc50c4ffc4b3790f24bc1fe2273f5786a8ff2f6ad205e2e75796640934861e9",
       "bin": "kubectl-k8i",
       "files": [
         {
