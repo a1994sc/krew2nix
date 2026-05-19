@@ -1,12 +1,12 @@
 {
   "plugin": "szero",
-  "version": "v1.14.3",
+  "version": "v1.14.4",
   "homepage": "https://github.com/jadolg/szero",
   "description": "Downscale all deployments, statefulsets, and daemonsets in a namespace to 0 replicas and back to their previous state.\nUseful when you need to tear everything down and bring it back in a namespace.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/jadolg/szero/releases/download/v1.14.3/szero_darwin_arm64.tar.gz",
-      "sha256": "4e840ceb42c14e5e288d933720ad314b524b0e2444982f63b5f18bd070b8c744",
+      "url": "https://github.com/jadolg/szero/releases/download/v1.14.4/szero_darwin_arm64.tar.gz",
+      "sha256": "a3f0aab533f90bdf412c61a7a17973250a882db83ac71a89638bf1f928fbdc32",
       "bin": "kubectl-szero",
       "files": [
         {
@@ -20,8 +20,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/jadolg/szero/releases/download/v1.14.3/szero_linux_arm64.tar.gz",
-      "sha256": "9dd93eb0674111b41f594a93de825dc84e9ad38e3c09f1efc60a9f562d0053b1",
+      "url": "https://github.com/jadolg/szero/releases/download/v1.14.4/szero_linux_arm64.tar.gz",
+      "sha256": "0df7ab2e41315a9de900554514741c63b8353256308023c58015b67cc4f82261",
       "bin": "kubectl-szero",
       "files": [
         {
@@ -35,8 +35,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/jadolg/szero/releases/download/v1.14.3/szero_darwin_amd64.tar.gz",
-      "sha256": "48d1b4234a448a8bae491b6552a955cf99f4ae16082539da74fdd8fa39729b19",
+      "url": "https://github.com/jadolg/szero/releases/download/v1.14.4/szero_darwin_amd64.tar.gz",
+      "sha256": "32f36c6882e5c817d779a1621978ac847595ff3128b3985eb9715eb90ef07308",
       "bin": "kubectl-szero",
       "files": [
         {
@@ -50,8 +50,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/jadolg/szero/releases/download/v1.14.3/szero_linux_amd64.tar.gz",
-      "sha256": "6e56e8493959cf3a43544c8e6c285f6966fa4b2c2b96f9e17e148056233537eb",
+      "url": "https://github.com/jadolg/szero/releases/download/v1.14.4/szero_linux_amd64.tar.gz",
+      "sha256": "7db0948c3099c54ebd38aa93422803bf02fd66f5badf61e3357daccc8f5184d3",
       "bin": "kubectl-szero",
       "files": [
         {
