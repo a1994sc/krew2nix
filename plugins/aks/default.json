@@ -1,12 +1,12 @@
 {
   "plugin": "aks",
-  "version": "v0.2.5",
+  "version": "v0.3.0",
   "homepage": "https://github.com/Azure/kubectl-aks",
   "description": "This plugin provides a set of commands that enable users to interact with an\nAKS cluster even when the control plane is not functioning as expected. For\nexample, users can still use the plugin to debug their cluster if the API\nserver is not working correctly. This plugin allows users to perform various\ntasks, retrieve information, and execute commands against the cluster nodes,\nregardless of the control plane's state.\n\nIt's important to note that this plugin does not replace az (the Azure CLI\n[1]). Instead, it complements it by offering additional commands and\nproviding users with a kubectl-like experience. In practice, users will use\naz to create and delete their AKS cluster, and then use kubectl and\nkubectl-aks to interact with and debug it.\n\n[1] https://learn.microsoft.com/en-us/cli/azure/\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/Azure/kubectl-aks/releases/download/v0.2.5/kubectl-aks-darwin-arm64-v0.2.5.tar.gz",
-      "sha256": "658e92dd68a42949c46ccf20e1fe7e1edae7931dc5df7fc525713252fded81cc",
+      "url": "https://github.com/Azure/kubectl-aks/releases/download/v0.3.0/kubectl-aks-darwin-arm64-v0.3.0.tar.gz",
+      "sha256": "f336a47eae4578e73e9cdbe73b73ecb24d9fea919ed0cd4cdf9f1cab50275c65",
       "bin": "kubectl-aks",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/Azure/kubectl-aks/releases/download/v0.2.5/kubectl-aks-darwin-amd64-v0.2.5.tar.gz",
-      "sha256": "b3aa9bc41cfe98fd80f18ce80c82ceb1c739535204fd2516ffcbad3aac919a1a",
+      "url": "https://github.com/Azure/kubectl-aks/releases/download/v0.3.0/kubectl-aks-darwin-amd64-v0.3.0.tar.gz",
+      "sha256": "f6c85971bbce70c261a68236b80a598be3daf5cf076d03ab58fccc7dd59ae3bb",
       "bin": "kubectl-aks",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/Azure/kubectl-aks/releases/download/v0.2.5/kubectl-aks-linux-amd64-v0.2.5.tar.gz",
-      "sha256": "6912bb93cc80138d1dab79ea1b912235d52a19274cfcbe496c4775124bb17a2c",
+      "url": "https://github.com/Azure/kubectl-aks/releases/download/v0.3.0/kubectl-aks-linux-amd64-v0.3.0.tar.gz",
+      "sha256": "a023372e633e6b3a3205db87445679618756db21f56cfb0d31def8e2b5c717ec",
       "bin": "kubectl-aks",
       "files": [
         {
