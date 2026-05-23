@@ -1,12 +1,12 @@
 {
   "plugin": "retina",
-  "version": "v1.2.0",
+  "version": "v1.2.1",
   "homepage": "https://github.com/microsoft/retina",
   "description": "The Retina CLI plugin enables users to collect distributed network captures in an\nOS and vendor-agnostic way. Capture jobs can be created via the CLI to target specific\nnodes or pods in a time-limited or size limited way. Capture jobs can also filter specific\nnetwork traffic based on the given configurations; more info on the configurations can be \nfound on the official docs. The captures are collected in formats like pcap, etl and \ntext files, and can then be stored at remote storage destinations.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/microsoft/retina/releases/download/v1.2.0/kubectl-retina-darwin-arm64-v1.2.0.tar.gz",
-      "sha256": "3b0c71081d08d44ac4960b42b1ac38f52dc8e202fe59dfd492e5b1b28e57cd96",
+      "url": "https://github.com/microsoft/retina/releases/download/v1.2.1/kubectl-retina-darwin-arm64-v1.2.1.tar.gz",
+      "sha256": "4b525ad1a90534adadff419eced69b5b87adbf75393d4c9f889e9a4f1b4953dd",
       "bin": "kubectl-retina-darwin-arm64",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/microsoft/retina/releases/download/v1.2.0/kubectl-retina-linux-arm64-v1.2.0.tar.gz",
-      "sha256": "11db47cf3f4d447be109dbcef765a2cd4ecd5e7689a5101feab6a6551de933f4",
+      "url": "https://github.com/microsoft/retina/releases/download/v1.2.1/kubectl-retina-linux-arm64-v1.2.1.tar.gz",
+      "sha256": "6985d323e58d0619df9a7eec74bd558a7cf18b4fa6951852d9305338f6471beb",
       "bin": "kubectl-retina-linux-arm64",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/microsoft/retina/releases/download/v1.2.0/kubectl-retina-darwin-amd64-v1.2.0.tar.gz",
-      "sha256": "a8c2cc8b2b75fc3bb6023e26902655cad46a29929cc72abd672df1c0b5de4f43",
+      "url": "https://github.com/microsoft/retina/releases/download/v1.2.1/kubectl-retina-darwin-amd64-v1.2.1.tar.gz",
+      "sha256": "428e6d4984373e912d93103046b55ba773bd69188875f17770f6a5b2383c9954",
       "bin": "kubectl-retina-darwin-amd64",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/microsoft/retina/releases/download/v1.2.0/kubectl-retina-linux-amd64-v1.2.0.tar.gz",
-      "sha256": "02af37b220fe3867b6fa56c4d141a0e0fd31f5b653b40d211c4cbc1ae3406c76",
+      "url": "https://github.com/microsoft/retina/releases/download/v1.2.1/kubectl-retina-linux-amd64-v1.2.1.tar.gz",
+      "sha256": "45040833b68d74b2199f74582cf9cdcc9e61480d85383276aa6053f7ebf35072",
       "bin": "kubectl-retina-linux-amd64",
       "files": [
         {
