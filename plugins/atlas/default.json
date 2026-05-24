@@ -1,0 +1,52 @@
+{
+  "plugin": "atlas",
+  "version": "v1.2.0",
+  "homepage": "https://github.com/lithastra/kubeatlas",
+  "description": "kubectl-atlas shows a KubeAtlas dependency graph for a resource,\na namespace, or the whole cluster.\n\nBy default it works offline: it builds the dependency graph\nstraight from the Kubernetes API and renders it to an SVG\nlocally, with no KubeAtlas server required. With --local-ui it\ninstead runs a KubeAtlas server in-process and opens the\ninteractive web UI — no graphviz and no in-cluster server. With\n--online (or --server / KUBEATLAS_URL) it opens the live\nKubeAtlas web UI in the cluster instead.\n\nThe plugin installs nothing in the cluster. Run\n`kubectl atlas --help` for usage.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/lithastra/kubeatlas/releases/download/v1.2.0/kubectl-atlas_1.2.0_darwin_arm64.tar.gz",
+      "sha256": "70e7094ed657bfda5ea3e391fb780754f730449d0be0522067d6744a4dc424b6",
+      "bin": "kubectl-atlas",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/lithastra/kubeatlas/releases/download/v1.2.0/kubectl-atlas_1.2.0_linux_arm64.tar.gz",
+      "sha256": "25196773a15b4e8b08961165c1a90da6cd5c6b7abb807da625011a5fe32ba50a",
+      "bin": "kubectl-atlas",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/lithastra/kubeatlas/releases/download/v1.2.0/kubectl-atlas_1.2.0_darwin_amd64.tar.gz",
+      "sha256": "7f655514af08d7da593100dd5bc27a5d21fde705833bff3bb88b1344af50c485",
+      "bin": "kubectl-atlas",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/lithastra/kubeatlas/releases/download/v1.2.0/kubectl-atlas_1.2.0_linux_amd64.tar.gz",
+      "sha256": "e29ba40c3375722ba9a6676bc5e36402fef6a7e1e85912daf9ad787e76901094",
+      "bin": "kubectl-atlas",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}
