@@ -1,0 +1,52 @@
+{
+  "plugin": "pod-instance-types",
+  "version": "v0.0.1",
+  "homepage": "https://github.com/jzelinskie/kubectl-pod_instance_types",
+  "description": "Lists pods in a namespace with an additional INSTANCE-TYPE column showing\nthe underlying node's cloud instance type.\nSupports all standard kubectl output format flags (-o json, -o yaml, -o\njsonpath, etc.) by injecting an annotation with the instance type.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/jzelinskie/kubectl-pod_instance_types/releases/download/v0.0.1/kubectl-pod_instance_types_0.0.1_darwin_arm64.tar.gz",
+      "sha256": "46446860b8fbe4c8f4c4b5302f7248d88147e16707f1dbc3f5d820ab9941d77c",
+      "bin": "kubectl-pod_instance_types",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/jzelinskie/kubectl-pod_instance_types/releases/download/v0.0.1/kubectl-pod_instance_types_0.0.1_linux_arm64.tar.gz",
+      "sha256": "da0a36b4c85324c0e80b1450ec0e4852d3775b2a23a2d28bd7eeb3073c9f3b77",
+      "bin": "kubectl-pod_instance_types",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/jzelinskie/kubectl-pod_instance_types/releases/download/v0.0.1/kubectl-pod_instance_types_0.0.1_darwin_amd64.tar.gz",
+      "sha256": "4bf44e5c2fc1d43fff840595dc37b447cc5618ff6c4b6c2745bd0f09dda9fe7d",
+      "bin": "kubectl-pod_instance_types",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/jzelinskie/kubectl-pod_instance_types/releases/download/v0.0.1/kubectl-pod_instance_types_0.0.1_linux_amd64.tar.gz",
+      "sha256": "71b50de35b73c9bc75b36fa09ef22c260eb68b9326ca9da0c872343a8ac822a7",
+      "bin": "kubectl-pod_instance_types",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

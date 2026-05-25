@@ -1,12 +1,12 @@
 {
   "plugin": "podtrace",
-  "version": "v0.11.11",
+  "version": "v0.12.1",
   "homepage": "https://github.com/gma1k/podtrace",
   "description": "Podtrace runs eBPF probes against Kubernetes pods to surface low-level\ndiagnostics: TCP/UDP latency, DNS resolution, file I/O, syscall traces,\nlock contention, OOM events, and more. Run from your workstation for\nad-hoc diagnose runs of single or multiple pods, with bounded duration\nand optional JSON/OTLP/Jaeger/Splunk/Datadog export.\n\nThe same binary also powers the in-cluster operator and per-session\nJob runtime when installed via Helm; the CLI is one mode of three\n(CLI, continuous PodTrace CR, bounded PodTraceSession CR).\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/gma1k/podtrace/releases/download/v0.11.11/podtrace_darwin_arm64.tar.gz",
-      "sha256": "69ed4670abf8cff65a66e30cb32ee4443abdd1e47698e25a19a470abd353b910",
+      "url": "https://github.com/gma1k/podtrace/releases/download/v0.12.1/podtrace_darwin_arm64.tar.gz",
+      "sha256": "1ebc0c3e243652216cb4944c98113fe10f4879c546150a775b80c33929482e4d",
       "bin": "podtrace",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/gma1k/podtrace/releases/download/v0.11.11/podtrace_linux_arm64.tar.gz",
-      "sha256": "cc0a2da8a898df73ff49d5fd5d819c76cbdf8bca41bb95a9c3a82b0a7d6e8ea1",
+      "url": "https://github.com/gma1k/podtrace/releases/download/v0.12.1/podtrace_linux_arm64.tar.gz",
+      "sha256": "1433980189a7fe74f5d7ee657ac00345179cdcb1cd0713ebfd4f14ebf89b60cd",
       "bin": "podtrace",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/gma1k/podtrace/releases/download/v0.11.11/podtrace_darwin_amd64.tar.gz",
-      "sha256": "7e25ed652b43e15c180dda0bba64b29a073f1994a4c6fce5eac956546ee39436",
+      "url": "https://github.com/gma1k/podtrace/releases/download/v0.12.1/podtrace_darwin_amd64.tar.gz",
+      "sha256": "e5480716ea72ed2682dadeb651cff57b6f6cb0e779c2b6d871788263850c8c0d",
       "bin": "podtrace",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/gma1k/podtrace/releases/download/v0.11.11/podtrace_linux_amd64.tar.gz",
-      "sha256": "fa5465aed8cd8e4cf4c58a0c01800585cff69962f029cea31c2b0a0717136506",
+      "url": "https://github.com/gma1k/podtrace/releases/download/v0.12.1/podtrace_linux_amd64.tar.gz",
+      "sha256": "c1e28986a4a56cbe1cb9bb93aa9be2ff144a1c617b6f2be8c1ab52467d4a7c0a",
       "bin": "podtrace",
       "files": [
         {
