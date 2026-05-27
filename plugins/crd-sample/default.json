@@ -1,0 +1,52 @@
+{
+  "plugin": "crd-sample",
+  "version": "v0.1.1",
+  "homepage": "https://github.com/hegerdes/kubectl-crd-sample",
+  "description": "This plugin takes the name of an CRD (including the api-group)\nand generates an example manifest according to the CRDs OpenAPI-Schema.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/hegerdes/kubeclt-crd-sample/releases/download/v0.1.1/kubectl-crd-sample_0.1.1_darwin_arm64.tar.gz",
+      "sha256": "bf19316221023c65d5c19bd78ce44853c6e75bacbb2d7af89675d894bc0b4f83",
+      "bin": "kubectl-crd_sample",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/hegerdes/kubeclt-crd-sample/releases/download/v0.1.1/kubectl-crd-sample_0.1.1_linux_arm64.tar.gz",
+      "sha256": "9e2c044bdea4941d087550eec335a7ebfd22d3b864ca109865ba0d9376e478eb",
+      "bin": "kubectl-crd_sample",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/hegerdes/kubeclt-crd-sample/releases/download/v0.1.1/kubectl-crd-sample_0.1.1_darwin_x86_64.tar.gz",
+      "sha256": "7f398bd5b7c7fac9971c0c162ae7250991132d1b22b6e8fa8a239da89287a3d7",
+      "bin": "kubectl-crd_sample",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/hegerdes/kubeclt-crd-sample/releases/download/v0.1.1/kubectl-crd-sample_0.1.1_linux_x86_64.tar.gz",
+      "sha256": "e7c5b86305555369fa5b803bc1866ecdc5d449ba5265e265322a7dd249553f81",
+      "bin": "kubectl-crd_sample",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}
