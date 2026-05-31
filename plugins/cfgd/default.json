@@ -1,12 +1,12 @@
 {
   "plugin": "cfgd",
-  "version": "v0.3.5",
+  "version": "v0.4.0",
   "homepage": "https://github.com/tj-smith47/cfgd",
   "description": "cfgd reconciles machine state (packages, files, services, shell,\nkernel settings, container runtimes, and Kubernetes nodes) against\na declarative YAML config. It detects drift and applies changes\nsafely. Inside a cluster, the kubectl plugin works with cfgd-managed\npods and nodes.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/tj-smith47/cfgd/releases/download/v0.3.5/cfgd-0.3.5-darwin-arm64.tar.gz",
-      "sha256": "03ed24f91b3bdbd9c25b1d895be167b75ad55db8ff48e3a5cceb71fa6a06601f",
+      "url": "https://github.com/tj-smith47/cfgd/releases/download/v0.4.0/cfgd-0.4.0-darwin-arm64.tar.gz",
+      "sha256": "e3d07dd0affb279dd88e718b8c6c3f82556db1c73ef9e8b77228b828a1952a94",
       "bin": "cfgd",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/tj-smith47/cfgd/releases/download/v0.3.5/cfgd-0.3.5-linux-arm64.tar.gz",
-      "sha256": "be67677b54c7344856e8b654ac6f6365cfd6007818427a1e2250bddb534454a3",
+      "url": "https://github.com/tj-smith47/cfgd/releases/download/v0.4.0/cfgd-0.4.0-linux-arm64.tar.gz",
+      "sha256": "05832151a4a881e35a2351d5bb696cb8ced8a6816d84122edf0bd72c43370dbb",
       "bin": "cfgd",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/tj-smith47/cfgd/releases/download/v0.3.5/cfgd-0.3.5-darwin-amd64.tar.gz",
-      "sha256": "6a05a5c74db422d08191b629e15bfaa767d6d31f0005793c8ce4112127281ec8",
+      "url": "https://github.com/tj-smith47/cfgd/releases/download/v0.4.0/cfgd-0.4.0-darwin-amd64.tar.gz",
+      "sha256": "0eb602a049f85898496cfdb6b645db8892d478d478f6e62d4b634662e63f119b",
       "bin": "cfgd",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/tj-smith47/cfgd/releases/download/v0.3.5/cfgd-0.3.5-linux-amd64.tar.gz",
-      "sha256": "e8b15186e209646fdccac5d3385bc7eca9b575a2a38e2eb510ef11028b9804b8",
+      "url": "https://github.com/tj-smith47/cfgd/releases/download/v0.4.0/cfgd-0.4.0-linux-amd64.tar.gz",
+      "sha256": "640fd4f4e3dc8c38c9c2bb999e9441e919159d11fa5500f00d6a8c4b64a6caec",
       "bin": "cfgd",
       "files": [
         {
