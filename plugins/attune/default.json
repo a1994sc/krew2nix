@@ -1,12 +1,12 @@
 {
   "plugin": "attune",
-  "version": "v0.1.9",
+  "version": "v0.1.11",
   "homepage": "https://github.com/attune-io/attune",
   "description": "The kubectl-attune plugin provides visibility into Attune, a Kubernetes\noperator for safe, in-place pod resource right-sizing. View policy status,\nsavings estimates, per-container recommendations, and resize history.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/attune-io/attune/releases/download/v0.1.9/kubectl-attune_darwin_arm64.tar.gz",
-      "sha256": "6e9be6aaf78c2a24c105b9e4e81833d4695557aab9308ba32f4a205c3da6b559",
+      "url": "https://github.com/attune-io/attune/releases/download/v0.1.11/kubectl-attune_darwin_arm64.tar.gz",
+      "sha256": "a59a02b0e1cfbcfbd359ce6e9d85a4cf5fef879e332f990f2ab63a4f73617394",
       "bin": "kubectl-attune",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/attune-io/attune/releases/download/v0.1.9/kubectl-attune_linux_arm64.tar.gz",
-      "sha256": "cce8770cac525fbcc399ba689decc6ed8769c9649dbd47081a09325b90dcc34a",
+      "url": "https://github.com/attune-io/attune/releases/download/v0.1.11/kubectl-attune_linux_arm64.tar.gz",
+      "sha256": "807c3f8b32519e13c3b588bc46fd9ece1d0b3a0f47999d65999e5251721d80a9",
       "bin": "kubectl-attune",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/attune-io/attune/releases/download/v0.1.9/kubectl-attune_darwin_amd64.tar.gz",
-      "sha256": "66467177253c23c5e87ef6b15247b20d3399bb68e68a836eb24cda97f20088ff",
+      "url": "https://github.com/attune-io/attune/releases/download/v0.1.11/kubectl-attune_darwin_amd64.tar.gz",
+      "sha256": "fe07895f38222236861176092cbfbc0f18d0546f6b4714b1f3dd13e07333bf52",
       "bin": "kubectl-attune",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/attune-io/attune/releases/download/v0.1.9/kubectl-attune_linux_amd64.tar.gz",
-      "sha256": "9865813fa7f521b075ff8a506f0ecc42ca0353f0d16dffbf6036812234d66c96",
+      "url": "https://github.com/attune-io/attune/releases/download/v0.1.11/kubectl-attune_linux_amd64.tar.gz",
+      "sha256": "ca978e53e267f90905434c7c211e81b8a43388fe8b79259717fa9e6ae3a03801",
       "bin": "kubectl-attune",
       "files": [
         {
