@@ -1,0 +1,52 @@
+{
+  "plugin": "kenv",
+  "version": "v0.5.0",
+  "homepage": "https://github.com/dexiotropic/kubenv",
+  "description": "Render Kubernetes manifest variables before applying resources with\nkubectl. The plugin uses {{ env.NAME }} placeholders by default and\ncan also render shell-style $NAME and ${NAME} placeholders.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/dexiotropic/kubenv/releases/download/v0.5.0/kubenv_kubectl-kenv_0.5.0_darwin_arm64.tar.gz",
+      "sha256": "7455c06681d783a4c6b29b6792e1495cb620d5b3e95e7cb86ef13f8fbe1d52c2",
+      "bin": "kubectl-kenv",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/dexiotropic/kubenv/releases/download/v0.5.0/kubenv_kubectl-kenv_0.5.0_linux_arm64.tar.gz",
+      "sha256": "06df629146fdfe6ec5f1c84a40adf8705c92744cf70d899ad00a76991861c159",
+      "bin": "kubectl-kenv",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/dexiotropic/kubenv/releases/download/v0.5.0/kubenv_kubectl-kenv_0.5.0_darwin_amd64.tar.gz",
+      "sha256": "f9230d59323aff46a3596354faae9af16f54e7afc7ded45ccbac76738b1a2153",
+      "bin": "kubectl-kenv",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/dexiotropic/kubenv/releases/download/v0.5.0/kubenv_kubectl-kenv_0.5.0_linux_amd64.tar.gz",
+      "sha256": "c48d8b8751f53c4984a1d31e02b26ff8ba330d9d34c4e863b7fbfd6eac5d38bc",
+      "bin": "kubectl-kenv",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}
