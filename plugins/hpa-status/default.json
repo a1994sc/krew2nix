@@ -1,12 +1,12 @@
 {
   "plugin": "hpa-status",
-  "version": "v0.6.0",
+  "version": "v0.7.0",
   "homepage": "https://github.com/mattsu2020/kubectl-hpa-status",
   "description": "Displays detailed HorizontalPodAutoscaler status including current and\ntarget utilization, replica counts, scaling conditions, metric analysis,\nand interpretation of scaling decisions. Features include health scoring,\nKEDA ScaledObject cross-reference, VPA conflict detection, metrics pipeline\ndiagnostics, resource request consistency checks, safe dry-run-first patch\nsuggestions, interactive TUI dashboard, stabilization window countdown,\nstandalone reports, shell completion, and Japanese language support.\nThis plugin reads existing HPA status, metrics, conditions, and events\nto provide human-readable analysis without reimplementing the HPA\ncontroller's internal decision logic.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/mattsu2020/kubectl-hpa-status/releases/download/v0.6.0/kubectl-hpa-status_v0.6.0_darwin_arm64.tar.gz",
-      "sha256": "8b2d6e65c13a1d20380c2cfcd48314b39a21d70d4f2957a54f6b6c967280d3e5",
+      "url": "https://github.com/mattsu2020/kubectl-hpa-status/releases/download/v0.7.0/kubectl-hpa-status_v0.7.0_darwin_arm64.tar.gz",
+      "sha256": "df9df4781c17bdaf792cfa339f259d2fb12ee1bca43ed1f31a4b6e98c7313b7f",
       "bin": "kubectl-hpa-status",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/mattsu2020/kubectl-hpa-status/releases/download/v0.6.0/kubectl-hpa-status_v0.6.0_linux_arm64.tar.gz",
-      "sha256": "e77a4926ff612513fc530153fd9c70674b08222b94bbda285b42c4e67c0142fe",
+      "url": "https://github.com/mattsu2020/kubectl-hpa-status/releases/download/v0.7.0/kubectl-hpa-status_v0.7.0_linux_arm64.tar.gz",
+      "sha256": "268e75433ac8a7be4d41f7ea30909b2fb035724d0e168fa48eaa509ddf183833",
       "bin": "kubectl-hpa-status",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/mattsu2020/kubectl-hpa-status/releases/download/v0.6.0/kubectl-hpa-status_v0.6.0_darwin_amd64.tar.gz",
-      "sha256": "631d1ccd92f50662b5c6cfd90dfdd4923f580e60cbfbf065f00f9d0ffb177445",
+      "url": "https://github.com/mattsu2020/kubectl-hpa-status/releases/download/v0.7.0/kubectl-hpa-status_v0.7.0_darwin_amd64.tar.gz",
+      "sha256": "79363c3a1afbddda9a3cbc09e5065569c2b31bed07af4e46851dc94a89de9635",
       "bin": "kubectl-hpa-status",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/mattsu2020/kubectl-hpa-status/releases/download/v0.6.0/kubectl-hpa-status_v0.6.0_linux_amd64.tar.gz",
-      "sha256": "84a7c48468136a632f3ce196f5eac1b4bbc98aa593138c2f531cbeee5c8ca3b5",
+      "url": "https://github.com/mattsu2020/kubectl-hpa-status/releases/download/v0.7.0/kubectl-hpa-status_v0.7.0_linux_amd64.tar.gz",
+      "sha256": "711b5e13f80f2ec2a1087f763efb5857afb3bf06a4ba0ca5c00d4cf467a06663",
       "bin": "kubectl-hpa-status",
       "files": [
         {

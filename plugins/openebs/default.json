@@ -1,12 +1,12 @@
 {
   "plugin": "openebs",
-  "version": "v4.4.0",
+  "version": "v4.5.0",
   "homepage": "https://openebs.io/docs/",
   "description": "This plugin allows you to manage storage engines provided by OpenEBS.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/openebs/openebs/releases/download/v4.4.0/kubectl-openebs-aarch64-apple-darwin.tar.gz",
-      "sha256": "67d708df1e25ae84c5d42935396f88b7e489fe2dcfbadab36e0f681e610400ab",
+      "url": "https://github.com/openebs/openebs/releases/download/v4.5.0/kubectl-openebs-aarch64-apple-darwin.tar.gz",
+      "sha256": "9e53f2bb28c8601abf6219b07070cb2b9d87be87c8ad367e54b3c9a960dd9a3e",
       "bin": "kubectl-openebs",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/openebs/openebs/releases/download/v4.4.0/kubectl-openebs-aarch64-linux-musl.tar.gz",
-      "sha256": "964c61c53ff1a28863db9ad65a45ab50265e32b8b69bee65815cff8d2dad59a7",
+      "url": "https://github.com/openebs/openebs/releases/download/v4.5.0/kubectl-openebs-aarch64-linux-musl.tar.gz",
+      "sha256": "75f40d29743486dbaa4a92bd414d9f3bb61eb4d519d0ff295a6e182faa2690e1",
       "bin": "kubectl-openebs",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/openebs/openebs/releases/download/v4.4.0/kubectl-openebs-x86_64-apple-darwin.tar.gz",
-      "sha256": "4c6ddb78022c73a3869e4a438846307e3a3100bf9093092379ad7af697a954d7",
+      "url": "https://github.com/openebs/openebs/releases/download/v4.5.0/kubectl-openebs-x86_64-apple-darwin.tar.gz",
+      "sha256": "046025447b04393f900764ab3d6e198506d8838a11c0bf709a862642bbd2f55e",
       "bin": "kubectl-openebs",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/openebs/openebs/releases/download/v4.4.0/kubectl-openebs-x86_64-linux-musl.tar.gz",
-      "sha256": "0a7e216a7fe83ed179d92b6b40dbc15843d7a23e586a3d7d0f03a055d487f864",
+      "url": "https://github.com/openebs/openebs/releases/download/v4.5.0/kubectl-openebs-x86_64-linux-musl.tar.gz",
+      "sha256": "9969cf218237f8020c696b0fda5f1916a8d43269d9da28c268a5e48fb7431625",
       "bin": "kubectl-openebs",
       "files": [
         {
