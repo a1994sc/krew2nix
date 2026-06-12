@@ -1,12 +1,12 @@
 {
   "plugin": "kpil",
-  "version": "v0.0.2",
+  "version": "v0.2.0",
   "homepage": "https://github.com/qjoly/kpil",
   "description": "kpil provisions a temporary, read-only Kubernetes ServiceAccount\n(secrets excluded), generates a short-lived kubeconfig, and launches\nthe GitHub Copilot CLI inside an isolated container.\nAll RBAC resources and the kubeconfig are deleted on exit.\n\nRequires Docker or Podman and a GH_TOKEN with copilot access.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/qjoly/kpil/releases/download/v0.0.2/kpil_0.0.2_darwin_arm64.tar.gz",
-      "sha256": "938d25e27cf1e6bda1bbe77c52a9edc4deed34b3ef6aa0ca0bf7352f07a1a2c0",
+      "url": "https://github.com/qjoly/kpil/releases/download/v0.2.0/kpil_0.2.0_darwin_arm64.tar.gz",
+      "sha256": "232b242b98a6aa9f143d1a5882378d4123eee6460144e5d4dafea5359e73117c",
       "bin": "kpil",
       "files": [
         {
@@ -20,8 +20,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/qjoly/kpil/releases/download/v0.0.2/kpil_0.0.2_linux_arm64.tar.gz",
-      "sha256": "9e262f97bc1ff321ed601657e8aed189aa33aff99337b380301698dc860086e3",
+      "url": "https://github.com/qjoly/kpil/releases/download/v0.2.0/kpil_0.2.0_linux_arm64.tar.gz",
+      "sha256": "4490cb5fcc2d7a0fa450c6a901d3a635efee0cc32dfb86563ff8ad9c536d044b",
       "bin": "kpil",
       "files": [
         {
@@ -35,8 +35,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/qjoly/kpil/releases/download/v0.0.2/kpil_0.0.2_darwin_amd64.tar.gz",
-      "sha256": "c3a8386717721d83e4a797a9f374d4cf1cabde9bc96255d46295a432f0a1e8ef",
+      "url": "https://github.com/qjoly/kpil/releases/download/v0.2.0/kpil_0.2.0_darwin_amd64.tar.gz",
+      "sha256": "f3e43d5f2c992cb9167b09bb9470ab26a0f14d019f371925dcaa948c12d54320",
       "bin": "kpil",
       "files": [
         {
@@ -50,8 +50,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/qjoly/kpil/releases/download/v0.0.2/kpil_0.0.2_linux_amd64.tar.gz",
-      "sha256": "c7e82f7a6c52f3bb15255e15561185c2ed89eeca5ab53a96b8f4f391430c6415",
+      "url": "https://github.com/qjoly/kpil/releases/download/v0.2.0/kpil_0.2.0_linux_amd64.tar.gz",
+      "sha256": "dede71902a855ecae012c6e0845eac8ab81f938891905a110f34278c232a6014",
       "bin": "kpil",
       "files": [
         {
