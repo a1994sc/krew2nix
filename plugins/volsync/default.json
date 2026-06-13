@@ -1,12 +1,42 @@
 {
   "plugin": "volsync",
-  "version": "v0.15.0",
+  "version": "v0.16.0",
   "homepage": "https://github.com/backube/volsync",
   "description": "This plugin provides a set of commands to interact with the VolSync\noperator.\n\nIt provides an easy method to perform several common data replication\nworkflows without directly creating/manipulating VolSync's CRs.\n",
   "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/backube/volsync/releases/download/v0.16.0/kubectl-volsync-darwin-arm64.tar.gz",
+      "sha256": "016c660f0444e04cab2a87a2c1e578d1e09cda463d7c669cd4e6385eeab85973",
+      "bin": "kubectl-volsync",
+      "files": [
+        {
+          "from": "./kubectl-volsync",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
     "aarch64-linux": {
-      "url": "https://github.com/backube/volsync/releases/download/v0.15.0/kubectl-volsync-linux-arm64.tar.gz",
-      "sha256": "297ab1b10c661b77b737b3f649480dc01e6edd8ca743ae86d33b79239b70413b",
+      "url": "https://github.com/backube/volsync/releases/download/v0.16.0/kubectl-volsync-linux-arm64.tar.gz",
+      "sha256": "a250a398b3cebb0ede936bc9602ece4deffb6de7ec55b33f7f5c443d6811491e",
+      "bin": "kubectl-volsync",
+      "files": [
+        {
+          "from": "./kubectl-volsync",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/backube/volsync/releases/download/v0.16.0/kubectl-volsync-darwin-amd64.tar.gz",
+      "sha256": "c570e860c733a51b4d25d58b246253e12249665345b24ff25b16670bf53c86aa",
       "bin": "kubectl-volsync",
       "files": [
         {
@@ -20,8 +50,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/backube/volsync/releases/download/v0.15.0/kubectl-volsync-linux-amd64.tar.gz",
-      "sha256": "233ecf36f312f2b8206d24eadb83f68b1d0ee505ab0b0ff885e5b97f9ce0a5fd",
+      "url": "https://github.com/backube/volsync/releases/download/v0.16.0/kubectl-volsync-linux-amd64.tar.gz",
+      "sha256": "bbf4532dd24684dba864ea7d2c91f9d9d9d70ce093a86c6f288ccb07800b07e8",
       "bin": "kubectl-volsync",
       "files": [
         {
