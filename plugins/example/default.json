@@ -1,12 +1,12 @@
 {
   "plugin": "example",
-  "version": "v1.2.1",
+  "version": "v1.3.0",
   "homepage": "https://github.com/talos-labs/kubectl-example",
   "description": "Prints out a example manifest YAML for a given resource type.\nThe plugin works similar to a dry run output but for arbitrary resources.\nAll examples originate from kubernetes.io.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/talos-labs/kubectl-example/releases/download/v1.2.1/kubectl-example_Darwin_arm64.tar.gz",
-      "sha256": "086e46920a8dd54fb7f32e0b6b6614478ad19f34ceb1c88e1cf56127e8e9beca",
+      "url": "https://github.com/talos-labs/kubectl-example/releases/download/v1.3.0/kubectl-example_Darwin_arm64.tar.gz",
+      "sha256": "f649b6de33c2b982dc08ed94e74838270d276b66d825beeb2d68d78301ec2bb1",
       "bin": "./kubectl-example",
       "files": [
         {
@@ -20,8 +20,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/talos-labs/kubectl-example/releases/download/v1.2.1/kubectl-example_Linux_arm64.tar.gz",
-      "sha256": "a3c245fdab6a301457be3aa5480f2dd21c296c93f97c417e85ef06b76276722f",
+      "url": "https://github.com/talos-labs/kubectl-example/releases/download/v1.3.0/kubectl-example_Linux_arm64.tar.gz",
+      "sha256": "73486a0a59c554acaa648e6a3fdf29448737d8c9fc09f9164c06218448d0fbae",
       "bin": "./kubectl-example",
       "files": [
         {
@@ -35,8 +35,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/talos-labs/kubectl-example/releases/download/v1.2.1/kubectl-example_Darwin_x86_64.tar.gz",
-      "sha256": "3d5591730c92816863c66ca01e34cf89fbfe838a732ee95445a3de659753aaa9",
+      "url": "https://github.com/talos-labs/kubectl-example/releases/download/v1.3.0/kubectl-example_Darwin_x86_64.tar.gz",
+      "sha256": "a3a785a85affe49c322a4ad20796c26b6cbfbeef406da819969314d17c2cea76",
       "bin": "./kubectl-example",
       "files": [
         {
@@ -50,8 +50,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/talos-labs/kubectl-example/releases/download/v1.2.1/kubectl-example_Linux_x86_64.tar.gz",
-      "sha256": "2891d0444e4996ae13834e254a22ecfbd6d5f196e02ef563e4e15b4a6260470d",
+      "url": "https://github.com/talos-labs/kubectl-example/releases/download/v1.3.0/kubectl-example_Linux_x86_64.tar.gz",
+      "sha256": "4712d3c5dbfb1c31d52034f3efe9d3dd4043cef6dc8b6893ed621cecc343192f",
       "bin": "./kubectl-example",
       "files": [
         {
