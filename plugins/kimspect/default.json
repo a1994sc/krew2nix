@@ -1,12 +1,12 @@
 {
   "plugin": "kimspect",
-  "version": "v0.0.44",
+  "version": "v0.0.45",
   "homepage": "https://github.com/koithos/kimspect",
   "description": "kimspect is a kubernetes container image inspection tool that provides\ncomprehensive visibility into container images running inside your cluster\nand can get container image & registry information by pods, namespaces and nodes\nin your cluster\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/koithos/kimspect/releases/download/v0.0.44/kimspect-aarch64-apple-darwin.tar.gz",
-      "sha256": "ae5e93f3a173baeb2dec594d2d0177ebcc2279ed5f1e92b29179921551eea73a",
+      "url": "https://github.com/koithos/kimspect/releases/download/v0.0.45/kimspect-aarch64-apple-darwin.tar.gz",
+      "sha256": "833a819125d5cda8a40b08290de2ee97f5988c37df39ebeb26b5405199d66d07",
       "bin": "kimspect",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/koithos/kimspect/releases/download/v0.0.44/kimspect-x86_64-apple-darwin.tar.gz",
-      "sha256": "57f461c302ca951ce077bc62e5dbe405105cb34928627976f427528570198ebc",
+      "url": "https://github.com/koithos/kimspect/releases/download/v0.0.45/kimspect-x86_64-apple-darwin.tar.gz",
+      "sha256": "7581bf8931ece1589a8d2702906260aa0962e35af2d409e00c4cce4525beef41",
       "bin": "kimspect",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/koithos/kimspect/releases/download/v0.0.44/kimspect-x86_64-unknown-linux-musl.tar.gz",
-      "sha256": "1693cc3f856b2a0ca66a1419ad436a95d1edb4c458dcda47f94f702941691990",
+      "url": "https://github.com/koithos/kimspect/releases/download/v0.0.45/kimspect-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "89c7b62f9e07901dea0f5714000a9e1a22a9b29485d611a712d7a639d4b75155",
       "bin": "kimspect",
       "files": [
         {
