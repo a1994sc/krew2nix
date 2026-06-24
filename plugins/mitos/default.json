@@ -1,0 +1,52 @@
+{
+  "plugin": "mitos",
+  "version": "v0.13.0",
+  "homepage": "https://mitos.run",
+  "description": "kubectl mitos inspects and operates mitos.run sandbox objects from your\ncluster: it lists sandbox claims and their copy-on-write forks, renders the\nfork lineage, reports per-sandbox memory metering, reads sandbox logs, and\nruns commands inside a sandbox. mitos boots Firecracker microVMs and forks\nthem via memory snapshots into parallel attempts. The plugin reads the\ncluster connection from the standard kubeconfig resolution.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/mitos-run/mitos/releases/download/v0.13.0/kubectl-mitos_v0.13.0_darwin_arm64.tar.gz",
+      "sha256": "bfa0a2cd30019f030d24b101b98139d1d65edb061555e8412990d51cce4346ae",
+      "bin": "kubectl-mitos",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/mitos-run/mitos/releases/download/v0.13.0/kubectl-mitos_v0.13.0_linux_arm64.tar.gz",
+      "sha256": "4b26c35e0c167713755022a1a600296107cbd94da9ffb36dbd8433ac5ee2ca95",
+      "bin": "kubectl-mitos",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/mitos-run/mitos/releases/download/v0.13.0/kubectl-mitos_v0.13.0_darwin_amd64.tar.gz",
+      "sha256": "dc327d347652d501c360e21f87d051c42307b6bb8b9533eb656e948ed871c57c",
+      "bin": "kubectl-mitos",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/mitos-run/mitos/releases/download/v0.13.0/kubectl-mitos_v0.13.0_linux_amd64.tar.gz",
+      "sha256": "9d77192ae5817d5514b87b7370351184953208c3d38a35e74c87c6e633bd112b",
+      "bin": "kubectl-mitos",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

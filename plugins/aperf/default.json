@@ -1,0 +1,68 @@
+{
+  "plugin": "aperf",
+  "version": "v1.2.3",
+  "homepage": "https://github.com/aws/aperf",
+  "description": "APerf is a CLI tool for performance monitoring and debugging. It records\na wide range of performance-related system metrics over a sampling period,\nsuch as CPU utilization, memory availability, and PMU counters, and writes\nthem into an archive on disk. APerf processes collected archives, performs\nanalysis, and generates an interactive HTML report with analytical findings\nand data visualizations.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/aws/aperf/releases/download/v1.2.3/kubectl-aperf-v1.2.3.tar.gz",
+      "sha256": "0309151fe469a13fb82c7f05a0c603483998c5ff47efa1a7d9f27879f288840b",
+      "bin": "kubectl-aperf",
+      "files": [
+        {
+          "from": "*/kubectl-aperf",
+          "to": "."
+        },
+        {
+          "from": "*/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/aws/aperf/releases/download/v1.2.3/kubectl-aperf-v1.2.3.tar.gz",
+      "sha256": "0309151fe469a13fb82c7f05a0c603483998c5ff47efa1a7d9f27879f288840b",
+      "bin": "kubectl-aperf",
+      "files": [
+        {
+          "from": "*/kubectl-aperf",
+          "to": "."
+        },
+        {
+          "from": "*/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/aws/aperf/releases/download/v1.2.3/kubectl-aperf-v1.2.3.tar.gz",
+      "sha256": "0309151fe469a13fb82c7f05a0c603483998c5ff47efa1a7d9f27879f288840b",
+      "bin": "kubectl-aperf",
+      "files": [
+        {
+          "from": "*/kubectl-aperf",
+          "to": "."
+        },
+        {
+          "from": "*/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/aws/aperf/releases/download/v1.2.3/kubectl-aperf-v1.2.3.tar.gz",
+      "sha256": "0309151fe469a13fb82c7f05a0c603483998c5ff47efa1a7d9f27879f288840b",
+      "bin": "kubectl-aperf",
+      "files": [
+        {
+          "from": "*/kubectl-aperf",
+          "to": "."
+        },
+        {
+          "from": "*/LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

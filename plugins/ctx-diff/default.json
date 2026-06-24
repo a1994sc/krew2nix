@@ -1,0 +1,68 @@
+{
+  "plugin": "ctx-diff",
+  "version": "v0.2.3",
+  "homepage": "https://github.com/salvador-arreola/kubectl-ctx-diff",
+  "description": "Compares Kubernetes resources between two kubeconfig contexts. Diffs\nany namespaced resource including CRDs, discovered automatically.\nSecret values are never exposed. Colored table or JSON output.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/salvador-arreola/kubectl-ctx-diff/releases/download/v0.2.3/kubectl-ctx-diff_darwin_arm64.tar.gz",
+      "sha256": "0f2783118b6d4cf54cefc494586f44b44909b69dc3e4ffa9e42b4bb32ad2b041",
+      "bin": "kubectl-ctx-diff",
+      "files": [
+        {
+          "from": "kubectl-ctx-diff",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/salvador-arreola/kubectl-ctx-diff/releases/download/v0.2.3/kubectl-ctx-diff_linux_arm64.tar.gz",
+      "sha256": "311739273955dde9cb1ceb8278fe260190cfa500a6e8e0cb9e76f754e0ce36d9",
+      "bin": "kubectl-ctx-diff",
+      "files": [
+        {
+          "from": "kubectl-ctx-diff",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/salvador-arreola/kubectl-ctx-diff/releases/download/v0.2.3/kubectl-ctx-diff_darwin_amd64.tar.gz",
+      "sha256": "122c0461168020093098df9e0509072ee16e66e46408930c0e8c56f2bc53063d",
+      "bin": "kubectl-ctx-diff",
+      "files": [
+        {
+          "from": "kubectl-ctx-diff",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/salvador-arreola/kubectl-ctx-diff/releases/download/v0.2.3/kubectl-ctx-diff_linux_amd64.tar.gz",
+      "sha256": "a09da89d5770d4c566f1792a339e30c512052919c021cb5dafd18a99eaf174f5",
+      "bin": "kubectl-ctx-diff",
+      "files": [
+        {
+          "from": "kubectl-ctx-diff",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}
