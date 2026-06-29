@@ -1,0 +1,52 @@
+{
+  "plugin": "pvu",
+  "version": "v0.1.1",
+  "homepage": "https://github.com/kha7iq/pvu",
+  "description": "pvu is a kubectl plugin for inspecting pod volume usage.\nIt can open an interactive TUI to browse pods in a namespace,\nor print volume details directly for a specific pod.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/kha7iq/pvu/releases/download/v0.1.1/pvu_Darwin_arm64.tar.gz",
+      "sha256": "b8d4404c7c70dc03a93c6c12b25d535f0803d657fb56a942de13db785766ee30",
+      "bin": "kubectl-pvu",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/kha7iq/pvu/releases/download/v0.1.1/pvu_Linux_arm64.tar.gz",
+      "sha256": "96a5155a3eb09f6fe529db66cff72acc87154ae19808733c5fe10bb9f4776933",
+      "bin": "kubectl-pvu",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/kha7iq/pvu/releases/download/v0.1.1/pvu_Darwin_x86_64.tar.gz",
+      "sha256": "80dcdc865ce62f4c6cc8938fe6630b05e5d52e4541e537c87d983d3b3887d1c9",
+      "bin": "kubectl-pvu",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/kha7iq/pvu/releases/download/v0.1.1/pvu_Linux_x86_64.tar.gz",
+      "sha256": "432959c66dce6eb1f1004fde3996fbcabb345eeb5b558e822b529103ea1fb7f0",
+      "bin": "kubectl-pvu",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}
