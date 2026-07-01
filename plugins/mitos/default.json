@@ -1,12 +1,12 @@
 {
   "plugin": "mitos",
-  "version": "v1.7.0",
+  "version": "v1.10.0",
   "homepage": "https://github.com/mitos-run/mitos",
   "description": "kubectl mitos inspects and operates mitos.run sandbox objects from your\ncluster: it lists sandbox claims and their copy-on-write forks, renders the\nfork lineage, reports per-sandbox memory metering, reads sandbox logs, and\nruns commands inside a sandbox. Mitos boots Firecracker microVMs and forks\nthem via memory snapshots into parallel attempts. The plugin reads the\ncluster connection from the standard kubeconfig resolution.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/mitos-run/mitos/releases/download/v1.7.0/kubectl-mitos_v1.7.0_darwin_arm64.tar.gz",
-      "sha256": "328c7de1ddebb5b6fd04ad39dc5034800ec0337659e541967cdb23211a0fbd7e",
+      "url": "https://github.com/mitos-run/mitos/releases/download/v1.10.0/kubectl-mitos_v1.10.0_darwin_arm64.tar.gz",
+      "sha256": "a4d2c054ce0acda50be4af26c200aab8d68c9bcf8253e33ec8e9972499274bb1",
       "bin": "kubectl-mitos",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/mitos-run/mitos/releases/download/v1.7.0/kubectl-mitos_v1.7.0_linux_arm64.tar.gz",
-      "sha256": "2fa5e89c6793c0502275ca2ff67b81798772d617e33220e389c1220ee2d916e4",
+      "url": "https://github.com/mitos-run/mitos/releases/download/v1.10.0/kubectl-mitos_v1.10.0_linux_arm64.tar.gz",
+      "sha256": "f657f2851540247f0c00d7530f60ec84a26dcbd8c035f7dee2603610665901ec",
       "bin": "kubectl-mitos",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/mitos-run/mitos/releases/download/v1.7.0/kubectl-mitos_v1.7.0_darwin_amd64.tar.gz",
-      "sha256": "e0150e23c3b48585968b1acdd4ac8acecba63793da83a7722bba29051d64a70b",
+      "url": "https://github.com/mitos-run/mitos/releases/download/v1.10.0/kubectl-mitos_v1.10.0_darwin_amd64.tar.gz",
+      "sha256": "a0f2b09e304d4e4fed3d04eb4aaa097af0e37ddfcca1abe37824c75cdf156c54",
       "bin": "kubectl-mitos",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/mitos-run/mitos/releases/download/v1.7.0/kubectl-mitos_v1.7.0_linux_amd64.tar.gz",
-      "sha256": "ef08066bb0035f4db24c6e7d135776b6a33bcc8375590506e0c240978262c5a8",
+      "url": "https://github.com/mitos-run/mitos/releases/download/v1.10.0/kubectl-mitos_v1.10.0_linux_amd64.tar.gz",
+      "sha256": "f7f1e34f15a9aad51b4434a363e0a9a7ab233bc2ab9d47876a4397417b8c0a90",
       "bin": "kubectl-mitos",
       "files": [
         {
