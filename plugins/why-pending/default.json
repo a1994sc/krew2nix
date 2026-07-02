@@ -1,12 +1,12 @@
 {
   "plugin": "why-pending",
-  "version": "v0.5.0",
+  "version": "v0.5.1",
   "homepage": "https://github.com/SaiRohithGuntupally/kubectl-why-pending",
   "description": "why-pending re-runs the scheduler's filtering logic locally and explains, in\nplain English, why a pod cannot be scheduled — and what to change.\n\nIt calls out the causes bare-metal / on-prem clusters hit that cloud clusters\nhide behind the autoscaler: resource fragmentation (capacity exists, but not\non any single node), control-plane taints eating a small cluster, GPU /\nextended resources (no node provides it — naming the broken GPU device-plugin\n/ operator-chain link — or none has enough free), Dynamic Resource Allocation\n(DRA) claims that can't be satisfied, topology spread skew, anti-affinity\nrunning out of hosts, a pod larger than any node, nodeSelector / nodeAffinity\nmismatches, cordoned / NotReady nodes, and unbound PersistentVolumeClaims.\nWhen no static blocker is found it points at the dynamic causes it doesn't\nmodel and shows the raw scheduler event.\n\nUsage:\n  kubectl why-pending                 # every Pending pod in the namespace\n  kubectl why-pending my-pod -n data  # a specific pod\n  kubectl why-pending -A              # all namespaces\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/SaiRohithGuntupally/kubectl-why-pending/releases/download/v0.5.0/kubectl-why-pending_darwin_arm64.tar.gz",
-      "sha256": "bf6b21c74d0f892c7ede1b7f11120bb1f20afef647f16d93c210c1fe5f6bee4e",
+      "url": "https://github.com/SaiRohithGuntupally/kubectl-why-pending/releases/download/v0.5.1/kubectl-why-pending_darwin_arm64.tar.gz",
+      "sha256": "590e9fc5b9aa7e48a8c29ec7d0201a4ed8dcc4946bdccaa884333cda005c3874",
       "bin": "kubectl-why_pending",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/SaiRohithGuntupally/kubectl-why-pending/releases/download/v0.5.0/kubectl-why-pending_linux_arm64.tar.gz",
-      "sha256": "46667fce67debf2116f7e6672c43faf17b8535b87b3eb6c38f5a592d9e4c7d43",
+      "url": "https://github.com/SaiRohithGuntupally/kubectl-why-pending/releases/download/v0.5.1/kubectl-why-pending_linux_arm64.tar.gz",
+      "sha256": "9c07f59c48660675503cdc97755d5be696ba16d147b773a521aff4bbcf0b9318",
       "bin": "kubectl-why_pending",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/SaiRohithGuntupally/kubectl-why-pending/releases/download/v0.5.0/kubectl-why-pending_darwin_amd64.tar.gz",
-      "sha256": "b4013f42bade74d3e5973f2de5dfa4651352aceb08d0f817fc332aea10787f19",
+      "url": "https://github.com/SaiRohithGuntupally/kubectl-why-pending/releases/download/v0.5.1/kubectl-why-pending_darwin_amd64.tar.gz",
+      "sha256": "d9cd684a86799bc2018f8076a92a654ead9622deb5dbf93cde2b7823923d3c2c",
       "bin": "kubectl-why_pending",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/SaiRohithGuntupally/kubectl-why-pending/releases/download/v0.5.0/kubectl-why-pending_linux_amd64.tar.gz",
-      "sha256": "407a7a18ae45d7b4f10adf1e56d3d2de11d4c46e1dc1c4d46e493be1158d3823",
+      "url": "https://github.com/SaiRohithGuntupally/kubectl-why-pending/releases/download/v0.5.1/kubectl-why-pending_linux_amd64.tar.gz",
+      "sha256": "5d6ff79accf26a7ce29d8a6e72c7f4801391c9202f2e2f49ba2d43e00db6ddc9",
       "bin": "kubectl-why_pending",
       "files": [
         {

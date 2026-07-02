@@ -1,12 +1,12 @@
 {
   "plugin": "status",
-  "version": "v0.7.16",
+  "version": "v0.7.17",
   "homepage": "https://github.com/bergerx/kubectl-status",
   "description": "Show status details of a given resource. Most useful when debugging Pod issues.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/bergerx/kubectl-status/releases/download/v0.7.16/status_darwin_arm64.tar.gz",
-      "sha256": "bff90544bf48992f0774fdd3dd5c69bf656025aed93d1e14f85060c193b963c9",
+      "url": "https://github.com/bergerx/kubectl-status/releases/download/v0.7.17/status_darwin_arm64.tar.gz",
+      "sha256": "f7150873caa9ae60cc9dc9ffb8391ca5d61e6b7cfb02af58602e134fc1c7f8cb",
       "bin": "status",
       "files": [
         {
@@ -20,8 +20,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/bergerx/kubectl-status/releases/download/v0.7.16/status_linux_arm64.tar.gz",
-      "sha256": "1ffd2694de7834d6a4e3e0486afd9f082cc1240da9d2348efaa142967dde9bc8",
+      "url": "https://github.com/bergerx/kubectl-status/releases/download/v0.7.17/status_linux_arm64.tar.gz",
+      "sha256": "03735cd60072e8045e0654e17c95bc6b76e9b05e25924f03fa6aa3b21ff9a018",
       "bin": "status",
       "files": [
         {
@@ -35,8 +35,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/bergerx/kubectl-status/releases/download/v0.7.16/status_darwin_amd64.tar.gz",
-      "sha256": "d86d4147f325bd41fd3e1a21d26d8fa8fd44bcf3b4190582a51cc005366eacda",
+      "url": "https://github.com/bergerx/kubectl-status/releases/download/v0.7.17/status_darwin_amd64.tar.gz",
+      "sha256": "9f25d441b978b63cc7996bce3285be7896a9fd1912722776a6b1a423dde4c8b8",
       "bin": "status",
       "files": [
         {
@@ -50,8 +50,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/bergerx/kubectl-status/releases/download/v0.7.16/status_linux_amd64.tar.gz",
-      "sha256": "36f2e5a9ef1fad1342ca9d6a55e99d0e19322570183c614b565fb006e2a87de3",
+      "url": "https://github.com/bergerx/kubectl-status/releases/download/v0.7.17/status_linux_amd64.tar.gz",
+      "sha256": "dea2d86cbf55b8ac66741edfd4affe04b92e6b0bffccc3dacac6063eed735d35",
       "bin": "status",
       "files": [
         {
