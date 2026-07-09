@@ -1,0 +1,52 @@
+{
+  "plugin": "analyze-images",
+  "version": "v0.6.1",
+  "homepage": "https://github.com/ronaknnathani/kubectl-analyze-images",
+  "description": "Find the largest and most-used container images at a glance.\nThe report combines:\n\n- Image sizes from node status data\n- Pod, container, and init-container usage counts\n- Cached-on-node counts\n- Image size distribution and percentile summaries\n- Sorting by size, pod usage, or cached-on-node counts\n- Table and JSON output formats\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/ronaknnathani/kubectl-analyze-images/releases/download/v0.6.1/kubectl-analyze-images_v0.6.1_darwin_arm64.tar.gz",
+      "sha256": "2e128a161ca9072ac5897bf52651903249d4c26e4f8261f352360017e5188a03",
+      "bin": "kubectl-analyze-images",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/ronaknnathani/kubectl-analyze-images/releases/download/v0.6.1/kubectl-analyze-images_v0.6.1_linux_arm64.tar.gz",
+      "sha256": "56223a4bb7407516ddcaf81c28a6e708a2171e77297fc850d47157c77b0467b0",
+      "bin": "kubectl-analyze-images",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/ronaknnathani/kubectl-analyze-images/releases/download/v0.6.1/kubectl-analyze-images_v0.6.1_darwin_amd64.tar.gz",
+      "sha256": "b36953ab4383dfb7bca95961a068cd86baef060f44bdbf1b2732cce46336c9eb",
+      "bin": "kubectl-analyze-images",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/ronaknnathani/kubectl-analyze-images/releases/download/v0.6.1/kubectl-analyze-images_v0.6.1_linux_amd64.tar.gz",
+      "sha256": "f7428270d4c15da0e1f67a23f325718468edc53375ec3039a27da2e04cfd4e06",
+      "bin": "kubectl-analyze-images",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

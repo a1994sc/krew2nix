@@ -1,12 +1,12 @@
 {
   "plugin": "cwide",
-  "version": "v0.6.0",
+  "version": "v0.7.0",
   "homepage": "https://github.com/reborn1867/kubectl-cwide",
   "description": "kubectl-cwide is a Kubernetes plugin that enhances the kubectl command-line tool by providing a customizable wide output format for Kubernetes objects. It allows users to define custom column templates(both jsonpath and go template are supported) to tailor the output to their specific needs. With kubectl-cwide, users can easily modify, extend, or alias the output format and share these configurations with their team members. This makes it a powerful tool for improving the readability and usability of Kubernetes object data in various workflows.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/reborn1867/kubectl-cwide/releases/download/v0.6.0/kubectl-cwide_Darwin_arm64.tar.gz",
-      "sha256": "2cb218c5159d99338244528e809e41845246ef4b288b6f12222c2887c19b3d92",
+      "url": "https://github.com/reborn1867/kubectl-cwide/releases/download/v0.7.0/kubectl-cwide_Darwin_arm64.tar.gz",
+      "sha256": "cacf17e89f73b63ef5bde62a215f3bfd292a37e36daec6c7f93b266c8e30cced",
       "bin": "kubectl-cwide",
       "files": [
         {
@@ -20,8 +20,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/reborn1867/kubectl-cwide/releases/download/v0.6.0/kubectl-cwide_Darwin_x86_64.tar.gz",
-      "sha256": "185f7fe0f8751eaa5044afa6246dec1fe13238e48ffbffc61028d63a60bd3a71",
+      "url": "https://github.com/reborn1867/kubectl-cwide/releases/download/v0.7.0/kubectl-cwide_Darwin_x86_64.tar.gz",
+      "sha256": "c9f6c7117cdee960589859e6ef4a4ccef8b46ff4b66a1bf4e73d0fb55e4edfe4",
       "bin": "kubectl-cwide",
       "files": [
         {
@@ -35,8 +35,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/reborn1867/kubectl-cwide/releases/download/v0.6.0/kubectl-cwide_Linux_x86_64.tar.gz",
-      "sha256": "4d81811307f1d52b41d28a0b86edfb3274f4089fe83258b45d3882faa3c2ebe2",
+      "url": "https://github.com/reborn1867/kubectl-cwide/releases/download/v0.7.0/kubectl-cwide_Linux_x86_64.tar.gz",
+      "sha256": "99713836e77bdfc9a135a70a34e356949742845ead086198e93817ab9652c320",
       "bin": "kubectl-cwide",
       "files": [
         {

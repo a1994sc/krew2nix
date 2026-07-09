@@ -1,0 +1,68 @@
+{
+  "plugin": "kconmon",
+  "version": "v1.3.2",
+  "homepage": "https://github.com/EsDmitrii/kconmon-ng",
+  "description": "kubectl-kconmon talks to a running kconmon-ng controller's HTTP API through\na client-go port-forward, so operators can inspect the cluster's node/zone\ntopology and run one-shot connectivity diagnostics (TCP, UDP, ICMP, DNS,\nHTTP, and MTR per-hop traces) between any two nodes — without opening\nGrafana. It requires kconmon-ng to be installed in the cluster.\n\nExamples:\n  kubectl kconmon topology\n  kubectl kconmon check node-1 node-2 --type icmp\n  kubectl kconmon mtr node-1 node-2\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/EsDmitrii/kconmon-ng/releases/download/v1.3.2/kconmon_1.3.2_darwin_arm64.tar.gz",
+      "sha256": "985d9683b56c5835d05d1c41768d7723dd543929be896acd7385380520841a90",
+      "bin": "kubectl-kconmon",
+      "files": [
+        {
+          "from": "kubectl-kconmon",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/EsDmitrii/kconmon-ng/releases/download/v1.3.2/kconmon_1.3.2_linux_arm64.tar.gz",
+      "sha256": "a882a637aa7432bdb57cb9599c803ecac124e39ebccab1c455622396491d2d7f",
+      "bin": "kubectl-kconmon",
+      "files": [
+        {
+          "from": "kubectl-kconmon",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/EsDmitrii/kconmon-ng/releases/download/v1.3.2/kconmon_1.3.2_darwin_amd64.tar.gz",
+      "sha256": "363d0ec1a4bab08c28f2efab81d5f47951ab1c64bb0cbd063259efca5da19376",
+      "bin": "kubectl-kconmon",
+      "files": [
+        {
+          "from": "kubectl-kconmon",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/EsDmitrii/kconmon-ng/releases/download/v1.3.2/kconmon_1.3.2_linux_amd64.tar.gz",
+      "sha256": "2199147690015d5264dd2948ed4b1464ec8413b15fc31fa8fa41e054cfc4eafd",
+      "bin": "kubectl-kconmon",
+      "files": [
+        {
+          "from": "kubectl-kconmon",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}
