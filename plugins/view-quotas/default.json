@@ -1,12 +1,12 @@
 {
   "plugin": "view-quotas",
-  "version": "v0.0.3",
+  "version": "v0.0.4",
   "homepage": "https://github.com/hasanhakkaev/kubectl-view-quotas",
   "description": "A \"kubectl describe resourcequota \" alternative that lists resource quotas\nin colors.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/hasanhakkaev/kubectl-view-quotas/releases/download/v0.0.3/kubectl-view-quotas_darwin_arm64.tar.gz",
-      "sha256": "705cdfbb9c7e0648cbbf91488580c31c92ae9f94e22595c69fdc616b2974d93f",
+      "url": "https://github.com/hasanhakkaev/kubectl-view-quotas/releases/download/v0.0.4/kubectl-view-quotas_darwin_arm64.tar.gz",
+      "sha256": "5f6b00c1affd12efdc0fccae121c4dfc1548dedb81cc817d303b867c4b2cdf1b",
       "bin": "kubectl-view-quotas",
       "files": [
         {
@@ -20,8 +20,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/hasanhakkaev/kubectl-view-quotas/releases/download/v0.0.3/kubectl-view-quotas_linux_arm64.tar.gz",
-      "sha256": "bff4be13a9bc20a4e9e8c67433a2b51180382cd794e631059b9d701facb12c2e",
+      "url": "https://github.com/hasanhakkaev/kubectl-view-quotas/releases/download/v0.0.4/kubectl-view-quotas_linux_arm64.tar.gz",
+      "sha256": "1ac29b20cb2663560459850f80fffb942940dc05f73d3c6ce2350e9643bc7b70",
       "bin": "kubectl-view-quotas",
       "files": [
         {
@@ -35,8 +35,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/hasanhakkaev/kubectl-view-quotas/releases/download/v0.0.3/kubectl-view-quotas_darwin_amd64.tar.gz",
-      "sha256": "004fde0375dd362df7b4f9f72aa1018a896f003f4df29adbfafc8aa828d25012",
+      "url": "https://github.com/hasanhakkaev/kubectl-view-quotas/releases/download/v0.0.4/kubectl-view-quotas_darwin_amd64.tar.gz",
+      "sha256": "5016c582897e91b1e2b510b2396a58eb85717303e10851bd99b3d4077750ae81",
       "bin": "kubectl-view-quotas",
       "files": [
         {
@@ -50,8 +50,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/hasanhakkaev/kubectl-view-quotas/releases/download/v0.0.3/kubectl-view-quotas_linux_amd64.tar.gz",
-      "sha256": "adacb1e704f86cb0f8fca039a1333d198df4661a082e58eac3c5d8456687b09d",
+      "url": "https://github.com/hasanhakkaev/kubectl-view-quotas/releases/download/v0.0.4/kubectl-view-quotas_linux_amd64.tar.gz",
+      "sha256": "52303c3f5a3e511323f505dbd2d7c2c3442182372c41419bd2a3d3503d92b2ed",
       "bin": "kubectl-view-quotas",
       "files": [
         {
