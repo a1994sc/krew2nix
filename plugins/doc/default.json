@@ -1,65 +1,65 @@
 {
   "plugin": "doc",
-  "version": "v0.2.6",
+  "version": "v0.2.9",
   "homepage": "https://github.com/sttts/kubectl-doc",
   "description": "Render Kubernetes OpenAPI v3 schemas as YAML-shaped documentation for\nterminal, Markdown, HTML, and interactive documentation surfaces.\n\nkubectl doc can read schemas from a live cluster or from local CRD\nmanifests. It supports YAML, Markdown, Kro SimpleSchema, HTML, browser,\nand terminal UI output formats.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/sttts/kubectl-doc/releases/download/v0.2.6/kubectl-doc-v0.2.6-darwin-arm64.tar.gz",
-      "sha256": "8022a521a17897dab669ff0528bdb2d7b078f4e334334d265ec970f312cbd522",
+      "url": "https://github.com/sttts/kubectl-doc/releases/download/v0.2.9/kubectl-doc-v0.2.9-darwin-arm64.tar.gz",
+      "sha256": "41a474c74c8bd155756c54f43af6601bb6f4a8e1b1bfeca7b9f5b12241910867",
       "bin": "kubectl-doc",
       "files": [
         {
-          "from": "kubectl-doc-v0.2.6-darwin-arm64/kubectl-doc",
+          "from": "kubectl-doc-darwin-arm64/kubectl-doc",
           "to": "."
         },
         {
-          "from": "kubectl-doc-v0.2.6-darwin-arm64/LICENSE",
+          "from": "kubectl-doc-darwin-arm64/LICENSE",
           "to": "."
         }
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/sttts/kubectl-doc/releases/download/v0.2.6/kubectl-doc-v0.2.6-linux-arm64.tar.gz",
-      "sha256": "7914795c0c9007e547774c2563a4d43359b118c734c79d7bb1b5ec76e86936f0",
+      "url": "https://github.com/sttts/kubectl-doc/releases/download/v0.2.9/kubectl-doc-v0.2.9-linux-arm64.tar.gz",
+      "sha256": "e1773ea42eb58df046e701e0371bb8c06864c91097e1c67392c9b5d13c236ee3",
       "bin": "kubectl-doc",
       "files": [
         {
-          "from": "kubectl-doc-v0.2.6-linux-arm64/kubectl-doc",
+          "from": "kubectl-doc-linux-arm64/kubectl-doc",
           "to": "."
         },
         {
-          "from": "kubectl-doc-v0.2.6-linux-arm64/LICENSE",
+          "from": "kubectl-doc-linux-arm64/LICENSE",
           "to": "."
         }
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/sttts/kubectl-doc/releases/download/v0.2.6/kubectl-doc-v0.2.6-darwin-amd64.tar.gz",
-      "sha256": "69a8bcc8d1a2f92264269bde919dcb263255d903f4f1d9c4d0cd634615e7d7d8",
+      "url": "https://github.com/sttts/kubectl-doc/releases/download/v0.2.9/kubectl-doc-v0.2.9-darwin-amd64.tar.gz",
+      "sha256": "96d203332de8ccf24ae82f82514bc8503d1f5951b369c54c70439a2cafd36036",
       "bin": "kubectl-doc",
       "files": [
         {
-          "from": "kubectl-doc-v0.2.6-darwin-amd64/kubectl-doc",
+          "from": "kubectl-doc-darwin-amd64/kubectl-doc",
           "to": "."
         },
         {
-          "from": "kubectl-doc-v0.2.6-darwin-amd64/LICENSE",
+          "from": "kubectl-doc-darwin-amd64/LICENSE",
           "to": "."
         }
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/sttts/kubectl-doc/releases/download/v0.2.6/kubectl-doc-v0.2.6-linux-amd64.tar.gz",
-      "sha256": "2afc015de978a2a2060f350b1292c1dedee39fbf590c0da7e829f7d36a71cf7d",
+      "url": "https://github.com/sttts/kubectl-doc/releases/download/v0.2.9/kubectl-doc-v0.2.9-linux-amd64.tar.gz",
+      "sha256": "a8483cfcaa9f65c655712366dec05ca1e7cc2b4d1a91f89fd82fe5ebe5e7067e",
       "bin": "kubectl-doc",
       "files": [
         {
-          "from": "kubectl-doc-v0.2.6-linux-amd64/kubectl-doc",
+          "from": "kubectl-doc-linux-amd64/kubectl-doc",
           "to": "."
         },
         {
-          "from": "kubectl-doc-v0.2.6-linux-amd64/LICENSE",
+          "from": "kubectl-doc-linux-amd64/LICENSE",
           "to": "."
         }
       ]
