@@ -1,0 +1,41 @@
+{
+  "plugin": "walk",
+  "version": "v1.1.1",
+  "homepage": "https://github.com/HarshPanchal18/kubectl-walk",
+  "description": "kubectl-walk helps you to flatten, filters, and visualizes nested fields of Kubernetes objects or YAML files.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/HarshPanchal18/kubectl-walk/releases/download/v1.1.1/kubectl-walk-darwin-arm64.tar.gz",
+      "sha256": "0f22193dabd867763709da9e098e2d4e6f62faf6b8dac1f78a24287966176d97",
+      "bin": "kubectl-walk-darwin-arm64",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/HarshPanchal18/kubectl-walk/releases/download/v1.1.1/kubectl-walk-darwin-amd64.tar.gz",
+      "sha256": "5cfdc8b6e9772e53c7d330c8b9d3f27b4474fb57e74609ee2a61a3c323e37fe2",
+      "bin": "kubectl-walk-darwin-amd64",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/HarshPanchal18/kubectl-walk/releases/download/v1.1.1/kubectl-walk-linux-amd64.tar.gz",
+      "sha256": "9f4354a210d0e211bcbea0b502cab79fa905b220ef19b8494dccca945a514d2d",
+      "bin": "kubectl-walk-linux-amd64",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}
