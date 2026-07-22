@@ -1,12 +1,12 @@
 {
   "plugin": "gke-policy",
-  "version": "v1.4.5",
+  "version": "v1.4.7",
   "homepage": "https://github.com/google/gke-policy-automation",
   "description": "Tool and policy library for validating Google Kubernetes Engine clusters\nagainst the configuration best practices and scalability limits.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/google/gke-policy-automation/releases/download/v1.4.5/gke-policy-automation_v1.4.5_darwin_arm64.zip",
-      "sha256": "d1a22c2c6a3120e3a694e29e5cfee3fd0de9713ea7a408e84efde11c0c26396d",
+      "url": "https://github.com/google/gke-policy-automation/releases/download/v1.4.7/gke-policy-automation_v1.4.7_darwin_arm64.zip",
+      "sha256": "1af8e53d12091e1798096a947c9ac3d0181d49db33868f4bcb2a4918f93e7e5c",
       "bin": "gke-policy",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/google/gke-policy-automation/releases/download/v1.4.5/gke-policy-automation_v1.4.5_linux_arm64.zip",
-      "sha256": "17943e2e24b860c9c58029c989d6cc496fa86890e17008fd67b96a93ea1c3ce2",
+      "url": "https://github.com/google/gke-policy-automation/releases/download/v1.4.7/gke-policy-automation_v1.4.7_linux_arm64.zip",
+      "sha256": "9841dbdbebfa7ae8657832e33ce927ab4b0fc3f4cff8874b55088b84a30bca56",
       "bin": "gke-policy",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/google/gke-policy-automation/releases/download/v1.4.5/gke-policy-automation_v1.4.5_darwin_amd64.zip",
-      "sha256": "d1fff650ca6b46b0e23097ba3f5fdb86f1ecb807d64a5e154d59be563313ab8a",
+      "url": "https://github.com/google/gke-policy-automation/releases/download/v1.4.7/gke-policy-automation_v1.4.7_darwin_amd64.zip",
+      "sha256": "c0531e72f531a3b0c401635117e3d2aa46702cc9c18fab0a728b4dc790442c30",
       "bin": "gke-policy",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/google/gke-policy-automation/releases/download/v1.4.5/gke-policy-automation_v1.4.5_linux_amd64.zip",
-      "sha256": "f440bc6940da6d6a17bfa5382ee5024efc68fc256b8be3d49e40b32e94fb544d",
+      "url": "https://github.com/google/gke-policy-automation/releases/download/v1.4.7/gke-policy-automation_v1.4.7_linux_amd64.zip",
+      "sha256": "1534a9d4f83a810edb02741df09fffefebf033e6c3f875ffc167913647384557",
       "bin": "gke-policy",
       "files": [
         {
