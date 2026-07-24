@@ -1,0 +1,68 @@
+{
+  "plugin": "tripwire",
+  "version": "v0.1.0",
+  "homepage": "https://github.com/Dasmat13/kubectl-tripwire",
+  "description": "KubeTripwire maps admission webhook runtime dependencies and identifies\nconcrete failure paths that may block Kubernetes API requests.\n\nModels the complete dependency chain:\nWebhookConfig → Service → EndpointSlice → Pods → TLS Certs\n\nChecks backend availability, endpoint readiness, topology spread, and TLS validity.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/Dasmat13/kubectl-tripwire/releases/download/v0.1.0/kubectl-tripwire_v0.1.0_darwin_arm64.tar.gz",
+      "sha256": "73d8dfe6c25e5f5b363d15707e29b133fdfd083a0a6f12cb3606d43a7b572f88",
+      "bin": "kubectl-tripwire",
+      "files": [
+        {
+          "from": "kubectl-tripwire",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/Dasmat13/kubectl-tripwire/releases/download/v0.1.0/kubectl-tripwire_v0.1.0_linux_arm64.tar.gz",
+      "sha256": "4bcf0f6825e09a0f813277ac760364d07ea86bf6bd6578b3542b6181b576b5b5",
+      "bin": "kubectl-tripwire",
+      "files": [
+        {
+          "from": "kubectl-tripwire",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/Dasmat13/kubectl-tripwire/releases/download/v0.1.0/kubectl-tripwire_v0.1.0_darwin_amd64.tar.gz",
+      "sha256": "b2d0020b226dfda0505bd96f4aa0818aeb4c80e5549613d072ffc45ed6a439a3",
+      "bin": "kubectl-tripwire",
+      "files": [
+        {
+          "from": "kubectl-tripwire",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/Dasmat13/kubectl-tripwire/releases/download/v0.1.0/kubectl-tripwire_v0.1.0_linux_amd64.tar.gz",
+      "sha256": "a9e095d397f77e73816dd9da269c8ced7d1287eeea49427504b474707b388b4d",
+      "bin": "kubectl-tripwire",
+      "files": [
+        {
+          "from": "kubectl-tripwire",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

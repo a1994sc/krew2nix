@@ -1,0 +1,68 @@
+{
+  "plugin": "lambda-g",
+  "version": "v1.0.2",
+  "homepage": "https://github.com/0x-auth/lambda-g-auditor",
+  "description": "Scans your Kubernetes cluster for stranded resources across 6\ndimensions: CPU, RAM, GPU Core, GPU Memory, IOPS, and Network.\n\nDetects nodes where one resource is saturated while others sit\nidle — the kind of imbalance that kubectl top misses because it\nonly shows one dimension at a time.\n\nMost clusters waste 10-20% of compute budget this way. GPU\nclusters waste even more (VRAM full but compute idle).\n\nUse --detailed for per-node breakdown, --gpu to include GPU\nmetrics, --json for machine-readable output, and watch for\ncontinuous monitoring.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/0x-auth/lambda-g-auditor/releases/download/v1.0.2/kubectl-lambda_g-darwin-arm64.tar.gz",
+      "sha256": "ce30ad6e9f421007ef230acedbf6167a9bda021067e705fea2759b1d3716a805",
+      "bin": "kubectl-lambda_g",
+      "files": [
+        {
+          "from": "kubectl-lambda_g-darwin-arm64",
+          "to": "kubectl-lambda_g"
+        },
+        {
+          "from": "LICENSE",
+          "to": "LICENSE"
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/0x-auth/lambda-g-auditor/releases/download/v1.0.2/kubectl-lambda_g-linux-arm64.tar.gz",
+      "sha256": "c425caa8bb76f7d39bb5641ee35cff7a8e1d360ca04f9dd16e3e41c21985ba4e",
+      "bin": "kubectl-lambda_g",
+      "files": [
+        {
+          "from": "kubectl-lambda_g-linux-arm64",
+          "to": "kubectl-lambda_g"
+        },
+        {
+          "from": "LICENSE",
+          "to": "LICENSE"
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/0x-auth/lambda-g-auditor/releases/download/v1.0.2/kubectl-lambda_g-darwin-amd64.tar.gz",
+      "sha256": "6630a6470c0575952a7f90b19f1376692051651c5ef566a73b314e9e1eb4aa17",
+      "bin": "kubectl-lambda_g",
+      "files": [
+        {
+          "from": "kubectl-lambda_g-darwin-amd64",
+          "to": "kubectl-lambda_g"
+        },
+        {
+          "from": "LICENSE",
+          "to": "LICENSE"
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/0x-auth/lambda-g-auditor/releases/download/v1.0.2/kubectl-lambda_g-linux-amd64.tar.gz",
+      "sha256": "d3a7e81d84da72c3c52865963b42368972661bf5f102bd39ef5f6ab4778229ab",
+      "bin": "kubectl-lambda_g",
+      "files": [
+        {
+          "from": "kubectl-lambda_g-linux-amd64",
+          "to": "kubectl-lambda_g"
+        },
+        {
+          "from": "LICENSE",
+          "to": "LICENSE"
+        }
+      ]
+    }
+  }
+}

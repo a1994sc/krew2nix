@@ -1,49 +1,81 @@
 {
   "plugin": "cfgd",
-  "version": "v0.4.0",
+  "version": "v0.6.1",
   "homepage": "https://github.com/tj-smith47/cfgd",
-  "description": "cfgd reconciles machine state (packages, files, services, shell,\nkernel settings, container runtimes, and Kubernetes nodes) against\na declarative YAML config. It detects drift and applies changes\nsafely. Inside a cluster, the kubectl plugin works with cfgd-managed\npods and nodes.\n",
+  "description": "kubectl-cfgd attaches cfgd modules — portable bundles of CLI\ntools, dotfiles, shell config, and packages — to running\nKubernetes workloads without rebuilding the upstream image:\n\n  kubectl cfgd inject deploy/web -m nvim:1.2  # patch template, roll out\n  kubectl cfgd debug web-xyz -m nvim:1.2      # ephemeral debug container\n  kubectl cfgd exec web-xyz -m nvim:1.2 -- nvim\n  kubectl cfgd status                         # fleet-wide module status\n\nModules are mounted by the cfgd CSI driver and admission webhook.\nTo declare and reconcile local machine state, install the cfgd CLI.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/tj-smith47/cfgd/releases/download/v0.4.0/cfgd-0.4.0-darwin-arm64.tar.gz",
-      "sha256": "e3d07dd0affb279dd88e718b8c6c3f82556db1c73ef9e8b77228b828a1952a94",
+      "url": "https://github.com/tj-smith47/cfgd/releases/download/v0.6.1/cfgd-0.6.1-darwin-arm64.tar.gz",
+      "sha256": "3216b74ab37468f19e15687da4126d99ad7c9edbebec029ebaa74496a3d6a50c",
       "bin": "cfgd",
       "files": [
         {
-          "from": "*",
+          "from": "cfgd",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        },
+        {
+          "from": "README.md",
           "to": "."
         }
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/tj-smith47/cfgd/releases/download/v0.4.0/cfgd-0.4.0-linux-arm64.tar.gz",
-      "sha256": "05832151a4a881e35a2351d5bb696cb8ced8a6816d84122edf0bd72c43370dbb",
+      "url": "https://github.com/tj-smith47/cfgd/releases/download/v0.6.1/cfgd-0.6.1-linux-arm64.tar.gz",
+      "sha256": "c847e5d9a26c5122bab0cf8b2eef823c18bebba81de67fde3bab54e193bd2bba",
       "bin": "cfgd",
       "files": [
         {
-          "from": "*",
+          "from": "cfgd",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        },
+        {
+          "from": "README.md",
           "to": "."
         }
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/tj-smith47/cfgd/releases/download/v0.4.0/cfgd-0.4.0-darwin-amd64.tar.gz",
-      "sha256": "0eb602a049f85898496cfdb6b645db8892d478d478f6e62d4b634662e63f119b",
+      "url": "https://github.com/tj-smith47/cfgd/releases/download/v0.6.1/cfgd-0.6.1-darwin-amd64.tar.gz",
+      "sha256": "a4cc7cb1d8641b5f26377b63ed294fa1cc0958239555e2345b73c37fa129fa8e",
       "bin": "cfgd",
       "files": [
         {
-          "from": "*",
+          "from": "cfgd",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        },
+        {
+          "from": "README.md",
           "to": "."
         }
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/tj-smith47/cfgd/releases/download/v0.4.0/cfgd-0.4.0-linux-amd64.tar.gz",
-      "sha256": "640fd4f4e3dc8c38c9c2bb999e9441e919159d11fa5500f00d6a8c4b64a6caec",
+      "url": "https://github.com/tj-smith47/cfgd/releases/download/v0.6.1/cfgd-0.6.1-linux-amd64.tar.gz",
+      "sha256": "7fb3c5f8b5c0c6acb6eee7f6c388f73f0d9650310005963d5e01a9b7c5573364",
       "bin": "cfgd",
       "files": [
         {
-          "from": "*",
+          "from": "cfgd",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        },
+        {
+          "from": "README.md",
           "to": "."
         }
       ]
