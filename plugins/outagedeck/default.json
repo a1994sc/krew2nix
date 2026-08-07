@@ -1,0 +1,68 @@
+{
+  "plugin": "outagedeck",
+  "version": "v0.1.0",
+  "homepage": "https://github.com/outagedeck/kubectl-outagedeck",
+  "description": "Checks whether cloud and SaaS dependencies behind Kubernetes workloads\nare reporting incidents in their official status feeds. Provider slugs can\nbe supplied directly, or discovered from annotations on Deployments,\nStatefulSets, and DaemonSets. Discovery is read-only and resource names,\nlabels, kubeconfig data, and cluster credentials stay on the user's machine.\nThe plugin supports namespace, all-namespace, label-selector, context,\nkubeconfig, JSON-output, timeout, and severity-threshold options.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/outagedeck/kubectl-outagedeck/releases/download/v0.1.0/kubectl-outagedeck_0.1.0_darwin_arm64.tar.gz",
+      "sha256": "b3822bfa8b48110611c47df07f42cfca05be5a86510d06768af9e21f1c8f4b55",
+      "bin": "kubectl-outagedeck",
+      "files": [
+        {
+          "from": "kubectl-outagedeck",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/outagedeck/kubectl-outagedeck/releases/download/v0.1.0/kubectl-outagedeck_0.1.0_linux_arm64.tar.gz",
+      "sha256": "ce6d8ae29fdd6866e936e3198d34109feac3fb8261afd9b05b569947b6794e81",
+      "bin": "kubectl-outagedeck",
+      "files": [
+        {
+          "from": "kubectl-outagedeck",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/outagedeck/kubectl-outagedeck/releases/download/v0.1.0/kubectl-outagedeck_0.1.0_darwin_amd64.tar.gz",
+      "sha256": "32fe22431b650180dd31891ddd8c20a67ae6d1cb254e7e42086e5f57297dbdbc",
+      "bin": "kubectl-outagedeck",
+      "files": [
+        {
+          "from": "kubectl-outagedeck",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/outagedeck/kubectl-outagedeck/releases/download/v0.1.0/kubectl-outagedeck_0.1.0_linux_amd64.tar.gz",
+      "sha256": "4c288b0838f5a5294e63f3c2a345abe39f8a2f8c516d91decd518fef2c4c2935",
+      "bin": "kubectl-outagedeck",
+      "files": [
+        {
+          "from": "kubectl-outagedeck",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}
