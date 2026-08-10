@@ -1,0 +1,52 @@
+{
+  "plugin": "costwatch",
+  "version": "v0.1.0",
+  "homepage": "https://github.com/ArpitRajputGithub/kubectl-costwatch",
+  "description": "Prices requested CPU/memory/storage against a bundled price table and diffs\nagainst the previous run to show cost drift per namespace — no backend.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/ArpitRajputGithub/kubectl-costwatch/releases/download/v0.1.0/kubectl-costwatch_darwin_arm64.tar.gz",
+      "sha256": "591a6a0c927ef3931aebb4c33722b15d8fd207b298ad97198f09721ad3b54b79",
+      "bin": "kubectl-costwatch",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/ArpitRajputGithub/kubectl-costwatch/releases/download/v0.1.0/kubectl-costwatch_linux_arm64.tar.gz",
+      "sha256": "ccff7c6802a666d4656c2ed204f24cc4ac96e3079b8caf4a0f3c6e16c636dc54",
+      "bin": "kubectl-costwatch",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/ArpitRajputGithub/kubectl-costwatch/releases/download/v0.1.0/kubectl-costwatch_darwin_amd64.tar.gz",
+      "sha256": "cfe9977fabc24c64cb1393eae7d842f1c0daa12c70c67a5f0dff263d79ae4260",
+      "bin": "kubectl-costwatch",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/ArpitRajputGithub/kubectl-costwatch/releases/download/v0.1.0/kubectl-costwatch_linux_amd64.tar.gz",
+      "sha256": "1066d8ed5404a1ca182efe8bb3d870cc872a25a8effa7d4c3a277e51d2c834ad",
+      "bin": "kubectl-costwatch",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}
