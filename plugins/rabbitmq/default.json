@@ -1,12 +1,12 @@
 {
   "plugin": "rabbitmq",
-  "version": "v2.22.3",
+  "version": "v2.22.4",
   "homepage": "https://github.com/rabbitmq/cluster-operator",
   "description": "A plugin providing utilities to operate RabbitMQ clusters deployed\nby the RabbitMQ cluster operator.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/rabbitmq/cluster-operator/releases/download/v2.22.3/kubectl-rabbitmq-darwin-arm64.tar.gz",
-      "sha256": "24a35f96ee595390a207bade90215b241844b5ae4fb1f6e7df007a37d96311b2",
+      "url": "https://github.com/rabbitmq/cluster-operator/releases/download/v2.22.4/kubectl-rabbitmq-darwin-arm64.tar.gz",
+      "sha256": "c069ea0adbfc0eca29d1374ae697ad3f0d0a5ecf08717ea1c3a35f8d837246ca",
       "bin": "kubectl-rabbitmq-darwin-arm64",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/rabbitmq/cluster-operator/releases/download/v2.22.3/kubectl-rabbitmq-linux-arm64.tar.gz",
-      "sha256": "966e0ae47f2752016067d2ae2f07987d3a0113f926dfa4596c837152a4d002a9",
+      "url": "https://github.com/rabbitmq/cluster-operator/releases/download/v2.22.4/kubectl-rabbitmq-linux-arm64.tar.gz",
+      "sha256": "988bf2e14fcdf374c540bc1f8a2b598265c1ddf1d71f56f49099de45410f6d69",
       "bin": "kubectl-rabbitmq-linux-arm64",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/rabbitmq/cluster-operator/releases/download/v2.22.3/kubectl-rabbitmq-darwin-amd64.tar.gz",
-      "sha256": "117f553e5996aee5183444b1bf144de7eaf77ee5ff6735105620d19a917c92b2",
+      "url": "https://github.com/rabbitmq/cluster-operator/releases/download/v2.22.4/kubectl-rabbitmq-darwin-amd64.tar.gz",
+      "sha256": "492892c371e0d1892b02d96d7c5d9c79258693b9e2da8d32b16d1174feaba6c2",
       "bin": "kubectl-rabbitmq-darwin-amd64",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/rabbitmq/cluster-operator/releases/download/v2.22.3/kubectl-rabbitmq-linux-amd64.tar.gz",
-      "sha256": "a9cb2ce94477696f930bb4b059ea13de94f5aa7d86acaf03f7264c0800b9bbdf",
+      "url": "https://github.com/rabbitmq/cluster-operator/releases/download/v2.22.4/kubectl-rabbitmq-linux-amd64.tar.gz",
+      "sha256": "939bb612839fc7919ee9f4a207bb63fd8d78783fd4314047e5885159e0dd9a4c",
       "bin": "kubectl-rabbitmq-linux-amd64",
       "files": [
         {
