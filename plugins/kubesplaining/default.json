@@ -1,0 +1,68 @@
+{
+  "plugin": "kubesplaining",
+  "version": "v1.2.0",
+  "homepage": "https://github.com/0hardik1/kubesplaining",
+  "description": "Kubesplaining scans a Kubernetes cluster (live, or offline from a\nsnapshot file) and emits scored security findings as HTML, JSON, CSV,\nor SARIF.\n\nIts differentiator is an RBAC privilege-escalation graph: it searches\nfrom every subject toward sinks such as cluster-admin, kube-system\nsecrets, node escape, and token minting, and reports the full hop\nchain for each route it finds, including whether the route survives\nthe recommended fix.\n\nAdditional analyzers cover overbroad RBAC grants, pod security\n(privileged containers, host namespaces, hostPath), NetworkPolicy\ncoverage, admission webhook weaknesses, secret and ConfigMap\nexposure, service-account token handling, certificate-signing abuse,\nand EKS-specific IAM mappings. Raw Secret values are never read, and\nConfigMap values are redacted at collection time.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/0hardik1/kubesplaining/releases/download/v1.2.0/kubesplaining_1.2.0_Darwin_arm64.tar.gz",
+      "sha256": "27b1a495ac3ab8d1c175bf5b4c841c4de581c958f115ef28109f6557e00200f4",
+      "bin": "kubesplaining",
+      "files": [
+        {
+          "from": "kubesplaining",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/0hardik1/kubesplaining/releases/download/v1.2.0/kubesplaining_1.2.0_Linux_arm64.tar.gz",
+      "sha256": "0d51cdb825155b05583bc8cd2b1c0a405a9fe5314b2434f2ebb77f4835a7254a",
+      "bin": "kubesplaining",
+      "files": [
+        {
+          "from": "kubesplaining",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/0hardik1/kubesplaining/releases/download/v1.2.0/kubesplaining_1.2.0_Darwin_x86_64.tar.gz",
+      "sha256": "c1dc4121507e46cc37981303150588e263c4fcc7e93851d6a6d0e46db2b489d2",
+      "bin": "kubesplaining",
+      "files": [
+        {
+          "from": "kubesplaining",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/0hardik1/kubesplaining/releases/download/v1.2.0/kubesplaining_1.2.0_Linux_x86_64.tar.gz",
+      "sha256": "b546168bb95936886d4be329f650cc5d9a4c2bb31333d7e3060cfc32299eba59",
+      "bin": "kubesplaining",
+      "files": [
+        {
+          "from": "kubesplaining",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}
