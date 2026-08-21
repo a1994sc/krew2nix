@@ -1,0 +1,68 @@
+{
+  "plugin": "node-df",
+  "version": "v0.1.1",
+  "homepage": "https://github.com/loktionovam/kubectl-node-df",
+  "description": "Displays node filesystem and inode usage from the kubelet Summary API,\nincluding eviction threshold headroom when kubelet configuration is\naccessible.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/loktionovam/kubectl-node-df/archive/v0.1.1.tar.gz",
+      "sha256": "5523b70f8776202e157df5ca6add56435e9af79f446e42155857920cc58cbbd1",
+      "bin": "kubectl-node_df",
+      "files": [
+        {
+          "from": "kubectl-node-df-*/kubectl-node_df",
+          "to": "."
+        },
+        {
+          "from": "kubectl-node-df-*/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/loktionovam/kubectl-node-df/archive/v0.1.1.tar.gz",
+      "sha256": "5523b70f8776202e157df5ca6add56435e9af79f446e42155857920cc58cbbd1",
+      "bin": "kubectl-node_df",
+      "files": [
+        {
+          "from": "kubectl-node-df-*/kubectl-node_df",
+          "to": "."
+        },
+        {
+          "from": "kubectl-node-df-*/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/loktionovam/kubectl-node-df/archive/v0.1.1.tar.gz",
+      "sha256": "5523b70f8776202e157df5ca6add56435e9af79f446e42155857920cc58cbbd1",
+      "bin": "kubectl-node_df",
+      "files": [
+        {
+          "from": "kubectl-node-df-*/kubectl-node_df",
+          "to": "."
+        },
+        {
+          "from": "kubectl-node-df-*/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/loktionovam/kubectl-node-df/archive/v0.1.1.tar.gz",
+      "sha256": "5523b70f8776202e157df5ca6add56435e9af79f446e42155857920cc58cbbd1",
+      "bin": "kubectl-node_df",
+      "files": [
+        {
+          "from": "kubectl-node-df-*/kubectl-node_df",
+          "to": "."
+        },
+        {
+          "from": "kubectl-node-df-*/LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}
