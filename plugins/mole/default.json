@@ -1,0 +1,52 @@
+{
+  "plugin": "mole",
+  "version": "v0.5.0",
+  "homepage": "https://github.com/justin-tahara/kubectl-mole",
+  "description": "mole watches Kubernetes workloads until they settle, then emits one\ndeterministic structured verdict: what happened, why it failed\n(signature, cause, ownership chain, evidence), and a meaningful exit\ncode (0 settled, 1 failed, 2 still progressing, 3 permission denied,\n4 nothing matched). With no TYPE/NAME argument it fans out over every\nDeployment, StatefulSet, and DaemonSet in scope and returns one verdict\nfor the whole fleet. Read-only, no LLM, informer-based.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/justin-tahara/kubectl-mole/releases/download/v0.5.0/kubectl-mole_v0.5.0_darwin_arm64.tar.gz",
+      "sha256": "25a120559de3318b9f9481ae36d7c9aecc71cc7334afa7362cb620ce3f1780d5",
+      "bin": "kubectl-mole",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/justin-tahara/kubectl-mole/releases/download/v0.5.0/kubectl-mole_v0.5.0_linux_arm64.tar.gz",
+      "sha256": "5b39a62d54ad0562f65cfcbb6090211514266317d79b1bd7c495cff72fdbeec1",
+      "bin": "kubectl-mole",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/justin-tahara/kubectl-mole/releases/download/v0.5.0/kubectl-mole_v0.5.0_darwin_amd64.tar.gz",
+      "sha256": "4d91d1125c8f43a65ea5a456bf2de2b87c9b97560a60e2ec57ff0742d89b3b08",
+      "bin": "kubectl-mole",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/justin-tahara/kubectl-mole/releases/download/v0.5.0/kubectl-mole_v0.5.0_linux_amd64.tar.gz",
+      "sha256": "396cd08fc7b3ec4a7185a0b0bace2573b1867f9f5783779d372a2ab4dc913068",
+      "bin": "kubectl-mole",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

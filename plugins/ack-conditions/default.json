@@ -1,0 +1,68 @@
+{
+  "plugin": "ack-conditions",
+  "version": "v0.1.2",
+  "homepage": "https://github.com/steamedeo/kubectl-ack-conditions",
+  "description": "Discovers resources managed by AWS Controllers for Kubernetes (ACK)\nacross every installed ACK CRD and reports their ACK.ResourceSynced\nand ACK.Terminal conditions in a single, color-coded table, scoped\nto the current namespace, all namespaces, or cluster-scoped\nresources only.\n\nSupports exiting with a non-zero status when any resource has a\nTerminal condition, so it can gate a CI/CD pipeline rather than\njust be a human-readable dashboard.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/steamedeo/kubectl-ack-conditions/releases/download/v0.1.2/ack-conditions_darwin_arm64.tar.gz",
+      "sha256": "693a953aa2b0504e07e850da5cdc4df7cd8cab8b5d7a7241a446021953353f92",
+      "bin": "ack-conditions",
+      "files": [
+        {
+          "from": "./ack-conditions",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/steamedeo/kubectl-ack-conditions/releases/download/v0.1.2/ack-conditions_linux_arm64.tar.gz",
+      "sha256": "c316160793ac57dfa6221345dcdd079926a39be29ba37df19ffadde0820eb70c",
+      "bin": "ack-conditions",
+      "files": [
+        {
+          "from": "./ack-conditions",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/steamedeo/kubectl-ack-conditions/releases/download/v0.1.2/ack-conditions_darwin_amd64.tar.gz",
+      "sha256": "09df4ceceabbe7d94d92dac7dfec835661e3e1602db01310af4b5c723a955957",
+      "bin": "ack-conditions",
+      "files": [
+        {
+          "from": "./ack-conditions",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/steamedeo/kubectl-ack-conditions/releases/download/v0.1.2/ack-conditions_linux_amd64.tar.gz",
+      "sha256": "acb10a6c3400a54eaee0df00a38391fcd3c7188cc0a00b6cc3d23a046bd04aed",
+      "bin": "ack-conditions",
+      "files": [
+        {
+          "from": "./ack-conditions",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

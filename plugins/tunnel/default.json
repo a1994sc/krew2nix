@@ -1,12 +1,12 @@
 {
   "plugin": "tunnel",
-  "version": "v2.1.0",
+  "version": "v2.4.1",
   "homepage": "https://github.com/omrikiei/ktunnel",
   "description": "This plugin establishes a reverse tunnel between the Kubernetes cluster\nand your local machine. It lets you expose your machine as a service in\nthe cluster or expose it to a specific deployment as a local host.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/omrikiei/ktunnel/releases/download/v2.1.0/ktunnel_2.1.0_Darwin_arm64.tar.gz",
-      "sha256": "c44157407ed669ad40dad776b949d9c8ca078e7d6496c42046856550a3727f71",
+      "url": "https://github.com/omrikiei/ktunnel/releases/download/v2.4.1/ktunnel_2.4.1_Darwin_arm64.tar.gz",
+      "sha256": "8870d7ba92825d6686a8355a37f798f1090a60f045e3637b708e042d93ccc0c2",
       "bin": "ktunnel",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/omrikiei/ktunnel/releases/download/v2.1.0/ktunnel_2.1.0_Linux_arm64.tar.gz",
-      "sha256": "a7cab2b7d83f3c101e5e2e2251520569b30d926f7f4ef2bf4370d8c97f53b2b5",
+      "url": "https://github.com/omrikiei/ktunnel/releases/download/v2.4.1/ktunnel_2.4.1_Linux_arm64.tar.gz",
+      "sha256": "58fbbbe56504314ea0b77721b0474f7f76310ef627bcc0e1680d709a2151b430",
       "bin": "ktunnel",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/omrikiei/ktunnel/releases/download/v2.1.0/ktunnel_2.1.0_Darwin_x86_64.tar.gz",
-      "sha256": "45b30b06c7ff680558f857e9aabbf40a2da9a43fb09de1f1176a94fd8ce3355e",
+      "url": "https://github.com/omrikiei/ktunnel/releases/download/v2.4.1/ktunnel_2.4.1_Darwin_x86_64.tar.gz",
+      "sha256": "541c02ee794763e3d76e77bc9b0dfbb395fb8f70776242ff02a7482e620d578d",
       "bin": "ktunnel",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/omrikiei/ktunnel/releases/download/v2.1.0/ktunnel_2.1.0_Linux_x86_64.tar.gz",
-      "sha256": "16a4b11eb50f09e227043b5ff5acfd2e283dcf234f4d1b8e2f3bacb98b24417d",
+      "url": "https://github.com/omrikiei/ktunnel/releases/download/v2.4.1/ktunnel_2.4.1_Linux_x86_64.tar.gz",
+      "sha256": "63d4db962314289d300d119cdd9a8427adadf2e1ad20c87cdd3d272abc3d4fdb",
       "bin": "ktunnel",
       "files": [
         {
