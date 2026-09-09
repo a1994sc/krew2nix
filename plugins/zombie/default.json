@@ -1,12 +1,12 @@
 {
   "plugin": "zombie",
-  "version": "v0.1.5",
+  "version": "v0.1.6",
   "homepage": "https://github.com/4ugane/k8s-zombie",
   "description": "k8s-zombie scans a cluster for orphaned resources (unattached PVCs,\nzero-endpoint Services, idle Deployments, stale HPAs, and more) and\nreports them with AWS cost estimates. Read-only — never deletes or\nmodifies anything.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/4ugane/k8s-zombie/releases/download/v0.1.5/kubectl-zombie_0.1.5_darwin_arm64.tar.gz",
-      "sha256": "4a43189363d075be6c0188a5c602050a37c48f3655f64adc44c7093ff2f40552",
+      "url": "https://github.com/4ugane/k8s-zombie/releases/download/v0.1.6/kubectl-zombie_v0.1.6_darwin_arm64.tar.gz",
+      "sha256": "c46b67d0c648895ed0cd5761368aee07cce465d7759eae3f6b12d6bded824f6c",
       "bin": "kubectl-zombie",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/4ugane/k8s-zombie/releases/download/v0.1.5/kubectl-zombie_0.1.5_linux_arm64.tar.gz",
-      "sha256": "993ffa643131f04f8460cbadf8f8a67e304dd07b48f4f58e94005cd8d196ad04",
+      "url": "https://github.com/4ugane/k8s-zombie/releases/download/v0.1.6/kubectl-zombie_v0.1.6_linux_arm64.tar.gz",
+      "sha256": "ba1427d9b3bdf5f4b57f72496556530b29de80a80dc6d43940efaa72199166ee",
       "bin": "kubectl-zombie",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/4ugane/k8s-zombie/releases/download/v0.1.5/kubectl-zombie_0.1.5_darwin_amd64.tar.gz",
-      "sha256": "2414063c7c2e305dd4eadb46c4754f92445268aba02c3080696820fe34e3a4de",
+      "url": "https://github.com/4ugane/k8s-zombie/releases/download/v0.1.6/kubectl-zombie_v0.1.6_darwin_amd64.tar.gz",
+      "sha256": "27d1c861db59593237581de616708cd1e982ffbbc78363b9bef952603e3ce03d",
       "bin": "kubectl-zombie",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/4ugane/k8s-zombie/releases/download/v0.1.5/kubectl-zombie_0.1.5_linux_amd64.tar.gz",
-      "sha256": "160373de32e4aac26d8645995c659452c3fe66a48b3c612c41f84be3232fa474",
+      "url": "https://github.com/4ugane/k8s-zombie/releases/download/v0.1.6/kubectl-zombie_v0.1.6_linux_amd64.tar.gz",
+      "sha256": "2778f1181a53acce55218a5950c97ae043d7e1d341d91c07c9a4ffbb726d365a",
       "bin": "kubectl-zombie",
       "files": [
         {
