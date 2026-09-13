@@ -1,12 +1,12 @@
 {
   "plugin": "idx",
-  "version": "v0.5.1",
+  "version": "v0.5.2",
   "homepage": "https://github.com/jzills/kx",
   "description": "idx wraps kubectl with index-based resource selection. List resources\nonce with \"kubectl idx get pods\" to assign numbered indexes, then\nreference any resource by number in follow-up commands: describe,\nlogs, exec, delete, edit, scale, rollout, port-forward, events,\nyaml, tree, and more. A navigable history of listings keeps indexes\nresolving as you move between resource kinds and namespaces.\nAlso distributed as \"kx\" on PyPI (https://pypi.org/project/kx-cli/).\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/jzills/kx/releases/download/v0.5.1/kx_v0.5.1_darwin_arm64.tar.gz",
-      "sha256": "6231732645abdd11cc63ea92d98d7e4c3998583a1f9a4b26f80968ab88f89d6e",
+      "url": "https://github.com/jzills/kx/releases/download/v0.5.2/kx_v0.5.2_darwin_arm64.tar.gz",
+      "sha256": "265dd45a724382709f1586cd6201668eb51b385f8b807f5bcaff7e45e23172f6",
       "bin": "kx/kx",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/jzills/kx/releases/download/v0.5.1/kx_v0.5.1_linux_arm64.tar.gz",
-      "sha256": "dd303c71f30f0a65412977c4f7fb14fd5edd47e01a13ec8a199d3da7c00e8ed4",
+      "url": "https://github.com/jzills/kx/releases/download/v0.5.2/kx_v0.5.2_linux_arm64.tar.gz",
+      "sha256": "851522fc7ae775ec85be9a9a788c2c2b74e787b6a4af9dd68c1e7a92bd2f234d",
       "bin": "kx/kx",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/jzills/kx/releases/download/v0.5.1/kx_v0.5.1_darwin_amd64.tar.gz",
-      "sha256": "2ddd5b83d2eb9e6a50ea6ca9c45286074b5ef8f4e6afe13260e988af875cb926",
+      "url": "https://github.com/jzills/kx/releases/download/v0.5.2/kx_v0.5.2_darwin_amd64.tar.gz",
+      "sha256": "df6804c2381e4241e0b6dfe0943a394433ef011d3ab8bc0e63f56f8b13773f26",
       "bin": "kx/kx",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/jzills/kx/releases/download/v0.5.1/kx_v0.5.1_linux_amd64.tar.gz",
-      "sha256": "3a637317cf1a53dbbde90bd3848aadda092f743fd74210408bca2d2d18700304",
+      "url": "https://github.com/jzills/kx/releases/download/v0.5.2/kx_v0.5.2_linux_amd64.tar.gz",
+      "sha256": "16d91f7307b1f948566888a657a1d32b3bd5c5e3a6efb112372875d8a168558d",
       "bin": "kx/kx",
       "files": [
         {
