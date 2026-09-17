@@ -1,12 +1,12 @@
 {
   "plugin": "cfgd",
-  "version": "v0.10.0",
+  "version": "v0.11.0",
   "homepage": "https://github.com/tj-smith47/cfgd",
   "description": "kubectl-cfgd attaches cfgd modules — portable bundles of CLI\ntools, dotfiles, shell config, and packages — to running\nKubernetes workloads without rebuilding the upstream image.\nIt can patch a workload's pod template to roll modules out,\nstart an ephemeral debug container with modules mounted, exec\ninto a pod with modules available, and report fleet-wide\nmodule status.\n\nModules are mounted by the cfgd CSI driver and admission webhook.\nTo declare and reconcile local machine state, install the cfgd CLI.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/tj-smith47/cfgd/releases/download/v0.10.0/cfgd-0.10.0-darwin-arm64.tar.gz",
-      "sha256": "aae63a235c31b6a854c27e5526eeff3a4968f28e7a59d7fafbaf1faf7b5c32c7",
+      "url": "https://github.com/tj-smith47/cfgd/releases/download/v0.11.0/cfgd-0.11.0-darwin-arm64.tar.gz",
+      "sha256": "c01abddbab3a6f3053b68eaaf302028bd556656e54a2a71a34e91999e50adeae",
       "bin": "cfgd",
       "files": [
         {
@@ -24,8 +24,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/tj-smith47/cfgd/releases/download/v0.10.0/cfgd-0.10.0-linux-arm64.tar.gz",
-      "sha256": "17b5558e52f198391c7d578e7cb0fa2c6074c49f9c360cd538609866d085326c",
+      "url": "https://github.com/tj-smith47/cfgd/releases/download/v0.11.0/cfgd-0.11.0-linux-arm64.tar.gz",
+      "sha256": "7f3f3b976904c2d10dde417934a82d6b44e60d4ae00003198f8316ef2c014f26",
       "bin": "cfgd",
       "files": [
         {
@@ -43,8 +43,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/tj-smith47/cfgd/releases/download/v0.10.0/cfgd-0.10.0-darwin-amd64.tar.gz",
-      "sha256": "529a36a9b998e59911c41a642389c23e4ce3249b2dbce4e57d6777f3716e84ac",
+      "url": "https://github.com/tj-smith47/cfgd/releases/download/v0.11.0/cfgd-0.11.0-darwin-amd64.tar.gz",
+      "sha256": "90004683e21f956ffbc983870536f4fb61d6d94b00d6a41db82e6b52e2ac61bf",
       "bin": "cfgd",
       "files": [
         {
@@ -62,8 +62,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/tj-smith47/cfgd/releases/download/v0.10.0/cfgd-0.10.0-linux-amd64.tar.gz",
-      "sha256": "9c48c12d8911e4da35b964ddbe804895089127134741c5be159f03e0c5f55e13",
+      "url": "https://github.com/tj-smith47/cfgd/releases/download/v0.11.0/cfgd-0.11.0-linux-amd64.tar.gz",
+      "sha256": "6c7ec28bb073e8d0d48e0eaa881b3afdac4e9d296a02367dbd7f2435a03339f6",
       "bin": "cfgd",
       "files": [
         {
