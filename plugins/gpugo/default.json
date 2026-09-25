@@ -1,12 +1,12 @@
 {
   "plugin": "gpugo",
-  "version": "v0.1.4",
+  "version": "v0.2.1",
   "homepage": "https://github.com/Tal-Naeh/kubectl-gpugo",
   "description": "A zero-cluster-footprint, top-like TUI for per-pod GPU usage on\nKubernetes. Auto-discovers any GPU metrics exporter you already\nhave running (dcgm-exporter, or any per-process exporter emitting\ngpu_process_memory_bytes) and scrapes it through the kube-apiserver\npod-proxy subresource — no DaemonSet to install, no port-forwards\non your machine, no firewall changes.\n\nHandles MIG: per-slice rows are grouped by physical GPU and labeled\nwith the slice ID (e.g. \"0:8\" = GPU 0, MIG slice 8). When workloads\nbypass the NVIDIA device plugin via NVIDIA_VISIBLE_DEVICES=all,\nfalls back to per-(node, GPU) attribution and lists candidate pods.\n\nThe TUI is scrollable, sorted by physical GPU, and refreshes every\n20 seconds.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/Tal-Naeh/kubectl-gpugo/releases/download/v0.1.4/kubectl-gpugo_v0.1.4_darwin_arm64.tar.gz",
-      "sha256": "8b5a584938561d63ce65a74279e20c21d4b86ce89c268b7e7fa174e2f767fa55",
+      "url": "https://github.com/Tal-Naeh/kubectl-gpugo/releases/download/v0.2.1/kubectl-gpugo_v0.2.1_darwin_arm64.tar.gz",
+      "sha256": "e0e40cc1da746d7e9ee28d2517a5e20c5d0f514b1e729f318f25c961778867f1",
       "bin": "kubectl-gpugo",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/Tal-Naeh/kubectl-gpugo/releases/download/v0.1.4/kubectl-gpugo_v0.1.4_linux_arm64.tar.gz",
-      "sha256": "15aef4aa47e4acae170f829e7d8db2ef6b382ed873a311905ad01328786737f6",
+      "url": "https://github.com/Tal-Naeh/kubectl-gpugo/releases/download/v0.2.1/kubectl-gpugo_v0.2.1_linux_arm64.tar.gz",
+      "sha256": "dda240600f7ce381093ded5f30ba5312e05bb095376f51c657e7f02a27a9eae0",
       "bin": "kubectl-gpugo",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/Tal-Naeh/kubectl-gpugo/releases/download/v0.1.4/kubectl-gpugo_v0.1.4_darwin_amd64.tar.gz",
-      "sha256": "d76c3de71f73ce84fa3bfa78759809906afd98b099daae3e3936748d9d7d19be",
+      "url": "https://github.com/Tal-Naeh/kubectl-gpugo/releases/download/v0.2.1/kubectl-gpugo_v0.2.1_darwin_amd64.tar.gz",
+      "sha256": "ed8964f0c31f647bf9c03bdd8e228aae8b06bafd92b8b0fe089a5ee020a88603",
       "bin": "kubectl-gpugo",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/Tal-Naeh/kubectl-gpugo/releases/download/v0.1.4/kubectl-gpugo_v0.1.4_linux_amd64.tar.gz",
-      "sha256": "20561e82eeb59eeb35408078cf0cfc152eda872d0e21da7d586efce83c7ecaf4",
+      "url": "https://github.com/Tal-Naeh/kubectl-gpugo/releases/download/v0.2.1/kubectl-gpugo_v0.2.1_linux_amd64.tar.gz",
+      "sha256": "2740f1162b9abf77b46240c11a6ea4e46b72b36f2e8a0f913b70778b55d795d7",
       "bin": "kubectl-gpugo",
       "files": [
         {
