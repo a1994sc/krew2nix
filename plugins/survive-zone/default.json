@@ -1,0 +1,52 @@
+{
+  "plugin": "survive-zone",
+  "version": "v0.4.0",
+  "homepage": "https://github.com/SaiPisey2/kubectl-survive",
+  "description": "Reads real pod placement rather than declared intent, removes a failure\ndomain, and reports which workloads stop serving. Also detects\nPodDisruptionBudgets that can never be satisfied and so hang node drains.\nRead-only: it never evicts, cordons or deletes anything.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/SaiPisey2/kubectl-survive/releases/download/v0.4.0/kubectl-survive_0.4.0_darwin_arm64.tar.gz",
+      "sha256": "d92c1a23fd1a809f76c5f79b4f2d94a8f7d6c9f3506a4e3b34a18401f1d29e9f",
+      "bin": "kubectl-survive_zone",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/SaiPisey2/kubectl-survive/releases/download/v0.4.0/kubectl-survive_0.4.0_linux_arm64.tar.gz",
+      "sha256": "9eb0cbd3763f1379333a3c32568516296301d25e514b015edbe680c2b100032f",
+      "bin": "kubectl-survive_zone",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/SaiPisey2/kubectl-survive/releases/download/v0.4.0/kubectl-survive_0.4.0_darwin_amd64.tar.gz",
+      "sha256": "7697e59c5631b8e635f06cd758de35e3b27e48baf387b060e884a2214bcdd095",
+      "bin": "kubectl-survive_zone",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/SaiPisey2/kubectl-survive/releases/download/v0.4.0/kubectl-survive_0.4.0_linux_amd64.tar.gz",
+      "sha256": "674de579cd2cef02a9214eaf88464c51df54fe0fcef993180fb906a1387bc8f6",
+      "bin": "kubectl-survive_zone",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}
