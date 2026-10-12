@@ -1,12 +1,12 @@
 {
   "plugin": "status",
-  "version": "v0.7.26",
+  "version": "v0.7.27",
   "homepage": "https://github.com/bergerx/kubectl-status",
   "description": "Shows the status of any Kubernetes resource in one command, in place of\nseparate get/describe calls. Most useful when debugging why a resource\nisn't healthy.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/bergerx/kubectl-status/releases/download/v0.7.26/status_darwin_arm64.tar.gz",
-      "sha256": "f7b1f8d9324feeb6e8db113453030785037846464e08b833aabde821f748a9c7",
+      "url": "https://github.com/bergerx/kubectl-status/releases/download/v0.7.27/status_darwin_arm64.tar.gz",
+      "sha256": "7ae9322798340634f3a4b349fbe544584afad7ab5d57bd8459f0009f8a861376",
       "bin": "status",
       "files": [
         {
@@ -20,8 +20,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/bergerx/kubectl-status/releases/download/v0.7.26/status_linux_arm64.tar.gz",
-      "sha256": "e3449f929062a6ad4082940e5d039dc87075c0f5f10e3ba429844003dbc28b70",
+      "url": "https://github.com/bergerx/kubectl-status/releases/download/v0.7.27/status_linux_arm64.tar.gz",
+      "sha256": "dfd6b6b4af5eed8f6a429f51c03187af08e1864a475bb96468dd602a8b91ac6a",
       "bin": "status",
       "files": [
         {
@@ -35,8 +35,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/bergerx/kubectl-status/releases/download/v0.7.26/status_darwin_amd64.tar.gz",
-      "sha256": "683e56a9e4d1dca6cc25ec1f1ed422a5f80d945291e26d499552e8285675871a",
+      "url": "https://github.com/bergerx/kubectl-status/releases/download/v0.7.27/status_darwin_amd64.tar.gz",
+      "sha256": "712ad3857a25da513b26fe280f4e489d9e7575b82b6a4a338a8baa7bdc7c6387",
       "bin": "status",
       "files": [
         {
@@ -50,8 +50,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/bergerx/kubectl-status/releases/download/v0.7.26/status_linux_amd64.tar.gz",
-      "sha256": "c519c1a45e725009c4b4c144ed6c7c73084f52fded12dd21d6dba689c43dc8d9",
+      "url": "https://github.com/bergerx/kubectl-status/releases/download/v0.7.27/status_linux_amd64.tar.gz",
+      "sha256": "46112b7f8f60596c9a0e1221d9d7acf9a6f953ff9483b34de48992299eff5d16",
       "bin": "status",
       "files": [
         {

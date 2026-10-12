@@ -1,12 +1,12 @@
 {
   "plugin": "nasty",
-  "version": "v0.0.3",
+  "version": "v0.0.5",
   "homepage": "https://github.com/nasty-project/nasty-plugin",
   "description": "kubectl plugin for managing NASty CSI driver volumes.\n\nCommands:\n- list: List all managed volumes with clone relationships\n- list-snapshots: List snapshots with source volumes\n- list-orphaned: Find volumes without matching PVCs\n- describe: Show detailed volume information\n- health: Check health of all volumes\n- troubleshoot: Diagnose PVC issues\n- summary: Dashboard overview of all resources\n- cleanup: Delete orphaned volumes safely\n- mark-adoptable: Mark volumes for DR/adoption\n- adopt: Generate PV manifest for adoption\n- status: Show volume status from NASty\n- connectivity: Test NASty connection\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/nasty-project/nasty-plugin/releases/download/v0.0.3/kubectl-nasty-darwin-arm64.tar.gz",
-      "sha256": "e17f4464c82bd26a1edf9531ee74a1942a1fbceeaf34ffbf183ed9d2bb3bbbc2",
+      "url": "https://github.com/nasty-project/nasty-plugin/releases/download/v0.0.5/kubectl-nasty-darwin-arm64.tar.gz",
+      "sha256": "6b1f35d40e1d5e2520ac921324cbb12f25a2aa604a43713182473a14badcd512",
       "bin": "kubectl-nasty",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/nasty-project/nasty-plugin/releases/download/v0.0.3/kubectl-nasty-linux-arm64.tar.gz",
-      "sha256": "c0df41a0d4f5f015a8d4d27a11fd34035e8abf7e9ee4e33f99050c9b1e7116d4",
+      "url": "https://github.com/nasty-project/nasty-plugin/releases/download/v0.0.5/kubectl-nasty-linux-arm64.tar.gz",
+      "sha256": "d02423ef492afc404343491dc258d352dd2fb6f1fc018acd7465c0c96a5f4ad5",
       "bin": "kubectl-nasty",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/nasty-project/nasty-plugin/releases/download/v0.0.3/kubectl-nasty-darwin-amd64.tar.gz",
-      "sha256": "a933aced22632b541a26132971d58bbff831c375a04043fb6c7f832f575d8366",
+      "url": "https://github.com/nasty-project/nasty-plugin/releases/download/v0.0.5/kubectl-nasty-darwin-amd64.tar.gz",
+      "sha256": "bbafd086b5471e45fe51c0109d2a84c3f7e289951f5dafb5ac2abea36133162a",
       "bin": "kubectl-nasty",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/nasty-project/nasty-plugin/releases/download/v0.0.3/kubectl-nasty-linux-amd64.tar.gz",
-      "sha256": "2e3cd71704ebe00e8c3e94b527781ccae636706243ecec6952807a1e7a4eb4fa",
+      "url": "https://github.com/nasty-project/nasty-plugin/releases/download/v0.0.5/kubectl-nasty-linux-amd64.tar.gz",
+      "sha256": "dde1778c9a06ea874c35ef24a9f44fec76266a2c7d7837df66ee8ba9a5af3dff",
       "bin": "kubectl-nasty",
       "files": [
         {

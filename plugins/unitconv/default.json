@@ -1,0 +1,52 @@
+{
+  "plugin": "unitconv",
+  "version": "v1.0.0",
+  "homepage": "https://github.com/itzik-elayev/kubectl-unitconv",
+  "description": "Converts Kubernetes resource quantities (CPU, memory, storage) between\nunits: binary (Ki/Mi/Gi) and decimal (k/M/G) SI, bytes, cores,\nmillicores and nanocores, using the same exact decimal arithmetic\nKubernetes itself uses. Convert a literal value, list it in every\nsensible unit, or read quantities straight off live pods, workloads,\nPVCs and nodes, with table, plain or JSON output.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/itzik-elayev/kubectl-unitconv/releases/download/v1.0.0/kubectl-unitconv_v1.0.0_darwin_arm64.tar.gz",
+      "sha256": "b25266f8fe6b3a31f3d2e59397dc50eb94423638757ec176a1aa57124ab58c44",
+      "bin": "kubectl-unitconv",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/itzik-elayev/kubectl-unitconv/releases/download/v1.0.0/kubectl-unitconv_v1.0.0_linux_arm64.tar.gz",
+      "sha256": "0bdf49c54985beae2c2c6e26140413cc6db10993b061f5145b7942ff47549eeb",
+      "bin": "kubectl-unitconv",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/itzik-elayev/kubectl-unitconv/releases/download/v1.0.0/kubectl-unitconv_v1.0.0_darwin_amd64.tar.gz",
+      "sha256": "114369fcb8ecb71e2f873bdba44db015c277e60d5b028080ac618d2f944c39f4",
+      "bin": "kubectl-unitconv",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/itzik-elayev/kubectl-unitconv/releases/download/v1.0.0/kubectl-unitconv_v1.0.0_linux_amd64.tar.gz",
+      "sha256": "706e72736ef679742292379ae20bc6c38d0fc6986065a22157171cabac6d1a43",
+      "bin": "kubectl-unitconv",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}
