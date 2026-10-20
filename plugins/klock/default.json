@@ -1,12 +1,12 @@
 {
   "plugin": "klock",
-  "version": "v0.9.2",
+  "version": "v0.9.3",
   "homepage": "https://github.com/applejag/kubectl-klock",
   "description": "Watches resources and prints them in a human-readable manner.\nVery similar to `kubectl get`, but with live updates.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/applejag/kubectl-klock/releases/download/v0.9.2/kubectl-klock_darwin_arm64.tar.gz",
-      "sha256": "c11295888ab2478633e91ba82a9552da3d1ca7e946f9b7f1bcbeb81605ae5b45",
+      "url": "https://github.com/applejag/kubectl-klock/releases/download/v0.9.3/kubectl-klock_darwin_arm64.tar.gz",
+      "sha256": "0ad3da052ac415940397a8b036c2cf06ea745e7ae14925d22590d9736ae8c1a3",
       "bin": "kubectl-klock",
       "files": [
         {
@@ -20,8 +20,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/applejag/kubectl-klock/releases/download/v0.9.2/kubectl-klock_linux_arm64.tar.gz",
-      "sha256": "776d8d201bba9724597534de6e0d7ad3c60913fd8e23caafeff07918009df44d",
+      "url": "https://github.com/applejag/kubectl-klock/releases/download/v0.9.3/kubectl-klock_linux_arm64.tar.gz",
+      "sha256": "8dc0b6b193bcc0a1f151efad3e033a3d934ddbba94744d676c60c9d3200e45f5",
       "bin": "kubectl-klock",
       "files": [
         {
@@ -35,8 +35,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/applejag/kubectl-klock/releases/download/v0.9.2/kubectl-klock_darwin_amd64.tar.gz",
-      "sha256": "4f1696247d5b18067a12ada4c043f0a128ba4d67bce665ce4bf2cac1a357e14c",
+      "url": "https://github.com/applejag/kubectl-klock/releases/download/v0.9.3/kubectl-klock_darwin_amd64.tar.gz",
+      "sha256": "7a28f809d2a52e84b5c22d8ff3c69f4b3556b681fbae5c89ef583a3bb5c746f7",
       "bin": "kubectl-klock",
       "files": [
         {
@@ -50,8 +50,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/applejag/kubectl-klock/releases/download/v0.9.2/kubectl-klock_linux_amd64.tar.gz",
-      "sha256": "b3d113b272f7813be75e12882356cea56255c03c9ea71919c6794977ab6101cf",
+      "url": "https://github.com/applejag/kubectl-klock/releases/download/v0.9.3/kubectl-klock_linux_amd64.tar.gz",
+      "sha256": "2e7d0b9b44c6391b8cad90a87d1b3be5ea2a52dd9c5562bd05fe2183d9e5b714",
       "bin": "kubectl-klock",
       "files": [
         {

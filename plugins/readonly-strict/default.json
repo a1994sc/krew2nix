@@ -1,0 +1,52 @@
+{
+  "plugin": "readonly-strict",
+  "version": "v0.7.0",
+  "homepage": "https://github.com/Evaneos/kubectl-readonly",
+  "description": "The strict profile of kubectl-readonly: the same read-only policy (writes,\nexec and secret values blocked), and kubectl runs without\nKUBECTL_EXTERNAL_DIFF (runs a program on kubectl diff) and with kuberc\ndisabled (KUBERC=off).\nOther variables pass through, so credential plugins and proxies work.\n\nDesigned to guard against human errors and AI assistants overstepping their\ninstructions. Does NOT protect against deliberate bypass attempts.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/Evaneos/kubectl-readonly/releases/download/v0.7.0/kubectl-readonly-strict_0.7.0_darwin_arm64.tar.gz",
+      "sha256": "144479f7445cbf1a1a5e64455a8f92cd6d49446c7b5f3c035a62b521b85f2cf3",
+      "bin": "kubectl-readonly-strict",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/Evaneos/kubectl-readonly/releases/download/v0.7.0/kubectl-readonly-strict_0.7.0_linux_arm64.tar.gz",
+      "sha256": "6d65b33daf87f6127f5cf9b8aefef04d4130c87c030f280143334986eb03e66a",
+      "bin": "kubectl-readonly-strict",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/Evaneos/kubectl-readonly/releases/download/v0.7.0/kubectl-readonly-strict_0.7.0_darwin_amd64.tar.gz",
+      "sha256": "0cba527ab2a7e6990338e5b12c45fcf9885676282658672bb5a733d885ab94b1",
+      "bin": "kubectl-readonly-strict",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/Evaneos/kubectl-readonly/releases/download/v0.7.0/kubectl-readonly-strict_0.7.0_linux_amd64.tar.gz",
+      "sha256": "4487db0372c7a76279220b401b6df1b9398e6efb1b328f738bb1f1dbb1312d27",
+      "bin": "kubectl-readonly-strict",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

@@ -1,12 +1,12 @@
 {
   "plugin": "open-svc",
-  "version": "v2.6.4",
+  "version": "v2.6.5",
   "homepage": "https://github.com/superbrothers/kubectl-open-svc-plugin",
   "description": "Open the Kubernetes URL(s) for the specified service in your browser.\nUnlike the `kubectl port-forward` command, this plugin makes services\naccessible via their ClusterIP.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/superbrothers/kubectl-open-svc-plugin/releases/download/v2.6.4/kubectl-open_svc-darwin-arm64.zip",
-      "sha256": "b02b4bcc35bed51c6e044cbdd656649b0292c0fc01b619a936658e91942444c9",
+      "url": "https://github.com/superbrothers/kubectl-open-svc-plugin/releases/download/v2.6.5/kubectl-open_svc-darwin-arm64.zip",
+      "sha256": "9d3cef2080ffb2a07e4acc8bf59c567fe917b84be0765274b2f0b8e325eb7643",
       "bin": "kubectl-open_svc",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/superbrothers/kubectl-open-svc-plugin/releases/download/v2.6.4/kubectl-open_svc-linux-arm64.zip",
-      "sha256": "711ebf147b32e2280ba33b0a82c88f3b42736ccb0e9525e25e2db1f561f1335e",
+      "url": "https://github.com/superbrothers/kubectl-open-svc-plugin/releases/download/v2.6.5/kubectl-open_svc-linux-arm64.zip",
+      "sha256": "7f0d468a164868320dfc3270e1e9ce9264fcf541a780ebce217ad18090049e0c",
       "bin": "kubectl-open_svc",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/superbrothers/kubectl-open-svc-plugin/releases/download/v2.6.4/kubectl-open_svc-darwin-amd64.zip",
-      "sha256": "3d8b7d40b3d23fefa5ad1015e9830e2fd393c2f4cb2215cbd401bc688b8c0e85",
+      "url": "https://github.com/superbrothers/kubectl-open-svc-plugin/releases/download/v2.6.5/kubectl-open_svc-darwin-amd64.zip",
+      "sha256": "ac50e74ee3c50fe9c96be5602548013a996cfc3006beb4f083774d87ed322b5f",
       "bin": "kubectl-open_svc",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/superbrothers/kubectl-open-svc-plugin/releases/download/v2.6.4/kubectl-open_svc-linux-amd64.zip",
-      "sha256": "5d33dc2f5072d8bff15c96d0356b7fb03acb26c17c76563cb51cbde715b30d69",
+      "url": "https://github.com/superbrothers/kubectl-open-svc-plugin/releases/download/v2.6.5/kubectl-open_svc-linux-amd64.zip",
+      "sha256": "2965933e1f4a658511ea8c3ae5464015ea053d08a3218a2c7b43e21c1fa53e63",
       "bin": "kubectl-open_svc",
       "files": [
         {

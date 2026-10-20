@@ -1,12 +1,12 @@
 {
   "plugin": "fieldlord",
-  "version": "v0.1.3",
+  "version": "v0.1.4",
   "homepage": "https://github.com/alexremn/kubectl-fieldlord",
   "description": "Reads managedFields under Server-Side Apply to explain who owns each field,\nattribute ownership drift to a fieldManager, and predict (via a non-persisting\nserver-side dry-run) exactly what --force-conflicts would clobber. Deterministic,\nread-mostly, no LLM.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/alexremn/kubectl-fieldlord/releases/download/v0.1.3/kubectl-fieldlord_darwin_arm64.tar.gz",
-      "sha256": "309176d331f9181c7058ed810167bb70446dd79cf1e293bea220547f9ba96a66",
+      "url": "https://github.com/alexremn/kubectl-fieldlord/releases/download/v0.1.4/kubectl-fieldlord_darwin_arm64.tar.gz",
+      "sha256": "ed2011a89314a7a8231a1633ac93a3098e5cbcff9359337f8c3ce4a1cf32060b",
       "bin": "kubectl-fieldlord",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/alexremn/kubectl-fieldlord/releases/download/v0.1.3/kubectl-fieldlord_linux_arm64.tar.gz",
-      "sha256": "b5e94e6724b0d97b9ac4335f0b96650b41309e8404864e8740c792cf23b788a0",
+      "url": "https://github.com/alexremn/kubectl-fieldlord/releases/download/v0.1.4/kubectl-fieldlord_linux_arm64.tar.gz",
+      "sha256": "68316f8f7487838db8fece3bee06c62e24d17e58f11b1b9628d6d7f231f68607",
       "bin": "kubectl-fieldlord",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/alexremn/kubectl-fieldlord/releases/download/v0.1.3/kubectl-fieldlord_darwin_amd64.tar.gz",
-      "sha256": "32cd9fecde219c8eeb2ba8ea96f7d1ccfbb0eee315b18a98f88d8647e43ee5e2",
+      "url": "https://github.com/alexremn/kubectl-fieldlord/releases/download/v0.1.4/kubectl-fieldlord_darwin_amd64.tar.gz",
+      "sha256": "88ddcc4f0afa17b14d4a18361cd1cacf66026de78569c312a52cfa711c0de3d8",
       "bin": "kubectl-fieldlord",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/alexremn/kubectl-fieldlord/releases/download/v0.1.3/kubectl-fieldlord_linux_amd64.tar.gz",
-      "sha256": "d7d1eafa2114deaacc6bd2e4ea83bc060d1f43ac34baed52196a520dec40502a",
+      "url": "https://github.com/alexremn/kubectl-fieldlord/releases/download/v0.1.4/kubectl-fieldlord_linux_amd64.tar.gz",
+      "sha256": "bcd6e3b21459a3cea991bc73d47840dcd3127a807efbe9b23cf594c75e88599a",
       "bin": "kubectl-fieldlord",
       "files": [
         {

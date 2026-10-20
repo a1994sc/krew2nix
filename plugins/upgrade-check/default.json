@@ -1,12 +1,12 @@
 {
   "plugin": "upgrade-check",
-  "version": "v0.1.5",
+  "version": "v0.1.7",
   "homepage": "https://github.com/runtimez-com/kube-upgrade-check",
   "description": "Reports what an upgrade to a target Kubernetes version would break in the\ncluster you are pointed at: objects still written at an API version the\ntarget removes, control-plane and kubelet settings it refuses to start\nwith, in-tree volume plugins that stop mounting, node runtime and version\nskew, and whether add-ons such as Karpenter, ingress-nginx, cert-manager,\nArgo CD, CoreDNS and Istio support the version you are moving to.\n\nIt reads the cluster and writes nothing. No account and no agent, and no\ndata leaves the machine.\n\nRemoved APIs are found through managed fields, so an object is caught\nwhatever applied it, including server-side apply, operators and GitOps\ncontrollers that leave no last-applied annotation behind.\n\nEvery check that could not run is printed with the reason and a command to\nrun yourself, so a clean report cannot be one where half the checks were\nsilently skipped.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/runtimez-com/kube-upgrade-check/releases/download/v0.1.5/kube-upgrade-check_0.1.5_darwin_arm64.tar.gz",
-      "sha256": "7828b02b0a6a28090dc32d587cbb91f461a1c51d0c2b5cd331229402b977b827",
+      "url": "https://github.com/runtimez-com/kube-upgrade-check/releases/download/v0.1.7/kube-upgrade-check_0.1.7_darwin_arm64.tar.gz",
+      "sha256": "48028a73f61ed65ef4edcfe075a351bf5dc1bc3545bf83fc70cc2a42a0dcf08f",
       "bin": "kube-upgrade-check",
       "files": [
         {
@@ -20,8 +20,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/runtimez-com/kube-upgrade-check/releases/download/v0.1.5/kube-upgrade-check_0.1.5_linux_arm64.tar.gz",
-      "sha256": "21161a0ddea72f38cffb08da03af57587eb90c224c38305366ad4f0ce86957e1",
+      "url": "https://github.com/runtimez-com/kube-upgrade-check/releases/download/v0.1.7/kube-upgrade-check_0.1.7_linux_arm64.tar.gz",
+      "sha256": "749a3d80f3f2ad17c031872ab83d80f5aa9945cbf88977bb661deead7a16f491",
       "bin": "kube-upgrade-check",
       "files": [
         {
@@ -35,8 +35,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/runtimez-com/kube-upgrade-check/releases/download/v0.1.5/kube-upgrade-check_0.1.5_darwin_amd64.tar.gz",
-      "sha256": "7f1ffd8910cad2e9efa9eff6be16ca0065629200678286d2294914a3e130ee56",
+      "url": "https://github.com/runtimez-com/kube-upgrade-check/releases/download/v0.1.7/kube-upgrade-check_0.1.7_darwin_amd64.tar.gz",
+      "sha256": "00205fad03087328ace0027635ab47511eb0d86bb5a3990d9acc0566c7e2cd61",
       "bin": "kube-upgrade-check",
       "files": [
         {
@@ -50,8 +50,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/runtimez-com/kube-upgrade-check/releases/download/v0.1.5/kube-upgrade-check_0.1.5_linux_amd64.tar.gz",
-      "sha256": "86fe65711d8569780f5f1437827be17f5f76ac17d064cc13e7a131ee353a9449",
+      "url": "https://github.com/runtimez-com/kube-upgrade-check/releases/download/v0.1.7/kube-upgrade-check_0.1.7_linux_amd64.tar.gz",
+      "sha256": "f6460dface4871a81d8992108f4e6163763d495a185ec41334bdc5e86b2ed752",
       "bin": "kube-upgrade-check",
       "files": [
         {

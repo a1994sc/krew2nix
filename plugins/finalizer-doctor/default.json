@@ -1,12 +1,12 @@
 {
   "plugin": "finalizer-doctor",
-  "version": "v0.1.5",
+  "version": "v0.1.6",
   "homepage": "https://github.com/alexremn/finalizer-doctor",
   "description": "Pinpoints the finalizer and the dead controller / APIService blocking\ndeletion, cleans truly-orphaned resources first, and clears finalizers only\nas a gated last resort. Dry-run and explain by default.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/alexremn/finalizer-doctor/releases/download/v0.1.5/finalizer-doctor_darwin_arm64.tar.gz",
-      "sha256": "cfd8bcc95d81442ca14a699286a71c87aa57c748241b2a508c1db4b43f68d24d",
+      "url": "https://github.com/alexremn/finalizer-doctor/releases/download/v0.1.6/finalizer-doctor_darwin_arm64.tar.gz",
+      "sha256": "a1e1cc6baa608a6401a3738d895cfc035e16572798ad21f1155b7ed0147b45f3",
       "bin": "kubectl-finalizer_doctor",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/alexremn/finalizer-doctor/releases/download/v0.1.5/finalizer-doctor_linux_arm64.tar.gz",
-      "sha256": "e0334acbb1902e04cec6945072aeab6922ff3720f0c8c11e677ed0067dd5ac2f",
+      "url": "https://github.com/alexremn/finalizer-doctor/releases/download/v0.1.6/finalizer-doctor_linux_arm64.tar.gz",
+      "sha256": "84206a9b4e97765899db91434297d9aeca6aa639644d045aa1577bb8ecf40995",
       "bin": "kubectl-finalizer_doctor",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/alexremn/finalizer-doctor/releases/download/v0.1.5/finalizer-doctor_darwin_amd64.tar.gz",
-      "sha256": "2d20cb2af4d56f1f57ce8773219001ce0f6884f17810b0b2b2829aad970de8ad",
+      "url": "https://github.com/alexremn/finalizer-doctor/releases/download/v0.1.6/finalizer-doctor_darwin_amd64.tar.gz",
+      "sha256": "39e86f77ecf44c644cd8e5f84bd8cb2172db067fc588bfe18499ccf3d9a20b33",
       "bin": "kubectl-finalizer_doctor",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/alexremn/finalizer-doctor/releases/download/v0.1.5/finalizer-doctor_linux_amd64.tar.gz",
-      "sha256": "fc324713257216fef79bbb68b917356038be1b236f07ab67d7f3b452d8f6a6ed",
+      "url": "https://github.com/alexremn/finalizer-doctor/releases/download/v0.1.6/finalizer-doctor_linux_amd64.tar.gz",
+      "sha256": "7da3ade762b9962412e016cd9d92eb5e9099e8fb4351d60ede88cb91d5870a26",
       "bin": "kubectl-finalizer_doctor",
       "files": [
         {

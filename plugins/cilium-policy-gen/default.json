@@ -1,12 +1,12 @@
 {
   "plugin": "cilium-policy-gen",
-  "version": "v1.11.0",
+  "version": "v1.12.2",
   "homepage": "https://github.com/SoulKyu/cpg",
   "description": "Watches dropped network flows in real-time via Hubble Relay and\nautomatically generates CiliumNetworkPolicy YAML files that would\nallow them. Useful for clusters with a default-deny posture where\nwriting policies manually is tedious and error-prone.\n\nSupports TCP/UDP ports, ICMP, reserved entities, and CIDR rules.\nMerges with existing policies on disk and writes only on changes.\n\nUsage:\n  kubectl cilium-policy-gen generate -n <namespace>\n  kubectl cilium-policy-gen generate --server <relay-addr>\n  kubectl cilium-policy-gen generate --cluster-dedup -n <namespace>\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/SoulKyu/cpg/releases/download/v1.11.0/cilium-policy-gen_darwin_arm64.tar.gz",
-      "sha256": "eb0d760815f3d20bb9747c2f0485a917f23653652db21b6e19c1e79f22dfc020",
+      "url": "https://github.com/SoulKyu/cpg/releases/download/v1.12.2/cilium-policy-gen_darwin_arm64.tar.gz",
+      "sha256": "97a50484d7db2ec931dc642e927f3a52df40392d07cf65ec2bc97fb5b237f535",
       "bin": "kubectl-cilium_policy_gen",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/SoulKyu/cpg/releases/download/v1.11.0/cilium-policy-gen_linux_arm64.tar.gz",
-      "sha256": "acafe5a76ea781c3e4e7bbfe69a08daafa3e970dc2d327e5e71a3158fe234b41",
+      "url": "https://github.com/SoulKyu/cpg/releases/download/v1.12.2/cilium-policy-gen_linux_arm64.tar.gz",
+      "sha256": "54e5b78820472666dee4cac1331b3b92ed3d2ef2f30676b26dd59d086c381bd3",
       "bin": "kubectl-cilium_policy_gen",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/SoulKyu/cpg/releases/download/v1.11.0/cilium-policy-gen_darwin_amd64.tar.gz",
-      "sha256": "ffbf8382942a3e9e639a9ea934c3aa472e70d6c0531838cefb434ed0d2bdc756",
+      "url": "https://github.com/SoulKyu/cpg/releases/download/v1.12.2/cilium-policy-gen_darwin_amd64.tar.gz",
+      "sha256": "362e66f94f1d77fd4d87183588b3b6ae467f120a6ece56ae9228875a612eed62",
       "bin": "kubectl-cilium_policy_gen",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/SoulKyu/cpg/releases/download/v1.11.0/cilium-policy-gen_linux_amd64.tar.gz",
-      "sha256": "92258bddbc13ae496e556af7b7bd8f1fe6c0609712e920779358e74b3f7e9993",
+      "url": "https://github.com/SoulKyu/cpg/releases/download/v1.12.2/cilium-policy-gen_linux_amd64.tar.gz",
+      "sha256": "73bfb4d676bb0eb8202f4175af7bb411f92baeb39665e16c10e85fbd5f4823f1",
       "bin": "kubectl-cilium_policy_gen",
       "files": [
         {
