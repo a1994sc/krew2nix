@@ -1,12 +1,12 @@
 {
   "plugin": "openunison-cli",
-  "version": "v1.5.1",
+  "version": "v1.5.2",
   "homepage": "https://github.com/OpenUnison/openunison-cli",
   "description": "kubectl exec plugin that will launch a browser to authenticate you \nwithout having a pre-existing kubectl configuration file.  The first\ntime you execute this plugin, include the host of your OpenUnison \nserver and the plugin will launch a browser and authenticate you.  As\nyou work with kubectl it will keep your short-lived tokens updated and\nif they expire, automatically re-launch a browser window to authenticate\nyou.",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://nexus.tremolo.io/repository/openunison-cli/openunison-cli-v1.5.1-macos-arm64.zip",
-      "sha256": "e73d22a59dfe7a2b2314ee98240b7124df92d03a12372c888a8a5f016e9ab151",
+      "url": "https://nexus.tremolo.io/repository/openunison-cli/openunison-cli-v1.5.2-macos-arm64.zip",
+      "sha256": "809f8388e6d25d6eb6efc418358cdbbf271b885ee73f55e06dee65bb30e3c859",
       "bin": "openunison-cli",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://nexus.tremolo.io/repository/openunison-cli/openunison-cli-v1.5.1-macos.zip",
-      "sha256": "56eb4b7e2721e05fa52894c856b0ab111be008026e76f8360100c6fde8e19a1f",
+      "url": "https://nexus.tremolo.io/repository/openunison-cli/openunison-cli-v1.5.2-macos.zip",
+      "sha256": "e366736cc314830269c7b28ba6064847f9af741e773c33684b967abe1026057a",
       "bin": "openunison-cli",
       "files": [
         {
