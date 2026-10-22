@@ -1,0 +1,84 @@
+{
+  "plugin": "datadiff",
+  "version": "v0.6.0",
+  "homepage": "https://github.com/dimanovikov/datadiff",
+  "description": "Runs kubectl diff with datadiff as the diff program. Instead of a line\ndiff of YAML it prints each field that changed, such as\nspec.replicas: 3 → 5. Key order and formatting are ignored, and with\n--key name list items such as containers and env vars are matched by\nname, so reordering them is not a change.\n\ndatadiff options such as --key, --ignore and --fail-on go to datadiff,\nand every other argument goes to kubectl diff unchanged.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/dimanovikov/datadiff/releases/download/v0.6.0/datadiff-v0.6.0-aarch64-apple-darwin.tar.gz",
+      "sha256": "4e12066e92609c4ce32479d798f19772bca8fdc40e4c547506834f95a4422e5f",
+      "bin": "datadiff",
+      "files": [
+        {
+          "from": "datadiff",
+          "to": "."
+        },
+        {
+          "from": "LICENSE-MIT",
+          "to": "LICENSE"
+        },
+        {
+          "from": "LICENSE-APACHE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/dimanovikov/datadiff/releases/download/v0.6.0/datadiff-v0.6.0-aarch64-unknown-linux-gnu.tar.gz",
+      "sha256": "270a053074fd1214e15289cda14acbfee7f22e1eb7166e3d9baf5fcf559d6a7c",
+      "bin": "datadiff",
+      "files": [
+        {
+          "from": "datadiff",
+          "to": "."
+        },
+        {
+          "from": "LICENSE-MIT",
+          "to": "LICENSE"
+        },
+        {
+          "from": "LICENSE-APACHE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/dimanovikov/datadiff/releases/download/v0.6.0/datadiff-v0.6.0-x86_64-apple-darwin.tar.gz",
+      "sha256": "dd2477b1f4aec6c11338cc55bb83b475634351816c58acb11b99de5514bd12ca",
+      "bin": "datadiff",
+      "files": [
+        {
+          "from": "datadiff",
+          "to": "."
+        },
+        {
+          "from": "LICENSE-MIT",
+          "to": "LICENSE"
+        },
+        {
+          "from": "LICENSE-APACHE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/dimanovikov/datadiff/releases/download/v0.6.0/datadiff-v0.6.0-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "2949db89a8449b9ec1808e2cec3e0e5f273d7a2c19730259516abc0cd3d8aab7",
+      "bin": "datadiff",
+      "files": [
+        {
+          "from": "datadiff",
+          "to": "."
+        },
+        {
+          "from": "LICENSE-MIT",
+          "to": "LICENSE"
+        },
+        {
+          "from": "LICENSE-APACHE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}
