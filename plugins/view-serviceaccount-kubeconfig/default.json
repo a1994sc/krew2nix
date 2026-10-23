@@ -1,12 +1,12 @@
 {
   "plugin": "view-serviceaccount-kubeconfig",
-  "version": "v2.4.0",
+  "version": "v2.4.1",
   "homepage": "https://github.com/superbrothers/kubectl-view-serviceaccount-kubeconfig-plugin",
   "description": "Show a kubeconfig setting to access the apiserver with a specified serviceaccount.",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/superbrothers/kubectl-view-serviceaccount-kubeconfig-plugin/releases/download/v2.4.0/kubectl-view_serviceaccount_kubeconfig-darwin-arm64.zip",
-      "sha256": "eb3a844cfe3910e8bf4d9577e9da71fe2189f6204bc7fbd3d0b561dd712b4e4a",
+      "url": "https://github.com/superbrothers/kubectl-view-serviceaccount-kubeconfig-plugin/releases/download/v2.4.1/kubectl-view_serviceaccount_kubeconfig-darwin-arm64.zip",
+      "sha256": "55ac18de62673dbe4b28194515a33ca6029ff7a5dd572cffdcd7da2fbaa71dc0",
       "bin": "kubectl-view_serviceaccount_kubeconfig",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/superbrothers/kubectl-view-serviceaccount-kubeconfig-plugin/releases/download/v2.4.0/kubectl-view_serviceaccount_kubeconfig-linux-arm64.zip",
-      "sha256": "5f032b1dd6b9985b1dc7f9d4ffc40f6d6ae0509900e63b7382a00aec5d78010f",
+      "url": "https://github.com/superbrothers/kubectl-view-serviceaccount-kubeconfig-plugin/releases/download/v2.4.1/kubectl-view_serviceaccount_kubeconfig-linux-arm64.zip",
+      "sha256": "195d82686a0af5646922a6e5bdbd9deacda6dedcb864246afb520b303634b0e9",
       "bin": "kubectl-view_serviceaccount_kubeconfig",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/superbrothers/kubectl-view-serviceaccount-kubeconfig-plugin/releases/download/v2.4.0/kubectl-view_serviceaccount_kubeconfig-darwin-amd64.zip",
-      "sha256": "15000dd8b98fc11be5c38a121934226cb10abbdb4b726cef11a27dbd9505cf72",
+      "url": "https://github.com/superbrothers/kubectl-view-serviceaccount-kubeconfig-plugin/releases/download/v2.4.1/kubectl-view_serviceaccount_kubeconfig-darwin-amd64.zip",
+      "sha256": "2c1077c9171645f8bb2aef6635c73097050beeaf63ecbdd8e5462cb4eb1e0595",
       "bin": "kubectl-view_serviceaccount_kubeconfig",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/superbrothers/kubectl-view-serviceaccount-kubeconfig-plugin/releases/download/v2.4.0/kubectl-view_serviceaccount_kubeconfig-linux-amd64.zip",
-      "sha256": "9ac2c7e4c6f2f34d3b1050c0d8f8df729dfc013099ff41d4f3c89a2e509fc5dd",
+      "url": "https://github.com/superbrothers/kubectl-view-serviceaccount-kubeconfig-plugin/releases/download/v2.4.1/kubectl-view_serviceaccount_kubeconfig-linux-amd64.zip",
+      "sha256": "18573354d63b718a03842ff0f9e7acde45d082806639109f05d58d332e320788",
       "bin": "kubectl-view_serviceaccount_kubeconfig",
       "files": [
         {
