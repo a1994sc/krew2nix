@@ -1,12 +1,12 @@
 {
   "plugin": "readonly",
-  "version": "v0.7.0",
+  "version": "v0.7.1",
   "homepage": "https://github.com/Evaneos/kubectl-readonly",
   "description": "A kubectl wrapper that prevents accidental modifications. Allowed commands\nare passed through to kubectl in your PATH.\n\nDesigned to guard against human errors and AI assistants overstepping their\ninstructions. Also provides basic protection against leaking secret values\nto LLM context. Does NOT protect against deliberate bypass attempts.\n\nExamples:\n- Allowed: get pods, describe deploy, logs, top nodes\n- Blocked: delete pod, apply -f, exec, scale\n- Secrets: list allowed, but -o yaml/-o json blocked\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/Evaneos/kubectl-readonly/releases/download/v0.7.0/kubectl-readonly_0.7.0_darwin_arm64.tar.gz",
-      "sha256": "8b59e858ef4cbe2f043cc9dddd6c1d0301089efcbc3a87ed38e689ec8ec11018",
+      "url": "https://github.com/Evaneos/kubectl-readonly/releases/download/v0.7.1/kubectl-readonly_0.7.1_darwin_arm64.tar.gz",
+      "sha256": "bb256f8562b27c966a4b35cb78b2aee83a237a834fa1eee5f4d291c8aa94bdd2",
       "bin": "kubectl-readonly",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/Evaneos/kubectl-readonly/releases/download/v0.7.0/kubectl-readonly_0.7.0_linux_arm64.tar.gz",
-      "sha256": "7be3f9ec6de0bc146ce57bfd2b212624a63aadbc699c0e2c5b87d3d0c6f1d1a3",
+      "url": "https://github.com/Evaneos/kubectl-readonly/releases/download/v0.7.1/kubectl-readonly_0.7.1_linux_arm64.tar.gz",
+      "sha256": "03f23809ca3990d41d7b257ecb777b3293076a01065cf09c2d3645fd5becbbf4",
       "bin": "kubectl-readonly",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/Evaneos/kubectl-readonly/releases/download/v0.7.0/kubectl-readonly_0.7.0_darwin_amd64.tar.gz",
-      "sha256": "4c7d6ce296a8aec9998a69f02319bd760b4f6496ed5cc3b0f26fd42e45757129",
+      "url": "https://github.com/Evaneos/kubectl-readonly/releases/download/v0.7.1/kubectl-readonly_0.7.1_darwin_amd64.tar.gz",
+      "sha256": "79fe1b558df63be3025b5b8569698647201d32482998513cfaf6fe20c9150bde",
       "bin": "kubectl-readonly",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/Evaneos/kubectl-readonly/releases/download/v0.7.0/kubectl-readonly_0.7.0_linux_amd64.tar.gz",
-      "sha256": "155d60aef533c0e54bdddadfa488a99eade9326c65cd7b8a80e043e3a0159371",
+      "url": "https://github.com/Evaneos/kubectl-readonly/releases/download/v0.7.1/kubectl-readonly_0.7.1_linux_amd64.tar.gz",
+      "sha256": "d37009e4c28cb5731461bc55f7a58cacfa7ef53a6ea0689be28dfb87b58f5ddd",
       "bin": "kubectl-readonly",
       "files": [
         {
