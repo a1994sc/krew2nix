@@ -1,0 +1,52 @@
+{
+  "plugin": "readonly-leaky",
+  "version": "v0.7.0",
+  "homepage": "https://github.com/Evaneos/kubectl-readonly",
+  "description": "The leaky profile of kubectl-readonly: the same guardrail against writes and\nexec, and secret values are shown. get secret -o yaml, get --raw on secret\npaths and config view --raw print credentials.\n\nUse it when you need to read a secret value and still want the write\nguardrail. Install the readonly plugin to keep secret values hidden.\nDoes NOT protect against deliberate bypass attempts.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/Evaneos/kubectl-readonly/releases/download/v0.7.0/kubectl-readonly-leaky_0.7.0_darwin_arm64.tar.gz",
+      "sha256": "2b3e8f2658ea5a10409ca559d1ad232079599325c946edabe0fef384ae99a065",
+      "bin": "kubectl-readonly-leaky",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/Evaneos/kubectl-readonly/releases/download/v0.7.0/kubectl-readonly-leaky_0.7.0_linux_arm64.tar.gz",
+      "sha256": "8706bf1a14a7c7a5e11a819a54562e4f707dbcf00c03fc91421f7c4a4ce32272",
+      "bin": "kubectl-readonly-leaky",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/Evaneos/kubectl-readonly/releases/download/v0.7.0/kubectl-readonly-leaky_0.7.0_darwin_amd64.tar.gz",
+      "sha256": "916f13aa03eb512fb1c4365d93424c7c37dd1c48ad4dfdf26f4eca99b1dbb859",
+      "bin": "kubectl-readonly-leaky",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/Evaneos/kubectl-readonly/releases/download/v0.7.0/kubectl-readonly-leaky_0.7.0_linux_amd64.tar.gz",
+      "sha256": "ccaddfd29f38295cfb2a33cba9769a1a783672ebd623940d0d5f3d639711ae1a",
+      "bin": "kubectl-readonly-leaky",
+      "files": [
+        {
+          "from": "*",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

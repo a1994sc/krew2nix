@@ -1,0 +1,68 @@
+{
+  "plugin": "paguro",
+  "version": "v0.1.3",
+  "homepage": "https://github.com/DPicillo/paguro",
+  "description": "Paguro moves a running pod to another node with CRIU – its memory, open\nfiles, emptyDirs and volumes – while its TCP connections and UDP flows\ncontinue. With this plugin you migrate a pod – to a node you name or\none Paguro picks – and follow it until it is done, drain a node by\nmigrating its pods away, list and describe migrations, see which\nnodes can take part, and show the versions of the plugin and of\nPaguro in the cluster.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/DPicillo/paguro/releases/download/v0.1.3/kubectl-paguro_v0.1.3_darwin_arm64.tar.gz",
+      "sha256": "82f0f753ba2c0e065b020a5f0e70bbcc8af7320b27db910b23f2bcb2f6c387b3",
+      "bin": "kubectl-paguro",
+      "files": [
+        {
+          "from": "kubectl-paguro_v0.1.3_darwin_arm64/kubectl-paguro",
+          "to": "."
+        },
+        {
+          "from": "kubectl-paguro_v0.1.3_darwin_arm64/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/DPicillo/paguro/releases/download/v0.1.3/kubectl-paguro_v0.1.3_linux_arm64.tar.gz",
+      "sha256": "8f651664abd73ca4fcb10967661d1046e341e5ed6d6bf2505e258d373faf633b",
+      "bin": "kubectl-paguro",
+      "files": [
+        {
+          "from": "kubectl-paguro_v0.1.3_linux_arm64/kubectl-paguro",
+          "to": "."
+        },
+        {
+          "from": "kubectl-paguro_v0.1.3_linux_arm64/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/DPicillo/paguro/releases/download/v0.1.3/kubectl-paguro_v0.1.3_darwin_amd64.tar.gz",
+      "sha256": "624415a2802a0dd99fe5de7821bef10e41dccc7dea20ae32ed3b2b4e72283cfe",
+      "bin": "kubectl-paguro",
+      "files": [
+        {
+          "from": "kubectl-paguro_v0.1.3_darwin_amd64/kubectl-paguro",
+          "to": "."
+        },
+        {
+          "from": "kubectl-paguro_v0.1.3_darwin_amd64/LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/DPicillo/paguro/releases/download/v0.1.3/kubectl-paguro_v0.1.3_linux_amd64.tar.gz",
+      "sha256": "e9c315b367c21fe7650145d307c000ea3a1d292bb303d3752a8acb9a124cdf2e",
+      "bin": "kubectl-paguro",
+      "files": [
+        {
+          "from": "kubectl-paguro_v0.1.3_linux_amd64/kubectl-paguro",
+          "to": "."
+        },
+        {
+          "from": "kubectl-paguro_v0.1.3_linux_amd64/LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}
