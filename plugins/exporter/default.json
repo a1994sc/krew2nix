@@ -1,12 +1,12 @@
 {
   "plugin": "exporter",
-  "version": "v0.10.7",
+  "version": "v0.10.8",
   "homepage": "https://github.com/bakito/kubexporter",
   "description": "KubExporter allows you to export resources from Kubernetes as YAML or JSON files.\nThe configuration allows customization on which resources and which fields to exclude.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/bakito/kubexporter/releases/download/v0.10.7/kubexporter_0.10.7_darwin_arm64.tar.gz",
-      "sha256": "611ca5660e6ec99a1265b0a25e1372dc3d73033cd4b9e0707eaf7cf5ead51b41",
+      "url": "https://github.com/bakito/kubexporter/releases/download/v0.10.8/kubexporter_0.10.8_darwin_arm64.tar.gz",
+      "sha256": "838dcedd9c56b8435246ab86a69e635b567415ac864568d43e664c51cfd0eb62",
       "bin": "kubexporter",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/bakito/kubexporter/releases/download/v0.10.7/kubexporter_0.10.7_linux_arm64.tar.gz",
-      "sha256": "447a022b41abd699d0949a2f8f54ae22b827a46ea179e571c1bf26a185c14582",
+      "url": "https://github.com/bakito/kubexporter/releases/download/v0.10.8/kubexporter_0.10.8_linux_arm64.tar.gz",
+      "sha256": "5edb6da94ada848f94bff0e83d226d99891cf4b8cffc7ed85c2a56e8e819e3ef",
       "bin": "kubexporter",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/bakito/kubexporter/releases/download/v0.10.7/kubexporter_0.10.7_darwin_amd64.tar.gz",
-      "sha256": "d901886a7fd1a7f3df0aef7987d1a6d42667f680922b87578d703788cffc5c53",
+      "url": "https://github.com/bakito/kubexporter/releases/download/v0.10.8/kubexporter_0.10.8_darwin_amd64.tar.gz",
+      "sha256": "79625d68bbde20cb3448bfcb2bd9b2c22a136dedbc92a0dc2f9328dd867590ae",
       "bin": "kubexporter",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/bakito/kubexporter/releases/download/v0.10.7/kubexporter_0.10.7_linux_amd64.tar.gz",
-      "sha256": "4d6ae0e128991b2903e1872f35c164eae079176969b82f96b1fea25ca385c34c",
+      "url": "https://github.com/bakito/kubexporter/releases/download/v0.10.8/kubexporter_0.10.8_linux_amd64.tar.gz",
+      "sha256": "e2dd07610625d61d06f0ecad1a3d8709142c252304bdd97766999ed03221db51",
       "bin": "kubexporter",
       "files": [
         {
