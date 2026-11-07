@@ -3,5 +3,6 @@
   "version": "v1.20.0",
   "homepage": "https://github.com/zegl/kube-score",
   "description": "Kubernetes object analysis with recommendations for improved reliability and security.",
-  "archSrc": {}
+  "archSrc": {
+  }
 }
