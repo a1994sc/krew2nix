@@ -1,12 +1,12 @@
 {
   "plugin": "kopiur",
-  "version": "v0.10.18",
+  "version": "v0.10.19",
   "homepage": "https://kopiur.home-operations.com/cli/",
   "description": "Operates the kopiur Kopia-native Kubernetes backup operator: trigger\nsnapshots and restores, suspend and resume resources, inspect snapshots,\nrun repository maintenance, browse files inside snapshots through a\nread-only in-cluster session, diagnose installs with `doctor`, and\ntranslate VolSync restic configs with `migrate volsync`.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/home-operations/kopiur/releases/download/0.10.18/kubectl-kopiur_0.10.18_darwin_arm64.tar.gz",
-      "sha256": "107acf3787b0c7584113c62e26be718567ac2c7624b00181700eaae179b3cd00",
+      "url": "https://github.com/home-operations/kopiur/releases/download/0.10.19/kubectl-kopiur_0.10.19_darwin_arm64.tar.gz",
+      "sha256": "293df04ecbf51a9f268182714db95b2868a3ee40daf9facee47120d45be9517a",
       "bin": "kopiur",
       "files": [
         {
@@ -20,8 +20,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/home-operations/kopiur/releases/download/0.10.18/kubectl-kopiur_0.10.18_linux_arm64.tar.gz",
-      "sha256": "7f6b91fc2bd8c93952f8873f5167f4b1696f20b0df0e5bd202e7c6cfe383b08b",
+      "url": "https://github.com/home-operations/kopiur/releases/download/0.10.19/kubectl-kopiur_0.10.19_linux_arm64.tar.gz",
+      "sha256": "a3362a2dffc5f240cf776176c9ce70e4d819b132562ccbf12ed3ee20560d8721",
       "bin": "kopiur",
       "files": [
         {
@@ -35,8 +35,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/home-operations/kopiur/releases/download/0.10.18/kubectl-kopiur_0.10.18_darwin_amd64.tar.gz",
-      "sha256": "c50b84213016b7b5d0a99e62c1d52490fbf9b2be5c0a96296549dfb2b7138c77",
+      "url": "https://github.com/home-operations/kopiur/releases/download/0.10.19/kubectl-kopiur_0.10.19_darwin_amd64.tar.gz",
+      "sha256": "028ba04166aa3e79339877197c04030730316c5cfec1a23c68c92038f1754605",
       "bin": "kopiur",
       "files": [
         {
@@ -50,8 +50,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/home-operations/kopiur/releases/download/0.10.18/kubectl-kopiur_0.10.18_linux_amd64.tar.gz",
-      "sha256": "970c721e78fda5c24add6a993d6d4360e5cb079248dab1072518ac7273bd27eb",
+      "url": "https://github.com/home-operations/kopiur/releases/download/0.10.19/kubectl-kopiur_0.10.19_linux_amd64.tar.gz",
+      "sha256": "0264cb7b7139c065d52e72bfc27c619436419c9dac7e8a65b2fe91e44ed93c21",
       "bin": "kopiur",
       "files": [
         {
