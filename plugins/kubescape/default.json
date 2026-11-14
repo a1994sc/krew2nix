@@ -1,12 +1,12 @@
 {
   "plugin": "kubescape",
-  "version": "v4.0.20",
+  "version": "v4.0.21",
   "homepage": "https://kubescape.io/",
   "description": "It includes risk analysis, security compliance, and misconfiguration scanning with an easy-to-use CLI interface, flexible output formats, and automated scanning capabilities.",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/kubescape/kubescape/releases/download/v4.0.20/kubescape_4.0.20_darwin_arm64.tar.gz",
-      "sha256": "b3e54c96a33e8950e9e3f6c3aa67a7bcc272887d249c502fc00423e6b3e296f3",
+      "url": "https://github.com/kubescape/kubescape/releases/download/v4.0.21/kubescape_4.0.21_darwin_arm64.tar.gz",
+      "sha256": "cf9ff1364050923a98377a750436abff5bea41f3d6293593bbbddb1e0f4fa011",
       "bin": "kubescape",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/kubescape/kubescape/releases/download/v4.0.20/kubescape_4.0.20_linux_arm64.tar.gz",
-      "sha256": "a20a52f061c5fc3de0d7ffea133a8110bf051d15960618ab36a7430717ac6489",
+      "url": "https://github.com/kubescape/kubescape/releases/download/v4.0.21/kubescape_4.0.21_linux_arm64.tar.gz",
+      "sha256": "ebb3e2793c7e5a42c3fceff17b9541e4046fa5cd914c4a5fc6c15f42034de039",
       "bin": "kubescape",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/kubescape/kubescape/releases/download/v4.0.20/kubescape_4.0.20_darwin_amd64.tar.gz",
-      "sha256": "d38a0f0706c4f9c8ccba22f6c821ff85022e9a3a8bf1802983fd13cb8ff08ea7",
+      "url": "https://github.com/kubescape/kubescape/releases/download/v4.0.21/kubescape_4.0.21_darwin_amd64.tar.gz",
+      "sha256": "e7a2e5db699e098a72a6ba4fce1435c70d722141d540d00e2ccdff3494243983",
       "bin": "kubescape",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/kubescape/kubescape/releases/download/v4.0.20/kubescape_4.0.20_linux_amd64.tar.gz",
-      "sha256": "6586bb94b9a250ad1353df743e65008802da1515bd4eb3c80eb3c5ce40a16672",
+      "url": "https://github.com/kubescape/kubescape/releases/download/v4.0.21/kubescape_4.0.21_linux_amd64.tar.gz",
+      "sha256": "f901b27b3143441eff8a1c57216794b0765df6e322fd62fb82f81c1c314086ae",
       "bin": "kubescape",
       "files": [
         {
