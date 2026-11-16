@@ -1,12 +1,12 @@
 {
   "plugin": "ktop",
-  "version": "v0.6.2",
+  "version": "v0.7.1",
   "homepage": "https://github.com/vladimirvivien/ktop",
   "description": "This is a kubectl plugin for ktop, a top-like tool for displaying workload\nmetrics for a running Kubernetes cluster.",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/vladimirvivien/ktop/releases/download/v0.6.2/kubectl-ktop_v0.6.2_darwin_arm64.tar.gz",
-      "sha256": "48d7657262ad9e35263f4540d577ca4b299a9f5be5e27331bf007216bfa52aa9",
+      "url": "https://github.com/vladimirvivien/ktop/releases/download/v0.7.1/kubectl-ktop_v0.7.1_darwin_arm64.tar.gz",
+      "sha256": "14b739c28eb69dbb2af7c497f14ddaf094bba2265f2a2ad5ec7e6defc7b7f4f3",
       "bin": "kubectl-ktop",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/vladimirvivien/ktop/releases/download/v0.6.2/kubectl-ktop_v0.6.2_linux_arm64.tar.gz",
-      "sha256": "6325a9bc5d25c1a40422c2a69f8050228270d6f99b47f8491c6d4ab2ff834847",
+      "url": "https://github.com/vladimirvivien/ktop/releases/download/v0.7.1/kubectl-ktop_v0.7.1_linux_arm64.tar.gz",
+      "sha256": "6b58fe45f20d1ff31af2f4fad0e061888c0730ab5e01002a4be812323b7d0161",
       "bin": "kubectl-ktop",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/vladimirvivien/ktop/releases/download/v0.6.2/kubectl-ktop_v0.6.2_darwin_amd64.tar.gz",
-      "sha256": "eaa1f32fe49abf907d5577f01a2167c771b00c57612a22f2d45c6fab718bd118",
+      "url": "https://github.com/vladimirvivien/ktop/releases/download/v0.7.1/kubectl-ktop_v0.7.1_darwin_amd64.tar.gz",
+      "sha256": "9de37830b3ff163ccdef9354bf29dadf5a96be1d74efb27614a7ee5f7fedcea2",
       "bin": "kubectl-ktop",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/vladimirvivien/ktop/releases/download/v0.6.2/kubectl-ktop_v0.6.2_linux_amd64.tar.gz",
-      "sha256": "4acede01321cf786fc1dc4560ff28cbccf2fd3ab83b123ba40d6fc5e8d166af3",
+      "url": "https://github.com/vladimirvivien/ktop/releases/download/v0.7.1/kubectl-ktop_v0.7.1_linux_amd64.tar.gz",
+      "sha256": "f8c8f650cdec29f7fbb9a6405922d46c2a68ac3c8aeadc9b4cfc1c323831a914",
       "bin": "kubectl-ktop",
       "files": [
         {

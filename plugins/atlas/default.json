@@ -1,12 +1,12 @@
 {
   "plugin": "atlas",
-  "version": "v1.6.0",
+  "version": "v1.7.0",
   "homepage": "https://github.com/lithastra/kubeatlas",
   "description": "kubectl-atlas shows a KubeAtlas dependency graph for a resource,\na namespace, or the whole cluster.\n\nBy default it works offline: it builds the dependency graph\nstraight from the Kubernetes API and renders it to an SVG\nlocally, with no KubeAtlas server required. With --local-ui it\ninstead runs a KubeAtlas server in-process and opens the\ninteractive web UI — no graphviz and no in-cluster server. With\n--online (or --server / KUBEATLAS_URL) it opens the live\nKubeAtlas web UI in the cluster instead.\n\nThe plugin installs nothing in the cluster. Run\n`kubectl atlas --help` for usage.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/lithastra/kubeatlas/releases/download/v1.6.0/kubectl-atlas_1.6.0_darwin_arm64.tar.gz",
-      "sha256": "487d8ef9c8b03f6408b121c3804e9eec6baeef57a3da55572918954da2eb1cb2",
+      "url": "https://github.com/lithastra/kubeatlas/releases/download/v1.7.0/kubectl-atlas_1.7.0_darwin_arm64.tar.gz",
+      "sha256": "15737ce624b990716868f759ed5a204388b4d0e3c808c5ca4a3431d60c80efc1",
       "bin": "kubectl-atlas",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/lithastra/kubeatlas/releases/download/v1.6.0/kubectl-atlas_1.6.0_linux_arm64.tar.gz",
-      "sha256": "fbf4e946f4dc142dc76e843893632d6453c6c6f13814a6c9bfb7f9cd87aa69bf",
+      "url": "https://github.com/lithastra/kubeatlas/releases/download/v1.7.0/kubectl-atlas_1.7.0_linux_arm64.tar.gz",
+      "sha256": "44f29cce0f1a794ad7c3da0b4178aa2d9c0a5c54e8e5d75970c8b4cb2aee1f04",
       "bin": "kubectl-atlas",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/lithastra/kubeatlas/releases/download/v1.6.0/kubectl-atlas_1.6.0_darwin_amd64.tar.gz",
-      "sha256": "c3ee07678a0028d76a2c43f7980445ef88788269069c45944cb2dda18d1b014e",
+      "url": "https://github.com/lithastra/kubeatlas/releases/download/v1.7.0/kubectl-atlas_1.7.0_darwin_amd64.tar.gz",
+      "sha256": "ce3995b4c8d3752bc292e6c585f1ed0e5b1e49e1a07602d950fd53926d36595d",
       "bin": "kubectl-atlas",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/lithastra/kubeatlas/releases/download/v1.6.0/kubectl-atlas_1.6.0_linux_amd64.tar.gz",
-      "sha256": "1d27f7aa2585f944dd6bf86bd9f49ba4cb324076531ecffff6d2bbf3d2c15aca",
+      "url": "https://github.com/lithastra/kubeatlas/releases/download/v1.7.0/kubectl-atlas_1.7.0_linux_amd64.tar.gz",
+      "sha256": "60cca1ee6f9a5cfd43e386b12e5a251501d6b3a5eeb1e1e3c385f6e54dc31db4",
       "bin": "kubectl-atlas",
       "files": [
         {
