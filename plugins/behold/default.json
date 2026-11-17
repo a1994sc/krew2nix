@@ -1,0 +1,68 @@
+{
+  "plugin": "behold",
+  "version": "v0.1.1",
+  "homepage": "https://github.com/INTENTIUS/behold/tree/main/surfaces/kubectl-behold",
+  "description": "Draws the objects in the current kubectl context and the references between\nthem read-only, and opens the picture in a browser. For one object the\npicture holds that object and its neighbours in both directions. Where an\nobject names something outside the cluster, such as the cloud role a\nServiceAccount assumes or the Git repository an Argo CD application deploys\nfrom, the picture shows that as well. Nothing is written to the cluster.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/INTENTIUS/behold/releases/download/kubectl-behold-v0.1.1/kubectl-behold-v0.1.1.tar.gz",
+      "sha256": "c88a067ac6b73ca27e3b4253a0d2df82437aa2b3256bd160a3658a58761b5fc4",
+      "bin": "kubectl-behold",
+      "files": [
+        {
+          "from": "kubectl-behold",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/INTENTIUS/behold/releases/download/kubectl-behold-v0.1.1/kubectl-behold-v0.1.1.tar.gz",
+      "sha256": "c88a067ac6b73ca27e3b4253a0d2df82437aa2b3256bd160a3658a58761b5fc4",
+      "bin": "kubectl-behold",
+      "files": [
+        {
+          "from": "kubectl-behold",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/INTENTIUS/behold/releases/download/kubectl-behold-v0.1.1/kubectl-behold-v0.1.1.tar.gz",
+      "sha256": "c88a067ac6b73ca27e3b4253a0d2df82437aa2b3256bd160a3658a58761b5fc4",
+      "bin": "kubectl-behold",
+      "files": [
+        {
+          "from": "kubectl-behold",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/INTENTIUS/behold/releases/download/kubectl-behold-v0.1.1/kubectl-behold-v0.1.1.tar.gz",
+      "sha256": "c88a067ac6b73ca27e3b4253a0d2df82437aa2b3256bd160a3658a58761b5fc4",
+      "bin": "kubectl-behold",
+      "files": [
+        {
+          "from": "kubectl-behold",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

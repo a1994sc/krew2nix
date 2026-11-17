@@ -1,0 +1,68 @@
+{
+  "plugin": "apf",
+  "version": "v0.1.0",
+  "homepage": "https://github.com/marinoborges/kubectl-apf",
+  "description": "Lists PriorityLevelConfiguration and FlowSchema objects, and reads the\nin-memory API Priority and Fairness snapshots for queues and requests.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/marinoborges/kubectl-apf/releases/download/v0.1.0/kubectl-apf_darwin_arm64.tar.gz",
+      "sha256": "8fdb2b9ab765a5ab37381da37225665ee2724273f036d4be3a31ef010c93ab2f",
+      "bin": "kubectl-apf",
+      "files": [
+        {
+          "from": "kubectl-apf",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/marinoborges/kubectl-apf/releases/download/v0.1.0/kubectl-apf_linux_arm64.tar.gz",
+      "sha256": "13d9a6977a1cfb1c88b0dd4f29b12490eaa221e25bc82209f345e6f5e0dafc25",
+      "bin": "kubectl-apf",
+      "files": [
+        {
+          "from": "kubectl-apf",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/marinoborges/kubectl-apf/releases/download/v0.1.0/kubectl-apf_darwin_amd64.tar.gz",
+      "sha256": "bf28feaa1166edf496a1f91f90706c47dcc38cf83ef6d61aaba6e825ff3a4b7a",
+      "bin": "kubectl-apf",
+      "files": [
+        {
+          "from": "kubectl-apf",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/marinoborges/kubectl-apf/releases/download/v0.1.0/kubectl-apf_linux_amd64.tar.gz",
+      "sha256": "0c56744e3ec8727595d12dadd7faa53e73acc915cb137cdec2205a0b1a98e993",
+      "bin": "kubectl-apf",
+      "files": [
+        {
+          "from": "kubectl-apf",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

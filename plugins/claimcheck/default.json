@@ -1,0 +1,68 @@
+{
+  "plugin": "claimcheck",
+  "version": "v0.1.0",
+  "homepage": "https://github.com/asaleem9/claimcheck",
+  "description": "claimcheck replays kube-scheduler's own Dynamic Resource Allocation\nallocator against your cluster and explains, device by device, why a\nResourceClaim can't be allocated: failing CEL selectors with the actual\nattribute values, devices held by other claims, device taints, constraint\nand shared-counter conflicts, and requests that compete for the same\ndevices. It can also suggest the single change that would let a pod fit,\nshow pool fragmentation, and run offline from a snapshot file. Read-only.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/asaleem9/claimcheck/releases/download/v0.1.0/kubectl-claimcheck_darwin_arm64.tar.gz",
+      "sha256": "54dd42fdead61a4aab22bfc048c39aeb0c2d286b0399819b4faffcf1b2d27d6a",
+      "bin": "kubectl-claimcheck",
+      "files": [
+        {
+          "from": "kubectl-claimcheck",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/asaleem9/claimcheck/releases/download/v0.1.0/kubectl-claimcheck_linux_arm64.tar.gz",
+      "sha256": "555c26eed480fb45ff0299252f8df06270d0f1f9969f0131daa1dfea613b09ad",
+      "bin": "kubectl-claimcheck",
+      "files": [
+        {
+          "from": "kubectl-claimcheck",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/asaleem9/claimcheck/releases/download/v0.1.0/kubectl-claimcheck_darwin_amd64.tar.gz",
+      "sha256": "41d35f347b65c01260d422ac72299ac4d783be8d7abf40e83096e7bbf0036970",
+      "bin": "kubectl-claimcheck",
+      "files": [
+        {
+          "from": "kubectl-claimcheck",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/asaleem9/claimcheck/releases/download/v0.1.0/kubectl-claimcheck_linux_amd64.tar.gz",
+      "sha256": "4cfd27eccb547a90bb0d9315bdee2e0140ab133568fe086dcd240e9550e06cda",
+      "bin": "kubectl-claimcheck",
+      "files": [
+        {
+          "from": "kubectl-claimcheck",
+          "to": "."
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}

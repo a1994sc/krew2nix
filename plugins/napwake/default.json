@@ -1,0 +1,84 @@
+{
+  "plugin": "napwake",
+  "version": "v0.2.0",
+  "homepage": "https://github.com/napwake/napwake",
+  "description": "Napwake pauses idle Kubernetes workloads in staging, preview and dev\nclusters, and wakes them when they're used. It wakes a workload on a\nrequest, and holds the request until the workload is ready. It also\nwakes on activity, and ahead of the hours its forecast expects to be\nbusy. This plugin is Napwake's command line. With nothing installed,\nit scans any cluster for idle Deployments and StatefulSets and what\nthey cost. With the operator installed, it also shows and controls\nwhat Napwake pauses and wakes.\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/napwake/napwake/releases/download/v0.2.0/kubectl-napwake-darwin-arm64.tar.gz",
+      "sha256": "f9f23d2529f6b41998fe1ea0623f2b06183db269b754f7cfe3bfb668a7d88d84",
+      "bin": "kubectl-napwake",
+      "files": [
+        {
+          "from": "kubectl-napwake-darwin-arm64",
+          "to": "kubectl-napwake"
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        },
+        {
+          "from": "NOTICE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/napwake/napwake/releases/download/v0.2.0/kubectl-napwake-linux-arm64.tar.gz",
+      "sha256": "f7d378276f91d2bc78ec75674c29bed2e8b995454f2ec65d52472ac436e6063e",
+      "bin": "kubectl-napwake",
+      "files": [
+        {
+          "from": "kubectl-napwake-linux-arm64",
+          "to": "kubectl-napwake"
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        },
+        {
+          "from": "NOTICE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/napwake/napwake/releases/download/v0.2.0/kubectl-napwake-darwin-amd64.tar.gz",
+      "sha256": "bf708701b3aa82967c5ab9750fb044e6bc715e8452e5dcfa646436e82f54efd2",
+      "bin": "kubectl-napwake",
+      "files": [
+        {
+          "from": "kubectl-napwake-darwin-amd64",
+          "to": "kubectl-napwake"
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        },
+        {
+          "from": "NOTICE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/napwake/napwake/releases/download/v0.2.0/kubectl-napwake-linux-amd64.tar.gz",
+      "sha256": "bd1ec6f1490435b0465f3be9d5413c64f0496db054bc02d62e8243b97826ab9b",
+      "bin": "kubectl-napwake",
+      "files": [
+        {
+          "from": "kubectl-napwake-linux-amd64",
+          "to": "kubectl-napwake"
+        },
+        {
+          "from": "LICENSE",
+          "to": "."
+        },
+        {
+          "from": "NOTICE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}
