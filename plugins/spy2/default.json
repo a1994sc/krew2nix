@@ -1,0 +1,68 @@
+{
+  "plugin": "spy2",
+  "version": "v1.0.1",
+  "homepage": "github.com/asaf400/kubespy",
+  "description": "`kubespy` is a kubectl plugin implemented in bash to debug a running pod.\nIt starts a temporary `spy container` which joins the namespaces of the\ntarget container (eg. pid/net/ipc). You can specify the image of `spy\ncontainer` which should include all the required debugging tools. Thus,\nthe debugging tools need not unnecessarily be bundled with the main\napplication container image.\n\n`kubespy` is similar to [kubectl-debug](https://github.com/verb/kubectl-debug).\nIn contrast to the latter, kubespy works without the EphemeralContainers\nfeature which is an experimental alpha feature and needs to be activated\nper pod.\n\nMeanwhile `kubespy` has its prerequisites - the cluster must use containerd as\ncontainer runtime and you need to be able to run privileged pods.\n\nUsage:\n  kubectl spy POD [-c CONTAINER] [-n NAMESPACE] [--spy-image SPY_IMAGE]\n",
+  "archSrc": {
+    "aarch64-darwin": {
+      "url": "https://github.com/asaf400/kubespy/releases/download/v1.0.1/kubespy.tar.gz",
+      "sha256": "74ec776cbf6a469f8487448d6d7b2aed561f7b834082cf4fc5b0097f54f3db92",
+      "bin": "kubespy",
+      "files": [
+        {
+          "from": "./kubespy",
+          "to": "kubespy"
+        },
+        {
+          "from": "./LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "aarch64-linux": {
+      "url": "https://github.com/asaf400/kubespy/releases/download/v1.0.1/kubespy.tar.gz",
+      "sha256": "74ec776cbf6a469f8487448d6d7b2aed561f7b834082cf4fc5b0097f54f3db92",
+      "bin": "kubespy",
+      "files": [
+        {
+          "from": "./kubespy",
+          "to": "kubespy"
+        },
+        {
+          "from": "./LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-darwin": {
+      "url": "https://github.com/asaf400/kubespy/releases/download/v1.0.1/kubespy.tar.gz",
+      "sha256": "74ec776cbf6a469f8487448d6d7b2aed561f7b834082cf4fc5b0097f54f3db92",
+      "bin": "kubespy",
+      "files": [
+        {
+          "from": "./kubespy",
+          "to": "kubespy"
+        },
+        {
+          "from": "./LICENSE",
+          "to": "."
+        }
+      ]
+    },
+    "x86_64-linux": {
+      "url": "https://github.com/asaf400/kubespy/releases/download/v1.0.1/kubespy.tar.gz",
+      "sha256": "74ec776cbf6a469f8487448d6d7b2aed561f7b834082cf4fc5b0097f54f3db92",
+      "bin": "kubespy",
+      "files": [
+        {
+          "from": "./kubespy",
+          "to": "kubespy"
+        },
+        {
+          "from": "./LICENSE",
+          "to": "."
+        }
+      ]
+    }
+  }
+}
