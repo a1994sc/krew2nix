@@ -1,12 +1,12 @@
 {
   "plugin": "memlens",
-  "version": "v1.0.4",
+  "version": "v1.0.5",
   "homepage": "https://github.com/danushkastanley/KubeMemLens",
   "description": "Breaks Pod and container memory into anonymous memory, file cache,\ntmpfs/shared memory and other, using cgroup v2 evidence, so you can tell\na real leak from reclaimable page cache before an OOMKill. Includes a\nterminal dashboard, per-Pod explanations and offline incident replay.\nIt never changes workloads.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/danushkastanley/KubeMemLens/releases/download/v1.0.4/kube-memlens_1.0.4_darwin_arm64.tar.gz",
-      "sha256": "10ea5f3b93cf2e6e86799fefae4d878217bbf772b282380e4b157acf6823bd1f",
+      "url": "https://github.com/danushkastanley/KubeMemLens/releases/download/v1.0.5/kube-memlens_1.0.5_darwin_arm64.tar.gz",
+      "sha256": "fff17a6875e5d2c32323c84381df7ffa808ab8607bb475cc83466708d855aab6",
       "bin": "kubectl-memlens",
       "files": [
         {
@@ -20,8 +20,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/danushkastanley/KubeMemLens/releases/download/v1.0.4/kube-memlens_1.0.4_linux_arm64.tar.gz",
-      "sha256": "b1abd61472840f097db30f7a33c8f65815209d7bd83670eea972b0a263afa24c",
+      "url": "https://github.com/danushkastanley/KubeMemLens/releases/download/v1.0.5/kube-memlens_1.0.5_linux_arm64.tar.gz",
+      "sha256": "764338f49ef532b9ba295cf00a45695e055915b3f984b257ff18a8e369dbbee5",
       "bin": "kubectl-memlens",
       "files": [
         {
@@ -35,8 +35,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/danushkastanley/KubeMemLens/releases/download/v1.0.4/kube-memlens_1.0.4_darwin_amd64.tar.gz",
-      "sha256": "38f8c06680942a00e31677c2dd9d14d0565d4e7c6912b26454f625a55ab9b950",
+      "url": "https://github.com/danushkastanley/KubeMemLens/releases/download/v1.0.5/kube-memlens_1.0.5_darwin_amd64.tar.gz",
+      "sha256": "a0ae93e0de8df0fe32d0c74b0c17d8360783398f70292497a64e88f23f64d13f",
       "bin": "kubectl-memlens",
       "files": [
         {
@@ -50,8 +50,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/danushkastanley/KubeMemLens/releases/download/v1.0.4/kube-memlens_1.0.4_linux_amd64.tar.gz",
-      "sha256": "e55d8f94dd97ae51ced21d16d743a19ac816836d74af56ad563bf50e15a3ab75",
+      "url": "https://github.com/danushkastanley/KubeMemLens/releases/download/v1.0.5/kube-memlens_1.0.5_linux_amd64.tar.gz",
+      "sha256": "5668718e4dccbdd31b4b2da66805f7ad2344cb587ef9799f53618d2c98936d82",
       "bin": "kubectl-memlens",
       "files": [
         {

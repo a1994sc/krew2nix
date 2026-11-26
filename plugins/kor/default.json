@@ -1,12 +1,12 @@
 {
   "plugin": "kor",
-  "version": "v0.7.0",
+  "version": "v0.7.1",
   "homepage": "https://github.com/yonahd/kor",
   "description": "This plugin shows unused Kubernetes resources (namespaced or cluster-scoped).\nIt provides additional capabilities such as exporting Prometheus metrics,\ndeleting unused resources, and more!\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/yonahd/kor/releases/download/v0.7.0/kor_Darwin_arm64.tar.gz",
-      "sha256": "3d5ab92a83a0350520fdacc9a56a7aed234b5bdde1173e7240dc41abd97c6c11",
+      "url": "https://github.com/yonahd/kor/releases/download/v0.7.1/kor_Darwin_arm64.tar.gz",
+      "sha256": "6ac7849459e83d708e472716e4d05233f1a2229020fba3ef30c7bda64277447c",
       "bin": "kor",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/yonahd/kor/releases/download/v0.7.0/kor_Linux_arm64.tar.gz",
-      "sha256": "35874f582a1cbc8e5cdc451ff0ca7197744d3b12d9bcac9e0d65a7106f6af3fe",
+      "url": "https://github.com/yonahd/kor/releases/download/v0.7.1/kor_Linux_arm64.tar.gz",
+      "sha256": "146328dc0f37b4139b0ac767e900d5cd1e5825f78278ddefb29bdd2f3383d61d",
       "bin": "kor",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/yonahd/kor/releases/download/v0.7.0/kor_Darwin_x86_64.tar.gz",
-      "sha256": "7e68ed00961821a3f21ae8ba87cf741fea3c66bce04e6cf8fbe01cf408331b94",
+      "url": "https://github.com/yonahd/kor/releases/download/v0.7.1/kor_Darwin_x86_64.tar.gz",
+      "sha256": "1b6a65ff78c2c976533d736216dc34fcbc2a1f7d97c85395d2b627088d2c2f5e",
       "bin": "kor",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/yonahd/kor/releases/download/v0.7.0/kor_Linux_x86_64.tar.gz",
-      "sha256": "0bda611b832fd05b20432646b8ec265a334479064a659e79672418dfa1ae8a87",
+      "url": "https://github.com/yonahd/kor/releases/download/v0.7.1/kor_Linux_x86_64.tar.gz",
+      "sha256": "226bf7566b87e1c88f7fa872cb9abaf51d8bb78b0720dceb5837d1ccfed582a1",
       "bin": "kor",
       "files": [
         {
