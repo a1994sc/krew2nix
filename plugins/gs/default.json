@@ -1,12 +1,12 @@
 {
   "plugin": "gs",
-  "version": "v7.0.3",
+  "version": "v7.0.5",
   "homepage": "https://github.com/giantswarm/kubectl-gs",
   "description": "Simplifies creating clusters and node pools via Giant Swarm\nmanagement clusters, as well as installing app catalogs and apps.\n",
   "archSrc": {
     "aarch64-darwin": {
-      "url": "https://github.com/giantswarm/kubectl-gs/releases/download/v7.0.3/kubectl-gs-v7.0.3-darwin-arm64.tar.gz",
-      "sha256": "9c8eb56ef5a4597fd6d751eabf9d7d4440e5afb34b99aa3e8b2285f990e6ab4f",
+      "url": "https://github.com/giantswarm/kubectl-gs/releases/download/v7.0.5/kubectl-gs-v7.0.5-darwin-arm64.tar.gz",
+      "sha256": "a63d723017d1fdfab9a772e9be8d1561061654294586aefe28c35ea287ae2b18",
       "bin": "kubectl-gs",
       "files": [
         {
@@ -16,8 +16,8 @@
       ]
     },
     "aarch64-linux": {
-      "url": "https://github.com/giantswarm/kubectl-gs/releases/download/v7.0.3/kubectl-gs-v7.0.3-linux-arm64.tar.gz",
-      "sha256": "49d5d58280c4093d863e0fdf5c167dba7455b55b6921db68a79abcafc54f4021",
+      "url": "https://github.com/giantswarm/kubectl-gs/releases/download/v7.0.5/kubectl-gs-v7.0.5-linux-arm64.tar.gz",
+      "sha256": "7716b525a1865136129f35f97a2fc6182c3ee4ce3cc4fbc53279a989e5a8faf9",
       "bin": "kubectl-gs",
       "files": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     "x86_64-darwin": {
-      "url": "https://github.com/giantswarm/kubectl-gs/releases/download/v7.0.3/kubectl-gs-v7.0.3-darwin-amd64.tar.gz",
-      "sha256": "5c9bbfefb99613a4a2a1c94a51d1e9ed12afeeb452c12cd2c56c28e20754a6b1",
+      "url": "https://github.com/giantswarm/kubectl-gs/releases/download/v7.0.5/kubectl-gs-v7.0.5-darwin-amd64.tar.gz",
+      "sha256": "3cd28e332147d9acc9977a7f6b5c14446f0e0feee4ea5ca566ca677962925bf5",
       "bin": "kubectl-gs",
       "files": [
         {
@@ -38,8 +38,8 @@
       ]
     },
     "x86_64-linux": {
-      "url": "https://github.com/giantswarm/kubectl-gs/releases/download/v7.0.3/kubectl-gs-v7.0.3-linux-amd64.tar.gz",
-      "sha256": "baa9a53910ef586b14f2c6d84bb498fd8e86804abb81fd0c1015678fd4f48faf",
+      "url": "https://github.com/giantswarm/kubectl-gs/releases/download/v7.0.5/kubectl-gs-v7.0.5-linux-amd64.tar.gz",
+      "sha256": "a80e6d9ba56b8293e0259ce564b77161608ef5eb675a4618330fd4266e0f2415",
       "bin": "kubectl-gs",
       "files": [
         {
